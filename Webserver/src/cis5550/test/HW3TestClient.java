@@ -58,7 +58,7 @@ public class HW3TestClient extends GenericTest {
 
       Random r = new Random();
       Integer i = r.nextInt(10000);
-      URL url = new URL("https://localhost:8443/echo/"+i);
+      URL url = new URL("https://54.226.100.196:443/echo/"+i);
       HttpsURLConnection con = (HttpsURLConnection)url.openConnection();
       con.setRequestMethod("GET");
       con.setConnectTimeout(1000);
@@ -94,7 +94,7 @@ public class HW3TestClient extends GenericTest {
       PrintWriter out = new PrintWriter(s.getOutputStream());
       Random rx = new Random();
       Integer i = rx.nextInt(10000);
-      out.print("GET /echo/"+i+" HTTP/1.1\r\nHost: localhost\r\n\r\n");
+      out.print("GET /echo/"+i+" HTTP/1.1\r\nHost: 54.226.100.196\r\n\r\n");
       out.flush();
       Response r = readAndCheckResponse(s, "response");
       if (r.statusCode != 200)
