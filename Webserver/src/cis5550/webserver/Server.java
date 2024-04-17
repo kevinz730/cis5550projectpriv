@@ -221,7 +221,7 @@ public class Server extends Thread {
 	static Server serverInstance = null;
 //	static Server httpsServerInstance = null;
 	static boolean threadFlag = false;
-	static int port = 80;
+	static int port = 8080;
 	static String directory = ""; 
 	static HashMap<String, HashMap<String, Route>> routingTable = new HashMap<String, HashMap<String, Route>>();
 	static int securePortNo;
