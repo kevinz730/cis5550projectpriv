@@ -2,9 +2,11 @@ package cis5550.kvs;
 
 import static cis5550.webserver.Server.*;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.net.URLDecoder;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
@@ -65,6 +67,7 @@ public class Worker extends cis5550.generic.Worker {
         
         port(Integer.parseInt(workerPort));
         startPingThread(coordIpPort, workerPort, id);
+        
         
         put("/data/:t/:r/:c", (req,res) -> { 
         	String table = req.params("t");
@@ -142,6 +145,55 @@ public class Worker extends cis5550.generic.Worker {
         	
 			return "OK";
 		});
+        
+        put("/data/:t", (req,res) -> { 
+        	String table = req.params("t");
+        	ByteArrayInputStream reqBody = new ByteArrayInputStream(req.bodyAsBytes());
+        	while(true) {
+                Row rowData = Row.readFrom((InputStream)reqBody);
+                if (rowData == null) {
+                   return "OK";
+                }
+                if (table.length() >= 3 && table.substring(0,3).equals("pt-")) {
+//            		Persistent
+            		String dirPath = directory+"/"+table;
+            		String rowEncoded = cis5550.tools.KeyEncoder.encode(rowData.key());
+            		File directoryFile = new File(dirPath);
+            		File fileFile = new File(dirPath + "/" + rowEncoded);
+            		
+//            		Make directory and row file for table if not already exists
+            		Row r = rowData;
+
+            		try {
+            			if(!directoryFile.exists()) {
+            				directoryFile.mkdirs();
+            			}
+            			if(!fileFile.exists()) {
+            				fileFile.createNewFile();
+            			} else {
+//            				File already exists
+            				FileInputStream fileip = new FileInputStream(fileFile);
+            				r = Row.readFrom(fileip);
+            			}
+            		} catch (Exception e) {
+            			e.printStackTrace();
+            		}
+            		
+//            		Row r is now row of either new or existing row file
+            		byte[] dataOutput = r.toByteArray();
+            		FileOutputStream outputStream = new FileOutputStream(fileFile);
+    		        outputStream.write(dataOutput);
+    		        outputStream.close();            	
+            	} else {
+            		if(tables.containsKey(table)) {
+        				putRow(table, rowData);
+        			} else {
+        				tables.put(table, new ConcurrentSkipListMap<String, Row>());
+        				putRow(table, rowData);
+        			}
+            	}
+             }
+        });
         
         get("/data/:t/:r/:c", (req,res) -> { 
         	String table = req.params("t");
