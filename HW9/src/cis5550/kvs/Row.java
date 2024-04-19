@@ -148,7 +148,8 @@ public class Row implements Serializable {
 
   public synchronized byte[] toByteArray()  {
     ByteArrayOutputStream baos = new ByteArrayOutputStream();
-
+    
+    
     try {
       baos.write(key.getBytes());
       baos.write(' ');

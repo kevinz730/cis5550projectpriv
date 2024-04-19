@@ -170,10 +170,6 @@ public class Worker extends cis5550.generic.Worker {
             			}
             			if(!fileFile.exists()) {
             				fileFile.createNewFile();
-            			} else {
-//            				File already exists
-            				FileInputStream fileip = new FileInputStream(fileFile);
-            				r = Row.readFrom(fileip);
             			}
             		} catch (Exception e) {
             			e.printStackTrace();
@@ -181,7 +177,7 @@ public class Worker extends cis5550.generic.Worker {
             		
 //            		Row r is now row of either new or existing row file
             		byte[] dataOutput = r.toByteArray();
-            		FileOutputStream outputStream = new FileOutputStream(fileFile);
+            		FileOutputStream outputStream = new FileOutputStream(fileFile, false);
     		        outputStream.write(dataOutput);
     		        outputStream.close();            	
             	} else {
