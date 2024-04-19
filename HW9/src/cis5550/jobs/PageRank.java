@@ -1,6 +1,7 @@
 package cis5550.jobs;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
@@ -260,6 +261,7 @@ public class PageRank {
 				}
 			}
 			
+//			stateTable.saveAsTable("stateTable");
 			PairToPairIterable lambdaNine = p -> {
 				KVSClient kvs = ctx.getKVS();
 				String urlHash = p._1();
@@ -267,9 +269,10 @@ public class PageRank {
 				String[] joinedStateSplit = joinedState.split(",");
 				String currRank = joinedStateSplit[0];
 				kvs.put("pt-pageranks", urlHash, "rank", currRank);
-				return new ArrayList<FlamePair>();
+				return Collections.emptyList();
 			};
 			FlamePairRDD res = stateTable.flatMapToPair(lambdaNine);
+//			res.saveAsTable("pt-pageranks");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
