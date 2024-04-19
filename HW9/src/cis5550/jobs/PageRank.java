@@ -263,7 +263,8 @@ public class PageRank {
 			
 //			stateTable.saveAsTable("stateTable");
 			PairToPairIterable lambdaNine = p -> {
-				KVSClient kvs = ctx.getKVS();
+//				CHANGE TO PUBLIC IP ON EC2
+				KVSClient kvs = new KVSClient("localhost:8000");
 				String urlHash = p._1();
 				String joinedState = p._2();
 				String[] joinedStateSplit = joinedState.split(",");

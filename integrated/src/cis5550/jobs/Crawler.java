@@ -298,62 +298,67 @@ public class Crawler {
 				kvs.put("hosts", hostName, "value", Long.toString(System.currentTimeMillis()));
 				
 //				HEAD REQUEST
-				HttpURLConnection connectHead = (HttpURLConnection) url.openConnection();
-				connectHead.setInstanceFollowRedirects(false);
-				connectHead.setRequestMethod("HEAD");
-				connectHead.setRequestProperty("User-Agent", "cis5550-crawler");
-				connectHead.connect();
-				
-				r.put("url", s);
-				r.put("responseCode", Integer.toString(connectHead.getResponseCode()));
-				if(connectHead.getContentType() != null) {
-					r.put("contentType", connectHead.getContentType());
-				}
-				if(connectHead.getContentLength() != -1) {
-					r.put("length", Integer.toString(connectHead.getContentLength()));
-				}
-				kvs.putRow("pt-crawl", r);
-				if(connectHead.getResponseCode() != 200 && connectHead.getResponseCode() != 301 
-						&& connectHead.getResponseCode() != 302 && connectHead.getResponseCode() != 303
-						&& connectHead.getResponseCode() != 307 && connectHead.getResponseCode() != 308) {
-//					if none of the expected codes returning empty set
-					return normalizedUrlStrings;
-				}
-				
-				if(connectHead.getResponseCode() == 301 
-						|| connectHead.getResponseCode() == 302 || connectHead.getResponseCode() == 303
-						|| connectHead.getResponseCode() == 307 || connectHead.getResponseCode() == 308) {
-					String newUrl = connectHead.getHeaderField("Location");
-					ArrayList<String> normList = new ArrayList<String>();
-					normList.add(newUrl);
-					List<String> normalizedUrl = urlNormalize(normList, s);
-					normalizedUrlStrings.add(normalizedUrl.get(0));
-					return normalizedUrlStrings;
-				}
-
-				if(connectHead.getResponseCode() == 200 && connectHead.getContentType().contains("text/html")) {
-					HttpURLConnection connect = (HttpURLConnection) url.openConnection();
-					connect.setInstanceFollowRedirects(false);
-					connect.setRequestMethod("GET");
-					connect.setRequestProperty("User-Agent", "cis5550-crawler");
-					connect.connect();
-					if(connect.getResponseCode() == 200) {
-						ByteArrayOutputStream op = new ByteArrayOutputStream();
-						BufferedInputStream ip = new BufferedInputStream(connect.getInputStream());
-						int data;
-						while ((data = ip.read()) != -1) {
-							op.write(data);
-						}
-						
-						byte[] buffer = op.toByteArray();
-						
-						
-						r.put("page", buffer);
-						r.put("responseCode", Integer.toString(connect.getResponseCode()));
-						kvs.putRow("pt-crawl", r);
-						urlStrings = urlExtract(buffer);
-						normalizedUrlStrings = urlNormalize(urlStrings, s);
+				try {
+					HttpURLConnection connectHead = (HttpURLConnection) url.openConnection();
+					connectHead.setInstanceFollowRedirects(false);
+					connectHead.setRequestMethod("HEAD");
+					connectHead.setRequestProperty("User-Agent", "cis5550-crawler");
+					connectHead.connect();
+										
+					r.put("url", s);
+					r.put("responseCode", Integer.toString(connectHead.getResponseCode()));
+					if(connectHead.getContentType() != null) {
+						r.put("contentType", connectHead.getContentType());
 					}
+					if(connectHead.getContentLength() != -1) {
+						r.put("length", Integer.toString(connectHead.getContentLength()));
+					}
+					kvs.putRow("pt-crawl", r);
+					if(connectHead.getResponseCode() != 200 && connectHead.getResponseCode() != 301 
+							&& connectHead.getResponseCode() != 302 && connectHead.getResponseCode() != 303
+							&& connectHead.getResponseCode() != 307 && connectHead.getResponseCode() != 308) {
+//						if none of the expected codes returning empty set
+						return normalizedUrlStrings;
+					}
+					
+					if(connectHead.getResponseCode() == 301 
+							|| connectHead.getResponseCode() == 302 || connectHead.getResponseCode() == 303
+							|| connectHead.getResponseCode() == 307 || connectHead.getResponseCode() == 308) {
+						String newUrl = connectHead.getHeaderField("Location");
+						ArrayList<String> normList = new ArrayList<String>();
+						normList.add(newUrl);
+						List<String> normalizedUrl = urlNormalize(normList, s);
+						normalizedUrlStrings.add(normalizedUrl.get(0));
+						return normalizedUrlStrings;
+					}
+
+					if(connectHead.getResponseCode() == 200 && connectHead.getContentType().contains("text/html")) {
+						HttpURLConnection connect = (HttpURLConnection) url.openConnection();
+						connect.setInstanceFollowRedirects(false);
+						connect.setRequestMethod("GET");
+						connect.setRequestProperty("User-Agent", "cis5550-crawler");
+						connect.connect();
+						if(connect.getResponseCode() == 200) {
+							ByteArrayOutputStream op = new ByteArrayOutputStream();
+							BufferedInputStream ip = new BufferedInputStream(connect.getInputStream());
+							int data;
+							while ((data = ip.read()) != -1) {
+								op.write(data);
+							}
+							
+							byte[] buffer = op.toByteArray();
+							
+							
+							r.put("page", buffer);
+							r.put("responseCode", Integer.toString(connect.getResponseCode()));
+							kvs.putRow("pt-crawl", r);
+							urlStrings = urlExtract(buffer);
+							normalizedUrlStrings = urlNormalize(urlStrings, s);
+						}
+						return normalizedUrlStrings;
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
 					return normalizedUrlStrings;
 				}
 				return normalizedUrlStrings;
