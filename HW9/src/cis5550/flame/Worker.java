@@ -1,6 +1,10 @@
 package cis5550.flame;
 
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 import java.net.*;
 import java.io.*;
 
@@ -63,21 +67,52 @@ class Worker extends cis5550.generic.Worker {
         FlameRDD.StringToIterable lambda = (StringToIterable) Serializer.byteArrayToObject(request.bodyAsBytes(), myJAR);
         KVSClient kvs = new KVSClient(KVSCoordinator);
         Iterator<Row> rows = kvs.scan(inputTable, low, high);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        int consecTimeouts = 0;
         while (rows.hasNext()) {
         	Row r = rows.next();
-        	Iterable<String> res = lambda.op(r.get("value"));
-        	if (res != null) {
-        		Iterator<String> it = res.iterator();
-        		while (it.hasNext()) {
-        			String val = it.next();
-    				try {
-    					kvs.put(outputTable, UUID.randomUUID().toString(), "value", val);
-    				} catch (Exception e) {
-    					e.printStackTrace();
-    				}
-        		}
-        	}
+//        	System.out.println(r.get("value"));
+            Future<Iterable<String>> future = executor.submit(() -> lambda.op(r.get("value")));
+            
+            try {
+                Iterable<String> res = future.get(5, TimeUnit.SECONDS);
+                if (res != null) {
+                    Iterator<String> it = res.iterator();
+                    while (it.hasNext()) {
+                        String val = it.next();
+                        try {
+                            kvs.put(outputTable, UUID.randomUUID().toString(), "value", val);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+                consecTimeouts = 0;
+            } catch (Exception e) {
+                // Handle timeout
+            	consecTimeouts++;
+                e.printStackTrace();
+                if(consecTimeouts >= 5) break;
+            } finally {
+                // Cancel the task if it exceeds the timeout
+                future.cancel(true);
+            }
         }
+
+        executor.shutdown();
+//        	Row r = rows.next();
+//        	Iterable<String> res = lambda.op(r.get("value"));
+//        	if (res != null) {
+//        		Iterator<String> it = res.iterator();
+//        		while (it.hasNext()) {
+//        			String val = it.next();
+//    				try {
+//    					kvs.put(outputTable, UUID.randomUUID().toString(), "value", val);
+//    				} catch (Exception e) {
+//    					e.printStackTrace();
+//    				}
+//        		}
+//        	}
         return "OK";
       });
 	
