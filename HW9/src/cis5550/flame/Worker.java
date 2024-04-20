@@ -92,7 +92,10 @@ class Worker extends cis5550.generic.Worker {
                 // Handle timeout
             	consecTimeouts++;
                 e.printStackTrace();
-                if(consecTimeouts >= 5) break;
+                if(consecTimeouts >= 5) {
+                	System.out.println("CONSECUTIVE TIMEOUTS");
+                	break;
+                }
             } finally {
                 // Cancel the task if it exceeds the timeout
                 future.cancel(true);

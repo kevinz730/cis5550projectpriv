@@ -103,6 +103,34 @@ public class Crawler {
 		return normalizedUrls;
 	}
 	
+	public static List<String> urlFilter(List<String> urls) {
+		List<String> filtered = new ArrayList<String>();
+		for (String url: urls) {
+			if (url.contains("creativecommons.org")) {
+				continue;
+			}
+			if (url.contains("wiki")) {
+				int periodIndex = url.indexOf('.');
+		        if (periodIndex != -1 && periodIndex >= 2) {
+		            String lang = url.substring(periodIndex - 2, periodIndex);
+		            if (!lang.equals("en")) {
+		            	continue;
+		            }
+		        }
+			}
+			int lastPeriodIndex = url.lastIndexOf('.');
+	        if (lastPeriodIndex != -1 && lastPeriodIndex < url.length() - 3) {
+	            String tld = url.substring(lastPeriodIndex + 1, lastPeriodIndex + 4);
+	            if (!tld.equals("com") || !tld.equals("org") || !tld.equals("net") || !tld.equals("edu") || 
+	            		!tld.equals("int") || !tld.equals("gov") || !tld.equals("mil")) {
+	            	continue;
+	            }
+	        }
+			filtered.add(url);
+		}
+		return filtered;
+	}
+	
 	public static String urlSeedNormalize(String base) {
 		String url = base;
 		String[] urlParts = URLParser.parseURL(base);
@@ -223,12 +251,11 @@ public class Crawler {
 					
 //					Already visited
 					if (kvs.existsRow("pt-crawl", Hasher.hash(s))) {
-						System.out.println("ALREADY VISITED");
 						return normalizedUrlStrings;
 					}
-					System.out.println("NOT VISITED");
 					
 					URL url = new URL(s);
+					System.out.println(s);
 					
 					String hashedUrl = Hasher.hash(s);
 					Row r = new Row(hashedUrl);
@@ -354,6 +381,7 @@ public class Crawler {
 							kvs.putRow("pt-crawl", r);
 							urlStrings = urlExtract(buffer);
 							normalizedUrlStrings = urlNormalize(urlStrings, s);
+							normalizedUrlStrings = urlFilter(normalizedUrlStrings);
 						}
 						return normalizedUrlStrings;
 					}
