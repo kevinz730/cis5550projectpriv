@@ -255,7 +255,7 @@ public class Crawler {
 					}
 					
 					URL url = new URL(s);
-					System.out.println(s);
+//					System.out.println(s);
 					
 					String hashedUrl = Hasher.hash(s);
 					Row r = new Row(hashedUrl);
@@ -264,10 +264,12 @@ public class Crawler {
 					String hostName = urlParts[1];
 					String sRest = urlParts[3];
 					
-					if(kvs.get("hosts", hostName, "robot") != null){
+					String hashedHostName = Hasher.hash(hostName);
+					
+					if(kvs.get("hosts", hashedHostName, "robot") != null){
 //						Already has robots.txt entry
 //						HANDLE FILTERING
-						String txt = new String(kvs.get("hosts", hostName, "robot"));
+						String txt = new String(kvs.get("hosts", hashedHostName, "robot"));
 						boolean allowable = robotProcessUrl(txt, sRest);
 						if (!allowable) {
 							return normalizedUrlStrings;
@@ -296,15 +298,15 @@ public class Crawler {
 							
 							byte[] buffer = op.toByteArray();
 							String txt = new String(buffer);
-							kvs.put("hosts", hostName, "robot", txt);
+							kvs.put("hosts", hashedHostName, "robot", txt);
 							float delay = robotProcessDelay(txt);
-							kvs.put("hosts", hostName, "delay", Float.toString(delay));
+							kvs.put("hosts", hashedHostName, "delay", Float.toString(delay));
 						} else {
-							kvs.put("hosts", hostName, "robot", "NONE");
-							kvs.put("hosts", hostName, "delay", "1000");
+							kvs.put("hosts", hashedHostName, "robot", "NONE");
+							kvs.put("hosts", hashedHostName, "delay", "1000");
 						}
 //						HANDLE FILTERING (IF NEED)
-						String txt = new String(kvs.get("hosts", hostName, "robot"));
+						String txt = new String(kvs.get("hosts", hashedHostName, "robot"));
 						boolean allowable = robotProcessUrl(txt, sRest);
 						if (!allowable) {
 							return normalizedUrlStrings;
@@ -313,11 +315,11 @@ public class Crawler {
 					
 					
 //					Check last visited
-					if (kvs.get("hosts", hostName, "value") != null) {
-						String delay = new String(kvs.get("hosts", hostName, "delay"));
+					if (kvs.get("hosts", hashedHostName, "value") != null) {
+						String delay = new String(kvs.get("hosts", hashedHostName, "delay"));
 						float delayFloat = Float.parseFloat(delay);
 //						System.out.println(new String(kvs.get("hosts", hostName, "value"))+ " delay " + String.valueOf(delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
-						if (delayFloat >= System.currentTimeMillis() - Long.parseLong(new String(kvs.get("hosts", hostName, "value")))) {
+						if (delayFloat >= System.currentTimeMillis() - Long.parseLong(new String(kvs.get("hosts", hashedHostName, "value")))) {
 //							System.out.println(new String(Long.parseLong(new String(kvs.get("hosts", hostName, "value")))+delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
 							normalizedUrlStrings.add(s);
 							return normalizedUrlStrings;
@@ -325,7 +327,7 @@ public class Crawler {
 					} 
 					
 //					Either doesn't exist (so first time), or exists but can make another request
-					kvs.put("hosts", hostName, "value", Long.toString(System.currentTimeMillis()));
+					kvs.put("hosts", hashedHostName, "value", Long.toString(System.currentTimeMillis()));
 					
 					HttpURLConnection connectHead = (HttpURLConnection) url.openConnection();
 					connectHead.setInstanceFollowRedirects(false);

@@ -1,8 +1,9 @@
 #!/bin/bash
-kvsWorkers=1  # number of kvs workers to launch
-flameWorkers=1  # number of flame workers to launch
+kvsWorkers=2  # number of kvs workers to launch
+flameWorkers=2  # number of flame workers to launch
 
 rm -r worker1
+rm -r worker2
 rm *.jar
 
 javac -cp lib/kvs.jar:lib/webserver.jar:lib/flame.jar -d classes --source-path src src/cis5550/jobs/Crawler.java

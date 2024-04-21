@@ -192,7 +192,7 @@ public class KVSClient implements KVS {
           chosenWorker = i;
       }
     }
-
+//    System.out.println(chosenWorker);
     return chosenWorker;
   }
 
@@ -252,7 +252,6 @@ public class KVSClient implements KVS {
   public void putRow(String tableName, Row row) throws FileNotFoundException, IOException {
     if (!haveWorkers)
       downloadWorkers();
-
     byte[] response = HTTP.doRequest("PUT", "http://"+workers.elementAt(workerIndexForKey(row.key())).address+"/data/"+tableName, row.toByteArray()).body();
     String result = new String(response);
     if (!result.equals("OK")) 

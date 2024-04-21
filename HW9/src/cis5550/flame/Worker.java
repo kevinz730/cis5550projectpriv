@@ -47,6 +47,7 @@ class Worker extends cis5550.generic.Worker {
     String server = args[1];
 	  startPingThread(server, ""+port, String.valueOf(port));
     final File myJAR = new File("__worker"+port+"-current.jar");
+    
 
   	port(port);
 
