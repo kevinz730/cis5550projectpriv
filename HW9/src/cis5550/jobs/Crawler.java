@@ -403,8 +403,9 @@ public class Crawler {
 //					urlQueue = urlQueue.flatMap(lambda);
 //					FlameRDD subSampled;
 					FlameRDD newUrlQueue = urlQueue.flatMap(lambda);
-					if (newUrlQueue.count() > 6000) {
-						FlameRDD subSampled = newUrlQueue.sample(0.5);
+					double queueLen = (double) newUrlQueue.count();
+					if (queueLen > 6000) {
+						FlameRDD subSampled = newUrlQueue.sample(3000.0/queueLen);
 						urlQueue.destroy();
 						newUrlQueue.destroy();
 						urlQueue = subSampled;
