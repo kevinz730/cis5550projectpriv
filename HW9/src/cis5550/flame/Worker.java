@@ -183,7 +183,6 @@ class Worker extends cis5550.generic.Worker {
         String low = queryParamsDecoded[3];
         String high = queryParamsDecoded[4];
         double prob = Double.parseDouble(queryParamsDecoded[6]);
-        FlamePairRDD.TwoStringsToString lambda = (TwoStringsToString) Serializer.byteArrayToObject(request.bodyAsBytes(), myJAR);
         
         KVSClient kvs = new KVSClient(KVSCoordinator);
         Iterator<Row> rows = kvs.scan(inputTable, low, high);

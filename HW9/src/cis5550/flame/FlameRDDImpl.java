@@ -90,6 +90,7 @@ public class FlameRDDImpl implements FlameRDD{
 		// TODO Auto-generated method stub
 		KVSClient kvs = Coordinator.kvs;
 		kvs.rename(tableName, tableNameArg);
+		this.tableName = tableNameArg;
 	}
 
 	@Override

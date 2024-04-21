@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 import cis5550.flame.FlameContext;
 import cis5550.flame.FlameRDD;
 import cis5550.flame.FlameRDD.StringToIterable;
+import cis5550.flame.FlameRDDImpl;
 import cis5550.kvs.KVSClient;
 import cis5550.kvs.Row;
 import cis5550.tools.Hasher;
@@ -240,13 +241,16 @@ public class Crawler {
 		String normalizedSeedUrl = urlSeedNormalize(seedUrl);
 		try {
 			FlameRDD urlQueue = ctx.parallelize(Arrays.asList(normalizedSeedUrl));
+			urlQueue.saveAsTable("currUrlQueue");
 			
 			StringToIterable lambda = s -> {
 				List<String> normalizedUrlStrings = new ArrayList<String>();
 				try {
 //					KVSClient kvs = ctx.getKVS();
 //					CHANGE ON EC2
-					KVSClient kvs = new KVSClient("54.224.4.14:8000");
+//					KVSClient kvs = new KVSClient("54.224.4.14:8000");
+					KVSClient kvs = new KVSClient("localhost:8000");
+
 					List<String> urlStrings = new ArrayList<String>();
 					
 //					Already visited
@@ -361,7 +365,7 @@ public class Crawler {
 						normalizedUrlStrings.add(normalizedUrl.get(0));
 						return normalizedUrlStrings;
 					}
-
+					
 					if(connectHead.getResponseCode() == 200 && connectHead.getContentType().contains("text/html")) {
 						HttpURLConnection connect = (HttpURLConnection) url.openConnection();
 						connect.setInstanceFollowRedirects(false);
@@ -396,7 +400,20 @@ public class Crawler {
 			
 			while (urlQueue.count() > 0) {
 				try {
-					urlQueue = urlQueue.flatMap(lambda);
+//					urlQueue = urlQueue.flatMap(lambda);
+//					FlameRDD subSampled;
+					FlameRDD newUrlQueue = urlQueue.flatMap(lambda);
+					if (newUrlQueue.count() > 6000) {
+						FlameRDD subSampled = newUrlQueue.sample(0.5);
+						urlQueue.destroy();
+						newUrlQueue.destroy();
+						urlQueue = subSampled;
+						urlQueue.saveAsTable("currUrlQueue");
+					} else {
+						urlQueue.destroy();
+						urlQueue = newUrlQueue;
+						urlQueue.saveAsTable("currUrlQueue");
+					}
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
