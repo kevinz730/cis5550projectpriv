@@ -23,6 +23,17 @@ import cis5550.kvs.*;
 import cis5550.webserver.Request;
 
 class Worker extends cis5550.generic.Worker {
+	
+    public static final char[] ALLOWED_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
+
+    public static String generateRandomString(int length) {
+        Random random = new Random();
+        char[] randomChars = new char[length];
+        for (int i = 0; i < length; i++) {
+            randomChars[i] = ALLOWED_CHARACTERS[random.nextInt(ALLOWED_CHARACTERS.length)];
+        }
+        return new String(randomChars);
+    }
 
 	public static String[] decodeQueryParams (Request request) {
         String[] result = new String[8];
@@ -74,7 +85,6 @@ class Worker extends cis5550.generic.Worker {
         	Row r = rows.next();
 //        	System.out.println(r.get("value"));
             Future<Iterable<String>> future = executor.submit(() -> lambda.op(r.get("value")));
-            
             try {
                 Iterable<String> res = future.get(5, TimeUnit.SECONDS);
                 if (res != null) {
@@ -82,7 +92,7 @@ class Worker extends cis5550.generic.Worker {
                     while (it.hasNext()) {
                         String val = it.next();
                         try {
-                            kvs.put(outputTable, UUID.randomUUID().toString(), "value", val);
+                            kvs.put(outputTable, generateRandomString(32), "value", val);
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -102,7 +112,6 @@ class Worker extends cis5550.generic.Worker {
                 future.cancel(true);
             }
         }
-
         executor.shutdown();
 //        	Row r = rows.next();
 //        	Iterable<String> res = lambda.op(r.get("value"));

@@ -1,6 +1,6 @@
 #!/bin/bash
-kvsWorkers=2  # number of kvs workers to launch
-flameWorkers=2  # number of flame workers to launch
+kvsWorkers=4  # number of kvs workers to launch
+flameWorkers=4  # number of flame workers to launch
 
 #rm -r worker1
 #rm -r worker2
