@@ -122,8 +122,8 @@ public class Crawler {
 			int lastPeriodIndex = url.lastIndexOf('.');
 	        if (lastPeriodIndex != -1 && lastPeriodIndex < url.length() - 3) {
 	            String tld = url.substring(lastPeriodIndex + 1, lastPeriodIndex + 4);
-	            if (!tld.equals("com") || !tld.equals("org") || !tld.equals("net") || !tld.equals("edu") || 
-	            		!tld.equals("int") || !tld.equals("gov") || !tld.equals("mil")) {
+	            if (!tld.equals("com") && !tld.equals("org") && !tld.equals("net") && !tld.equals("edu") && 
+	            		!tld.equals("int") && !tld.equals("gov") && !tld.equals("mil")) {
 	            	continue;
 	            }
 	        }
