@@ -107,7 +107,7 @@ public class Crawler {
 	public static List<String> urlFilter(List<String> urls) {
 		List<String> filtered = new ArrayList<String>();
 		for (String url: urls) {
-			if (url.contains("creativecommons.org")) {
+			if (url.contains("creativecommons.org") || url.contains("robtex.com")) {
 				continue;
 			}
 			if (url.contains("wiki")) {

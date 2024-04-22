@@ -25,11 +25,13 @@ import cis5550.webserver.Request;
 class Worker extends cis5550.generic.Worker {
 	
     public static final char[] ALLOWED_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
-
+    public static final char[] ALLOWED_FIRST_CHARACTERS = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+    
     public static String generateRandomString(int length) {
         Random random = new Random();
         char[] randomChars = new char[length];
-        for (int i = 0; i < length; i++) {
+        randomChars[0] = ALLOWED_FIRST_CHARACTERS[random.nextInt(ALLOWED_FIRST_CHARACTERS.length)];
+        for (int i = 1; i < length; i++) {
             randomChars[i] = ALLOWED_CHARACTERS[random.nextInt(ALLOWED_CHARACTERS.length)];
         }
         return new String(randomChars);
