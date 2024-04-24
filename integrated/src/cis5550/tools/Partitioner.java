@@ -32,7 +32,7 @@ public class Partitioner {
   boolean sameIP(String a, String b) {
     String aPcs[] = a.split(":");
     String bPcs[] = b.split(":");
-    return aPcs[1].equals(bPcs[1]);
+    return aPcs[0].equals(bPcs[0]);
   }
 
   Vector<String> flameWorkers;

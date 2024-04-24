@@ -26,6 +26,7 @@ public class Crawler {
 		String htmlText = new String(data);
 		Pattern pattern = Pattern.compile("<([^/][^>]*)>");
 		Matcher matcher = pattern.matcher(htmlText);
+		int urlCount = 0;
 		while (matcher.find()) {
 			String tag = matcher.group(1);
 			String[] tagParts = tag.split("\\s+");
@@ -38,6 +39,10 @@ public class Crawler {
 						if (url.length() > 1) {
 							String finalUrl = url.substring(1, url.length() - 1);
 							urls.add(finalUrl);
+							urlCount ++;
+							if (urlCount >= 70) {
+								return urls;
+							}
 						}
 					}
 				}
