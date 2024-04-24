@@ -54,6 +54,19 @@ public class Indexer {
 				String url = pair._1();
 				String page = pair._2();
 				
+				page = page.replaceAll("(?s)<script[^>]*>(.*?)</script>", " ");
+				page = page.replaceAll("(?s)<style[^>]*>(.*?)</style>", " ");
+				
+				String html = page.replaceAll("(?i)<nav[^>]*>(.*?)</nav>", " ");
+			    html = html.replaceAll("(?i)<footer[^>]*>(.*?)</footer>", " ");
+			    html = html.replaceAll("(?i)<head[^>]*>(.*?)</head>", " ");
+//			    html = html.replaceAll("(?i)<form[^>]*>(.*?)</form>", " ");
+			    html = html.replaceAll("(?i)<input[^>]*>", " ");
+			    html = html.replaceAll("(?i)<textarea[^>]*>(.*?)</textarea>", " ");
+			    html = html.replaceAll("(?i)<button[^>]*>(.*?)</button>", " ");
+//			    html = html.replaceAll("(?i)<select[^>]*>(.*?)</select>", " ");
+			    html = html.replaceAll("<!--(.*?)-->", " ");
+				
 				String text = page.replaceAll("<[^>]+>", " ");
 				String formatted = text.replaceAll("\\t\\r\\n", " ");
 				String onlyEnglish = formatted.replaceAll("[^\\x00-\\x7F]", " ");
@@ -68,7 +81,7 @@ public class Indexer {
 	            Map<String, Integer> frequencyMap = new ConcurrentHashMap<>();
 	            for (String word : wordList) {
 	                if (!word.isEmpty()) {
-	                    word = stem(word);
+	                    //word = stem(word);
 	                    frequencyMap.put(word, frequencyMap.getOrDefault(word, 0) + 1);
 	                }
 	            }
