@@ -110,6 +110,7 @@ class Coordinator extends cis5550.generic.Coordinator {
       // back to the user in the HTTP response, to help with debugging.
 
       FlameContextImpl flameContext =  new FlameContextImpl(jarName);
+      flameContext.setCoordinator(args[1]);
       
       try {
         Loader.invokeRunMethod(jarFile, className, flameContext, argVector);

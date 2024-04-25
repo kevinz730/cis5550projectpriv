@@ -306,7 +306,7 @@ public class PageRank {
 	           // System.out.println("curr rank " + currentRank);
 				System.out.println("vals to put: url "+url+" rank "+String.valueOf(currentRank));
 	            k.put("pt-pageranks", url, "rank", String.valueOf(currentRank));
-	
+	            
 	            return Collections.emptyList();
 	        });
 

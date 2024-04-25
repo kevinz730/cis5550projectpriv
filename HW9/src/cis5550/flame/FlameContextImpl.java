@@ -19,6 +19,8 @@ public class FlameContextImpl implements FlameContext, Serializable{
 	public String outputString = null;
 	
 	public String jarName = null;
+	private String coordinatorArg;
+	private KVSClient kvsClient;
 	
 	public FlameContextImpl(String jarName) {
 		// TODO Auto-generated constructor stub
@@ -27,7 +29,13 @@ public class FlameContextImpl implements FlameContext, Serializable{
 
 	@Override
 	public KVSClient getKVS() {
-		return Coordinator.kvs;
+		kvsClient = new KVSClient(coordinatorArg);
+		return kvsClient;
+	}
+	
+	public void setCoordinator(String coorArg)
+	{
+		coordinatorArg = coorArg;
 	}
 
 	@Override
