@@ -146,7 +146,7 @@ public class Indexer {
 				
 				double den = Double.parseDouble(parts[2]);
 				System.out.println("total url count " + totalUrlCount + " den " + den);
-				double logVal = Math.log(totalUrlCount + 1 / den);
+				double logVal = Math.log(totalUrlCount / den);
 				
 				System.out.println("log val " + logVal);
 				

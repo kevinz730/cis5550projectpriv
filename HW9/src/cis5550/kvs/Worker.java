@@ -70,15 +70,17 @@ public class Worker extends cis5550.generic.Worker {
         
         get("/search", (req, res) -> {
         	res.header("Access-Control-Allow-Origin", "*");
-        	
         	String searchTerm = req.queryParams("query");
         	System.out.println("query " + searchTerm);
+        	
         	res.status(200, "OK");
-        	res.body("abcd");
-        	byte[] b = new byte[1];
-        	b[0] = 1;
-        	res.write(b);
-        	return 200;
+        	res.type("application/json"); 
+        	return "{\"result\": \"We are the best\"}";
+//        	res.body("abcd");
+//        	byte[] b = new byte[1];
+//        	b[0] = 1;
+//        	res.write(b);
+//        	return 200;
         });
         
         put("/data/:t/:r/:c", (req,res) -> { 
