@@ -12,6 +12,15 @@ import cis5550.tools.Hasher;
 
 public class ProcessQuery {
 	
+	public ProcessQuery() {
+		
+	}
+	
+	public String returnResults() {
+		
+		return "abc";
+	}
+	
 	public static void run(FlameContext context, String[] args) throws Exception{
 		
 		ConcurrentHashMap<String, Double> queryTF_map = new ConcurrentHashMap<>();

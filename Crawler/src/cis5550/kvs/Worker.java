@@ -22,6 +22,8 @@ import java.util.TreeSet;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 
+import cis5550.jobs.ProcessQuery;
+
 public class Worker extends cis5550.generic.Worker {
 	public static void putRow(String t, Row r) {
 		tables.get(t).put(r.key(),r);
@@ -74,22 +76,16 @@ public class Worker extends cis5550.generic.Worker {
         	System.out.println("query " + searchTerm);
         	
         	res.status(200, "OK");
-<<<<<<< HEAD
-        	res.body("abcd");
-        	byte[] b = new byte[1];
-        	System.out.println("req body: " + req.body());
-        	b[0] = 1;
-        	res.write(b);
-        	return 200;
-=======
+        	
+        	ProcessQuery pq = new ProcessQuery();
+        	String results = pq.returnResults();
+        	
+        	System.out.println("results " + results);
+        	
+
         	res.type("application/json"); 
         	return "{\"result\": \"We are the best\"}";
-//        	res.body("abcd");
-//        	byte[] b = new byte[1];
-//        	b[0] = 1;
-//        	res.write(b);
-//        	return 200;
->>>>>>> 5a7dc5d4eaa3fa099451dafb2acafa577d3f732c
+
         });
         
         put("/data/:t/:r/:c", (req,res) -> { 
