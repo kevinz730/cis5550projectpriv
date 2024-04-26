@@ -1,8 +1,6 @@
 package cis5550.jobs;
 
-import java.nio.charset.StandardCharsets;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -102,6 +100,11 @@ public class ProcessQuery {
 			    	computedVals.put(col, String.valueOf(newVal));
 				}
 			}
+		}
+		
+		for(Map.Entry<String, Double> e: queryTF.entrySet())
+		{
+			
 		}
 		
 		 computedVals.entrySet()

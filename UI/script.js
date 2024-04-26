@@ -26,7 +26,13 @@ function displayResults(searchTerm) {
             if (response === 200){
                 throw new Error('Network response was not OK');
             }
-            console.log("NO response " + response.body);
+
+            console.log("res " + response);
+            console.log("res body " + response.body);
+            console.log("res status " + response.status);
+            console.log("res status txt " + response.statusText);
+            console.log("res txt " + response.text);
+            
             return response.json();
         })
         .then(data => {

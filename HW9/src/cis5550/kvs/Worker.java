@@ -76,6 +76,7 @@ public class Worker extends cis5550.generic.Worker {
         	res.status(200, "OK");
         	res.body("abcd");
         	byte[] b = new byte[1];
+        	System.out.println("req body: " + req.body());
         	b[0] = 1;
         	res.write(b);
         	return 200;
