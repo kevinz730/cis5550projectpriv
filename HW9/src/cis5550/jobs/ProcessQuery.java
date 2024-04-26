@@ -28,7 +28,7 @@ public class ProcessQuery {
 		}
 		
 		KVSClient k = context.getKVS();
-		int numDocs = k.count("pt-crawl")+1;
+		int numDocs = k.count("pt-crawl");
 		
 		
 		ConcurrentHashMap<String, String> computedVals = new ConcurrentHashMap();
@@ -49,56 +49,65 @@ public class ProcessQuery {
 				for (String col : cols) {
 				    System.out.println("j " + j + " col " + col);
 				    j++; 
+				    
 				    queryIDF = (numDocs)*1.0/numDocsWithTerm;
+				    System.out.println("queryIDF " + queryIDF);
 			    	queryTF_IDF = queryTF.get(queryParts[i]) * queryIDF;
+			    	System.out.println("queryTF_IDF " + queryTF_IDF);
+			    	
 			    	String tf_idf = r.get(col);
+			    	System.out.println("tf_idf " + tf_idf);
 			    	double docTF_IDF = Double.parseDouble(tf_idf);
+			    	System.out.println("docTF_IDF " + docTF_IDF);
 			    	
 				    if(!computedVals.contains(col)) {
-//				    	String tf_idf = r.get(col);
-				    	
-				    	//String stringVal = new String(tf_idf, StandardCharsets.UTF_8);
-				    	System.out.println("new val added " + tf_idf);
-//				    	double queryIDF = (numDocs+1)*1.0/numDocsWithTerm;
-//				    	double queryTF_IDF = queryTF.get(queryParts[i]) * queryIDF;
+				    	System.out.println("!computedVals.contains(col) new val added " + tf_idf);
 				    	computedVals.put(col, String.valueOf(docTF_IDF * queryTF_IDF));
 				    }
-				    else 
-				    {
-//				    	String tf_idf = r.get(col);
-				    	//String stringVal = new String(tf_idf, StandardCharsets.UTF_8);
-//				    	double doubleVal = Double.parseDouble(tf_idf);
+				    else  {
 				    	String prevVal = computedVals.get(col);
+				    	System.out.println("prevVal " + prevVal);
 				    	double prevValDouble = Double.parseDouble(prevVal);
+				    	System.out.println("prevValDouble " + prevValDouble);
 				    	double newVal = docTF_IDF* queryTF_IDF + prevValDouble;
-				    	System.out.println("prev val updated " + String.valueOf(newVal));
+				    	System.out.println("newVal " + String.valueOf(newVal));
 				    	computedVals.put(col, String.valueOf(newVal));
 				    }
 				    docWeight += Math.pow(docTF_IDF, 2);
-				    
-				    double queryWeight = 0.0;
-					for(Map.Entry<String, Double> e: queryTF.entrySet()) {
-						queryWeight += Math.pow(queryTF.get(e.getKey())*queryIDF, 2);
-					}
-					queryWeight = Math.sqrt(queryWeight);
-					
-			    	//Doc weight
-			    	docWeight = Math.sqrt(docWeight);
+				    System.out.println("docWeight " + String.valueOf(docWeight));
+				}
+				
+				double queryWeight = 0.0;
+				for(Map.Entry<String, Double> e: queryTF.entrySet()) {
+					queryWeight += Math.pow(queryTF.get(e.getKey())*queryIDF, 2);
+					System.out.println("queryWeight in for loop " + String.valueOf(queryWeight));
+				}
+				queryWeight = Math.sqrt(queryWeight);
+				System.out.println("queryWeight " + String.valueOf(queryWeight));
+				
+		    	//Doc weight
+		    	docWeight = Math.sqrt(docWeight);
+		    	System.out.println("docWeight after sqrt " + String.valueOf(docWeight));
 
-			    	double cosSim = Double.parseDouble(computedVals.get(col)) / (docWeight * queryWeight);
-			    	
-			    	//PageRank Calculation
-			    	String hashedVal = Hasher.hash(col);
+		    	for(Map.Entry<String, String> e:computedVals.entrySet()) {
+		    		String col = e.getKey();
+		    		System.out.println("col " + col);
+		    		double cosSim = Double.parseDouble(computedVals.get(col)) / (docWeight * queryWeight);
+		    		System.out.println("cosSim " + String.valueOf(cosSim));
+		    		
+		    		String hashedVal = Hasher.hash(col);
 				    Row pageRank = k.getRow("pt-pageranks", hashedVal);
 				    String data = pageRank.get("rank");
 				    System.out.println("data " + data);
 				    double dataDouble = Double.parseDouble(data);
-				    String prevVal = computedVals.get(col);
-			    	double prevValDouble = Double.parseDouble(prevVal);
-			    	double newVal = dataDouble + prevValDouble;
-			    	System.out.println("value update after pagerank " + String.valueOf(newVal));
+				    System.out.println("dataDouble " + String.valueOf(dataDouble));
+			    	double newVal = dataDouble + cosSim;
+			    	System.out.println("newVal " + String.valueOf(newVal));
 			    	computedVals.put(col, String.valueOf(newVal));
-				}
+		    	}
+		    	
+		    	//PageRank Calculation
+		    	
 			}
 		}
 		
