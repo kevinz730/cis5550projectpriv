@@ -23,39 +23,49 @@ function displayResults(searchTerm) {
         })
         .then(data => {
             console.log("Response data: ", data);  // Output the data to console
-            if (!data.result) {
+            if (!data.data || data.data.length === 0) {
                 resultsDiv.innerHTML = '<p>No results found.</p>';
                 return;
             }
 
-            // Display the result
+        //     // Display the result
+        //     const resultElement = document.createElement('div');
+        //     resultElement.innerHTML = `
+        //         <p>${data.result}</p>
+        //     `;
+        //     resultsDiv.appendChild(resultElement);
+        // })
+         // Display each result
+         data.data.forEach(item => {
             const resultElement = document.createElement('div');
             resultElement.innerHTML = `
-                <p>${data.result}</p>
+                <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+                <p>Score: ${item.score}</p>
             `;
             resultsDiv.appendChild(resultElement);
-        })
-        .catch(error => {
-            console.error('Failed to fetch data:', error);
-            resultsDiv.innerHTML = '<p>Error loading results.</p>';
         });
-
-
-    // Mock results
-    const mockResults = [
-        { title: 'Result 1', description: 'Description of result 1', url: '#' },
-        { title: 'Result 2', description: 'Description of result 2', url: '#' },
-        { title: 'Result 3', description: 'Description of result 3', url: '#' }
-    ];
-
-    // Display results
-    mockResults.forEach(result => {
-        const resultElement = document.createElement('div');
-        resultElement.innerHTML = `
-            <h4><a href="${result.url}">${result.title}</a></h4>
-            <p>${result.description}</p>
-        `;
-        resultsDiv.appendChild(resultElement);
+    })
+    .catch(error => {
+        console.error('Failed to fetch data:', error);
+        resultsDiv.innerHTML = '<p>Error loading results.</p>';
     });
+
+
+    // // Mock results
+    // const mockResults = [
+    //     { title: 'Result 1', description: 'Description of result 1', url: '#' },
+    //     { title: 'Result 2', description: 'Description of result 2', url: '#' },
+    //     { title: 'Result 3', description: 'Description of result 3', url: '#' }
+    // ];
+
+    // // Display results
+    // mockResults.forEach(result => {
+    //     const resultElement = document.createElement('div');
+    //     resultElement.innerHTML = `
+    //         <h4><a href="${result.url}">${result.title}</a></h4>
+    //         <p>${result.description}</p>
+    //     `;
+    //     resultsDiv.appendChild(resultElement);
+    // });
 }
 

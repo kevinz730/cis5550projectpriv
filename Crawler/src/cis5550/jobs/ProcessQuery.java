@@ -1,31 +1,45 @@
 package cis5550.jobs;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+
 
 import cis5550.flame.FlameContext;
 import cis5550.kvs.KVSClient;
 import cis5550.kvs.Row;
 import cis5550.tools.Hasher;
 
+
+
+
 public class ProcessQuery {
 	
-	public ProcessQuery() {
+	private static String jsonOutput;
+	private String searchTerm;
+	private static KVSClient kvs;
+	
+	public ProcessQuery(KVSClient kvs) {
+		this.kvs = kvs;
+		
+		System.out.println("search term in process query " + searchTerm);
 		
 	}
 	
-	public String returnResults() {
-		
-		return "abc";
-	}
+//	public String returnResults() {
+//		
+//		return jsonOutput;
+//	}
 	
-	public static void run(FlameContext context, String[] args) throws Exception{
+	public String returnResults(String query) throws Exception{
 		
 		ConcurrentHashMap<String, Double> queryTF_map = new ConcurrentHashMap<>();
 		ConcurrentHashMap<String, Double> queryTF_IDF_map = new ConcurrentHashMap<>();
-		String query = args[0];
+		//String query = args[0];
 		System.out.println("query: " + query);
 		
 		String[] queryParts = query.split(" ");
@@ -51,8 +65,8 @@ public class ProcessQuery {
 		
 		
 		
-		KVSClient k = context.getKVS();
-		int numDocs = k.count("pt-crawl");
+		//KVSClient k = context.getKVS();
+		int numDocs = kvs.count("pt-crawl");
 		
 		
 		ConcurrentHashMap<String, String> computedVals = new ConcurrentHashMap();
@@ -64,9 +78,9 @@ public class ProcessQuery {
 		for(int i=0; i<queryParts.length; i++) {
 			
 			//TF-IDF Calculation
-			if(k.existsRow("pt-computed", queryParts[i])) 
+			if(kvs.existsRow("pt-computed", queryParts[i])) 
 			{
-				Row r = k.getRow("pt-computed", queryParts[i]);
+				Row r = kvs.getRow("pt-computed", queryParts[i]);
 				Set<String> cols = r.columns();
 				int numDocsWithTerm = cols.size();
 				int j = 0;
@@ -138,7 +152,7 @@ public class ProcessQuery {
     		System.out.println("cosSim " + String.valueOf(cosSim));
     		
     		String hashedVal = Hasher.hash(col);
-		    Row pageRank = k.getRow("pt-pageranks", hashedVal);
+		    Row pageRank = kvs.getRow("pt-pageranks", hashedVal);
 		    String data = pageRank.get("rank");
 		    System.out.println("data " + data);
 		    double dataDouble = Double.parseDouble(data);
@@ -152,6 +166,48 @@ public class ProcessQuery {
          .stream()
          .sorted(Map.Entry.<String, String>comparingByValue(Comparator.comparingDouble(Double::parseDouble).reversed()))
          .forEach(entry -> System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue()));
+		 
+		 
+		 List<Map.Entry<String, String>> list = new ArrayList<>(computedVals.entrySet());
+	        list.sort((entry1, entry2) -> {
+	            Double value1 = Double.parseDouble(entry1.getValue());
+	            Double value2 = Double.parseDouble(entry2.getValue());
+	            return value2.compareTo(value1);
+	        });
+		 
+        Map<String, String> sortedMap = new LinkedHashMap<>();
+        for (Map.Entry<String, String> entry : list) {
+            sortedMap.put(entry.getKey(), entry.getValue());
+        }
+        
+        
+        StringBuilder jsonBuilder = new StringBuilder();
+        jsonBuilder.append("{");
+        jsonBuilder.append("\"data\":[");
+        int size = sortedMap.size();
+        int count = 0;
+        for (Map.Entry<String, String> entry : sortedMap.entrySet()) {
+            jsonBuilder.append("{")
+                       .append("\"url\":\"").append(entry.getKey()).append("\",")
+                       .append("\"score\":").append(entry.getValue())
+                       .append("}");
+            if (++count < size) jsonBuilder.append(", ");
+        }
+        jsonBuilder.append("]}");
+        try {
+			jsonOutput =  jsonBuilder.toString();
+			
+			System.out.println("json output " + jsonOutput);
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	        
+	        
+//	    k.put("pt-cache", query, "1", jsonOutput);    
+        
+	      return jsonOutput;
+	     
 
 	}
 

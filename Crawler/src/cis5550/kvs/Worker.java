@@ -76,15 +76,21 @@ public class Worker extends cis5550.generic.Worker {
         	System.out.println("query " + searchTerm);
         	
         	res.status(200, "OK");
+        	//KVSClient kvs = new KVSClient("23.123.43.2:8000");
+        	KVSClient kvs = new KVSClient("localhost:8000");
         	
-        	ProcessQuery pq = new ProcessQuery();
-        	String results = pq.returnResults();
+        	ProcessQuery pq = new ProcessQuery(kvs);
+        	String results = pq.returnResults(searchTerm);
         	
-        	System.out.println("results " + results);
+//        	Row r = getRow("pt-cache", searchTerm);
+//        	String results = r.get("1");
+        	
+//        	System.out.println("results " + results);
         	
 
         	res.type("application/json"); 
-        	return "{\"result\": \"We are the best\"}";
+        	//return "{\"result\": \"Test data from server\"}";
+        	return results;
 
         });
         
