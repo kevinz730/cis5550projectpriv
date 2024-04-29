@@ -39,10 +39,10 @@ public class Crawler {
 						if (url.length() > 1) {
 							String finalUrl = url.substring(1, url.length() - 1);
 							urls.add(finalUrl);
-							urlCount ++;
-							if (urlCount >= 70) {
-								return urls;
-							}
+							// urlCount ++;
+							// if (urlCount >= 70) {
+							// 	return urls;
+							// }
 						}
 					}
 				}
@@ -257,8 +257,8 @@ public class Crawler {
 				try {
 //					KVSClient kvs = ctx.getKVS();
 //					CHANGE ON EC2
-//					KVSClient kvs = new KVSClient("54.224.4.14:8000");
-					KVSClient kvs = new KVSClient("localhost:8000");
+					KVSClient kvs = new KVSClient("23.22.61.238:8000");
+					// KVSClient kvs = new KVSClient("localhost:8000");
 
 					List<String> urlStrings = new ArrayList<String>();
 					
@@ -393,6 +393,7 @@ public class Crawler {
 							
 							r.put("page", buffer);
 							r.put("responseCode", Integer.toString(connect.getResponseCode()));
+              System.out.println(r.get("url"));
 							kvs.putRow("pt-crawl", r);
 							urlStrings = urlExtract(buffer);
 							normalizedUrlStrings = urlNormalize(urlStrings, s);
