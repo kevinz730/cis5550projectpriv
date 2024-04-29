@@ -257,7 +257,7 @@ public class Crawler {
 				try {
 //					KVSClient kvs = ctx.getKVS();
 //					CHANGE ON EC2
-					KVSClient kvs = new KVSClient("23.22.61.238:8000");
+					KVSClient kvs = new KVSClient("54.236.62.130:8000");
 					// KVSClient kvs = new KVSClient("localhost:8000");
 
 					List<String> urlStrings = new ArrayList<String>();
