@@ -4,8 +4,94 @@ import java.util.*;
 import java.net.*;
 import java.io.*;
 import cis5550.tools.HTTP;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 public class KVSClient implements KVS {
+  public class KVOperation {
+    String tableName;
+    String row;
+    String column;
+    byte[] value;
+    public KVOperation(String tableName, String row, String column, byte[] value) {
+        this.tableName = tableName;
+        this.row = row;
+        this.column = column;
+        this.value = value;
+        
+
+    }
+    public KVOperation(String tableName, String row, String column) {
+        this.tableName = tableName;
+        this.row = row;
+        this.column = column;
+        this.value = null;
+    }
+    public String getTableName() {
+        return tableName;
+    }
+    public String getRow() {
+        return row;
+    }
+    public String getColumn() {
+        return column;
+    }
+    public byte[] getValue() {
+        return value;
+    }
+}
+
+Vector<KVOperation> batchBuffer = new Vector<>();
+static int BATCH_SIZE = 1000;
+
+public void batchPut(String tableName, String row, String column, byte[] value) throws IOException {
+	System.out.println("Adding to batch (" + batchBuffer.size() + ")");
+  batchBuffer.add(new KVOperation(tableName, row, column, value));
+  if (batchBuffer.size() >= BATCH_SIZE) {
+      executeBatchPut();
+  }
+}
+
+public void batchPut(String tableName, String row, String column, String value) throws IOException {
+  batchPut(tableName, row, column,value.getBytes());
+}
+
+private void executeBatchPut() throws IOException {
+	System.out.println("executing batch put");
+  //group operations by worker
+  Map<Integer, List<KVOperation>> operationsByWorker = new HashMap<>();
+  for (KVOperation op : batchBuffer) {
+      int workerIndex = workerIndexForKey(op.row);
+      operationsByWorker.computeIfAbsent(workerIndex, k -> new ArrayList<>()).add(op);
+  }
+
+  //send batch requests 
+  for (Map.Entry<Integer, List<KVOperation>> entry : operationsByWorker.entrySet()) {
+      int workerIndex = entry.getKey();
+      List<KVOperation> operations = entry.getValue();
+
+      JSONArray opsArray = new JSONArray();
+      for (KVOperation op : operations) {
+          JSONObject request = new JSONObject();
+          request.put("tableName", op.tableName);
+          request.put("row", URLEncoder.encode(op.row, "UTF-8"));
+          request.put("column", URLEncoder.encode(op.column, "UTF-8"));
+          request.put("value", Base64.getEncoder().encodeToString(op.value));
+          opsArray.put(request);
+      }
+
+      JSONObject batchRequest = new JSONObject();
+      batchRequest.put("operations", opsArray);
+
+      String target = "http://" + workers.elementAt(workerIndex).address + "/batch-data";
+      HTTP.Response response = HTTP.doRequest("PUT", target, batchRequest.toString().getBytes());
+      if (response.statusCode() != 200) {
+          throw new IOException("Batch PUT failed: " +response.statusCode()+ " (" + target + ")");
+      }
+  }
+  batchBuffer.clear();
+}
+
 
   String coordinator;
 
@@ -281,6 +367,24 @@ public class KVSClient implements KVS {
     HTTP.Response res = HTTP.doRequest("GET", "http://"+workers.elementAt(workerIndexForKey(row)).address+"/data/"+tableName+"/"+java.net.URLEncoder.encode(row, "UTF-8")+"/"+java.net.URLEncoder.encode(column, "UTF-8"), null);
     return ((res != null) && (res.statusCode() == 200)) ? res.body() : null;
   }
+  
+  // can remove row and column, retriave full table
+  public byte[] batchGet(String tableName, String row, String column) throws IOException {
+      if (!haveWorkers) downloadWorkers();
+//      temp variable: batchBuffer
+      //if the operation is in the batch buffer
+//      for (KVOperation op : batchBuffer) {
+//          if (op.getTableName().equals(tableName) && op.getRow().equals(row) && op.getColumn().equals(column)) {
+//              return op.getValue(); 
+//          }
+//      }
+      
+      // return [{idx: hashedIdx, col1: val1, col2: val2},
+      	//      ]
+      
+      return get(tableName, row, column);
+  }
+
 
   public boolean existsRow(String tableName, String row) throws FileNotFoundException, IOException {
     if (!haveWorkers)

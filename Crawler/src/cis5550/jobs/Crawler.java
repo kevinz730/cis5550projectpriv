@@ -257,8 +257,10 @@ public class Crawler {
 				try {
 //					KVSClient kvs = ctx.getKVS();
 //					CHANGE ON EC2
-					KVSClient kvs = new KVSClient("54.236.62.130:8000");
-					// KVSClient kvs = new KVSClient("localhost:8000");
+					// KVSClient kvs = new KVSClient("54.236.62.130:8000");
+					System.out.println("adding new kvs");
+					KVSClient kvs = new KVSClient("localhost:8000");
+					/// TODO: create vector for each lamdba
 
 					List<String> urlStrings = new ArrayList<String>();
 					
@@ -331,9 +333,9 @@ public class Crawler {
 					if (kvs.get("hosts", hashedHostName, "value") != null) {
 						String delay = new String(kvs.get("hosts", hashedHostName, "delay"));
 						float delayFloat = Float.parseFloat(delay);
-//						System.out.println(new String(kvs.get("hosts", hostName, "value"))+ " delay " + String.valueOf(delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
+//						System.out.println(new String(kvs.batchGet("hosts", hostName, "value"))+ " delay " + String.valueOf(delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
 						if (delayFloat >= System.currentTimeMillis() - Long.parseLong(new String(kvs.get("hosts", hashedHostName, "value")))) {
-//							System.out.println(new String(Long.parseLong(new String(kvs.get("hosts", hostName, "value")))+delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
+//							System.out.println(new String(Long.parseLong(new String(kvs.batchGet("hosts", hostName, "value")))+delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
 							normalizedUrlStrings.add(s);
 							return normalizedUrlStrings;
 						}

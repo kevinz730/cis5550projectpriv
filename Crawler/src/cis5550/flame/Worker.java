@@ -83,24 +83,33 @@ class Worker extends cis5550.generic.Worker {
         Iterator<Row> rows = kvs.scan(inputTable, low, high);
         ExecutorService executor = Executors.newSingleThreadExecutor();
         int consecTimeouts = 0;
+        // byte[] -> List<Row> 
+//        List<Row> urls = kvs.batch_get(tableName)
+//        for row : urls:
+//             Future<Iterable<String>> future = executor.submit(() -> lambda.op(r.get("value")));
+//       	   kvs.bath_put(future)
+
+        
         while (rows.hasNext()) {
         	Row r = rows.next();
 //        	System.out.println(r.get("value"));
             Future<Iterable<String>> future = executor.submit(() -> lambda.op(r.get("value")));
             try {
-                Iterable<String> res = future.get(5, TimeUnit.SECONDS);
-                if (res != null) {
-                    Iterator<String> it = res.iterator();
-                    while (it.hasNext()) {
-                        String val = it.next();
-                        try {
-                            kvs.put(outputTable, generateRandomString(32), "value", val);
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-                consecTimeouts = 0;
+            	// TODO: materialize the string, using getNext, then save in new list, then kvs.batchPut 
+//                Iterable<String> res = future.get(5, TimeUnit.SECONDS);
+//                if (res != null) {
+//                    Iterator<String> it = res.iterator();
+//                    while (it.hasNext()) {
+//                        String val = it.next();
+//                        try {
+//                            kvs.put(outputTable, generateRandomString(32), "value", val);
+//                            // change to putBatch
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                }
+//                consecTimeouts = 0;
             } catch (Exception e) {
                 // Handle timeout
             	consecTimeouts++;
