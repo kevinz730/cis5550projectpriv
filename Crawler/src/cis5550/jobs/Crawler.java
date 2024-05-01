@@ -265,6 +265,7 @@ public class Crawler {
 					List<String> urlStrings = new ArrayList<String>();
 					
 //					Already visited
+//					NO NEED TO BATCH NECESSARY
 					if (kvs.existsRow("pt-crawl", Hasher.hash(s))) {
 						return normalizedUrlStrings;
 					}
@@ -281,6 +282,7 @@ public class Crawler {
 					
 					String hashedHostName = Hasher.hash(hostName);
 					
+//					LEAVE NOT BATCHED
 					if(kvs.get("hosts", hashedHostName, "robot") != null){
 //						Already has robots.txt entry
 //						HANDLE FILTERING
@@ -330,6 +332,7 @@ public class Crawler {
 					
 					
 //					Check last visited
+//					NOT BATCHED
 					if (kvs.get("hosts", hashedHostName, "value") != null) {
 						String delay = new String(kvs.get("hosts", hashedHostName, "delay"));
 						float delayFloat = Float.parseFloat(delay);
@@ -358,6 +361,7 @@ public class Crawler {
 					if(connectHead.getContentLength() != -1) {
 						r.put("length", Integer.toString(connectHead.getContentLength()));
 					}
+//					DONT NEED TO BATCH
 					kvs.putRow("pt-crawl", r);
 					if(connectHead.getResponseCode() != 200 && connectHead.getResponseCode() != 301 
 							&& connectHead.getResponseCode() != 302 && connectHead.getResponseCode() != 303
@@ -396,6 +400,7 @@ public class Crawler {
 							r.put("page", buffer);
 							r.put("responseCode", Integer.toString(connect.getResponseCode()));
               System.out.println(r.get("url"));
+//              DONT NEED TO BATCH
 							kvs.putRow("pt-crawl", r);
 							urlStrings = urlExtract(buffer);
 							normalizedUrlStrings = urlNormalize(urlStrings, s);

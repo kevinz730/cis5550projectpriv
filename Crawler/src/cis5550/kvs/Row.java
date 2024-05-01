@@ -12,8 +12,15 @@ public class Row implements Serializable {
     key = keyArg;
     values = new HashMap<String,byte[]>();
   }
+  
 
-  public synchronized String key() {
+
+  public Row(String key2, HashMap<String, byte[]> rowData) {
+	  key = key2;
+	  values = rowData;
+  }
+
+public synchronized String key() {
     return key;
   }
 

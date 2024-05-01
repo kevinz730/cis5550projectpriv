@@ -52,11 +52,13 @@ public void batchPut(String tableName, String row, String column, byte[] value) 
   }
 }
 
+
+
 public void batchPut(String tableName, String row, String column, String value) throws IOException {
   batchPut(tableName, row, column,value.getBytes());
 }
 
-private void executeBatchPut() throws IOException {
+public void executeBatchPut() throws IOException {
 	System.out.println("executing batch put");
   //group operations by worker
   Map<Integer, List<KVOperation>> operationsByWorker = new HashMap<>();
@@ -368,22 +370,77 @@ private void executeBatchPut() throws IOException {
     return ((res != null) && (res.statusCode() == 200)) ? res.body() : null;
   }
   
-  // can remove row and column, retriave full table
-  public byte[] batchGet(String tableName, String row, String column) throws IOException {
-      if (!haveWorkers) downloadWorkers();
-//      temp variable: batchBuffer
-      //if the operation is in the batch buffer
-//      for (KVOperation op : batchBuffer) {
-//          if (op.getTableName().equals(tableName) && op.getRow().equals(row) && op.getColumn().equals(column)) {
-//              return op.getValue(); 
-//          }
-//      }
-      
-      // return [{idx: hashedIdx, col1: val1, col2: val2},
-      	//      ]
-      
-      return get(tableName, row, column);
+//  // can remove row and column, retriave full table
+//  public byte[] batchGet(String tableName, String row, String column) throws IOException {
+//      if (!haveWorkers) downloadWorkers();
+////      temp variable: batchBuffer
+//      //if the operation is in the batch buffer
+////      for (KVOperation op : batchBuffer) {
+////          if (op.getTableName().equals(tableName) && op.getRow().equals(row) && op.getColumn().equals(column)) {
+////              return op.getValue(); 
+////          }
+////      }
+//      
+//      // return [{idx: hashedIdx, col1: val1, col2: val2},
+//      	//      ]
+//      
+//      return get(tableName, row, column);
+//  }
+  
+  public List<Row> parseBody(String body){
+	  ArrayList<Row> rows = new ArrayList<Row>();
+	  String[] rowsString = body.split("\n");
+	  for (String s : rowsString) {
+		  byte[] converted = s.getBytes();
+		  InputStream is = new ByteArrayInputStream(converted);
+		  try {
+			Row r = Row.readFrom(is);
+			rows.add(r);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	  }
+	  return rows;
   }
+  
+  public List<Row> batchGet(String tableName) throws IOException {
+      if (!haveWorkers) downloadWorkers();
+      
+      List<Row> tableData = new ArrayList<>();  
+
+      for (WorkerEntry w : workers) {
+          HTTP.Response res = HTTP.doRequest("GET", "http://" + w.address + "/data/" + tableName, null);
+          if (res != null && res.statusCode() == 200) {
+              String responseBody = new String(res.body()); 
+              tableData = parseBody(responseBody);
+//              try {
+//                  JSONArray jsonArray = new JSONArray(responseBody);
+//                  for (int i = 0; i < jsonArray.length(); i++) {
+//                      JSONObject jsonObject = jsonArray.getJSONObject(i);
+//                      HashMap<String, byte[]> rowData = new HashMap<>();
+//
+//                      jsonObject.keys().forEachRemaining(key -> {
+//                          String base64Encoded = jsonObject.getString((String) key);
+//                          byte[] decodedBytes = Base64.getDecoder().decode(base64Encoded);
+//                          rowData.put((String) key, decodedBytes);
+//                      });
+//
+//                      Row row = new Row(rowData.get("key").toString(), rowData);  //todo: UPDATE KEY
+//                      tableData.add(row);  
+//                  }
+//              } catch (Exception e) {
+//                  System.out.println("Error parsing JSON response from worker " + w.address + ": " + e.getMessage());
+//              }
+          } else {
+              System.out.println("Failed to retrieve data from worker " + w.address + ": " + (res != null ? res.statusCode() : "no response"));
+              // Handle the error as needed
+          }
+      }
+
+      return tableData;  // Return the aggregated list of Rows
+  }
+
 
 
   public boolean existsRow(String tableName, String row) throws FileNotFoundException, IOException {
