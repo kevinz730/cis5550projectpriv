@@ -86,9 +86,7 @@ class Worker extends cis5550.generic.Worker {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         int consecTimeouts = 0;
         
-        List<Row> rows = kvs.batchGet(inputTable);
-
-        
+        List<Row> rows = kvs.batchGet(inputTable, low, high);
         
 //        List<Row> urls = kvs.batch_get(tableName)
 //        for row : urls:
@@ -109,7 +107,11 @@ class Worker extends cis5550.generic.Worker {
                             e.printStackTrace();
                         }
                     }
-                    kvs.executeBatchPut();
+                    try {
+                    	kvs.executeBatchPut();
+                    } catch (Exception e) {
+                    	e.printStackTrace();
+                    }
                 }
                 consecTimeouts = 0;
             } catch (Exception e) {
@@ -122,7 +124,7 @@ class Worker extends cis5550.generic.Worker {
                 }
             } finally {
                 // Cancel the task if it exceeds the timeout
-                future.cancel(true);
+                if (future != null) future.cancel(true);
             }
         }
         

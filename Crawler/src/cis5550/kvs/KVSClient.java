@@ -41,15 +41,15 @@ public class KVSClient implements KVS {
     }
 }
 
-Vector<KVOperation> batchBuffer = new Vector<>();
+Vector<KVOperation> batchBuffer = new Vector<KVOperation>();
 static int BATCH_SIZE = 1000;
 
 public void batchPut(String tableName, String row, String column, byte[] value) throws IOException {
-	System.out.println("Adding to batch (" + batchBuffer.size() + ")");
-  batchBuffer.add(new KVOperation(tableName, row, column, value));
-  if (batchBuffer.size() >= BATCH_SIZE) {
-      executeBatchPut();
-  }
+//	System.out.println("Adding to batch (" + batchBuffer.size() + ")");
+	batchBuffer.add(new KVOperation(tableName, row, column, value));
+	if (batchBuffer.size() >= BATCH_SIZE) {
+		executeBatchPut();
+	}
 }
 
 
@@ -69,27 +69,33 @@ public void executeBatchPut() throws IOException {
 
   //send batch requests 
   for (Map.Entry<Integer, List<KVOperation>> entry : operationsByWorker.entrySet()) {
-      int workerIndex = entry.getKey();
-      List<KVOperation> operations = entry.getValue();
+	  try {
+		  int workerIndex = entry.getKey();
+	      List<KVOperation> operations = entry.getValue();
 
-      JSONArray opsArray = new JSONArray();
-      for (KVOperation op : operations) {
-          JSONObject request = new JSONObject();
-          request.put("tableName", op.tableName);
-          request.put("row", URLEncoder.encode(op.row, "UTF-8"));
-          request.put("column", URLEncoder.encode(op.column, "UTF-8"));
-          request.put("value", Base64.getEncoder().encodeToString(op.value));
-          opsArray.put(request);
-      }
+	      JSONArray opsArray = new JSONArray();
+	      for (KVOperation op : operations) {
+	          JSONObject request = new JSONObject();
+	          request.put("tableName", op.tableName);
+	          request.put("row", URLEncoder.encode(op.row, "UTF-8"));
+	          request.put("column", URLEncoder.encode(op.column, "UTF-8"));
+	          request.put("value", Base64.getEncoder().encodeToString(op.value));
+	          opsArray.put(request);
+	      }
 
-      JSONObject batchRequest = new JSONObject();
-      batchRequest.put("operations", opsArray);
+	      JSONObject batchRequest = new JSONObject();
+	      batchRequest.put("operations", opsArray);
 
-      String target = "http://" + workers.elementAt(workerIndex).address + "/batch-data";
-      HTTP.Response response = HTTP.doRequest("PUT", target, batchRequest.toString().getBytes());
-      if (response.statusCode() != 200) {
-          throw new IOException("Batch PUT failed: " +response.statusCode()+ " (" + target + ")");
-      }
+	      String target = "http://" + workers.elementAt(workerIndex).address + "/batch-data";
+	      HTTP.Response response = HTTP.doRequest("POST", target, batchRequest.toString().getBytes());
+	  } catch (Exception e) {
+		  System.out.println("Batch put error");
+		  continue;
+	  }
+      
+//      if (response.statusCode() != 200) {
+//          throw new IOException("Batch PUT failed: " +response.statusCode()+ " (" + target + ")");
+//      }
   }
   batchBuffer.clear();
 }
@@ -391,6 +397,9 @@ public void executeBatchPut() throws IOException {
 	  ArrayList<Row> rows = new ArrayList<Row>();
 	  String[] rowsString = body.split("\n");
 	  for (String s : rowsString) {
+		  if (s.equals("") || s.isEmpty()) {
+			  continue;
+		  }
 		  byte[] converted = s.getBytes();
 		  InputStream is = new ByteArrayInputStream(converted);
 		  try {
@@ -404,16 +413,27 @@ public void executeBatchPut() throws IOException {
 	  return rows;
   }
   
-  public List<Row> batchGet(String tableName) throws IOException {
+  
+  public String getURLPub(String tableNameArg, int workerIndexArg, String startRowArg, String endRowExclusiveArg) throws IOException {
+      String params = "";
+      if (startRowArg != null)
+        params = "startRow="+startRowArg;
+      if (endRowExclusiveArg != null)
+        params = (params.equals("") ? "" : (params+"&"))+"endRowExclusive="+endRowExclusiveArg;
+      return "http://"+getWorkerAddress(workerIndexArg)+"/data/"+tableNameArg+(params.equals("") ? "" : "?"+params);
+  }
+  
+  public List<Row> batchGet(String tableName, String low, String high) throws IOException {
       if (!haveWorkers) downloadWorkers();
       
       List<Row> tableData = new ArrayList<>();  
-
-      for (WorkerEntry w : workers) {
-          HTTP.Response res = HTTP.doRequest("GET", "http://" + w.address + "/data/" + tableName, null);
-          if (res != null && res.statusCode() == 200) {
+      
+      for (int i=0; i<workers.size(); i++) {
+    	  String url = getURLPub(tableName, i, low, high);
+    	  HTTP.Response res = HTTP.doRequest("GET", url, null);
+    	  if (res != null && res.statusCode() == 200) {
               String responseBody = new String(res.body()); 
-              tableData = parseBody(responseBody);
+              tableData.addAll(parseBody(responseBody));
 //              try {
 //                  JSONArray jsonArray = new JSONArray(responseBody);
 //                  for (int i = 0; i < jsonArray.length(); i++) {
@@ -433,10 +453,39 @@ public void executeBatchPut() throws IOException {
 //                  System.out.println("Error parsing JSON response from worker " + w.address + ": " + e.getMessage());
 //              }
           } else {
-              System.out.println("Failed to retrieve data from worker " + w.address + ": " + (res != null ? res.statusCode() : "no response"));
+              System.out.println("Failed to retrieve data from worker " + getWorkerAddress(i) + ": " + (res != null ? res.statusCode() : "no response"));
               // Handle the error as needed
           }
       }
+
+//      for (WorkerEntry w : workers) {
+//          HTTP.Response res = HTTP.doRequest("GET", "http://" + w.address + "/data/" + tableName, null);
+//          if (res != null && res.statusCode() == 200) {
+//              String responseBody = new String(res.body()); 
+//              tableData = parseBody(responseBody);
+////              try {
+////                  JSONArray jsonArray = new JSONArray(responseBody);
+////                  for (int i = 0; i < jsonArray.length(); i++) {
+////                      JSONObject jsonObject = jsonArray.getJSONObject(i);
+////                      HashMap<String, byte[]> rowData = new HashMap<>();
+////
+////                      jsonObject.keys().forEachRemaining(key -> {
+////                          String base64Encoded = jsonObject.getString((String) key);
+////                          byte[] decodedBytes = Base64.getDecoder().decode(base64Encoded);
+////                          rowData.put((String) key, decodedBytes);
+////                      });
+////
+////                      Row row = new Row(rowData.get("key").toString(), rowData);  //todo: UPDATE KEY
+////                      tableData.add(row);  
+////                  }
+////              } catch (Exception e) {
+////                  System.out.println("Error parsing JSON response from worker " + w.address + ": " + e.getMessage());
+////              }
+//          } else {
+//              System.out.println("Failed to retrieve data from worker " + w.address + ": " + (res != null ? res.statusCode() : "no response"));
+//              // Handle the error as needed
+//          }
+//      }
 
       return tableData;  // Return the aggregated list of Rows
   }

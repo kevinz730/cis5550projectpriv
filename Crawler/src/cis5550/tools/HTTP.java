@@ -157,7 +157,10 @@ public class HTTP {
                 ByteArrayInputStream bais = new ByteArrayInputStream(buffer.toByteArray());
                 BufferedReader hdr = new BufferedReader(new InputStreamReader(bais));
                 String statusLine[] = hdr.readLine().split(" ");
-                statusCode = Integer.valueOf(statusLine[1]);
+//                CHECK LEN FIRST
+                if (statusLine.length > 1) {
+                	statusCode = Integer.valueOf(statusLine[1]);
+                }
 
                 while (true) {
                   String s = hdr.readLine();

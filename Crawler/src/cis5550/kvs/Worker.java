@@ -22,8 +22,7 @@ import java.util.TreeSet;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListMap;
 import java.util.Base64;
-import org.json.JSONArray;
-import org.json.JSONObject;
+import org.json.*;
 
 import cis5550.jobs.ProcessQuery;
 
@@ -174,54 +173,67 @@ public class Worker extends cis5550.generic.Worker {
 			return "OK";
 		});
 
-    post("/batch-data", (req, res) -> {
-      JSONArray operations = new JSONArray(req.body());
-      for (int i = 0; i < operations.length(); i++) {
-          JSONObject operation = operations.getJSONObject(i);
-          
-          String tableName = operation.getString("tableName");
-          String row = URLDecoder.decode(operation.getString("row"), "UTF-8");
-          String column = URLDecoder.decode(operation.getString("column"), "UTF-8");
-          byte[] value = Base64.getDecoder().decode(operation.getString("value"));
-  
-          if (tableName.length() >= 3 && tableName.substring(0, 3).equals("pt-")) {
-              String dirPath = directory + "/" + tableName;
-              String rowEncoded = cis5550.tools.KeyEncoder.encode(row);
-              File directoryFile = new File(dirPath);
-              File fileFile = new File(dirPath + "/" + rowEncoded);
-              Row r;
-  
-              try {
-                  if (!directoryFile.exists()) {
-                      directoryFile.mkdirs();
-                  }
-                  if (!fileFile.exists()) {
-                      fileFile.createNewFile();
-                      r = new Row(row);
-                  } else {
-                      FileInputStream fileip = new FileInputStream(fileFile);
-                      r = Row.readFrom(fileip);
-                  }
-  
-                  r.put(column, value);
-                  byte[] dataOutput = r.toByteArray();
-                  FileOutputStream outputStream = new FileOutputStream(fileFile);
-                  outputStream.write(dataOutput);
-                  outputStream.close();
-              } catch (Exception e) {
-                  e.printStackTrace();
-                  return "FAIL";
-              }
-          } else {
-              // In-memory table logic
-              tables.putIfAbsent(tableName, new ConcurrentSkipListMap<>());
-              Map<String, Row> table = tables.get(tableName);
-              Row r = table.computeIfAbsent(row, k->new Row(row));
-              r.put(column, value);
-          }
-      }
-      return "OK";
-  });
+	    post("/batch-data", (req, res) -> {
+	      try{
+	    	  JSONObject receivedObject = new JSONObject(req.body());
+	    	  JSONArray operations = receivedObject.getJSONArray("operations");
+	//    	  JSONArray operations = (JSONArray) (new JSONObject(req.body())).get("operations");
+	          for (int i = 0; i < operations.length(); i++) {
+	              try {
+	            	  JSONObject operation = operations.getJSONObject(i);
+	                  
+	                  String tableName = operation.getString("tableName");
+	                  String row = URLDecoder.decode(operation.getString("row"), "UTF-8");
+	                  String column = URLDecoder.decode(operation.getString("column"), "UTF-8");
+	                  byte[] value = Base64.getDecoder().decode(operation.getString("value"));
+	
+	                  if (tableName.length() >= 3 && tableName.substring(0, 3).equals("pt-")) {
+	                      String dirPath = directory + "/" + tableName;
+	                      String rowEncoded = cis5550.tools.KeyEncoder.encode(row);
+	                      File directoryFile = new File(dirPath);
+	                      File fileFile = new File(dirPath + "/" + rowEncoded);
+	                      Row r;
+	          
+	                      try {
+	                          if (!directoryFile.exists()) {
+	                              directoryFile.mkdirs();
+	                          }
+	                          if (!fileFile.exists()) {
+	                              fileFile.createNewFile();
+	                              r = new Row(row);
+	                          } else {
+	                              FileInputStream fileip = new FileInputStream(fileFile);
+	                              r = Row.readFrom(fileip);
+	                          }
+	          
+	                          r.put(column, value);
+	                          byte[] dataOutput = r.toByteArray();
+	                          FileOutputStream outputStream = new FileOutputStream(fileFile);
+	                          outputStream.write(dataOutput);
+	                          outputStream.close();
+	                      } catch (Exception e) {
+	                          e.printStackTrace();
+	                          continue;
+	                      }
+	                  } else {
+	                      // In-memory table logic
+	                      tables.putIfAbsent(tableName, new ConcurrentSkipListMap<>());
+	                      Map<String, Row> table = tables.get(tableName);
+	                      Row r = table.computeIfAbsent(row, k->new Row(row));
+	                      r.put(column, value);
+	                  }
+	              }
+	        	  catch (Exception e) {
+	        		  e.printStackTrace();
+	        		  continue;
+	        	  }
+	          }
+	          return "OK";
+	      } catch (Exception e) {
+	    	  return "FAIL";
+	      }
+	      
+	    });
         
         put("/data/:t", (req,res) -> { 
         	String table = req.params("t");
@@ -397,8 +409,7 @@ public class Worker extends cis5550.generic.Worker {
         				Row r = entry.getValue();
         				if ((startRow == null || startRow.compareTo(rowKey) <= 0) && (endRowExclusive == null || endRowExclusive.compareTo(rowKey) > 0)) {
         					byte[] data = r.toByteArray();
-//        					String dataS = new String (data);
-//        					System.out.println(dataS);
+        					String dataS = new String (data);
         					res.write(data);
         					res.write("\n".getBytes());
         				}

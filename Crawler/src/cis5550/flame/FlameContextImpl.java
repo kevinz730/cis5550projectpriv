@@ -53,6 +53,8 @@ public class FlameContextImpl implements FlameContext, Serializable{
 		int i = 0;
 		for (String s : list) {
 			Coordinator.kvs.put(tableName, Hasher.hash(Integer.toString(i)), "value", s);
+			System.out.println(s);
+			System.out.println(tableName);
 			i++;
 		}
 		FlameRDDImpl rddImpl = new FlameRDDImpl(tableName);

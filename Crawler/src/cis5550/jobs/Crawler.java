@@ -250,22 +250,19 @@ public class Crawler {
 		String normalizedSeedUrl = urlSeedNormalize(seedUrl);
 		try {
 			FlameRDD urlQueue = ctx.parallelize(Arrays.asList(normalizedSeedUrl));
-			urlQueue.saveAsTable("currUrlQueue");
+//			urlQueue.saveAsTable("currUrlQueue");
 			
 			StringToIterable lambda = s -> {
 				List<String> normalizedUrlStrings = new ArrayList<String>();
 				try {
 //					KVSClient kvs = ctx.getKVS();
 //					CHANGE ON EC2
-					// KVSClient kvs = new KVSClient("54.236.62.130:8000");
-					System.out.println("adding new kvs");
+//					KVSClient kvs = new KVSClient("54.236.62.130:8000");
 					KVSClient kvs = new KVSClient("localhost:8000");
-					/// TODO: create vector for each lamdba
 
 					List<String> urlStrings = new ArrayList<String>();
 					
 //					Already visited
-//					NO NEED TO BATCH NECESSARY
 					if (kvs.existsRow("pt-crawl", Hasher.hash(s))) {
 						return normalizedUrlStrings;
 					}
@@ -282,7 +279,6 @@ public class Crawler {
 					
 					String hashedHostName = Hasher.hash(hostName);
 					
-//					LEAVE NOT BATCHED
 					if(kvs.get("hosts", hashedHostName, "robot") != null){
 //						Already has robots.txt entry
 //						HANDLE FILTERING
@@ -332,13 +328,12 @@ public class Crawler {
 					
 					
 //					Check last visited
-//					NOT BATCHED
 					if (kvs.get("hosts", hashedHostName, "value") != null) {
 						String delay = new String(kvs.get("hosts", hashedHostName, "delay"));
 						float delayFloat = Float.parseFloat(delay);
-//						System.out.println(new String(kvs.batchGet("hosts", hostName, "value"))+ " delay " + String.valueOf(delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
+//						System.out.println(new String(kvs.get("hosts", hostName, "value"))+ " delay " + String.valueOf(delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
 						if (delayFloat >= System.currentTimeMillis() - Long.parseLong(new String(kvs.get("hosts", hashedHostName, "value")))) {
-//							System.out.println(new String(Long.parseLong(new String(kvs.batchGet("hosts", hostName, "value")))+delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
+//							System.out.println(new String(Long.parseLong(new String(kvs.get("hosts", hostName, "value")))+delayFloat) + " current " +String.valueOf(System.currentTimeMillis()));
 							normalizedUrlStrings.add(s);
 							return normalizedUrlStrings;
 						}
@@ -361,7 +356,6 @@ public class Crawler {
 					if(connectHead.getContentLength() != -1) {
 						r.put("length", Integer.toString(connectHead.getContentLength()));
 					}
-//					DONT NEED TO BATCH
 					kvs.putRow("pt-crawl", r);
 					if(connectHead.getResponseCode() != 200 && connectHead.getResponseCode() != 301 
 							&& connectHead.getResponseCode() != 302 && connectHead.getResponseCode() != 303
@@ -399,8 +393,7 @@ public class Crawler {
 							
 							r.put("page", buffer);
 							r.put("responseCode", Integer.toString(connect.getResponseCode()));
-              System.out.println(r.get("url"));
-//              DONT NEED TO BATCH
+							System.out.println(r.get("url"));
 							kvs.putRow("pt-crawl", r);
 							urlStrings = urlExtract(buffer);
 							normalizedUrlStrings = urlNormalize(urlStrings, s);
@@ -426,11 +419,11 @@ public class Crawler {
 						urlQueue.destroy();
 						newUrlQueue.destroy();
 						urlQueue = subSampled;
-						urlQueue.saveAsTable("currUrlQueue");
+//						urlQueue.saveAsTable("currUrlQueue");
 					} else {
 						urlQueue.destroy();
 						urlQueue = newUrlQueue;
-						urlQueue.saveAsTable("currUrlQueue");
+//						urlQueue.saveAsTable("currUrlQueue");
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -439,6 +432,7 @@ public class Crawler {
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
