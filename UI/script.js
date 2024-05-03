@@ -88,7 +88,7 @@ function displayResults(searchTerm, pageIndex) {
         return;
     }
 
-    fetch(`http://127.0.0.1:8001/search?query=${encodeURIComponent(searchTerm)}&page=${pageIndex}`)
+    fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}&page=${pageIndex}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not OK');
