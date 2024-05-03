@@ -1,0 +1,114 @@
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    margin: 100px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+} */
+
+/* Main body and layout settings */
+
+/* Main body and layout settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FEFAE0; /* Light cream background */
+    color: #333; /* Darker text for readability */
+    padding: 20px;
+    margin: 0;
+}
+
+/* Search container styling */
+.search-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+h1 {
+    color: #3D405B; /* Deep blue for the heading */
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input field styling */
+input[type="text"] {
+    border: 2px solid #E07A5F; /* Terra cotta border for the input */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Includes padding in width */
+}
+
+/* Button styling */
+button, .pagination-btn {
+    background-color: #E07A5F; /* Terra cotta background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover, .pagination-btn:hover {
+    background-color: #bf675c; /* Darker shade for hover */
+}
+
+/* Results and pagination styling */
+#results, .pagination {
+    margin-top: 20px;
+}
+
+#results div {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#results h4 a {
+    color: #3D405B; /* Deep blue for links */
+}
+
+#results p {
+    margin: 5px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 640px) {
+    .search-container, input[type="text"], button, .pagination-btn {
+        width: 100%;
+    }
+}
