@@ -1,0 +1,1413 @@
+cqhgrmlohgyiuihgtirsocvczgbegcymcecioore page 86173 <!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+				<meta name='description' content="Ezra Pound, ca. 1913.
+&amp;nbsp;
+Since his return to Italy, Ezra Pound has spent most of his time in the Tirol, staying at Castle Brunnenburg with his wife, his daughter Mary, his son-in-law Prince Boris de Rachewiltz, and his grandchildren. However, the mountains in this resort country near Merano ar..."/>
+			<meta name='keywords' content='Paris Review, writers, quotes, biography, interviews, artists, critics, short stories, novelist, memoir'>
+		<meta name="Copyright" content="Copyright © 2024 The Paris Review">
+	    <meta property="og:site_name" content="The Paris Review" />
+	    <meta property="og:url" content="https://www.theparisreview.org/interviews/4598/the-art-of-poetry-no-5-ezra-pound" />
+	    <script type="application/ld+json">
+{
+	"@context": "https://schema.org/",
+	"@type": "Article",
+	"name": "The Art of Poetry No. 5",
+	"author": {
+		"@type": "Person",
+		"name": "Interviewed by Donald Hall"
+	},
+	"url": "https://www.theparisreview.org/interviews/4598/the-art-of-poetry-no-5-ezra-pound",
+	"dateModified": "2022-10-14T16:10:43-05:00",
+	"description": "Ezra Pound, ca. 1913.
+&nbsp;
+Since his return to Italy, Ezra Pound has spent most of his time in the Tirol, staying at Castle Brunnenburg with his wife, his daughter Mary, his son-in-law Prince Boris de Rachewiltz, and his grandchildren. However, the mountains in this resort country near Merano ar...",
+	"image": {
+			"@type": "ImageObject",
+						"url": "https://www.theparisreview.org/il/c9e981da63/medium/Ezra-Pound-young.jpg"
+					
+	}
+}
+</script>
+
+
+<link rel="canonical" href="https://www.theparisreview.org/interviews/4598/the-art-of-poetry-no-5-ezra-pound" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The Art of Poetry No. 5" />
+<meta property="og:description" content="Ezra Pound, ca. 1913.
+&amp;nbsp;
+Since his return to Italy, Ezra Pound has spent most of his time in the Tirol, staying at Castle Brunnenburg with his wife, his daughter Mary, his son-in-law Prince Boris de Rachewiltz, and his grandchildren. However, the mountains in this resort country near Merano ar..."/>
+<meta property="og:url" content="https://www.theparisreview.org/interviews/4598/the-art-of-poetry-no-5-ezra-pound" />
+<meta property="og:site_name" content="The Paris Review" />
+<meta property="article:publisher" content="https://www.facebook.com/parisreview/" />
+<meta property="article:section" content="Interviews" />
+<meta property="article:modified_time" content="2022-10-14T16:10:43-05:00" />
+
+<meta property="og:image" content="https://www.theparisreview.org/il/c9e981da63/medium/Ezra-Pound-young.jpg" />
+<meta name="twitter:image" content="https://www.theparisreview.org/il/c9e981da63/medium/Ezra-Pound-young.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:description" content="Ezra Pound, ca. 1913.
+&amp;nbsp;
+Since his return to Italy, Ezra Pound has spent most of his time in the Tirol, staying at Castle Brunnenburg with his wife, his daughter Mary, his son-in-law Prince Boris de Rachewiltz, and his grandchildren. However, the mountains in this resort country near Merano ar..."/>
+<meta name="twitter:title" content="The Art of Poetry No. 5" />
+<meta name="twitter:site" content="@parisreview" />
+<meta name="twitter:creator" content="@parisreview" />
+
+<style>
+	.legacy-caption{
+		text-indent:0;
+	}
+	dl {
+		overflow: hidden;
+	}
+
+	dl dt {
+		float: left;
+		width: 30%;
+		font-weight: bold;
+	}
+
+	dl dd {
+		float: left;
+		width: 70%;
+		margin-inline-start: 0;
+		margin-bottom: 10px;
+	}
+</style>
+	    <title>Paris Review - The Art of Poetry No. 5</title>
+	    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+		<link rel="manifest" href="/images/favicons/manifest.json">
+		<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		<!-- external CSS link -->
+		<link rel='stylesheet' href='/css/screen.css'>
+		<style>
+			:root {
+				--issue-color: #1570d8;
+				--issue-color-mid: #8bb8ec;
+			}
+		</style>
+		<!-- typekit -->
+		<script src="https://use.typekit.net/clx4psi.js"></script>
+		<script>var typekitUp; try{Typekit.load({ async: false, active: function() { typekitUp = true; }, inactive: function() { typekitUp = true; }	});}catch(e){}</script>
+		<script>
+		/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+
+!function(){function e(e,t){function n(){!o&&t&&(o=!0,t.call(e))}var o;e.addEventListener&&e.addEventListener("load",n),e.attachEvent&&e.attachEvent("onload",n),"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(e){"use strict";var t=function(t,n,o){function r(e){if(d.body)return e();setTimeout(function(){r(e)})}function a(){c.addEventListener&&c.removeEventListener("load",a),c.media=o||"all"}var i,d=e.document,c=d.createElement("link");if(n)i=n;else{var s=(d.body||d.getElementsByTagName("head")[0]).childNodes;i=s[s.length-1]}var u=d.styleSheets;c.rel="stylesheet",c.href=t,c.media="only x",r(function(){i.parentNode.insertBefore(c,n?i:i.nextSibling)});var l=function(e){for(var t=c.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){l(e)})};return c.addEventListener&&c.addEventListener("load",a),c.onloadcssdefined=l,l(a),c};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(t){var n=function(o,r){"use strict";if(o&&3===o.length){var a=t.navigator,i=t.document,d=t.Image,c=!(!i.createElementNS||!i.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!i.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),s=new d;s.onerror=function(){n.method="png",n.href=o[2],loadCSS(o[2])},s.onload=function(){var t=1===s.width&&1===s.height,a=o[t&&c?0:t?1:2];n.method=t&&c?"svg":t?"datapng":"png",n.href=a,e(loadCSS(a),r)},s.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",i.documentElement.className+=" grunticon"}};n.loadCSS=loadCSS,n.onloadCSS=e,t.grunticon=n}(this),function(e,t){"use strict";var n,o=t.document,r=function(e){if(o.attachEvent?"complete"===o.readyState:"loading"!==o.readyState)e();else{var t=!1;o.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},i=function(e,t){if(n&&!t)return n;n={};var o,r,a,i,d,c;if(!(o=e.sheet))return n;r=o.cssRules?o.cssRules:o.rules;for(var s=0;s<r.length;s++)a=r[s].cssText,i="grunticon:"+r[s].selectorText,(d=a.split(");")[0].match(/US\-ASCII\,([^"']+)/))&&d[1]&&(c=decodeURIComponent(d[1]),n[i]=c);return n},d=function(e,t){var n,r,a,i,d;t?n=e:(t=e,n=o),i="data-grunticon-embed";for(var c in t){d=c.slice("grunticon:".length);try{r=n.querySelectorAll(d)}catch(e){continue}a=[];for(var s=0;s<r.length;s++)null!==r[s].getAttribute(i)&&a.push(r[s]);if(a.length)for(s=0;s<a.length;s++)a[s].innerHTML=t[c],a[s].style.backgroundImage="none",a[s].removeAttribute(i)}return a},c=function(t,n){"svg"===e.method&&r(function(){var o=i(a(e.href));"function"==typeof n?(d(t,o),n()):d(o),"function"==typeof t&&t()})};e.embedIcons=d,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=c,e.embedSVG=c}(grunticon,this),function(e,t){"use strict";var n=t.document,o=function(e,n){var o=new t.XMLHttpRequest;return"withCredentials"in o?o.open("GET",e,!0):void 0!==t.XDomainRequest&&(o=new t.XDomainRequest,o.open("GET",e)),n&&(o.onload=n),o.send(),o},r=function(t){"svg"===e.method&&e.ready(function(){o(e.href,function(){var o=n.createElement("style");o.innerHTML=this.responseText;var r=e.getCSS(e.href);r&&(r.parentNode.insertBefore(o,r),r.parentNode.removeChild(r),e.embedIcons(e.getIcons(o)),"function"==typeof t&&t())})})};e.ajaxGet=o,e.svgLoadedCORSCallback=r,e.embedSVGCors=r}(grunticon,this)}();
+			grunticon(["/dist/assets/svg-output/icons.data.svg.css", "/dist/assets/svg-output/icons.data.png.css", "/dist/assets/svg-output/icons.fallback.css"], grunticon.svgLoadedCORSCallback);
+		</script>
+		<noscript><link href="/images/svg-output/icons.fallback.css" rel="stylesheet"></noscript>
+				<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script>
+					window.googletag = window.googletag || {cmd: []};
+          googletag.cmd.push(function() {
+            googletag.defineSlot('/8816405/NewSite_970x250_Billboard_10-16', [970, 250], 'div-gpt-ad-1476124455259-0').addService(googletag.pubads());
+            googletag.defineSlot('/8816405/NewSite_300x600_Halfpage1_10-16', [300, 600], 'div-gpt-ad-1476124959360-0').addService(googletag.pubads());
+            googletag.defineSlot('/8816405/NewSite_300x600_Halfpage2_10-16', [300, 600], 'div-gpt-ad-1476125086951-0').addService(googletag.pubads());
+            googletag.defineSlot('/8816405/NewSite_300x250_MedRectangle_10-16', [300, 250], 'div-gpt-ad-1477946895683-0').addService(googletag.pubads());
+
+            googletag.defineSlot('/8816405/NewSite_728x90_LeaderBoard_10-16', [728, 90], 'div-gpt-ad-1478028714635-0').addService(googletag.pubads());
+            googletag.defineSlot('/8816405/NewSite_320x50_MobLeaderBoard_10-16', [320, 50], 'div-gpt-ad-1581370788513-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+          });
+        </script>
+        <!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WB84BDW');</script>
+		<!-- End Google Tag Manager -->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-PJWFZMQR');</script>
+			<!-- End Google Tag Manager -->
+          <script src="https://cdn.boomtrain.com/analyticstrain/aba800405495d72280d24634e9447e59/analyticstrain.min.js"></script>
+        <link rel='stylesheet' href='/css/print.css' media="print">
+
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3316553375340679" crossorigin="anonymous"></script>
+				
+				<style type="text/css">
+					.courier {
+						font-family:courier, courier new, serif;
+						line-height: 1.3 !important;
+					}
+					.no-indent {
+						text-indent: 0 !important;
+					} 
+
+				</style>
+				
+        	</head>
+
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJWFZMQR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+				<!-- start header-ad -->
+		<div class='header-ad' data-addsearch="exclude">
+			<h1>Advertisement</h1>
+			<div class='header-ad-dfp-wrap header_ad_large' id='div-gpt-ad-1476124455259-0'>
+                <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1476124455259-0'); });</script>
+			</div>
+
+			<div class='header-ad-dfp-wrap header_ad_medium' id='div-gpt-ad-1478028714635-0'>
+                <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1478028714635-0'); });</script>
+			</div>
+
+			<div class='header-ad-dfp-wrap header_ad_small' id='div-gpt-ad-1581370788513-0'>
+                <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1581370788513-0'); });</script>
+			</div>
+		</div>
+		<!-- end header-ad -->
+    
+		<!-- start header -->
+    <header id='int-header' role='banner'>
+
+			<nav id='int-nav_mobile' aria-label='site'>
+				<ul>
+
+					<li id='int-nav-masthead_mobile'>
+						<a href='/' aria-label='home'>
+							<span class='icon-int-hadada' aria-hidden='true'></span>
+							<span class='icon-int-masthead' aria-hidden='true'></span>
+							<span class='hide-visually'><cite>The Paris Review</cite></span>
+            </a>
+					</li>
+
+					<li class='int-nav-subscribe_mobile'>
+						<a href='https://ssl.drgnetwork.com/flex/TPR/247/' target='_blank'>Subscribe</a>
+					</li>
+
+					<li>
+						<button id='int-nav-toggle_mobile' aria-controls='int-nav-menu_mobile' aria-expanded='false' aria-label='menu' data-reveal='toggle'>
+							<i aria-hidden='true' title='Menu'></i>
+						</button>
+						<ul id='int-nav-menu_mobile' data-reveal='menu'>
+
+							<li id='int-nav-search_mobile'>
+								<form role='form' id='int-nav-search-form_mobile' class='search-form' name='nav-search_mobile' aria-label='global search' action="/search">
+									<input id='int-nav-search-input_mobile' class='search-input' type='search' placeholder='Search …' name="q" id="q">
+									<button id='int-nav-search-submit_mobile' class='search-submit' type='submit' aria-label='Submit search'>
+										<i aria-hidden='true' title='Submit search'></i>
+									</button>
+								</form>
+							</li>
+
+							<li id='int-nav-buttons_mobile'>
+								<ul>
+									<li class='int-nav-signin_mobile modal'>
+										<input class='modal-state' id='modal_login_mobile' type='checkbox'>
+										<div class='modal-fade-screen'>
+											<div class='modal-inner'>
+												<div class='modal-close' for='modal_login_mobile'></div>
+												<h1>Sign In</h1>
+												<p id="signin_error-mobile" style='color:red;font-size: 1.1em;'></p>
+												<div class='login-form'>
+													<form method="post" accept-charset="utf-8" id="signin-form-mobile">
+														<input placeholder='Email address' type='email' name='login-email' id='login-email-mobile' required>
+														<input placeholder='Password' type='password' name='login-pass' id='login-pass-mobile' required>
+														<div class='checkbox-wrap'>
+														<input type='checkbox' name='login-remember' id='login-remembe-mobile' value='remember' checked>
+														<label for='login-remember' class='checkbox-text'>Remember me</label>
+														</div>
+														<a class='p' href='/authentication/forgot-password'>Forgot password?</a>
+														<input type='submit' value='Sign In' id="signin-form-button-mobile">
+														<p><input type='submit' value='Link your subscription' id="link-sub-button-mobile"></p>
+													</form>
+												</div>
+											</div>
+										</div>
+										<label id='int-nav-signin-toggle_mobile' for='modal_login_mobile' class='sign-in-name'>Sign In</label>
+									</li>
+									<li class='int-nav-subscribe_mobile' target='_blank'>
+										<a href='https://ssl.drgnetwork.com/flex/TPR/247/'>Subscribe</a>
+									</li>
+								</ul>
+							</li>
+
+							<li id='int-nav-1st_mobile'>
+								<ul>
+									<li class='int-nav-1st-link_mobile menu'>
+										<a href='#'>The Daily</a>
+										<ul>
+											<li class='int-nav-1st-sublink_mobile'><a href='/blog/'>The Latest</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/columns'>Columns</a></li>
+										</ul>
+									</li>
+									<li class='int-nav-1st-link_mobile menu'>
+										<a href='/back-issues'>The Quarterly</a>
+										<ul>
+											<li class='int-nav-1st-sublink_mobile'><a href='/back-issues'>Issues</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/interviews'>Interviews</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/fiction'>Fiction</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/poetry'>Poetry</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/letters-essays'>Letters & Essays</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/art-photography'>Art & Photo<span class='shy'>graphy</span></a></li>
+										</ul>
+									</li>
+									<li class='int-nav-1st-link_mobile'><a href='/authors'>Authors</a></li>
+									<li class='int-nav-1st-link_mobile'><a href='/podcast'>Podcast</a></li>
+									<li class='int-nav-1st-link_mobile menu'>
+										<a href='/about/'>About</a>
+										<ul>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/'>History</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/opportunities'>Opportunities</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/masthead'>Masthead</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/prizes'>Prizes</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/submissions'>Submissions</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/media-kit'>Media Kit</a></li>
+											<li class='int-nav-1st-sublink_mobile'><a href='/about/bookstores'>Bookstores</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+
+							<li id='int-nav-2nd_mobile'>
+								<ul>
+									<li class='int-nav-2nd-link_mobile'><a href='/events'>Events</a></li>
+									<li class='int-nav-2nd-link_mobile menu'>
+										<a href='#'>Donate</a>
+										<ul>
+											<li class='int-nav-2nd-sublink_mobile'><a href='/donate-to-the-paris-review'>Donate to <cite>The Paris Review</cite></a></li>
+											<!-- <li class='int-nav-2nd-sublink_mobile'><a href='/support-the-paris-review-membership'>Membership</a></li> -->
+											<li class='int-nav-2nd-sublink_mobile'><a href='/institutional-support'>Institutional Support</a></li>
+											<li class='int-nav-2nd-sublink_mobile'><a href='/spring-revel'>THE SPRING REVEL</a></li>
+										</ul>
+									</li>
+									<li class='int-nav-2nd-link_mobile'><a href='https://mailchi.mp/theparisreview.org/newslettersignup'>Newsletters</a></li>
+									<li class='int-nav-2nd-link_mobile'><a href='https://store.theparisreview.org/'>Store</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<nav id='int-nav_desk' aria-label='site'>
+				<ul>
+
+					<li id='int-nav-masthead_desk'>
+						<a href='/' aria-label='home'>
+							<span class='icon-int-masthead-hadada' aria-hidden='true'></span>
+							<span class='hide-visually'><cite>The Paris Review</cite></span>
+            			</a>
+					</li>
+
+					<li id='int-nav-1st_desk'>
+						<ul>
+							<li class='int-nav-1st-link_desk'>
+								<button id='int-nav-1st-toggle_daily' class='int-nav-1st-toggle' aria-controls='int-nav-1st-menu_daily' aria-expanded='false' data-reveal='toggle'>
+									The Daily
+									<i aria-hidden='true'></i>
+								</button>
+								<ul id='int-nav-1st-menu_daily' class='int-nav-1st-menu' data-reveal='menu'>
+									<li class='int-nav-1st-sublink_desk'><a href='/blog/'>The Latest</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/columns'>Columns</a></li>
+								</ul>
+							</li>
+							<li class='int-nav-1st-link_desk'>
+								<button id='int-nav-1st-toggle_quarterly' class='int-nav-1st-toggle' aria-controls='int-nav-1st-menu_quarterly' aria-expanded='false' data-reveal='toggle'>
+									The Quarterly
+									<i aria-hidden='true'></i>
+								</button>
+								<ul id='int-nav-1st-menu_quarterly' class='int-nav-1st-menu' data-reveal='menu'>
+									<li class='int-nav-1st-sublink_desk'><a href='/back-issues'>Issues</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/interviews'>Interviews</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/fiction'>Fiction</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/poetry'>Poetry</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/letters-essays'>Letters & Essays</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/art-photography'>Art & Photography</a></li>
+								</ul>
+							</li>
+							<li class='int-nav-1st-link_desk'><a href='/authors'>Authors</a></li>
+							<li class='int-nav-1st-link_desk'><a href='/podcast'>Podcast</a></li>
+							<li class='int-nav-1st-link_desk'>
+								<button id='int-nav-1st-toggle_about' class='int-nav-1st-toggle' aria-controls='int-nav-1st-menu_about' aria-expanded='false' data-reveal='toggle'>
+									About
+									<i aria-hidden='true'></i>
+								</button>
+								<ul id='int-nav-1st-menu_about' class='int-nav-1st-menu' data-reveal='menu'>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/'>History</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/opportunities'>Opportunities</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/masthead'>Masthead</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/prizes'>Prizes</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/submissions'>Submissions</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/media-kit'>Media Kit</a></li>
+									<li class='int-nav-1st-sublink_desk'><a href='/about/bookstores'>Bookstores</a></li>
+								</ul>
+							</li>
+							
+						</ul>
+					</li>
+
+					<li id='int-nav-2nd_desk'>
+						<ul>
+							<li class='int-nav-2nd-link_desk'><a href='/events'>Events</a></li>
+							<li class='int-nav-2nd-link_desk'>
+								<button id='int-nav-2nd-toggle_donate' class='int-nav-2nd-toggle' aria-controls='int-nav-2nd-menu_donate' aria-expanded='false' data-reveal='toggle'>
+									Donate
+									<i aria-hidden='true'></i>
+								</button>
+								<ul id='int-nav-2nd-menu_donate' class='int-nav-2nd-menu' data-reveal='menu'>
+									<li class='int-nav-2nd-sublink_desk'><a href='/donate-to-the-paris-review'>Donate to <cite>The Paris Review</cite></a></li>
+									<!-- <li class='int-nav-2nd-sublink_desk'><a href='/support-the-paris-review-membership'>Membership</a></li> -->
+									<li class='int-nav-2nd-sublink_desk'><a href='/institutional-support'>Institutional Support</a></li>
+									<li class='int-nav-2nd-sublink_desk'><a href='/spring-revel'>THE SPRING REVEL</a></li>
+								</ul>
+							</li>
+							<li class='int-nav-2nd-link_desk'><a href='https://mailchi.mp/theparisreview.org/newslettersignup'>Newsletters</a></li>
+							<li class='int-nav-2nd-link_desk'><a href='https://store.theparisreview.org/'>Store</a></li>
+							<li class='int-nav-2nd-link_desk modal'>
+								<div class='modal' data-addsearch="exclude">
+									<input class='modal-state' id='modal_login' type='checkbox' />
+									<div class='modal-fade-screen'>
+									  <div class='modal-inner'>
+										<div class='modal-close' for='modal_login'></div>
+										<h1>Sign In</h1>
+									<p id="signin_error" style='color:red;font-size: 1.1em;'></p>
+											  <div class='login-form'>
+									<form method="post" accept-charset="utf-8" id="signin-form">
+									  <input placeholder='Email address' type='email' name='login-email' id='login-email' required>
+									  <input placeholder='Password' type='password' name='login-pass' id='login-pass' required>
+									  <div class='checkbox-wrap'>
+										<input type='checkbox' name='login-remember' id='login-remember' value='remember' checked>
+										<label for='login-remember' class='checkbox-text'>Remember me</label>
+									  </div>
+									  <a class='p' href='/authentication/forgot-password'>Forgot password?</a>
+									  <input type='submit' value='Sign In' id="signin-form-button">
+									  <p><input type='submit' value='Link your subscription' id="link-sub-button"></p>
+												</form>
+											  </div>
+									  </div>
+									</div>
+								  <label for='modal_login' class='sign-in-name'>Sign In</label></li>
+						</ul>
+					</li>
+
+					<li id='int-nav-buttons_desk'>
+						<ul>
+							<li id='int-nav-search_desk'>
+								<button id='int-nav-search-toggle_desk' class='search-toggle' aria-controls='int-nav-search-form_desk' aria-expanded='false' aria-label='open search' data-reveal='toggle'>
+									<i aria-hidden='true' title='Open search'></i>
+								</button>
+								<form role='form' id='int-nav-search-form_desk' class='search-form' name='nav-search_desk' aria-label='global search' data-reveal='search' action="/search">
+									<input id='int-nav-search-input_desk' class='search-input' type='search' placeholder='Search …'  name="q" id="q">
+									<button id='int-nav-search-submit_desk' class='search-submit' type='submit' aria-label='submit search'>
+										<i aria-hidden='true' title='Submit search'></i>
+									</button>
+								</form>
+							</li>
+							<li id='int-nav-subscribe_desk'>
+								<a href='https://ssl.drgnetwork.com/flex/TPR/247/' target="_blank">Subscribe</a>
+							</li>
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+
+			
+			</div>
+
+		</header>
+		<!-- end header -->
+
+    
+
+
+		<!-- start content -->
+		<div id='main' class='wrap'>
+            <article>
+	<!-- start article title -->
+	<header class='titles'>
+		<h1><a href='/authors/3793/ezra-pound'>Ezra Pound</a>, The Art of Poetry No. 5</h1>
+	</header>
+	<!-- end article title -->
+
+	<div class='article-body-wrap magazine paywall-base'>
+		<!-- start article subtitles -->
+		<div class='article-subtitles'>
+			<section class='article-top-rail'>
+				<address>Interviewed by <a href='/authors/3642/donald-hall'>Donald Hall</a></address>
+				<h3 class='h6'><a href="/back-issues/28">Issue 28, Summer-Fall 1962</a></h3>
+		</section>
+		</div>
+		<!-- end article subtitles -->
+
+		<!-- start article body -->
+		<main class='article-body'>
+							<p><img src="/il/c9e981da63/large/Ezra-Pound-young.jpg" border="0" alt="undefined" title="undefined" /><span class="legacy-caption">Ezra Pound, ca. 1913.</span></p>
+<p>&nbsp;</p>
+<p>Since his return to Italy, Ezra Pound has spent most of his time in the Tirol, staying at Castle Brunnenburg with his wife, his daughter Mary, his son-in-law Prince Boris de Rachewiltz, and his grandchildren. However, the mountains in this resort country near Merano are cold in the winter, and Mr. Pound likes the sun. The interviewer was about to leave England for Merano, at the end of February, when a telegram stopped him at the door: &ldquo;Merano icebound. Come to Rome.&rdquo;</p>
+<p>Pound was alone in Rome, occupying a room in the apartment of an old friend named Ugo Dadone. It was the beginning of March and exceptionally warm. The windows and shutters of Pound&rsquo;s corner room swung open to the noises of the Via Angelo Poliziano. The interviewer sat in a large chair while Pound shifted restlessly from another chair to a sofa and back to the chair. Pound&rsquo;s impression on the room consisted of two suitcases and three books: the Faber&nbsp;<em>Cantos</em>, a Confucius, and Robinson&rsquo;s edition of Chaucer, which he was reading again.</p>
+<p>In the social hours of the evening&mdash;dinner at Crispi&rsquo;s, a tour among the scenes of his past, ice cream at a caf&eacute;&mdash;Pound walked with the swaggering vigor of a young man. With his great hat, his sturdy stick, his tossed yellow scarf, and his coat, which he trailed like a cape, he was the lion of the Latin Quarter again. Then his talent for mimicry came forward, and laughter shook his gray beard.</p>
+<p>During the daytime hours of the interview, which took three days, he spoke carefully and the questions sometimes tired him out. In the morning when the interviewer returned, Mr. Pound was eager to revise the failures of the day before.</p>
+<p>&nbsp;</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>You are nearly through the&nbsp;<em>Cantos</em>&nbsp;now, and this sets me to wondering about their beginning. In 1916 you wrote a letter in which you talked about trying to write a version of Andreas Divus in Seafarer rhythms. This sounds like a reference to&nbsp;<em>Canto 1</em>. Did you begin the&nbsp;<em>Cantos</em>&nbsp;in 1916?</p>
+<p class="interview-slug">EZRA POUND</p>
+<p>I began the&nbsp;<em>Cantos</em>&nbsp;about 1904, I suppose. I had various schemes, starting in 1904 or 1905. The problem was to get a form&mdash;something elastic enough to take the necessary material. It had to be a form that wouldn&rsquo;t exclude something merely because it didn&rsquo;t fit. In the first sketches, a draft of the present first&nbsp;<em>Canto</em>&nbsp;was the third.</p>
+<p>Obviously you haven&rsquo;t got a nice little road map such as the Middle Ages possessed of Heaven. Only a musical form would take the material, and the Confucian universe as I see it is a universe of interacting strains and tensions.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Had your interest in Confucius begun in 1904?</p>
+<p class="interview-slug">POUND</p>
+<p>No, the first thing was this: you had six centuries that hadn&rsquo;t been packaged. It was a question of dealing with material that wasn&rsquo;t in the&nbsp;<em>Divina Commedia</em>. Hugo did a&nbsp;<em>L&eacute;gende des Si&egrave;cles</em>&nbsp;that wasn&rsquo;t an evaluative affair but just bits of history strung together. The problem was to build up a circle of reference&mdash;taking the modern mind to be the medieval mind with wash after wash of classical culture poured over it since the Renaissance. That was the psyche, if you like. One had to deal with one&rsquo;s own subject.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>It must be thirty or thirty-five years since you have written any poetry outside the&nbsp;<em>Cantos</em>, except for the Alfred Venison poems. Why is this?</p>
+<p class="interview-slug">POUND</p>
+<p>I got to the point where, apart from an occasional lighter impulse, what I had to say fitted the general scheme. There has been a good deal of work thrown away because one is attracted to a historic character and then finds that he doesn&rsquo;t function within my form, doesn&rsquo;t embody a value needed. I have tried to make the&nbsp;<em>Cantos</em>&nbsp;historic (vid. G. Giovannini, re relation history to tragedy. Two articles ten years apart in some philological periodical, not source material but relevant) but not fiction. The material one wants to fit in doesn&rsquo;t always work. If the stone isn&rsquo;t hard enough to maintain the form, it has to go out.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>When you write a&nbsp;<em>Canto</em>&nbsp;now, how do you plan it? Do you follow a special course of reading for each one?</p>
+<p class="interview-slug">POUND</p>
+<p>One isn&rsquo;t necessarily reading. One is working on the life vouchsafed, I should think. I don&rsquo;t know about method. The what is so much more important than how.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Yet when you were a young man, your interest in poetry concentrated on form. Your professionalism, and your devotion to technique, became proverbial. In the last thirty years, you have traded your interest in form for an interest in content. Was the change on principle?</p>
+<p class="interview-slug">POUND</p>
+<p>I think I&rsquo;ve covered that. Technique is the test of sincerity. If a thing isn&rsquo;t worth getting the technique to say, it is of inferior value. All that must be regarded as exercise. Richter in his&nbsp;<em>Treatise on Harmony</em>, you see, says, &ldquo;These are the principles of harmony and counterpoint; they have nothing whatever to do with composition, which is quite a separate activity.&rdquo; The statement, which somebody made, that you couldn&rsquo;t write Proven&ccedil;al canzoni forms in English, is false. The question of whether it was advisable or not was another matter. When there wasn&rsquo;t the criterion of natural language without inversion, those forms were natural, and they realized them with music. In English the music is of a limited nature. You&rsquo;ve got Chaucer&rsquo;s French perfection, you&rsquo;ve got Shakespeare&rsquo;s Italian perfection, you&rsquo;ve got Campion and Lawes. I don&rsquo;t think I got around to this kind of form until I got to the choruses in the&nbsp;<em>Trachiniae</em>. I don&rsquo;t know that I got to anything at all, really, but I thought it was an extension of the gamut. It may be a delusion. One was always interested in the implication of change of pitch in the union of&nbsp;<em>motz et son</em>, of the word and melody.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Does writing the&nbsp;<em>Cantos</em>, now, exhaust all of your technical interest, or does the writing of translations, like the&nbsp;<em>Trachiniae</em>&nbsp;you just mentioned, satisfy you by giving you more fingerwork?</p>
+<p class="interview-slug">POUND</p>
+<p>One sees a job to be done and goes at it. The&nbsp;<em>Trachiniae</em>&nbsp;came from reading the Fenollosa Noh plays for the new edition, and from wanting to see what would happen to a Greek play, given that same medium and the hope of its being performed by the Minorou company. The sight of Cathay in Greek, looking like poetry, stimulated crosscurrents.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Do you think that free verse is particularly an American form? I imagine that William Carlos Williams probably does, and thinks of the iambic as English.</p>
+<p class="interview-slug">POUND</p>
+<p>I like Eliot&rsquo;s sentence: &ldquo;No verse is&nbsp;<em>libre</em>&nbsp;for the man who wants to do a good job.&rdquo; I think the best free verse comes from an attempt to get back to quantitative meter.</p>
+<p>I suppose it may be<em>&nbsp;un-English</em>&nbsp;without being specifically&nbsp;<em>American</em>. I remember Cocteau playing drums in a jazz band as if it were a very difficult mathematical problem.</p>
+<p>I&rsquo;ll tell you a thing that I think is an American form, and that is the Jamesian parenthesis. You realize that the person you are talking to hasn&rsquo;t got the different steps, and you go back over them. In fact the Jamesian parenthesis has immensely increased now. That I think is something that is definitely American. The struggle that one has when one meets another man who has had a lot of experience to find the point where the two experiences touch, so that he really knows what you are talking about.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Your work includes a great range of experience, as well as of form. What do you think is the greatest quality a poet can have? Is it formal, or is it a quality of thinking?</p>
+<p class="interview-slug">POUND</p>
+<p>I don&rsquo;t know that you can put the needed qualities in hierarchic order, but he must have a continuous curiosity, which of course does not make him a writer, but if he hasn&rsquo;t got that he will wither. And the question of doing anything about it depends on a persistent energy. A man like Agassiz is never bored, never tired. The transit from the reception of stimuli to the recording, to the correlation, that is what takes the whole energy of a lifetime.</p>
+<p>&nbsp;</p>
+					</main>
+
+				<!-- start paywall -->
+		<div class='paywall'>
+			<div class='paywall-fade'></div>
+			<h1 class='h2'>Want to keep reading?<br>Subscribe and save 33%.</h1>
+            <a href='https://ssl.drgnetwork.com/flex/TPR/247/'>
+                <h6 class='button'>Subscribe Now</h6>
+                <h4 class='h2' id="sign_in_title">Already a subscriber? Sign in below.</h4>
+            </a>
+            <p id="paywall_error" style='color:red;font-size: 1.1em;'></p>
+			<div class='paywall-form'>
+                <form method="post" accept-charset="utf-8" id="paywall-signin-form">
+				<input placeholder='Email address' type='email' name='login-email' id='paywall-email' required>
+				<input placeholder='Password' type='password' name='login-pass' id='paywall-pass' required>
+				<input type='submit' value='Sign In'>
+				<div class='checkbox-wrap'>
+					<input type='checkbox' name='login-remember' id='login-remember' value='remember' checked>
+					<label for='login-remember' class='checkbox-text'>Remember me</label>
+				</div>
+				<p class='paywall-form-link'><a class='p' href='/authentication/link-subscription'>Link your subscription</a></p>
+				<p class='paywall-form-forgot'><a class='p' href='/authentication/forgot-password'>Forgot password?</a></p>
+                </form>
+			</div>
+
+			<a href='https://ssl.drgnetwork.com/flex/TPR/247/'>
+        		<figure>
+        			<img src='https://www.theparisreview.org/dist/theme/issue_247/current-issue-stack.png'
+        				srcset='https://www.theparisreview.org/dist/theme/issue_247/current-issue-stack.png 800w,
+        								https://www.theparisreview.org/dist/theme/issue_247/current-issue-stack.png 400w'
+        				sizes= '(min-width: 62.5em) 33vw,
+        								(min-width: 48em) 50vw,
+        								100vw'
+        				alt='Paris Review Stack 247' />
+        		</figure>
+			</a>
+		</div>
+		<!-- end paywall -->
+				<!-- end article body -->
+
+		<!-- start article tools desktop -->
+		<div class='article-tools_desktop'>
+			<ul class='article-tools-social'>
+				<li class='social-icon'><a class='icon-print addthis_button_print' href='' data-grunticon-embed></a></li>
+				<li class='social-icon'><a class='icon-email addthis_button_email' href='' data-grunticon-embed></a></li>
+				<li class='social-icon'><a class='icon-facebook addthis_button_facebook' href='#' data-grunticon-embed></a></li>
+				<li class='social-icon'><a class='icon-twitter addthis_button_twitter' href='#' data-grunticon-embed></a></li>
+			</ul>
+			<nav class='article-nav'>
+				<p class='h6'>Last / Next <br />Article</p>
+				<ul>
+                    					<li class='nav-icon'><a class='icon-caret-small left' href='/fiction/4604/funes-the-memorious-jorge-luis-borges' data-grunticon-embed></a></li>
+                                        					<li class='nav-icon'><a class='icon-caret-small right' href='/interviews/4597/the-art-of-fiction-no-28-henry-miller' data-grunticon-embed></a></li>
+                    				</ul>
+			</nav>
+            			<div class='manuscript'>
+				<p class='h6'>View <br />Manuscript</p>
+				<a class='icon-manuscript swipebox' href='/uploads/2f481a005d/pound-e.gif' data-grunticon-embed></a>
+			</div>
+            		</div>
+		<!-- end article tools desktop -->
+
+		<!-- start article tools mobile -->
+		<div class='article-tools_mobile'>
+			<nav class='article-nav'>
+				<ul>
+                    					<li><a class='icon-caret-small left' href='/fiction/4604/funes-the-memorious-jorge-luis-borges' data-grunticon-embed></a></li>
+                                        					<li><a class='icon-caret-small right' href='/interviews/4597/the-art-of-fiction-no-28-henry-miller' data-grunticon-embed></a></li>
+                    				</ul>
+				<p class='h6'>Last / Next Article</p>
+				<p class='article-tools-social h6'>Share</p>
+			</nav>
+		</div>
+		<!-- end article tools mobile -->
+
+		<!-- start article bottom matter -->
+		<footer class='article-footer'>
+					</footer>
+		<!-- end article bottom matter -->
+	</div>
+
+	<!-- start right rail -->
+	<aside class='rail_right'>
+		<!-- start rail-issue -->
+		<div class='rail-issue rail_right-module'>
+			<header>
+				<h1 class='h6'>More from Issue 28, Summer-Fall 1962</h1>
+				<a href='http://store.theparisreview.org/cart/54327232:1'>
+					<figure>
+                        <img src="/il/3da154e160/medium/Issue028_3D.png" />
+											</figure>
+				</a>
+				<h4 class='action'><a href='http://store.theparisreview.org/cart/54327232:1'>Buy this issue!</a></h4>
+			</header>
+			<main class='rail-issue-contents'>
+				<ul class='rail-issue-category-wrap'>
+                    					<li class='rail-issue-category'>
+                        <h2 class='h6'>Fiction<span class='icon-caret-small' data-grunticon-embed></span></h2>
+                        <ul class='rail-issue-article-wrap'>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/fiction/4602/everything-ingeborg-bachmann'>
+                                <address class='p'>Ingeborg Bachmann</address>
+                                <h1 class='p'>Everything</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/fiction/4603/from-how-it-is-samuel-beckett'>
+                                <address class='p'>Samuel Beckett</address>
+                                <h1 class='p'><i>from</i> How It Is</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/fiction/4604/funes-the-memorious-jorge-luis-borges'>
+                                <address class='p'>Jorge Luis Borges</address>
+                                <h1 class='p'>Funes the Memorious</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/fiction/4605/the-lusts-and-gratifications-of-andrada-albert-j-guerard'>
+                                <address class='p'>Albert J. Guerard</address>
+                                <h1 class='p'>The Lusts and Gratifications of Andrada</h1>
+      							</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    					<li class='rail-issue-category active'>
+                        <h2 class='h6'>Interview<span class='icon-caret-small' data-grunticon-embed></span></h2>
+                        <ul class='rail-issue-article-wrap'>
+                                                        <li class='rail-issue-article active'>
+                  				<a href='/interviews/4598/the-art-of-poetry-no-5-ezra-pound'>
+                                <address class='p'>Ezra Pound</address>
+                                <h1 class='p'>The Art of Poetry No. 5</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/interviews/4597/the-art-of-fiction-no-28-henry-miller'>
+                                <address class='p'>Henry Miller</address>
+                                <h1 class='p'>The Art of Fiction No. 28</h1>
+      							</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    					<li class='rail-issue-category'>
+                        <h2 class='h6'>Poetry<span class='icon-caret-small' data-grunticon-embed></span></h2>
+                        <ul class='rail-issue-article-wrap'>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/7345/bestiary-patrick-bowles'>
+                                <address class='p'>Patrick Bowles</address>
+                                <h1 class='p'>Bestiary</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4606/a-flower-found-in-a-book-patrick-bowles'>
+                                <address class='p'>Patrick Bowles</address>
+                                <h1 class='p'>A Flower Found in a Book</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/7346/oath-steve-bronson'>
+                                <address class='p'>Steve Bronson</address>
+                                <h1 class='p'>Oath</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4607/at-the-corner-light-steve-bronson'>
+                                <address class='p'>Steve Bronson</address>
+                                <h1 class='p'>At The Corner Light</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4608/the-sailor-the-old-woman-and-the-girl-george-mackay-brown'>
+                                <address class='p'>George Mackay Brown</address>
+                                <h1 class='p'>The Sailor, The Old Woman, and The Girl</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4615/meditations-on-a-womans-voice-robert-patrick-dana'>
+                                <address class='p'>Robert Patrick Dana</address>
+                                <h1 class='p'>Meditations On A Woman’s Voice</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4609/to-professor-so-and-so-donald-finkel'>
+                                <address class='p'>Donald Finkel</address>
+                                <h1 class='p'>To Professor So-And-So</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4610/from-a-new-english-version-of-homers-iliad-book-sixteen-christopher-logue'>
+                                <address class='p'>Christopher Logue</address>
+                                <h1 class='p'>from a new English version of Homer’s <i>Iliad</i>, Book Sixteen</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4611/to-bertholt-brecht-william-meredith'>
+                                <address class='p'>William Meredith</address>
+                                <h1 class='p'>To Bertholt Brecht</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/5560/paris-again-donald-petersen'>
+                                <address class='p'>Donald Petersen</address>
+                                <h1 class='p'>Paris Again</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4612/-from-canto-115-ezra-pound'>
+                                <address class='p'>Ezra Pound</address>
+                                <h1 class='p'> <em>from</em> Canto 115</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/7347/canto-116-ezra-pound'>
+                                <address class='p'>Ezra Pound</address>
+                                <h1 class='p'>Canto 116</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4613/two-farm-scenes-david-ray'>
+                                <address class='p'>David Ray</address>
+                                <h1 class='p'>Two Farm Scenes</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/poetry/4614/the-wanderer-awaiting-preferment-william-stafford'>
+                                <address class='p'>William Stafford</address>
+                                <h1 class='p'>The Wanderer Awaiting Preferment</h1>
+      							</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    					<li class='rail-issue-category'>
+                        <h2 class='h6'>Feature<span class='icon-caret-small' data-grunticon-embed></span></h2>
+                        <ul class='rail-issue-article-wrap'>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/fiction/4599/in-the-cold-alfred-chester'>
+                                <address class='p'>Alfred Chester</address>
+                                <h1 class='p'>In the Cold</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/letters-essays/4600/the-sculptor-gustav-seitz-hans-kinkel'>
+                                <address class='p'>Hans Kinkel</address>
+                                <h1 class='p'>The Sculptor Gustav Seitz</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/letters-essays/5559/a-note-on-jorge-luis-borges-andre-maurois'>
+                                <address class='p'>André Maurois</address>
+                                <h1 class='p'>A Note on Jorge Luis Borges</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/letters-essays/4601/an-autobiographical-outline-ezra-pound'>
+                                <address class='p'>Ezra Pound</address>
+                                <h1 class='p'>An Autobiographical Outline</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/letters-essays/8291/a-prison-letter-ezra-pound'>
+                                <address class='p'>Ezra Pound</address>
+                                <h1 class='p'>A Prison-Letter</h1>
+      							</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    					<li class='rail-issue-category'>
+                        <h2 class='h6'>Art<span class='icon-caret-small' data-grunticon-embed></span></h2>
+                        <ul class='rail-issue-article-wrap'>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/art-photography/7689/issue-no-28-cover-david-edwards'>
+                                <address class='p'>David Edwards</address>
+                                <h1 class='p'>Issue No. 28 Cover</h1>
+      							</a>
+                            </li>
+                                                        <li class='rail-issue-article'>
+                  				<a href='/art-photography/4617/drawings-and-sculptures-gustav-seitz'>
+                                <address class='p'>Gustav Seitz</address>
+                                <h1 class='p'>Drawings and Sculptures</h1>
+      							</a>
+                            </li>
+                                                    </ul>
+                    </li>
+                    				</ul>
+		</div>
+		<!-- end rail-issue -->
+
+    <!-- start on the shelf -->
+<div class='rail_right-module'>
+	<header class='rail-slug'>
+		<h6>You Might Also Like</h6>
+	</header>
+	<main>
+    		<article class='rail-article'>
+			<a href='https://www.theparisreview.org/blog/?post_type=post&amp;p=167459'>
+				<div class='rail-figure-wrap'>
+					<figure>
+						<img src='https://www.theparisreview.org//blog/wp-content/uploads/2024/05/screen-shot-2024-05-01-at-40958-pm.png'
+                            srcset='https://www.theparisreview.org//blog/wp-content/uploads/2024/05/screen-shot-2024-05-01-at-40958-pm.png 1000w,
+                                            //www.theparisreview.org//blog/wp-content/uploads/2024/05/screen-shot-2024-05-01-at-40958-pm.png 500w'
+                            sizes= '(min-width: 48em) 50vw,
+                                            100vw'
+                            alt='Dream Gossip' />
+					</figure>
+				</div>
+				<header class='rail-article-titles'>
+					<h1 class='h5'>Dream Gossip</h1>
+					<address class='p'>By The Paris Review</address>
+					<time class='p'>May 3, 2024</time>
+				</header>
+			</a>
+		</article>
+    		<article class='rail-article'>
+			<a href='https://www.theparisreview.org/blog/?post_type=post&amp;p=167450'>
+				<div class='rail-figure-wrap'>
+					<figure>
+						<img src='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/img-1230-scaled.jpg'
+                            srcset='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/img-1230-scaled.jpg 1000w,
+                                            //www.theparisreview.org//blog/wp-content/uploads/2024/04/img-1230-scaled.jpg 500w'
+                            sizes= '(min-width: 48em) 50vw,
+                                            100vw'
+                            alt='Emma&#039;s Last Night' />
+					</figure>
+				</div>
+				<header class='rail-article-titles'>
+					<h1 class='h5'>Emma's Last Night</h1>
+					<address class='p'>By Jacqueline Feldman</address>
+					<time class='p'>May 2, 2024</time>
+				</header>
+			</a>
+		</article>
+    		<article class='rail-article'>
+			<a href='https://www.theparisreview.org/blog/?post_type=post&amp;p=167427'>
+				<div class='rail-figure-wrap'>
+					<figure>
+						<img src='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/notley-poem-scaled.jpg'
+                            srcset='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/notley-poem-scaled.jpg 1000w,
+                                            //www.theparisreview.org//blog/wp-content/uploads/2024/04/notley-poem-scaled.jpg 500w'
+                            sizes= '(min-width: 48em) 50vw,
+                                            100vw'
+                            alt='Between the World and the Universe, a Woman Is Thinking' />
+					</figure>
+				</div>
+				<header class='rail-article-titles'>
+					<h1 class='h5'>Between the World and the Universe, a Woman Is Thinking</h1>
+					<address class='p'>By Sara Nicholson</address>
+					<time class='p'>May 1, 2024</time>
+				</header>
+			</a>
+		</article>
+    		<article class='rail-article'>
+			<a href='https://www.theparisreview.org/blog/?post_type=post&amp;p=167423'>
+				<div class='rail-figure-wrap'>
+					<figure>
+						<img src='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/at-home-with-anselm.png'
+                            srcset='https://www.theparisreview.org//blog/wp-content/uploads/2024/04/at-home-with-anselm.png 1000w,
+                                            //www.theparisreview.org//blog/wp-content/uploads/2024/04/at-home-with-anselm.png 500w'
+                            sizes= '(min-width: 48em) 50vw,
+                                            100vw'
+                            alt='Alice Notley’s Prophecies' />
+					</figure>
+				</div>
+				<header class='rail-article-titles'>
+					<h1 class='h5'>Alice Notley’s Prophecies</h1>
+					<address class='p'>By David Schurman Wallace</address>
+					<time class='p'>April 30, 2024</time>
+				</header>
+			</a>
+		</article>
+    	</main>
+</div>
+<!-- end on the shelf -->
+
+<!-- start on the shelf -->
+<div class='rail_right-module'>
+  <header class='rail-slug'>
+    <h6>Columns</h6>
+  </header>
+  <main>
+        <article class='rail-article'>
+      <a href='https://www.theparisreview.org/blog/home-improvements/'>
+        <div class='rail-figure-wrap'>
+          <figure>
+            <img src='/il/6b5ed9f297/medium/img-2681.jpg'
+                srcset='/il/6b5ed9f297/medium/img-2681.jpg 1000w,
+                                /il/6b5ed9f297/medium/img-2681.jpg 500w'
+                sizes= '(min-width: 48em) 50vw,
+                                100vw'
+                alt='Home Improvements' />
+          </figure>
+        </div>
+        <header class='rail-article-titles'>
+          <h1 class='h5'>Home Improvements</h1>
+          <address class='p'>By Ottessa Moshfegh and others</address>
+          <time class='p'></time>
+        </header>
+      </a>
+    </article>
+        <article class='rail-article'>
+      <a href='https://www.theparisreview.org/blog/overheard/'>
+        <div class='rail-figure-wrap'>
+          <figure>
+            <img src='/il/f51062ffa7/medium/Overheard.jpg'
+                srcset='/il/f51062ffa7/medium/Overheard.jpg 1000w,
+                                /il/f51062ffa7/medium/Overheard.jpg 500w'
+                sizes= '(min-width: 48em) 50vw,
+                                100vw'
+                alt='Overheard' />
+          </figure>
+        </div>
+        <header class='rail-article-titles'>
+          <h1 class='h5'>Overheard</h1>
+          <address class='p'>By Tarpley Hitt and others</address>
+          <time class='p'></time>
+        </header>
+      </a>
+    </article>
+        <article class='rail-article'>
+      <a href='https://www.theparisreview.org/blog/diaries/'>
+        <div class='rail-figure-wrap'>
+          <figure>
+            <img src='/il/03bc5ac001/medium/zinkdiary.jpg'
+                srcset='/il/03bc5ac001/medium/zinkdiary.jpg 1000w,
+                                /il/03bc5ac001/medium/zinkdiary.jpg 500w'
+                sizes= '(min-width: 48em) 50vw,
+                                100vw'
+                alt='Diaries' />
+          </figure>
+        </div>
+        <header class='rail-article-titles'>
+          <h1 class='h5'>Diaries</h1>
+          <address class='p'>By  <em>The Paris Review</em> Contributors</address>
+          <time class='p'></time>
+        </header>
+      </a>
+    </article>
+        <article class='rail-article'>
+      <a href='https://www.theparisreview.org/blog/the-reviews-review/'>
+        <div class='rail-figure-wrap'>
+          <figure>
+            <img src='/il/9f07206b4b/medium/fortrrkitchen.jpg'
+                srcset='/il/9f07206b4b/medium/fortrrkitchen.jpg 1000w,
+                                /il/9f07206b4b/medium/fortrrkitchen.jpg 500w'
+                sizes= '(min-width: 48em) 50vw,
+                                100vw'
+                alt='The Review’s Review' />
+          </figure>
+        </div>
+        <header class='rail-article-titles'>
+          <h1 class='h5'>The <em>Review</em>’s Review</h1>
+          <address class='p'>By The Staff of <em>The Paris</em> <em>Review</em></address>
+          <time class='p'></time>
+        </header>
+      </a>
+    </article>
+      </main>
+</div>
+<!-- end on the shelf -->
+
+		<!-- start home-stack-ad -->
+		<div class='rail-ad_mobile'>
+			<h1>Advertisement</h1>
+			<div class='rail-ad-dfp-wrap' id='div-gpt-ad-1477946895683-0'>
+                <script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477946895683-0'); });</script>
+			</div>
+		</div>
+		<!-- end home-stack-ad -->
+
+		<!-- start current issue module -->
+<div class='current-issue'>
+	<a href="https://ssl.drgnetwork.com/flex/TPR/247/">
+		<img src="/il/f5ddecd27c/TPR247_Broadside_Prose_1000px.png" alt="The Paris Review 247">
+		</a>
+</div>
+<!-- end current issue module -->							
+
+		<!-- start hadada -->
+<div class='hadada'>
+	<a href='/about/' class='icon-hadada' data-grunticon-embed></a>
+	<figure>
+		<img src='/dist/theme/issue_247/hadada-hover.jpg'
+			srcset='/dist/theme/issue_247/hadada-hover.jpg 1000w,
+							/dist/theme/issue_247/hadada-hover.jpg 500w'
+			sizes= '(min-width: 62.5em) 33vw,
+							(min-width: 48em) 50vw'
+			alt='Revel' />
+	</figure>
+</div>
+<!-- end hadada -->	</aside>
+	<!-- end right rail -->
+</article>
+
+			<!-- start related -->
+			<div class='related'>
+				<!-- start related audio -->
+				<div class='related-audio'>
+                    <label for='modal_audio_6061'>
+					<header class='related-slug'>
+						<h1 class='h6'>Featured Audio</h1>
+					</header>
+					<main>
+						<article class='related-audio-card card-thedaily'>
+							<header class='card-titles-wrap'>
+									<address class='h2'></address>
+									<h1 class='p'>Season 4 Trailer</h1>
+									<time class='p'><cite></cite>, November 2023</time>
+									<div class='card-excerpt-wrap'>
+										<p><em>The Paris Review Podcast</em> returns with a new season, featuring the best interviews, fiction, essays, and poetry from America’s most legendary literary quarterly, brought to life in sound. Join us for intimate conversations with Sharon Olds and Olga Tokarczuk; fiction by Rivers Solomon, Jun'ichirō Tanizaki, and Zach Williams; poems by Terrance Hayes and Maggie Millner; nonfiction by Robert Glück, Jean Garnett, and Sean Thor Conroe; and performances by George Takei, Lena Waithe, and many others. Catch up on earlier seasons, and listen to the trailer for Season 4 now.</p>
+									</div>
+							</header>
+							<main class='card-audio-wrap'>
+								<div id='my-player'>
+									<a id='playbtn' class='icon-audio-play-pause'></a>
+									<audio id='audioplayer1' src='' type='audio/mp3' controls='controls'></audio>
+									<div id='my-time' class='h6'>
+										<span id='my-current-time'>00:00</span> / <span id='my-current-duration'></span>
+									</div>
+								</div>
+							</main>
+							<footer class='card-rubric'>
+								<figure>
+									<img src='/dist/theme/issue_247/rower.png'
+										alt='The Daily Rower' />
+								</figure>
+                                							</footer>
+						</article>
+					</main>
+                    </label>
+				</div>
+				<!-- end related audio -->
+
+				<!-- start suggested reading -->
+				<div class='suggested-reading'>
+					<header class='related-slug'>
+						<h1 class='h6'>Suggested Reading</h1>
+					</header>
+					<main>
+            						<article class='suggested-reading-card card-thedaily'>
+							<a href='https://www.theparisreview.org/blog/2024/05/03/dream-gossip/'>
+								<div class='card-figure-wrap'>
+									<figure>
+                                        <img src='https://www.theparisreview.org/blog/wp-content/uploads/2024/05/screen-shot-2024-05-01-at-40958-pm-1024x551.png' alt="Dream Gossip">
+																			</figure>
+								</div>
+								<header class='card-titles-wrap'>
+									<section class='card-titles'>
+										<h1 class='h3'>Dream Gossip</h1>
+										<address class='h5'>By The Paris Review</address>
+										<time class='h5'>May 3, 2024</time>
+										<div class='card-excerpt-wrap'>
+											<p>“We offer this column as a random sampling of events in the night world.”</p>
+										</div>
+									</section>
+									<section class='card-rubric'>
+										<figure>
+											<img src='/dist/theme/issue_247/rower.png'
+												alt='The Daily Rower' />
+										</figure>
+										<h2 class='h6'>The Daily</h2>
+										<h3 class='h6'>The Review’s Review</h3>
+									</section>
+								</header>
+							</a>
+						</article>
+            						<article class='suggested-reading-card card-fiction'>
+							<a href='/interviews/121/the-art-of-fiction-no-178-michael-wood'>
+								<header class='card-titles-wrap'>
+									<section class='card-titles'>
+										<h1 class='h3'>The Art of Fiction No. 178</h1>
+										<address class='h5'>By <a href='/authors/5120/paul-auster'>Paul Auster</a></address>
+										<time class='h5'>&nbsp;</time>
+										<div class='card-excerpt-wrap'>
+											<p style="text-align: left;">In 1985, after seventeen New York publishers had rejected&nbsp;<em>City of Glass</em>, the lead novella in The New York Trilogy, it was published by Sun and Moon Press in San Francisco. The other two novellas,&nbsp;<em>Ghosts</em>&nbsp;and&nbsp;<em>The Locked Room</em>, came out the next year. Paul Auster was thirty-eight. Although he wrote reviews and translations regularly and his prose poem&nbsp;<em>White Spaces</em>had been published in 1980, the trilogy marked the true start of his literary career.</p>
+<p>&nbsp;&nbsp; Auster has written about those prepublication years in&nbsp;<em>Hand to Mouth: A Chronicle of Early Failure</em>&nbsp;(1997). He studied at Columbia University in the late sixties, then worked for a few months on an oil tanker before moving to Paris where he eked out a living as a translator. He started a little magazine,&nbsp;<em>Little Hand</em>, and an independent publishing house of the same name with his first wife, the writer Lydia Davis. In 1972 his first book, a collection of translations titled&nbsp;<em>A Little Anthology of Surrealist Poems</em>, was published. He returned to New York City in 1974 and, among other ventures, tried to sell a baseball card game he had invented. In 1982, Auster published his first prose book,&nbsp;<em>The Invention of Solitude</em>, a memoir and meditation on fatherhood that he started writing shortly after his father&rsquo;s death.</p>
+<p>&nbsp;&nbsp; Auster has published a book almost annually since the trilogy: In 1987 the novel&nbsp;<em>In the Country of Last Things</em>&nbsp;appeared. His other novels include&nbsp;<em>Moon Palace</em>&nbsp;(1989),&nbsp;<em>The Music of Chance</em>&nbsp;(1990),&nbsp;<em>Leviathan</em>&nbsp;(1992), and&nbsp;<em>The Book of Illusions</em>&nbsp;(2002). Auster was made a chevalier of the Order of Arts and Letters by the French government in 1991 (he was elevated to an officer in 1997).</p>
+<p>&nbsp;&nbsp; The range of Auster&rsquo;s work is remarkable&mdash;novels, essays, translations, poems, plays, songs, and collaborations with artists (including Sophie Calle and Sam Messer). He has also written three screenplays:&nbsp;<em>Smoke</em>&nbsp;(1995),&nbsp;<em>Blue in the Face</em>&nbsp;(1995), and&nbsp;<em>Lulu on the Bridge</em>(1998), which he directed as well.&nbsp;<em>Oracle Night</em>, his ninth novel, will be published later this year.</p>
+<p>&nbsp;&nbsp; The following conversation started last fall with a live interview at the Unterberg Poetry Center of the 92nd Street Y in New York City. The interview was completed one afternoon this summer at Auster&rsquo;s home in Brooklyn, where he lives with his wife, the writer Siri Hustvedt. A gracious host, he apologized for the workers who were installing central air conditioning in their nineteenth-century brownstone, then gave a brief tour: The living room is decorated with paintings by his friends Sam Messer and David Reed. In their front hall, there is a collection of family photographs. Bookshelves line the walls of his office on the ground floor. And, of course, on his desk the famous typewriter.</p>
+<p class="interview-slug">&nbsp;</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Let&rsquo;s start by talking about the way you work. About how you write.</p>
+<p class="interview-slug">PAUL AUSTER</p>
+<p style="text-align: left;">I&rsquo;ve always written by hand. Mostly with a fountain pen, but sometimes with a pencil&mdash;especially for corrections. If I could write directly on a typewriter or a computer, I would do it. But keyboards have always intimidated me. I&rsquo;ve never been able to think clearly with my fingers in that position. A pen is a much more primitive instrument. You feel that the words are coming out of your body and then you dig the words into the page. Writing has always had that tactile quality for me. It&rsquo;s a physical experience.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>And you write in notebooks. Not legal pads or loose sheets of paper.</p>
+<p class="interview-slug">AUSTER</p>
+<p>Yes, always in notebooks. And I have a particular fetish for notebooks with quadrille lines&mdash;the little squares.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>But what about the famous Olympia typewriter? We know quite a bit about that machine&mdash;last year you published a wonderful book with the painter Sam Messer,&nbsp;<em>The Story of My Typewriter</em>.</p>
+<p class="interview-slug">AUSTER</p>
+<p>I&rsquo;ve owned that typewriter since 1974&mdash;more than half my life now. I bought it second-hand from a college friend and at this point it must be about forty years old. It&rsquo;s a relic from another age, but it&rsquo;s still in good condition. It&rsquo;s never broken down. All I have to do is change ribbons every once in a while. But I&rsquo;m living in fear that a day will come when there won&rsquo;t be any ribbons left to buy&mdash;and I&rsquo;ll have to go digital and join the twenty-first century.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>A great Paul Auster story. The day when you go out to buy that last ribbon.</p>
+<p class="interview-slug">AUSTER</p>
+<p>I&rsquo;ve made some preparations. I&rsquo;ve stocked up. I think I have about sixty or seventy ribbons in my room. I&rsquo;ll probably stick with that typewriter till the end, although I&rsquo;ve been sorely tempted to give it up at times. It&rsquo;s cumbersome and inconvenient, but it also protects me against laziness.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>How so?</p>
+<p class="interview-slug">AUSTER</p>
+<p>Because the typewriter forces me to start all over again once I&rsquo;m finished. With a computer, you make your changes on the screen and then you print out a clean copy. With a typewriter, you can&rsquo;t get a clean manuscript unless you start again from scratch. It&rsquo;s an incredibly tedious process. You&rsquo;ve finished your book, and now you have to spend several weeks engaged in the purely mechanical job of transcribing what you&rsquo;ve already written. It&rsquo;s bad for your neck, bad for your back, and even if you can type twenty or thirty pages a day, the finished pages pile up with excruciating slowness. That&rsquo;s the moment when I always wish I&rsquo;d switched to a computer, and yet every time I push myself through this final stage of a book, I wind up discovering how essential it is. Typing allows me to experience the book in a new way, to plunge into the flow of the narrative and feel how it functions as a whole. I call it &ldquo;reading with my fingers,&rdquo; and it&rsquo;s amazing how many errors your fingers will find that your eyes never noticed. Repetitions, awkward constructions, choppy rhythms. It never fails. I think I&rsquo;m finished with the book and then I begin to type it up and I realize there&rsquo;s more work to be done.</p>
+<p class="interview-slug">INTERVIEWER</p>
+<p>Let&rsquo;s go back to the notebooks for a minute. Quinn, in&nbsp;<em>City of Glass</em>, records his observations in a red notebook. Anna Blume, the narrator of&nbsp;<em>In the Country of Last Things</em>, composes her letter in a blue notebook. In&nbsp;<em>Mr. Vertigo</em>, Walt writes his autobiography in thirteen hardbound school composition books. And Willy G. Christmas, the demented hero of&nbsp;<em>Timbuktu</em>, has lugged his entire life&rsquo;s work to Baltimore to give to his high-school English teacher before he dies: seventy-four notebooks of &ldquo;poems, stories, essays, diary entries, epigrams, autobiographical musings, and the first eighteen-hundred lines of an epic-in-progress,&nbsp;<em>Vagabond Days</em>.&rdquo; Notebooks also figure in your most recent novels,&nbsp;<em>The Book of Illusions</em>&nbsp;and&nbsp;<em>Oracle Night</em>. To say nothing of your collection of true stories,&nbsp;<em>The Red Notebook</em>. What are we to make of this?</p>
+<p class="interview-slug">AUSTER</p>
+<p>I suppose I think of the notebook as a house for words, as a secret place for thought and self-examination. I&rsquo;m not just interested in the results of writing, but in the process, the act of putting words on a page. Don&rsquo;t ask me why. It might have something to do with an early confusion on my part, an ignorance about the nature of fiction. As a young person, I would always ask myself, Where are the words coming from? Who&rsquo;s saying this? The third-person narrative voice in the traditional novel is a strange device. We&rsquo;re used to it now, we accept it, we don&rsquo;t question it anymore. But when you stop and think about it, there&rsquo;s an eerie, disembodied quality to that voice. It seems to come from nowhere and I found that disturbing. I was always drawn to books that doubled back on themselves, that brought you into the world of the book, even as the book was taking you into the world. The manuscript as hero, so to speak.&nbsp;<em>Wuthering Heights</em>&nbsp;is that kind of novel.&nbsp;<em>The Scarlet Letter</em>&nbsp;is another. The frames are fictitious, of course, but they give a groundedness and credibility to the stories that other novels didn&rsquo;t have for me. They posit the work as an illusion&mdash;which more traditional forms of narrative don&rsquo;t&mdash;and once you accept the &ldquo;unreality&rdquo; of the enterprise, it paradoxically enhances the truth of the story. The words aren&rsquo;t written in stone by an invisible author-god. They represent the efforts of a flesh-and-blood human being and this is very compelling. The reader becomes a participant in the unfolding of the story&mdash;not just a detached observer.</p>
+<p style="text-align: left;">&nbsp;</p>
+										</div>
+									</section>
+									<section class='card-rubric'>
+										<figure>
+											<img src='/dist/theme/issue_247/lightpost.png'
+												alt='Fiction' />
+										</figure>
+										<h2 class='h6'>From the Archive, Issue 167</h2>
+										<h3 class='h6'>Interview</h3>
+									</section>
+								</header>
+							</a>
+						</article>
+					</main>
+				</div>
+				<!-- end suggested reading -->
+			</div>
+			<!-- end related -->
+
+        	<!-- start audio modal -->
+        	<div class='modal'>
+        		<input class='modal-state' id='modal_audio_6061' type='checkbox' />
+        		<div class='modal-fade-screen'>
+        			<div class='modal-inner modal-audio'>
+        				<div class='modal-close' for='modal_audio'></div>
+        				<article class='related-audio-card card-thedaily'>
+        					<header class='card-titles-wrap'>
+        						<div class='card-titles'>
+        							<address class='h2'></address>
+        							<h1 class='p'>Season 4 Trailer</h1>
+        							<time class='p'><cite></cite>, November 2023</time>
+        							<div class='card-excerpt-wrap'>
+                                        <em>The Paris Review Podcast</em> returns with a new season, featuring the best interviews, fiction, essays, and poetry from America’s most legendary literary quarterly, brought to life in sound. Join us for intimate conversations with Sharon Olds and Olga Tokarczuk; fiction by Rivers Solomon, Jun'ichirō Tanizaki, and Zach Williams; poems by Terrance Hayes and Maggie Millner; nonfiction by Robert Glück, Jean Garnett, and Sean Thor Conroe; and performances by George Takei, Lena Waithe, and many others. Catch up on earlier seasons, and listen to the trailer for Season 4 now.
+        							</div>
+        						</div>
+        					</header>
+        					<main class='card-audio-wrap'>
+                                                                <iframe allow="monetization" frameborder="0" height="200" width="650" src="https://play.prx.org/e?uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F5406%2Ffeed-rss.xml&ge=prx_5406_272f5739-252f-4f4e-a144-2d4c716d2886"></iframe>
+
+<p><strong>Subscribe for free:&nbsp;
+<a href="https://itunes.apple.com/us/podcast/the-paris-review/id1300382225?mt=2">Apple Podcasts</a>
+&nbsp;|&nbsp;
+<a href="https://open.spotify.com/show/6TydwAwFbh9V9ua1XNsO12?si=ba9c12fa86894e29">Spotify</a>
+&nbsp;|&nbsp;
+<a href="https://music.amazon.com/podcasts/b986b1ab-9a1e-4acc-b7bd-f624901c43e6/the-paris-review">Amazon Music</a></strong></p><p>&nbsp;</p>
+                                        					</main>
+        					<footer class='card-rubric'>
+        						<figure>
+        							<img src='/dist/theme/issue_247/rower.png'
+        								alt='The Daily Rower' />
+        						</figure>
+        					</footer>
+        				</article>
+        			</div>
+        		</div>
+        	</div>
+        	<!-- end audio modal -->
+		</div>
+		<!-- end content -->
+
+		<!-- start page footer -->
+		<footer id='int-footer'>
+			<nav class='int-footer-nav' aria-label='quick links'>
+				<ul>
+					<li class='int-footer-nav-socials'>
+						<ul>
+							<li>
+								<a class='int-social_instagram' href='https://www.instagram.com/parisreview/' aria-label='Go to Instagram feed'>
+									<i aria-hidden='true' title='Go to Instagram feed'></i>
+								</a>
+							</li>
+							<li>
+								<a class='int-social_facebook' href='https://www.facebook.com/parisreview' aria-label='Go to Facebook page'>
+									<i aria-hidden='true' title='Go to Facebook page'></i>
+								</a>
+							</li>
+							<li>
+								<a class='int-social_twitter' href='https://twitter.com/parisreview' aria-label='Go to Twitter feed'>
+									<i aria-hidden='true' title='Go to Twitter feed'></i>
+								</a>
+							</li>
+							<li>
+								<a class='int-social_rss' href='https://feeds.feedburner.com/TheParisReviewBlog' aria-label='Go to RSS feed'>
+									<i aria-hidden='true' title='Go to RSS feed'></i>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class='int-footer-nav-links'>
+						<ul>
+							<li class='int-footer-nav-link'><a href='https://ssl.drgnetwork.com/flex/TPR/247/'>Subscribe</a></li>
+							<li class='int-footer-nav-link'><a href='/support/'>Support</a></li>
+							<li class='int-footer-nav-link'><a href='/contact'>Contact Us</a></li>
+							<li class='int-footer-nav-link'><a href='/events'>Events</a></li>
+							<li class='int-footer-nav-link'><a href='/about/media-kit'>Media Kit</a></li>
+							<li class='int-footer-nav-link'><a href='/about/submissions'>Submissions</a></li>
+							<li class='int-footer-nav-link'><a href='/about/masthead'>Masthead</a></li>
+							<li class='int-footer-nav-link'><a href='/about/prizes'>Prizes</a></li>
+							<li class='int-footer-nav-link'><a href='/about/bookstores'>Bookstores</a></li>
+							<li class='int-footer-nav-link'><a href='/about/opportunities'>Opportunities</a></li>
+							<li class='int-footer-nav-link'><a href='/video'>Video</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+      <!-- start paris illo -->
+      <figure class='int-footer-illo'>
+				<img src='/images/jpg/footer-illo_1x.png'
+					srcset='/images/jpg/footer-illo_4x.png 1800w,
+									/images/jpg/footer-illo_2x.png 900w,
+									/images/jpg/footer-illo_1x.png 450w'
+					sizes= '100vw'
+					alt='handdrawn Paris scene by du Bois' />
+			</figure>
+      <!-- end paris illo -->
+
+			<div class='int-footer-fineprint'>
+				<p>&copy;2024 The Paris Review. All rights reserved</p>
+				<span class='int-footer-fineprint-links'>
+					<a class='int-footer-fineprint-link' href='/privacy-policy'>Privacy Policy</a>
+					<a class='int-footer-fineprint-link' href='/terms-and-conditions'>Terms & Conditions</a>
+				</span>
+			</div>
+		</footer>
+		<!-- end page footer -->
+
+		<!-- javascript -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src='/js/dist/built.js?rel=1635877037502'></script>
+		<script src='/js/dist/int-built.js'></script>
+        <script type="text/javascript">
+	$('a.icon-print').click(function(){
+		window.print();
+		return false;
+	});
+
+	$('a.icon-email').click(function(){
+		event.preventDefault();
+		var url      = window.location.href; 
+    var subject = 'From the Paris Review Ezra Pound, The Art of Poetry No. 5';
+    var emailBody = "Ezra Pound, The Art of Poetry No. 5 \n\n "+url;
+    window.location = 'mailto:?subject=' + subject + '&body=' +   emailBody;
+		return false;
+	});
+
+	$('a.icon-facebook').click(function(){
+		event.preventDefault();
+		var url      = window.location.href;
+		window.open('https://www.facebook.com/share.php?u=' + url, '_blank');
+		return false;
+	});
+
+	$('a.icon-twitter').click(function(){
+		event.preventDefault();
+		var url      = window.location.href;
+		window.open('https://twitter.com/share?text=Ezra Pound, The Art of Poetry No. 5&url=' + url, '_blank');
+		return false;
+	});
+</script>
+<script type="text/javascript">
+function check_article_auth() {
+	var name_url = "/authentication/get-article/4598";
+	$.ajax({
+		type: "GET",
+		url: name_url,
+		success: function(data) {
+            if (!data.error) {
+    			$(".article-body").html(data.text);
+    			$(".paywall").remove();
+    			$(".article-body-wrap").removeClass('paywall-base');
+            }
+		}
+	});
+}
+$(document).ready(function() {
+    check_article_auth();
+    $("#paywall-signin-form").submit(function(event) {
+    	$("#paywall-signin-form-button").prop('disabled', true);
+    	var url = "/authentication";
+    	$.ajax({
+    		type: "POST",
+    		url: url,
+    		data: $("#paywall-signin-form").serialize(),
+    		success: function(data) {
+                if (!data.error) {
+        			$('.modal-state:checked').prop('checked', false).change();
+        			$('.sign-in-name').text('Welcome, '+data.name);
+        			$("#paywall-signin-form-button").prop('disabled', false);
+                    check_article_auth();
+                } else {
+                    $('#paywall_error').text(data.error);
+                }
+    		},
+    		error: function(data) {
+                var response = jQuery.parseJSON( data.responseText );
+                $('#paywall_error').text("There was an error signing in. Please try again.");
+    		},
+    	});
+    	event.preventDefault();
+    });
+});
+</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+        $('#link-sub-button').click(function(event) {
+          event.preventDefault();
+          window.location = "/authentication/link-subscription";
+      	});
+
+				$("#signin-form").submit(function(event) {
+					$("#signin-form-button").prop('disabled', true);
+					var url = "/authentication";
+					$.ajax({
+						type: "POST",
+						url: url,
+						data: $("#signin-form").serialize(),
+						success: function(data) {
+							if (!data.error) {
+								$('.modal-state:checked').prop('checked', false).change();
+								$('.sign-in-name').html('Welcome, '+data.name+' <a href="/authentication/sign_out" ><small>(Sign out)</small></a>');
+								$("#signin-form-button").prop('disabled', false);
+									if (typeof check_article_auth == 'function') {
+										check_article_auth();
+									}
+							} else {
+								$("#signin-form-button").prop('disabled', false);
+								$('#signin_error').text(data.error);
+							}
+						},
+							error: function(data) {
+								$("#signin-form-button").prop('disabled', false);
+								var response = jQuery.parseJSON( data.responseText );
+								$('#signin_error').text("There was an error signing in. Please try again.");
+							},
+					});
+					event.preventDefault();
+				});
+
+				$("#signin-form-mobile").submit(function(event) {
+					$("#signin-form-button-mobile").prop('disabled', true);
+					var url = "/authentication";
+					$.ajax({
+						type: "POST",
+						url: url,
+						data: $("#signin-form-mobile").serialize(),
+						success: function(data) {
+							if (!data.error) {
+								$('.modal-state:checked').prop('checked', false).change();
+								$('.sign-in-name').html('Welcome, '+data.name+' <a href="/authentication/sign_out" ><small>(Sign out)</small></a>');
+								$("#signin-form-button-mobile").prop('disabled', false);
+									if (typeof check_article_auth == 'function') {
+										check_article_auth();
+									}
+							} else {
+								$("#signin-form-button-mobile").prop('disabled', false);
+								$('#signin_error').text(data.error);
+							}
+						},
+							error: function(data) {
+								$("#signin-form-button-mobile").prop('disabled', false);
+								var response = jQuery.parseJSON( data.responseText );
+								$('#signin_error-mobile').text("There was an error signing in. Please try again.");
+							},
+					});
+					event.preventDefault();
+				});
+
+				var name_url = "/authentication/get-name";
+				$.ajax({
+					type: "GET",
+					url: name_url,
+					success: function(data) {
+						if (!data.error) {
+							$('.sign-in-name').html('Welcome, '+data.name+' <a href="/authentication/sign_out" ><small>(Sign out)</small></a>');
+						}
+					},
+				});
+			});
+		</script>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-13111620-1']);
+          _gaq.push(['_setDomainName', 'none']);
+          _gaq.push(['_setAllowLinker', true]);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+        <script>
+          (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+            t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+          })(window, document, '_gscq','script','//widgets.getsitecontrol.com/69508/script.js');
+        </script>
+
+				<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-49QR5957YH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-49QR5957YH');
+</script> 
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB84BDW"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+	</body>
+</html>
+<!--Created on 05-04-2024 21:20:40.--> contentType 24 text/html; charset=UTF-8 url 84 https://www.theparisreview.org:443/interviews/4598/the-art-of-poetry-no-5-ezra-pound responseCode 3 200 

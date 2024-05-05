@@ -1,55 +1,56 @@
-// document.getElementById('searchForm').addEventListener('submit', function(event) {
-//     event.preventDefault();
-//     const searchTerm = document.getElementById('searchInput').value;
-//     displayResults(searchTerm);
-// });
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const searchTerm = document.getElementById('searchInput').value;
+    displayResults(searchTerm);
+});
 
-// function displayResults(searchTerm) {
-//     const resultsDiv = document.getElementById('results');
-//     resultsDiv.innerHTML = '';  // Clear previous results
-//     if (!searchTerm) {
-//         resultsDiv.innerHTML = '<p>Please enter a search term.</p>';
-//         return;
-//     }
 
-//     fetch(`http://127.0.0.1:8001/search?query=${encodeURIComponent(searchTerm)}`)
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error('Network response was not OK');
-//             }
+function displayResults(searchTerm) {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';  // Clear previous results
+    if (!searchTerm) {
+        resultsDiv.innerHTML = '<p>Please enter a search term.</p>';
+        return;
+    }
 
-//             return response.json();  // Parse the JSON in the response
+    fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not OK');
+            }
 
-//         })
-//         .then(data => {
-//             console.log("Response data: ", data);  // Output the data to console
-//             if (!data.data || data.data.length === 0) {
-//                 resultsDiv.innerHTML = '<p>No results found.</p>';
-//                 return;
-//             }
+            return response.json();  // Parse the JSON in the response
 
-//         //     // Display the result
-//         //     const resultElement = document.createElement('div');
-//         //     resultElement.innerHTML = `
-//         //         <p>${data.result}</p>
-//         //     `;
-//         //     resultsDiv.appendChild(resultElement);
-//         // })
-//          // Display each result
-//          data.data.forEach(item => {
-//             const resultElement = document.createElement('div');
-//             resultElement.innerHTML = `
-//                 <h4>URL: <a href="${item.url}">${item.url}</a></h4>
-//                 <p>Score: ${item.score}</p>
-//             `;
-//             resultsDiv.appendChild(resultElement);
-//         });
-//     })
-//     .catch(error => {
-//         console.error('Failed to fetch data:', error);
-//         resultsDiv.innerHTML = '<p>Error loading results.</p>';
-//     });
+        })
+        .then(data => {
+            console.log("Response data: ", data);  // Output the data to console
+            if (!data.data || data.data.length === 0) {
+                resultsDiv.innerHTML = '<p>No results found.</p>';
+                return;
+            }
 
+        //     // Display the result
+        //     const resultElement = document.createElement('div');
+        //     resultElement.innerHTML = `
+        //         <p>${data.result}</p>
+        //     `;
+        //     resultsDiv.appendChild(resultElement);
+        // })
+         // Display each result
+         data.data.forEach(item => {
+            const resultElement = document.createElement('div');
+            resultElement.innerHTML = `
+                <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+                <p>Score: ${item.score}</p>
+            `;
+            resultsDiv.appendChild(resultElement);
+        });
+    })
+    .catch(error => {
+        console.error('Failed to fetch data:', error);
+        resultsDiv.innerHTML = '<p>Error loading results.</p>';
+    });
+}
 
 //     // // Mock results
 //     // const mockResults = [
@@ -71,67 +72,192 @@
 
 
 
-document.getElementById('searchForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const searchTerm = document.getElementById('searchInput').value;
-    displayResults(searchTerm, 0);  // Initial page index is 0
-});
+// document.getElementById('searchForm').addEventListener('submit', function(event) {
+//     event.preventDefault();
+//     const searchTerm = document.getElementById('searchInput').value;
+//     //displayResults(searchTerm, 0);  // Initial page index is 0
+//     fetchResults(searchTerm);
+// });
 
-function displayResults(searchTerm, pageIndex) {
-    const resultsDiv = document.getElementById('results');
-    const paginationDiv = document.querySelector('.pagination');
-    resultsDiv.innerHTML = '';  // Clear previous results
-    paginationDiv.innerHTML = '';  // Clear previous pagination
+// function fetchResults(searchTerm) {
+//     if (!searchTerm) {
+//         document.getElementById('results').innerHTML = '<p>Please enter a search term.</p>';
+//         return;
+//     }
 
-    if (!searchTerm) {
-        resultsDiv.innerHTML = '<p>Please enter a search term.</p>';
-        return;
-    }
+//     fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}`)
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Network response was not OK');
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             if (!data.data || data.data.length === 0) {
+//                 document.getElementById('results').innerHTML = '<p>No results found.</p>';
+//                 return;
+//             }
+//             paginateResults(data.data, 0); // Display the first page of results
+//         })
+//         .catch(error => {
+//             console.error('Failed to fetch data:', error);
+//             document.getElementById('results').innerHTML = '<p>Error loading results.</p>';
+//         });
+// }
 
-    fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}&page=${pageIndex}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not OK');
-            }
-            return response.json();  // Parse the JSON in the response
-        })
-        .then(data => {
-            if (!data.data || data.data.length === 0) {
-                resultsDiv.innerHTML = '<p>No results found.</p>';
-                return;
-            }
+// function paginateResults(results, currentPage) {
+//     const resultsDiv = document.getElementById('results');
+//     const paginationDiv = document.querySelector('.pagination');
+//     resultsDiv.innerHTML = '';
+//     paginationDiv.innerHTML = '';
 
-            // Display each result
-            data.data.forEach(item => {
-                const resultElement = document.createElement('div');
-                resultElement.innerHTML = `
-                    <h4>URL: <a href="${item.url}">${item.url}</a></h4>
-                    <p>Score: ${item.score}</p>
-                `;
-                resultsDiv.appendChild(resultElement);
-            });
+//     const pageSize = 5;
+//     const totalPageCount = Math.ceil(results.length / pageSize);
+//     const startIndex = currentPage * pageSize;
+//     const endIndex = startIndex + pageSize;
+//     const pageResults = results.slice(startIndex, endIndex);
 
-            // Pagination controls
-            if (pageIndex > 0) {
-                const prevBtn = document.createElement('button');
-                prevBtn.textContent = 'Previous';
-                prevBtn.className = 'pagination-btn';
-                prevBtn.onclick = () => displayResults(searchTerm, pageIndex - 1);
-                paginationDiv.appendChild(prevBtn);
-            }
-            if (data.data.length === 10) {  // Assuming 10 results per page
-                const nextBtn = document.createElement('button');
-                nextBtn.textContent = 'Next';
-                nextBtn.className = 'pagination-btn';
-                nextBtn.onclick = () => displayResults(searchTerm, pageIndex + 1);
-                paginationDiv.appendChild(nextBtn);
-            }
-        })
-        .catch(error => {
-            console.error('Failed to fetch data:', error);
-            resultsDiv.innerHTML = '<p>Error loading results.</p>';
-        });
-}
+//     pageResults.forEach(item => {
+//         const resultElement = document.createElement('div');
+//         resultElement.innerHTML = `
+//             <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+//             <p>Score: ${item.score}</p>
+//         `;
+//         resultsDiv.appendChild(resultElement);
+//     });
+
+//     // Pagination controls
+//     if (currentPage > 0) {
+//         const prevBtn = document.createElement('button');
+//         prevBtn.textContent = 'Previous';
+//         prevBtn.className = 'pagination-btn';
+//         prevBtn.onclick = () => paginateResults(results, currentPage - 1);
+//         paginationDiv.appendChild(prevBtn);
+//     }
+//     if (currentPage < totalPageCount - 1) {
+//         const nextBtn = document.createElement('button');
+//         nextBtn.textContent = 'Next';
+//         nextBtn.className = 'pagination-btn';
+//         nextBtn.onclick = () => paginateResults(results, currentPage + 1);
+//         paginationDiv.appendChild(nextBtn);
+//     }
+// }
+
+// function displayResults(searchTerm, pageIndex) {
+//     const resultsDiv = document.getElementById('results');
+//     const paginationDiv = document.querySelector('.pagination');
+//     resultsDiv.innerHTML = '';  // Clear previous results
+//     paginationDiv.innerHTML = '';  // Clear previous pagination
+
+//     if (!searchTerm) {
+//         resultsDiv.innerHTML = '<p>Please enter a search term.</p>';
+//         return;
+//     }
+
+//     const limit = 5;
+//     const offset = pageIndex * limit;
+
+//     fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}&limit=${limit}&offset=${offset}`)
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error('Network response was not OK');
+//         }
+//         return response.json();  // Parse the JSON in the response
+//     })
+//     .then(data => {
+//         if (!data.data || data.data.length === 0) {
+//             resultsDiv.innerHTML = '<p>No results found.</p>';
+//             return;
+//         }
+
+//         // Display each result
+//         data.data.forEach(item => {
+//             const resultElement = document.createElement('div');
+//             resultElement.innerHTML = `
+//                 <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+//                 <p>Score: ${item.score}</p>
+//             `;
+//             resultsDiv.appendChild(resultElement);
+//         });
+
+//         // Pagination controls
+//         if (pageIndex > 0) {
+//             const prevBtn = document.createElement('button');
+//             prevBtn.textContent = 'Previous';
+//             prevBtn.className = 'pagination-btn';
+//             prevBtn.onclick = () => displayResults(searchTerm, pageIndex - 1);
+//             paginationDiv.appendChild(prevBtn);
+//         }
+//         if (data.data.length === limit) {  // Check if there might be more results
+//             const nextBtn = document.createElement('button');
+//             nextBtn.textContent = 'Next';
+//             nextBtn.className = 'pagination-btn';
+//             nextBtn.onclick = () => displayResults(searchTerm, pageIndex + 1);
+//             paginationDiv.appendChild(nextBtn);
+//         }
+//     })
+//     .catch(error => {
+//         console.error('Failed to fetch data:', error);
+//         resultsDiv.innerHTML = '<p>Error loading results.</p>';
+//     });
+// }
+
+
+
+
+
+
+//     fetch(`http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}&page=${pageIndex}`)
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Network response was not OK');
+//             }
+//             return response.json();  // Parse the JSON in the response
+//         })
+//         .then(data => {
+//             if (!data.data || data.data.length === 0) {
+//                 resultsDiv.innerHTML = '<p>No results found.</p>';
+//                 return;
+//             }
+
+//             // Display each result
+//             data.data.forEach(item => {
+//                 const resultElement = document.createElement('div');
+//                 resultElement.innerHTML = `
+//                     <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+//                     <p>Score: ${item.score}</p>
+//                 `;
+//                 resultsDiv.appendChild(resultElement);
+//             });
+
+//             // Pagination controls
+//             if (pageIndex > 0) {
+//                 const prevBtn = document.createElement('button');
+//                 prevBtn.textContent = 'Previous';
+//                 prevBtn.className = 'pagination-btn';
+//                 prevBtn.onclick = () => displayResults(searchTerm, pageIndex - 1);
+//                 paginationDiv.appendChild(prevBtn);
+//             }
+//             if (data.data.length === 10) {  // Assuming 10 results per page
+//                 const nextBtn = document.createElement('button');
+//                 nextBtn.textContent = 'Next';
+//                 nextBtn.className = 'pagination-btn';
+//                 nextBtn.onclick = () => displayResults(searchTerm, pageIndex + 1);
+//                 paginationDiv.appendChild(nextBtn);
+//             }
+//         })
+//         .catch(error => {
+//             console.error('Failed to fetch data:', error);
+//             resultsDiv.innerHTML = '<p>Error loading results.</p>';
+//         });
+// }
+
+
+
+
+
+
+
 
 // Optional: Add .pagination div in your HTML for pagination controls.
 

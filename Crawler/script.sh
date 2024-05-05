@@ -2,7 +2,7 @@
 kvsWorkers=4  # number of kvs workers to launch
 flameWorkers=4  # number of flame workers to launch
 
-rm -r worker1
+#rm -r worker1
 rm *.jar
 
 javac -cp lib/kvs.jar:lib/webserver.jar:lib/flame.jar -d classes --source-path src src/cis5550/jobs/Indexer.java

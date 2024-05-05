@@ -1,0 +1,441 @@
+zajezosmbmyiokdeogxeycjgwaeezelszgaeaomk length 5 42809 page 42809 
+<!doctype html>
+
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=t1Bf4PY_" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://archives.upenn.edu/exhibits/penn-history/pa-album/modern","20190302024747","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1551494867");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+
+		<title>
+			A Pennsylvania Album: The Modern Urban University | University Archives and Records Center		</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+				<link rel="apple-touch-icon" href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/themes/uarc/library/images/apple-touch-icon.png">
+		<link rel="icon" href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/themes/uarc/favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="https://archives.upenn.edu/wp-content/themes/uarc/favicon.ico">
+		<![endif]-->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		  	<!--[if lt IE 9]>
+		      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->
+				<meta name="msapplication-TileColor" content="#f01d4f">
+		<meta name="msapplication-TileImage" content="https://archives.upenn.edu/wp-content/themes/uarc/library/images/win8-tile-icon.png">
+            <meta name="theme-color" content="#121212">
+
+		<link rel="pingback" href="https://archives.upenn.edu/xmlrpc.php">
+
+				<link rel="dns-prefetch" href="//web.archive.org/web/20190302024747/https://archives.upenn.edu/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20190302024747/https://www.google.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20190302024747/https://fonts.googleapis.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20190302024747/https://maxcdn.bootstrapcdn.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20190302024747/https://s.w.org/"/>
+<link rel="alternate" type="application/rss+xml" title="University Archives and Records Center » Feed" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/feed"/>
+<link rel="alternate" type="application/rss+xml" title="University Archives and Records Center » Comments Feed" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/comments/feed"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/web.archive.org\/web\/20190302024747\/https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/web.archive.org\/web\/20190302024747\/https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/web.archive.org\/web\/20190302024747\/https:\/\/archives.upenn.edu\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="contact-form-7-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="uarc-google-fonts-css" href="https://web.archive.org/web/20190302024747cs_/https://fonts.googleapis.com/css?family=Roboto%3A400%2C400italic%2C700%2C700italic" type="text/css" media="all"/>
+<link rel="stylesheet" id="simple-social-icons-font-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/plugins/simple-social-icons/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="fancybox-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/plugins/easy-fancybox/css/jquery.fancybox.1.3.23.min.css" type="text/css" media="screen"/>
+<style id="fancybox-inline-css" type="text/css">
+#fancybox-title,#fancybox-title-float-main{color:#333}
+</style>
+<link rel="stylesheet" id="msl-main-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/plugins/master-slider/public/assets/css/masterslider.main.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="uarc-fontawesome-css" href="https://web.archive.org/web/20190302024747cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="uarc-bootstrap-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/themes/uarc/library/css/bootstrap.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="bones-stylesheet-css" href="https://web.archive.org/web/20190302024747cs_/https://archives.upenn.edu/wp-content/themes/uarc/library/css/style.min.css" type="text/css" media="all"/>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='https://archives.upenn.edu/wp-content/themes/uarc/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/simple-social-icons/svgxuse.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/themes/uarc/library/js/libs/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/themes/uarc/library/js/libs/respond.min.js"></script>
+<link rel="https://api.w.org/" href="https://archives.upenn.edu/wp-json/"/>
+<link rel="canonical" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/modern"/>
+<link rel="shortlink" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/?p=10796"/>
+<link rel="alternate" type="application/json+oembed" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Farchives.upenn.edu%2Fexhibits%2Fpenn-history%2Fpa-album%2Fmodern"/>
+<link rel="alternate" type="text/xml+oembed" href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Farchives.upenn.edu%2Fexhibits%2Fpenn-history%2Fpa-album%2Fmodern&amp;format=xml"/>
+<style>.ms-parent-id-6 > .master-slider{ background:#ffffff; }
+.ms-parent-id-2 > .master-slider{ background:#ffffff; }</style>
+<script>var ms_grabbing_curosr = 'https://web.archive.org/web/20190302024747/https://archives.upenn.edu/wp-content/plugins/master-slider/public/assets/css/common/grabbing.cur', ms_grab_curosr = 'https://web.archive.org/web/20190302024747/https://archives.upenn.edu/wp-content/plugins/master-slider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 3.5.3 - Responsive Touch Image Slider | avt.li/msf"/>
+<link rel="icon" href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/uploads/2018/12/cropped-shield-only-RGB-4k-3-1-32x32.png" sizes="32x32"/>
+<link rel="icon" href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/uploads/2018/12/cropped-shield-only-RGB-4k-3-1-192x192.png" sizes="192x192"/>
+<link rel="apple-touch-icon-precomposed" href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/uploads/2018/12/cropped-shield-only-RGB-4k-3-1-180x180.png"/>
+<meta name="msapplication-TileImage" content="https://archives.upenn.edu/wp-content/uploads/2018/12/cropped-shield-only-RGB-4k-3-1-270x270.png"/>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://web.archive.org/web/20190302024747js_/https://www.googletagmanager.com/gtag/js?id=UA-30218581-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-30218581-1');
+		</script>
+
+		
+			</head>
+
+	<body post_type="pennhistory" class="pennhistory-template-default single single-pennhistory postid-10796 _masterslider _ms_version_3.5.3" itemscope itemtype="http://schema.org/WebPage">
+
+		<div id="container">
+
+			<header class="header main-header" itemscope itemtype="http://schema.org/WPHeader">
+
+					<div id="inner-header" class="cf">
+						<div class="row row-eq-height">
+							<section class="col-sm-6 col-md-8">
+			                    <div id="logo">
+			                        <a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/" title="University Archives and Records Center" rel="home"><img width="201" height="100" src="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/uploads/2015/12/uarc-logo.svg" alt="University Archives and Records Center"></a>
+			                    </div>
+			                </section>
+		                	<script>
+							  (function() {
+							    var cx = '012134294463400807330:jg7mzh5d0x0';
+							    var gcse = document.createElement('script');
+							    gcse.type = 'text/javascript';
+							    gcse.async = true;
+							    gcse.src = 'https://web.archive.org/web/20190302024747/https://cse.google.com/cse.js?cx=' + cx;
+							    var s = document.getElementsByTagName('script')[0];
+							    s.parentNode.insertBefore(gcse, s);
+							  })();
+							</script>
+											                <section id="search-box" class="col-sm-6 col-md-4">
+				                	<div class="reset-box-sizing">
+										<gcse:searchbox-only enableautocomplete="false"></gcse:searchbox-only>
+									</div>
+				                </section>
+			                			            </div>
+			        </div>
+
+
+										
+					<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<ul id="menu-main-menu" class="nav top-nav cf"><li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-279"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/collections">Collections</a>
+<ul class="sub-menu">
+	<li id="menu-item-292" class="menu-item menu-item-type-post_type_archive menu-item-object-faid menu-item-292"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/collections/finding-aids">Finding Aids</a></li>
+	<li id="menu-item-293" class="menu-item menu-item-type-post_type_archive menu-item-object-subjguide menu-item-293"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/collections/subject-guides">Subject Guides</a></li>
+</ul>
+</li>
+<li id="menu-item-277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-277"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits">Online Exhibits</a>
+<ul class="sub-menu">
+	<li id="menu-item-294" class="menu-item menu-item-type-post_type_archive menu-item-object-pennhistory menu-item-294"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history">Penn History</a></li>
+	<li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-278"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-people">Penn People</a>
+	<ul class="sub-menu">
+		<li id="menu-item-295" class="menu-item menu-item-type-post_type_archive menu-item-object-pennpeople menu-item-295"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-people/biographies">Penn People A-Z</a></li>
+		<li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-280"><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-people/notables">Penn Notables</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-287"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/digitized-resources">Digitized Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/digitized-resources/docs-pubs">Documents &#038; Publications</a></li>
+	<li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a target="_blank" href="https://web.archive.org/web/20190302024747/https://library.artstor.org/#/collection/87732016">Digital Image Collection</a></li>
+	<li id="menu-item-9630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9630"><a target="_blank" href="https://web.archive.org/web/20190302024747/https://www.youtube.com/user/PennArchives">PennArchives YouTube</a></li>
+</ul>
+</li>
+<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-480"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research">Conducting Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-541"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research/visit">Visiting the Archives</a></li>
+	<li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research/regulations">Guidelines for Using Materials</a></li>
+	<li id="menu-item-527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-527"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research/services-fees">Services and Fees</a></li>
+	<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-558"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research/genealogy">Genealogical Research</a></li>
+	<li id="menu-item-557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-557"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/research/classroom-resources">Classroom Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-487"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info">Archives Info</a>
+<ul class="sub-menu">
+	<li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info/virtual-tours">Virtual Tours</a></li>
+	<li id="menu-item-653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-653"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info/other-archives">Other Archives at Penn</a></li>
+	<li id="menu-item-675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-675"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info/staff">Archives Staff</a></li>
+	<li id="menu-item-640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info/faq">FAQ</a></li>
+	<li id="menu-item-14853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14853"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/archives-info/contact">Contact the Archives</a></li>
+</ul>
+</li>
+<li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-494"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center">University Records Center</a>
+<ul class="sub-menu">
+	<li id="menu-item-8762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8762"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center/procedures">Procedures</a></li>
+	<li id="menu-item-8793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8793"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center/resources">Resources</a></li>
+	<li id="menu-item-14813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14813"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center/staff">Records Center Staff</a></li>
+	<li id="menu-item-8794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8794"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center/faq">FAQ</a></li>
+	<li id="menu-item-14852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14852"><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/records-center/contact">Contact the Records Center</a></li>
+</ul>
+</li>
+</ul>					</nav>
+
+				</div>
+
+			</header>
+
+
+			<div id="content" class="faid">
+				<div id="inner-content" class="wrap cf">
+
+					<main id="main" class="cf" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+
+													<article id="post-10796" class="cf post-10796 pennhistory type-pennhistory status-publish hentry">
+                    			
+                    			        <p class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to University Archives and Records Center." href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span> &#187; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Online Exhibits." href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits" class="pennhistory-root post post-pennhistory"><span property="name">Online Exhibits</span></a><meta property="position" content="2"></span> &#187; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Penn History Exhibits." href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history" class="post post-pennhistory-archive"><span property="name">Penn History Exhibits</span></a><meta property="position" content="3"></span> &#187; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to A Pennsylvania Album." href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album" class="post post-pennhistory"><span property="name">A Pennsylvania Album</span></a><meta property="position" content="4"></span> &#187; <span property="itemListElement" typeof="ListItem"><span property="name">The Modern Urban University</span><meta property="position" content="5"></span>        </p>
+
+				                <header class="article-header">
+				                    
+				                    <div class="uarc-post-type"><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history">Penn History</a></div>
+				                    <div class="page-title-container">
+
+				                 		<!-- CHECK IF PAGE HAS A PARENT PAGE -->
+				                    					                    			<h1><a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album">A Pennsylvania Album</a></h1>
+				                    							                    				<p class="subtitle">The Modern Urban University</p>
+				                    					                    </div>
+				                    
+				                    <div class="exhibit-credit"><p>By James A. Bessin</p>
+</div>
+				                </header>
+
+        						
+				                        <section class="col-md-4 col-md-push-8 entry-sidebar">
+				                        	        <div class="uarc-toc-container uarc-widget blue-list">
+            <h3>Contents</h3>
+
+            <ul class="uarc-toc">
+                <li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/front-matter">Front Matter</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/introduction">Introduction</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/foundation">Franklin&#8217;s Academy: The University&#8217;s Foundation</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/revolution">The College of Philadelphia and the Politics of Revolution, 1755-1779</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/law-school">The Establishment of the Law School</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/civil-war">National Crisis, Institutional Change: Penn and the Civil War</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/university-builder">Charles J. Stille: University Builder</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/rites-of-passage">Rites of Passage: Student Traditions and Class Fights</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/quad">The Quadrangle</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/blacks">Blacks at Penn, Then and Now</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/women">Women at Penn in the 1950s</a></li>
+<li><a href="#">The Modern Urban University</a></li>
+<li><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/endnotes">Endnotes</a></li>
+            </ul>
+        </div>
+    				                        </section>
+				                        <section class="col-md-8 col-md-pull-4 entry-content cf">
+			                        	<div class="uarc-section"><p><a href="/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album">&laquo; Back to A Pennsylvania Album: Undergraduate Essays on the 250th Anniversary </a></p>
+<iframe class="pdfjs-viewer" width="100%" height="800px" src="https://web.archive.org/web/20190302024747if_/https://archives.upenn.edu/wp-content/plugins/pdf-viewer/beta/web/viewer.html?file=https://archives.upenn.edu/wp-content/uploads/2018/03/urban-university.pdf"></iframe> 
+</div><p class="uarc-clearfix no-height"></p><div class="return-to-top-link"><a href="#container" title="Return to top"><i class="fa fa-chevron-circle-up"></i></a></div>  <div class="custom-page-navi">
+    <div class="custom-prev-page col-sm-6">
+          <a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/women">&laquo; Women at Penn in the 1950s</a>
+    </div>
+    <div class="custom-next-page col-sm-6">
+          <a href="https://web.archive.org/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/endnotes">Endnotes &raquo;</a>
+
+    </div>
+    <div class="uarc-clearfix"></div>
+</div>
+
+		                    </article>
+
+						
+						
+					</main>
+
+				</div>
+
+			</div>
+
+			<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+
+				<div id="inner-footer" class="cf">
+
+					<nav>
+											</nav>
+
+					<div class="container-fluid top-footer footer-contact">
+						<div class="row row-eq-height">
+
+							<section id="footer1" class="col-md-4">
+								<div id="text-3" class="widget widget_text"><h4 class="widgettitle">University Archives</h4>			<div class="textwidget"><p>
+3401 Market Street, Suite 210<br/>
+Philadelphia, PA 19104<br/>
+(215) 898-7024
+</p>
+<p>
+<a href="/web/20190302024747/https://archives.upenn.edu/archives-info/faq">FAQ</a> / <a href="/web/20190302024747/https://archives.upenn.edu/archives-info/contact">Contact Us</a>
+</p>
+<p>
+<strong>Hours</strong><br/>
+Monday - Friday<br/>
+9:30am - 4:30pm
+</p></div>
+		</div>							</section>
+							<section id="footer2" class="col-md-4">
+								<div id="text-4" class="widget widget_text"><h4 class="widgettitle">University Records Center</h4>			<div class="textwidget"><p>
+4015 Walnut Street, Mezzanine<br/>
+Philadelphia, PA 19104<br/>
+(215) 898-9432
+</p>
+<p>
+<a href="/web/20190302024747/https://archives.upenn.edu/records-center/faq">FAQ</a> / <a href="/web/20190302024747/https://archives.upenn.edu/records-center/contact">Contact Us</a>
+</p>
+<p>
+<strong>Hours</strong><br/>
+Monday - Friday<br/>
+9:00am - 5:00pm
+</p></div>
+		</div>							</section>
+							<section id="footer3" class="col-md-4">
+								<div id="simple-social-icons-3" class="widget simple-social-icons"><h4 class="widgettitle">Follow Us</h4><ul class="aligncenter"><li class="ssi-facebook"><a href="https://web.archive.org/web/20190302024747/https://www.facebook.com/pennarchives" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-facebook" aria-labelledby="social-facebook-3"><title id="social-facebook-3">Facebook</title><use xlink:href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use></svg></a></li><li class="ssi-twitter"><a href="https://web.archive.org/web/20190302024747/https://www.twitter.com/pennarchives" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-twitter" aria-labelledby="social-twitter-3"><title id="social-twitter-3">Twitter</title><use xlink:href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-twitter"></use></svg></a></li><li class="ssi-youtube"><a href="https://web.archive.org/web/20190302024747/https://www.youtube.com/user/PennArchives" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-youtube" aria-labelledby="social-youtube-3"><title id="social-youtube-3">YouTube</title><use xlink:href="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-youtube"></use></svg></a></li></ul></div><div id="text-7" class="widget widget_text">			<div class="textwidget"><p>&nbsp;</a></p>
+<p><a href="/web/20190302024747/https://archives.upenn.edu/protocols">Protocols</a><br/>
+<a href="/web/20190302024747/https://archives.upenn.edu/privacy">Privacy Policy</a></p>
+</div>
+		</div>							</section>
+
+						</div>
+					</div>
+					<div class="row row-eq-height bottom-footer">
+						<section id="footer-copyright" class="col-md-6">
+							<p class="source-org copyright">&copy; 2019 University Archives and Records Center</p>
+						</section>
+						<section id="footer-penn" class="col-md-6">
+							<a href="https://web.archive.org/web/20190302024747/http://www.upenn.edu/" target="_blank"><img src="https://web.archive.org/web/20190302024747im_/https://archives.upenn.edu/wp-content/uploads/penn_logo.png"/></a>
+						</section>
+					</div>
+				</div>
+
+			</footer>
+
+		</div>
+
+				<style type="text/css" media="screen"> #simple-social-icons-3 ul li a, #simple-social-icons-3 ul li a:hover, #simple-social-icons-3 ul li a:focus { background-color: #ffffff !important; border-radius: 3px; color: #323944 !important; border: 0px #3d4553 solid !important; font-size: 18px; padding: 9px; }  #simple-social-icons-3 ul li a:hover, #simple-social-icons-3 ul li a:focus { background-color: #c2d4e8 !important; border-color: #3d4553 !important; color: #323944 !important; }  #simple-social-icons-3 ul li a:focus { outline: 1px dotted #c2d4e8 !important; }</style><script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/web.archive.org\/web\/20190302024747\/https:\/\/archives.upenn.edu\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/table-of-contents-plus/front.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://www.google.com/recaptcha/api.js?render=6Ld7W4EUAAAAAF8KZKCv_z-FTryh0nkZUtey_FwS"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/easy-fancybox/js/jquery.fancybox.1.3.23.min.js"></script>
+<script type="text/javascript">
+var fb_timeout, fb_opts={'overlayShow':true,'hideOnOverlayClick':true,'overlayColor':'#fff','showCloseButton':true,'margin':20,'centerOnScroll':true,'enableEscapeButton':true,'autoScale':true };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery('.nofancybox,a.wp-block-file__button,a.pin-it-button,a[href*="pinterest.com/pin/create"],a[href*="facebook.com/share"],a[href*="twitter.com/share"]').addClass('nolightbox');
+/* IMG */
+var fb_IMG_select='a[href*=".jpg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpg"]:not(.nolightbox),a[href*=".jpeg"]:not(.nolightbox,li.nolightbox>a),area[href*=".jpeg"]:not(.nolightbox),a[href*=".png"]:not(.nolightbox,li.nolightbox>a),area[href*=".png"]:not(.nolightbox)';
+jQuery(fb_IMG_select).addClass('fancybox image').attr('rel','gallery');
+jQuery('a.fancybox,area.fancybox,li.fancybox a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'type':'image','transitionIn':'elastic','easingIn':'easeOutBack','transitionOut':'elastic','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':true,'titlePosition':'inside','titleFromAlt':true,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false}))});
+/* Inline */
+jQuery('a.fancybox-inline,area.fancybox-inline,li.fancybox-inline a').each(function(){jQuery(this).fancybox(jQuery.extend({},fb_opts,{'type':'inline','autoDimensions':true,'scrolling':'no','easingIn':'easeOutBack','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':false}))});};
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+};
+var easy_fancybox_auto=function(){setTimeout(function(){jQuery('#fancybox-auto').trigger('click')},1000);};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+jQuery(easy_fancybox_auto);
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/easy-fancybox/js/jquery.easing.1.4.1.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/plugins/easy-fancybox/js/jquery.mousewheel.3.1.13.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajaxalphabeticalpagination = {"ajaxurl":"https:\/\/web.archive.org\/web\/20190302024747\/https:\/\/archives.upenn.edu\/wp-admin\/admin-ajax.php","nonce":"718987ff99"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/themes/uarc/library/js/libs/ajax-alphabetical-pagination.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-content/themes/uarc/scripts.all.min.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20190302024747js_/https://archives.upenn.edu/wp-includes/js/wp-embed.min.js"></script>
+<script type="text/javascript">
+( function( grecaptcha, sitekey ) {
+
+	var wpcf7recaptcha = {
+		execute: function() {
+			grecaptcha.execute(
+				sitekey,
+				{ action: 'homepage' }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		}
+	};
+
+	grecaptcha.ready( wpcf7recaptcha.execute );
+
+	document.addEventListener( 'wpcf7submit', wpcf7recaptcha.execute, false );
+
+} )( grecaptcha, '6Ld7W4EUAAAAAF8KZKCv_z-FTryh0nkZUtey_FwS' );
+</script>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3214e981d9","applicationID":"45013477","transactionName":"MlNbNkFXD0ZXBUBRCQsZeAFHXw5bGRVdVgEJUxQSVlgPXV8VQFcUHA==","queueTime":0,"applicationTime":181,"atts":"HhRYQAlNHEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html> <!-- end of site. what a ride! -->
+<!--
+     FILE ARCHIVED ON 02:47:47 Mar 02, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:41:48 May 05, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.677
+  exclusion.robots: 0.165
+  exclusion.robots.policy: 0.154
+  cdx.remote: 0.062
+  esindex: 0.011
+  LoadShardBlock: 162.02 (3)
+  PetaboxLoader3.datanode: 68.559 (4)
+  PetaboxLoader3.resolve: 152.71 (2)
+  load_resource: 157.61
+--> contentType 24 text/html; charset=UTF-8 url 111 https://web.archive.org:443/web/20190302024747/https://archives.upenn.edu/exhibits/penn-history/pa-album/modern responseCode 3 200 

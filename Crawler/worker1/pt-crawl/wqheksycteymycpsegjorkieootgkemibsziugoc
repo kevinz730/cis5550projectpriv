@@ -1,0 +1,2104 @@
+wqheksycteymycpsegjorkieootgkemibsziugoc page 52653 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        
+  Prints &amp; Photographs Online Catalog
+
+        </title>
+        
+        <meta http-equiv="Content-Language" content="en-us" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link title="schema(DC)"
+              rel="schema.dc"
+              href="http://purl.org/dc/elements/1.1/" />
+        <link title="schema(DCTerms)"
+              rel="schema.dcterms"
+              href="http://purl.org/dc/terms/" />
+        <link rel='canonical'
+              href='https://www.loc.gov/pictures'/>
+        <link rel='alternate'
+              type='application/json'
+              href='https://www.loc.gov/pictures/?fo=json'/>
+        <link rel="dc.relation.isPartOf"
+              href='https://www.loc.gov/pictures'
+              title="Prints &amp; Photographs Online Catalog (Library of Congress)"/>
+
+
+        
+    
+        <meta name="keywords" content="" />
+        <meta name="description" content="The Prints and Photographs Online
+              Catalog (PPOC) contains catalog
+              records and digital images representing
+              a rich cross-section of
+              still pictures held by the Prints &amp; Photographs
+              Division and, in some cases, other units of the
+              Library of Congress. The Library of Congress
+              offers broad public access to
+              these materials
+              as a contribution to
+              education and scholarship." />
+        
+	<meta id="prop46" name="collection" content="" />
+
+        
+        <link rel='shortcut icon'
+              href='https://www.loc.gov/images/fav.ico'/>
+        
+        
+
+
+        <link rel="stylesheet" 
+              media="print" 
+              type="text/css" 
+              href='https://www.loc.gov/pictures/static/css/ppoc_print.css'/>
+        <link rel="stylesheet" 
+              media="screen, projection" 
+              type="text/css" 
+              href='https://www.loc.gov/pictures/static/css/ppoc_standard.css' />
+        <link rel="stylesheet"
+              media="screen, all"
+              type="text/css"
+              href='https://cdn.loc.gov/css/lochead.css'/>
+        <link rel="stylesheet"
+              media="screen, all"
+              type="text/css"
+              href='https://cdn.loc.gov/css/locfoot.css'/>
+        
+<link rel="stylesheet" 
+	  media="screen, projection" 
+	  type="text/css" 
+	  href='https://www.loc.gov/pictures/static/css/ppoc_2col.css' />
+
+<link rel="stylesheet" 
+	href="https://cdn.loc.gov/css/plugins/jquery-ui-themes/base/jquery.ui.all-min.css" 
+	type="text/css" 
+	media="all" />
+<link rel="stylesheet" 
+	  media="screen, projection" 
+	  type="text/css" 
+	  href='https://www.loc.gov/pictures/static/css/ppoc_tabcarousel.css'/>
+<link rel="stylesheet" 
+      media="screen, projection" 
+      type="text/css" 
+      href='https://www.loc.gov/pictures/static/css/featured.css' />
+<style>
+#main_body{
+    border: none;
+}
+#content #main_menu #main_body #searchnav{
+    border: 1px solid #d4e9ff;
+}
+#featured, #topical{
+    display: none;
+}
+#main_body #featured-carousel li {
+    background: none;
+    padding: 3px 20px 3px 20px;
+    font: 90%/110% Verdana,Arial,Helvetica,sans-serif;
+}
+#main_body #topical-carousel li {
+    background: none;
+    padding: 0 10px 0 0;
+    margin: 0;
+    height:120px;
+    width: 248px;
+}
+#featured-carousel,
+#topical-carousel{
+    padding: 0;
+    margin: 0;
+}
+.ui-corner-all {
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+</style>
+<noscript>
+<style>
+#featured, #topical{
+    display: block;
+}
+</style>
+</noscript>
+    
+
+        <style>
+            div.locshare-this{
+                display:none;
+            }
+        </style>
+        
+        
+
+        <script type='text/javascript' 
+                src='https://cdn.loc.gov/js/lib/jquery-1.4.2.js'>
+        </script>
+        <script type='text/javascript' 
+                src='https://www.loc.gov/pictures/static/plugins/jquery.hoverIntent.js'>
+        </script>
+        <script type='text/javascript' 
+                src='https://www.loc.gov/pictures/static/plugins/jquery.ifixpng.js'>
+        </script>
+        <script type='text/javascript'>
+            var ppoc_options = {
+                root:'/pictures/'
+            };
+        </script>
+        <script src="https://assets.adobedtm.com/f94f5647937d/624e2240e90d/launch-0610ec681aff.min.js" async></script>
+        
+<script type='text/javascript' 
+		src='https://cdn.loc.gov/js/lib/jquery-ui-1.8.10.min.js'></script>
+<script src='https://www.loc.gov/pictures/static/plugins/jquery.carouFredSel-5.3.0.js'></script>
+<script type="text/javascript"> 
+jQuery.fn.autocomplete = null;
+jQuery(function($) {
+    $( "#tabs_carous" ).tabs();
+    var featured = $( "#featured" ).show().html(),
+        topical = $( "#topical" ).show().html(),
+        startfeatured = function(){
+            $('#featured-carousel').carouFredSel({
+                width: 625,
+                height: 145,
+                prev: '#featured-prev',
+                next: '#featured-next',
+                auto: true,
+                scroll: {
+                    pauseOnHover: true,
+                    duration: 1000
+                },
+                pagination: {
+                    container: "#featured-pager"
+                },
+                circular: true
+            });
+        },
+        starttopical = function(){
+        
+            $('#topical-carousel').carouFredSel({
+                width: 260,
+                height: 145,
+                prev: '#topical-prev',
+                next: '#topical-next',
+                auto: true,
+                scroll: {
+                    pauseOnHover: true
+                },
+                pagination: {
+                    container: "#topical-pager"
+                },
+                circular: true
+            });
+            
+        };
+        
+        
+    startfeatured();
+    
+    $('a[href="#topical"]').bind('click',function(){
+        
+        starttopical();
+    });
+    $('a[href="#featured"]').bind('click',function(){
+        
+        startfeatured();
+    });
+        
+});
+</script> 
+
+		
+		<script type='text/javascript' 
+				src='https://cdn.loc.gov/sites/pictures.js'>
+		</script>
+		
+        <!--[if lte IE 7]>
+        <style type="text/css" media="screen">
+          div#topnav form input.button {
+              vertical-align: top;
+            }
+            #main_body form input.button {
+                vertical-align: top;
+            }
+            #content #main_menu #main_body #search_arrow{
+                margin-top:-8px;
+            }
+            #content #main_menu #main_body #search_tabs li,
+            #content #main_menu #main_body #search_tabs li:hover{
+                display:inline;
+                width: auto;
+                height:12px;
+                position: relative;
+                padding:8px 0 5px 0;
+            }
+            #content #main_menu #main_body #search_tabs li.selected{
+                display:inline;
+                width: auto;
+            }
+            #item #results_lookahead div.images, #results_lookahead div.images {
+                background-color:#FFFFFF;
+                height:auto;
+                margin: 12px 0 0 0;
+                padding:0;
+                vertical-align:middle;
+                width:165px;
+            }
+            #item #results_lookahead div, #results_lookahead div{
+                margin-bottom:0;
+            }
+            #itemnavclear{
+                height:0;
+                margin:0 0 0 0;
+                padding:0;
+                background:none;
+            }
+            
+            #main_body #tabs_carous ul.tabs {
+                width: 691px;
+            }
+        </style>
+    
+        
+        <![endif]-->
+    </head>
+<body>
+<a id="skip" href="#skip_menu">skip navigation</a>
+<div id="container">
+    
+    <div id="branding">
+    <h2>Library of Congress</h2>
+    <h3>Prints &amp; Photographs Online Catalog</h3>
+    </div>
+    
+    <div id="h-wrapper" class="fix-float">
+    <div id="header" class="fix-float">
+        <div class="logo">
+            <a href="https://www.loc.gov/" accesskey="1"><img src="https://cdn.loc.gov/images/img-head/logo-loc.png" width="141" height="32" alt="Library of Congress" /></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a class="btn-loc" href="https://ask.loc.gov/" accesskey="2">Ask a Librarian</a></li>
+                <li><a class="btn-loc" href="https://www.loc.gov/collections/" accesskey="3">Digital Collections</a></li>
+                <li><a class="btn-loc" href="https://catalog.loc.gov/" accesskey="4">Library Catalogs</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="https://www.loc.gov/search" method="get">
+                <label class="search_label" for="search">Search</label>
+                <div class="search_wrap">
+                    <input type='hidden' name='new' value='true'/>
+                    <input id="search" type="search" name="q" maxlength="200" accesskey="/" title="Search the Library of Congress website" placeholder="Search Loc.gov" class="locsuggest" /><button class="button" id="search_button" type="submit">GO</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.loc.gov/suggest/library-of-congress.js" type="text/javascript"></script>
+</div>
+
+    
+    <div id="crumb_nav">
+        <div id="crumb">
+            
+<a href="/">Library of Congress</a>
+<span>&gt;</span>
+<a href="https://www.loc.gov/rr/print/">Prints &amp; Photographs Reading Room</a>
+<span>&gt;</span>
+Prints &amp; Photographs Online Catalog
+
+        </div>
+        
+    </div>
+    
+    <div id="announcement">
+        
+        
+        
+    </div>
+
+    <div id="content">
+      
+<div id="left_nav">
+    
+	<div id="left_nav_top">
+		<a href='https://www.loc.gov/pictures'>
+			<img src='https://www.loc.gov/pictures/static/images/ppoc_leftnav.gif'
+				 alt="Prints and Photographs Division" 
+				 width="218" 
+				 height="50" />
+		</a>
+	</div>
+	<div id='standard_nav'>
+		<ul id=''>
+		   <li><a href='https://www.loc.gov/pictures'>PPOC Home</a></li>
+           <li><a href='https://www.loc.gov/pictures/about'>About PPOC</a></li>
+           <li><a href='https://www.loc.gov/pictures/collections'>PPOC collections</a></li>
+           <li><a href='https://www.loc.gov/pictures/help#tips'>Search Tips</a></li>
+           <li><a href='https://www.loc.gov/pictures/help#downloading'>Download Tips</a></li>
+		</ul>
+    </div>
+    <div id="left_nav_mid">
+		
+		
+		
+        <h3>Browse By:</h3>
+        <ul id="index">
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/names/'>
+                Creator/Related Names
+                </a>
+            </li>
+            
+            
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/subjects/'>
+                Subjects
+                </a>
+            </li>
+            
+            
+			
+            
+            
+			<li>
+			    <a href='https://www.loc.gov/pictures/index/formats/'>
+                Formats
+                </a>
+            </li>
+            
+            
+			
+        </ul>
+		
+		
+				
+		
+		
+         <h2>More Resources</h2>
+        <ul id="res_links">
+          <li><a href="https://www.loc.gov/rr/print/"
+		  	>Prints &amp; Photographs Reading Room</a></li>
+          <li><a href="https://www.loc.gov/rr/askalib/ask-print.html"
+		  	>Ask a Prints &amp; Photographs Librarian</a></li>
+        </ul>
+		
+	   
+	</div>
+	
+    <div>
+        <a href="https://blogs.loc.gov/picturethis/"><img src='https://www.loc.gov/pictures/static/images/blog.gif'/></a>
+    </div>
+</div>
+
+<div id="page_head">
+	<span style="width: 100%;">
+		<a name="skip_menu"></a>
+	</span>
+	<h1 class="oneline">
+		
+		Prints &amp; Photographs Online Catalog
+		
+	</h1>
+	<div id="sharewrapper">
+    <div class="locshare-this" id='ppocshare_browse'>&#160;</div>
+    </div>
+</div>
+
+
+
+<div id="main_menu">
+	<div id="main_body">
+		<div id="searchnav">
+		
+
+<script type='text/javascript' 
+        src='https://www.loc.gov/pictures/static/plugins/jquery.autocomplete.js'>
+</script>
+<script type='text/javascript' 
+		src='https://www.loc.gov/pictures/static/scripts/search.js'>
+</script>
+
+
+
+<form 	id='search_form'
+		name="qform" 
+		method="get" 
+		action='https://www.loc.gov/pictures/search'
+		class=''>
+		
+    <ul id='search_tabs'>
+        
+        <li class='selected'>
+          &#160;Search All&#160;
+        </li>
+        
+    </ul>       
+    
+    <div id='search_arrow' >
+        <img src='https://www.loc.gov/pictures/static/images/search_arrow.png' 
+             width='15'
+             alt=''/>
+    </div>
+        
+        
+	<div id='search_simple'>
+    
+		<!-- Simple Fields -->
+	    <input  id="ppocsearch" 
+				type="text" 
+				name="q" 
+				value=""
+				size="200"/>
+        <input class="button" 
+				id="search_button" 
+				type="submit" 
+				value="GO" />
+        <ul>
+            <li >
+                <a id='search_advanced'
+        			href="#show_search_advanced">
+        			Advanced
+                </a>
+                <span class='quiet'>
+                    |
+                </span>
+            </li>
+            <li>
+                <a id='search_legal_notice'
+        			href='https://www.loc.gov/pictures/help'>
+        			Help
+                </a>
+            </li>
+        </ul>  
+	</div>
+	
+      
+    
+    <div id='search_options'>
+		<!-- Hidden Fields -->
+		<input name='sp' 
+			   type='hidden'
+			   value='1'/>
+		<input name='sb' 
+			   type='hidden'
+			   value=''/><!--call_number, control_number-->
+		<input name='st' 
+			   type='hidden'
+			   value='list'/><!--thumbnails, grid-->
+		<input id='co_input'
+               name='co' 
+			   type='hidden'
+			   value=''/>
+        <input id="suggested"
+               name='sg' 
+			   type='hidden'
+			   value='false'/>
+		<!-- Advanced Fields -->
+		<select id="search_field"
+				name='fi'>
+			<option value="all">Search in all text fields</option>
+			<option value="subject">Search the subject fields</option>
+			<option value="author">Search the creator/name fields</option>
+			<option value="title">Search the title fields</option>
+			<option value="number">Search the number fields</option>
+		</select>
+		<select id="search_operator"
+				name='op'>
+			<option value="AND">Match all words</option>
+			<option value="OR">Match any words</option>
+			<option value="PHRASE">Match exact phrase</option>
+		</select>
+		<select id="search_variants"
+				name='va'>
+			<option value="all">Include variants</option>
+			<option value="exact">No variants</option>
+		</select>
+		<br/>
+		Results Per Page:
+		<input  id="count_per_page" 
+				type="text" 
+				name="c" 
+				size="6" />
+				<!--value='20'/-->
+		records.
+	</div>
+</form>
+		</div>
+		<!-- jQuery UI -->
+
+
+<div class="wrapper_tabcarousel">
+<div id="tabs_carous">
+	<ul class="tabs">
+		<li><a href="#featured">Featured Collections</a></li>
+		<li><a href="#topical">Civil War</a></li>
+	</ul>
+	<div id="featured">
+		<div class="wrapper_carousel">
+        <div class="list_carousel">
+			<ul id="featured-carousel">
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/fbj/"><img 
+						src="https://www.loc.gov/pictures/static/data/fbj/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Johnston (Frances Benjamin) Collection" />
+						<strong>Johnston (Frances Benjamin) Collection</strong></a>
+				</li>
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/highsm/"><img 
+						src="https://www.loc.gov/pictures/static/data/highsm/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Highsmith (Carol M.) Archive" />
+						<strong>Highsmith (Carol M.) Archive</strong></a>
+				</li>
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/lilj/"><img 
+						src="https://www.loc.gov/pictures/static/data/lilj/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Liljenquist Family Collection of Civil War Photographs" />
+						<strong>Liljenquist Family Collection of Civil War Photographs</strong></a>
+				</li>
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/hh/"><img 
+						src="https://www.loc.gov/pictures/static/data/hh/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey" />
+						<strong>Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey</strong></a>
+				</li>
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/wpapos/"><img 
+						src="https://www.loc.gov/pictures/static/data/wpapos/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Posters: WPA Posters" />
+						<strong>Posters: WPA Posters</strong></a>
+				</li>
+				
+				<li><a  href="https://www.loc.gov/pictures/collection/fsa/"><img 
+						src="https://www.loc.gov/pictures/static/data/fsa/featured.png" 
+						width="169" 
+						height="82" 
+						alt="Image from Farm Security Administration/Office of War Information Black-and-White Negatives" />
+						<strong>Farm Security Administration/Office of War Information Black-and-White Negatives</strong></a>
+				</li>
+				
+			</ul>
+            <div class="clearfix"></div>
+
+            <a id="featured-prev" class="prev" href="#">&lt;</a>
+            <a id="featured-next" class="next" href="#">&gt;</a>
+            <div id="featured-pager" class="pager"></div>
+            <div class="clearfix"></div>
+        </div><!-- end class:carousel-body -->
+		</div><!-- end id:carousel_light -->
+	</div>
+	<div id="topical">
+		<div class="slider_left carousel_light">
+		  <!-- loc_slider --> 
+            <div class="wrapper_carousel">
+            <div class="list_carousel">
+                <ul id="topical-carousel">
+					<li><a  href='https://hdl.loc.gov/loc.pnp/ppmsca.08230'
+                            title="Ruins in Richmond"><img 
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel01.png'
+							width="248" 
+							height="120" 
+							alt="Ruins in Richmond" /></a></li> 
+					<li><a  href='https://hdl.loc.gov/loc.pnp/ppmsca.21251'
+                            title="Sharpshooters 18th Corps"><img
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel02.png'
+							width="248" 
+							height="120" 
+							alt="Sharpshooters 18th Corps" /></a></li>
+					<li><a  href='https://hdl.loc.gov/loc.pnp/cwpb.01342'
+                            title="Washington, District of Columbia. Officers of 3d Regiment Massachusetts Heavy Artillery"><img 
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel03.png'
+							width="248" 
+							height="120" 
+							alt="Washington, District of Columbia. Officers of 3d Regiment Massachusetts Heavy Artillery" /></a></li>
+					<li><a  href='https://hdl.loc.gov/loc.pnp/pga.01839'
+                            title="Assault on Fort Sanders"><img 
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel04.png' 
+							width="248" 
+							height="120" 
+							alt="Assault on Fort Sanders" /></a></li>
+					<li><a  href='https://hdl.loc.gov/loc.pnp/ppmsca.36454'
+                            title="[Unidentified African American soldier in Union uniform with wife and two daughters]"><img 
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel05-light.png' 
+							width="248" 
+							height="120" 
+							alt="[Unidentified African American soldier in Union uniform with wife and two daughters]" /></a></li>
+					<li><a  href='https://hdl.loc.gov/loc.pnp/ppmsca.31065'
+                            title="The great fight at Charleston S.C. April, 7th 1863: between 9 United States "Iron-Clads," under the command of Admiral Dupont; and Forts Sumter, Moultrie, and the Cummings Point Batteries in possession of the rebels"><img  
+							src='https://www.loc.gov/pictures/static/data/civwar/carousel06.png'
+							width="248" 
+							height="120" 
+							alt="The great fight at Charleston S.C. April, 7th 1863: between 9 United States "Iron-Clads," under the command of Admiral Dupont; and Forts Sumter, Moultrie, and the Cummings Point Batteries in possession of the rebels" /></a></li>
+				</ul>
+                
+                <div class="clearfix"></div>
+
+                <a id="topical-prev" class="prev" href="#">&lt;</a>
+                <a id="topical-next" class="next" href="#">&gt;</a>
+                <div id="topical-pager" class="pager"></div>
+                <div class="clearfix"></div>
+			</div>
+			</div>
+            <div class="clearfix"></div>
+		</div>
+        
+		<div class="slider_right">
+			<h2>Civil War</h2>
+			<p><a href='https://www.loc.gov/pictures/collection/civwar/'>Explore 
+				the faces, places and events of the U.S. Civil War</a> 
+				through photographs, prints and drawings in one online location.
+			</p>
+			<p>The Prints &amp; Photographs Division holds thousands of images relating 
+				to the Civil War, found in many different collections.   This category 
+				allows research across those collections in one easy 
+				<a href='https://www.loc.gov/pictures/collection/civwar/'>search</a>.
+			</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+</div>
+<!-- END tab carousel 
+
+		<h3 class="dots">
+	    	Featured Collections
+		</h3>
+        
+	  <div id="featured">
+		<div id="featured_left">
+			<ul>
+				
+				
+				
+				
+				
+				<li>
+				
+					<a href="https://www.loc.gov/pictures/collection/highsm/">
+						<img src='https://www.loc.gov/pictures/static/data/highsm/featured.png' 
+							 alt='Highsmith (Carol M.) Archive' 
+							 width="99" />
+						<strong>Highsmith (Carol M.) Archive</strong>
+					</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					<a href="https://www.loc.gov/pictures/collection/hh/">
+						<img src='https://www.loc.gov/pictures/static/data/hh/featured.png' 
+							 alt='Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey' 
+							 width="99" />
+						<strong>Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey</strong>
+					</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					<a href="https://www.loc.gov/pictures/collection/fsa/">
+						<img src='https://www.loc.gov/pictures/static/data/fsa/featured.png' 
+							 alt='Farm Security Administration/Office of War Information Black-and-White Negatives' 
+							 width="99" />
+						<strong>Farm Security Administration/Office of War Information Black-and-White Negatives</strong>
+					</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+		<div id="featured_right">
+			<ul>
+				
+				
+				
+				<li>
+				
+						
+						<a href="https://www.loc.gov/pictures/collection/fbj/">
+							<img src='https://www.loc.gov/pictures/static/data/fbj/featured.png' 
+								 alt="Johnston (Frances Benjamin) Collection" 
+								 width="99" />
+								<strong>Johnston (Frances Benjamin) Collection</strong>
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+						
+						<a href="https://www.loc.gov/pictures/collection/lilj/">
+							<img src='https://www.loc.gov/pictures/static/data/lilj/featured.png' 
+								 alt="Liljenquist Family Collection of Civil War Photographs" 
+								 width="99" />
+								<strong>Liljenquist Family Collection of Civil War Photographs</strong>
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+						
+						<a href="https://www.loc.gov/pictures/collection/wpapos/">
+							<img src='https://www.loc.gov/pictures/static/data/wpapos/featured.png' 
+								 alt="Posters: WPA Posters" 
+								 width="99" />
+								<strong>Posters: WPA Posters</strong>
+						</a>
+					
+				</li>
+				
+				
+				
+				
+			</ul>
+		</div>
+		</div>
+-->
+	    <h3 style='margin: 10px 10px 10px 10px'>
+           	All Collections<span>&#160;|&#160;
+			<img src='https://www.loc.gov/pictures/static/images/arrow_go.gif'  
+				 alt="View Brief Collection Descriptions" />
+			<a href='https://www.loc.gov/pictures/collections'>
+				<strong>View Brief Collection Descriptions</strong></a>&#160;|&#160;
+			<img src='https://www.loc.gov/pictures/static/images/arrow_o.gif'  
+				 alt="View Newly Digitized Images" />
+			<a href='https://www.loc.gov/pictures/search/?q= &so=desc&sb=source_created&st=gallery'>
+				<strong>View Newly Digitized Images!</strong></a>
+		</h3>
+	  
+		<div id="main_left">
+			<ul>
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/ahii/">
+							<img src='https://www.loc.gov/pictures/static/data/ahii/thumb.png' 
+								 alt='Abdul Hamid II Collection' 
+								 width="65" 
+								 height="33" />
+								Abdul Hamid II Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/manz/">
+							<img src='https://www.loc.gov/pictures/static/data/manz/thumb.png' 
+								 alt='Ansel Adams&#39;s Photographs of Japanese-American Internment at Manzanar' 
+								 width="65" 
+								 height="33" />
+								Ansel Adams&#39;s Photographs of Japanese-American Internment at Manzanar
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/ggbain/">
+							<img src='https://www.loc.gov/pictures/static/data/ggbain/thumb.png' 
+								 alt='Bain Collection' 
+								 width="65" 
+								 height="33" />
+								Bain Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/brhc/">
+							<img src='https://www.loc.gov/pictures/static/data/brhc/thumb.png' 
+								 alt='Brady-Handy Collection' 
+								 width="65" 
+								 height="33" />
+								Brady-Handy Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/cai/">
+							<img src='https://www.loc.gov/pictures/static/data/cai/thumb.png' 
+								 alt='Cabinet of American Illustration' 
+								 width="65" 
+								 height="33" />
+								Cabinet of American Illustration
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/ffcarp/">
+							<img src='https://www.loc.gov/pictures/static/data/ffcarp/thumb.png' 
+								 alt='Carpenter Collection' 
+								 width="65" 
+								 height="33" />
+								Carpenter Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/hlb/">
+							<img src='https://www.loc.gov/pictures/static/data/hlb/thumb.png' 
+								 alt='Cartoon Drawings: Herblock Collection' 
+								 width="65" 
+								 height="33" />
+								Cartoon Drawings: Herblock Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/app/">
+							<img src='https://www.loc.gov/pictures/static/data/app/thumb.png' 
+								 alt='Cartoon Prints, American' 
+								 width="65" 
+								 height="33" />
+								Cartoon Prints, American
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/casebk/">
+							<img src='https://www.loc.gov/pictures/static/data/casebk/thumb.png' 
+								 alt='Case Books' 
+								 width="65" 
+								 height="33" />
+								Case Books
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/cwp/">
+							<img src='https://www.loc.gov/pictures/static/data/cwp/thumb.png' 
+								 alt='Civil War Glass Negatives and Related Prints' 
+								 width="65" 
+								 height="33" />
+								Civil War Glass Negatives and Related Prints
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/ecur/">
+							<img src='https://www.loc.gov/pictures/static/data/ecur/thumb.png' 
+								 alt='Curtis (Edward S.) Collection' 
+								 width="65" 
+								 height="33" />
+								Curtis (Edward S.) Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/det/">
+							<img src='https://www.loc.gov/pictures/static/data/det/thumb.png' 
+								 alt='Detroit Publishing Company' 
+								 width="65" 
+								 height="33" />
+								Detroit Publishing Company
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/drwgma/">
+							<img src='https://www.loc.gov/pictures/static/data/drwgma/thumb.png' 
+								 alt='Drawings (Master)' 
+								 width="65" 
+								 height="33" />
+								Drawings (Master)
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/fsac/">
+							<img src='https://www.loc.gov/pictures/static/data/fsac/thumb.png' 
+								 alt='Farm Security Administration/Office of War Information Color Photographs' 
+								 width="65" 
+								 height="33" />
+								Farm Security Administration/Office of War Information Color Photographs
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/finepr/">
+							<img src='https://www.loc.gov/pictures/static/data/finepr/thumb.png' 
+								 alt='Fine Prints' 
+								 width="65" 
+								 height="33" />
+								Fine Prints
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/agc/">
+							<img src='https://www.loc.gov/pictures/static/data/agc/thumb.png' 
+								 alt='Genthe Collection' 
+								 width="65" 
+								 height="33" />
+								Genthe Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/bbgfc/">
+							<img src='https://www.loc.gov/pictures/static/data/bbgfc/thumb.png' 
+								 alt='Goldstein Foundation Collection--Prints and Drawings' 
+								 width="65" 
+								 height="33" />
+								Goldstein Foundation Collection--Prints and Drawings
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/grabill/">
+							<img src='https://www.loc.gov/pictures/static/data/grabill/thumb.png' 
+								 alt='Grabill Collection' 
+								 width="65" 
+								 height="33" />
+								Grabill Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/guide/">
+							<img src='https://www.loc.gov/pictures/static/data/guide/thumb.png' 
+								 alt='Guide Records' 
+								 width="65" 
+								 height="33" />
+								Guide Records
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/highsm/">
+							<img src='https://www.loc.gov/pictures/static/data/highsm/thumb.png' 
+								 alt='Highsmith (Carol M.) Archive' 
+								 width="65" 
+								 height="33" />
+								Highsmith (Carol M.) Archive
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/thc/">
+							<img src='https://www.loc.gov/pictures/static/data/thc/thumb.png' 
+								 alt='Horydczak Collection' 
+								 width="65" 
+								 height="33" />
+								Horydczak Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/krb/">
+							<img src='https://www.loc.gov/pictures/static/data/krb/thumb.png' 
+								 alt='Korab Collection' 
+								 width="65" 
+								 height="33" />
+								Korab Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/lawhou/">
+							<img src='https://www.loc.gov/pictures/static/data/lawhou/thumb.png' 
+								 alt='Lawrence &amp; Houseworth Collection' 
+								 width="65" 
+								 height="33" />
+								Lawrence &amp; Houseworth Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/lomax/">
+							<img src='https://www.loc.gov/pictures/static/data/lomax/thumb.png' 
+								 alt='Lomax Collection' 
+								 width="65" 
+								 height="33" />
+								Lomax Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/matpc/">
+							<img src='https://www.loc.gov/pictures/static/data/matpc/thumb.png' 
+								 alt='Matson (G. Eric and Edith) Photograph Collection' 
+								 width="65" 
+								 height="33" />
+								Matson (G. Eric and Edith) Photograph Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/nclc/">
+							<img src='https://www.loc.gov/pictures/static/data/nclc/thumb.png' 
+								 alt='National Child Labor Committee Collection' 
+								 width="65" 
+								 height="33" />
+								National Child Labor Committee Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/pan/">
+							<img src='https://www.loc.gov/pictures/static/data/pan/thumb.png' 
+								 alt='Panoramic Photographs' 
+								 width="65" 
+								 height="33" />
+								Panoramic Photographs
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/pgz/">
+							<img src='https://www.loc.gov/pictures/static/data/pgz/thumb.png' 
+								 alt='Photochrom Prints' 
+								 width="65" 
+								 height="33" />
+								Photochrom Prints
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/pos/">
+							<img src='https://www.loc.gov/pictures/static/data/pos/thumb.png' 
+								 alt='Posters: Artist Posters' 
+								 width="65" 
+								 height="33" />
+								Posters: Artist Posters
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/spcw/">
+							<img src='https://www.loc.gov/pictures/static/data/spcw/thumb.png' 
+								 alt='Posters: Spanish Civil War Posters' 
+								 width="65" 
+								 height="33" />
+								Posters: Spanish Civil War Posters
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/wpapos/">
+							<img src='https://www.loc.gov/pictures/static/data/wpapos/thumb.png' 
+								 alt='Posters: WPA Posters' 
+								 width="65" 
+								 height="33" />
+								Posters: WPA Posters
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/prok/">
+							<img src='https://www.loc.gov/pictures/static/data/prok/thumb.png' 
+								 alt='Prokudin-Gorskii Collection' 
+								 width="65" 
+								 height="33" />
+								Prokudin-Gorskii Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/stereo/">
+							<img src='https://www.loc.gov/pictures/static/data/stereo/thumb.png' 
+								 alt='Stereograph Cards' 
+								 width="65" 
+								 height="33" />
+								Stereograph Cards
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/tisc/">
+							<img src='https://www.loc.gov/pictures/static/data/tisc/thumb.png' 
+								 alt='Tissandier Collection' 
+								 width="65" 
+								 height="33" />
+								Tissandier Collection
+						</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+						<a href="https://www.loc.gov/pictures/collection/wtc/">
+							<img src='https://www.loc.gov/pictures/static/data/wtc/thumb.png' 
+								 alt='World&#39;s Transportation Commission' 
+								 width="65" 
+								 height="33" />
+								World&#39;s Transportation Commission
+						</a>
+					
+				</li>
+				
+				
+				
+				
+			</ul>
+		</div>
+		<div id="main_right">
+			<ul>
+				
+				
+				
+				
+				
+				<li>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/anedub/">
+						<img src='https://www.loc.gov/pictures/static/data/anedub/thumb.png' 
+							 alt="African American Photographs Assembled for 1900 Paris Exposition" 
+							 width="65" 
+							 height="33" />
+							African American Photographs Assembled for 1900 Paris Exposition
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/ade/">
+						<img src='https://www.loc.gov/pictures/static/data/ade/thumb.png' 
+							 alt="Architecture, Design &amp; Engineering Drawings" 
+							 width="65" 
+							 height="33" />
+							Architecture, Design &amp; Engineering Drawings
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/bbc/">
+						<img src='https://www.loc.gov/pictures/static/data/bbc/thumb.png' 
+							 alt="Baseball Cards" 
+							 width="65" 
+							 height="33" />
+							Baseball Cards
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/brum/">
+						<img src='https://www.loc.gov/pictures/static/data/brum/thumb.png' 
+							 alt="Brumfield Collection" 
+							 width="65" 
+							 height="33" />
+							Brumfield Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/csas/">
+						<img src='https://www.loc.gov/pictures/static/data/csas/thumb.png' 
+							 alt="Carnegie Survey of the Architecture of the South" 
+							 width="65" 
+							 height="33" />
+							Carnegie Survey of the Architecture of the South
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/acd/">
+						<img src='https://www.loc.gov/pictures/static/data/acd/thumb.png' 
+							 alt="Cartoon Drawings" 
+							 width="65" 
+							 height="33" />
+							Cartoon Drawings
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/swa/">
+						<img src='https://www.loc.gov/pictures/static/data/swa/thumb.png' 
+							 alt="Cartoon Drawings: Swann Collection of Caricature and Cartoon" 
+							 width="65" 
+							 height="33" />
+							Cartoon Drawings: Swann Collection of Caricature and Cartoon
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/cpbr/">
+						<img src='https://www.loc.gov/pictures/static/data/cpbr/thumb.png' 
+							 alt="Cartoon Prints, British" 
+							 width="65" 
+							 height="33" />
+							Cartoon Prints, British
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/civwar/">
+						<img src='https://www.loc.gov/pictures/static/data/civwar/thumb.png' 
+							 alt="Civil War" 
+							 width="65" 
+							 height="33" />
+							Civil War
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/cwaj/">
+						<img src='https://www.loc.gov/pictures/static/data/cwaj/thumb.png' 
+							 alt="College Women&#39;s Association of Japan Print Show Collection" 
+							 width="65" 
+							 height="33" />
+							College Women&#39;s Association of Japan Print Show Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/dag/">
+						<img src='https://www.loc.gov/pictures/static/data/dag/thumb.png' 
+							 alt="Daguerreotypes" 
+							 width="65" 
+							 height="33" />
+							Daguerreotypes
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/drwg/">
+						<img src='https://www.loc.gov/pictures/static/data/drwg/thumb.png' 
+							 alt="Drawings (Documentary)" 
+							 width="65" 
+							 height="33" />
+							Drawings (Documentary)
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/fsa/">
+						<img src='https://www.loc.gov/pictures/static/data/fsa/thumb.png' 
+							 alt="Farm Security Administration/Office of War Information Black-and-White Negatives" 
+							 width="65" 
+							 height="33" />
+							Farm Security Administration/Office of War Information Black-and-White Negatives
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/ftncnw/">
+						<img src='https://www.loc.gov/pictures/static/data/ftncnw/thumb.png' 
+							 alt="Fenton Crimean War Photographs" 
+							 width="65" 
+							 height="33" />
+							Fenton Crimean War Photographs
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/jpd/">
+						<img src='https://www.loc.gov/pictures/static/data/jpd/thumb.png' 
+							 alt="Fine Prints: Japanese, pre-1915" 
+							 width="65" 
+							 height="33" />
+							Fine Prints: Japanese, pre-1915
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/gld/">
+						<img src='https://www.loc.gov/pictures/static/data/gld/thumb.png' 
+							 alt="Gladstone Collection of African American Photographs" 
+							 width="65" 
+							 height="33" />
+							Gladstone Collection of African American Photographs
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/gsc/">
+						<img src='https://www.loc.gov/pictures/static/data/gsc/thumb.png' 
+							 alt="Gottscho-Schleisner Collection" 
+							 width="65" 
+							 height="33" />
+							Gottscho-Schleisner Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/coll/">
+						<img src='https://www.loc.gov/pictures/static/data/coll/thumb.png' 
+							 alt="Groups of Images (LOTs)" 
+							 width="65" 
+							 height="33" />
+							Groups of Images (LOTs)
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/hec/">
+						<img src='https://www.loc.gov/pictures/static/data/hec/thumb.png' 
+							 alt="Harris &amp; Ewing Collection" 
+							 width="65" 
+							 height="33" />
+							Harris &amp; Ewing Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/hh/">
+						<img src='https://www.loc.gov/pictures/static/data/hh/thumb.png' 
+							 alt="Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey" 
+							 width="65" 
+							 height="33" />
+							Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/fbj/">
+						<img src='https://www.loc.gov/pictures/static/data/fbj/thumb.png' 
+							 alt="Johnston (Frances Benjamin) Collection" 
+							 width="65" 
+							 height="33" />
+							Johnston (Frances Benjamin) Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/lamb/">
+						<img src='https://www.loc.gov/pictures/static/data/lamb/thumb.png' 
+							 alt="Lamb Studios Archive" 
+							 width="65" 
+							 height="33" />
+							Lamb Studios Archive
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/lilj/">
+						<img src='https://www.loc.gov/pictures/static/data/lilj/thumb.png' 
+							 alt="Liljenquist Family Collection of Civil War Photographs" 
+							 width="65" 
+							 height="33" />
+							Liljenquist Family Collection of Civil War Photographs
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/lmc/">
+						<img src='https://www.loc.gov/pictures/static/data/lmc/thumb.png' 
+							 alt="Look Collection" 
+							 width="65" 
+							 height="33" />
+							Look Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/cph/">
+						<img src='https://www.loc.gov/pictures/static/data/cph/thumb.png' 
+							 alt="Miscellaneous Items in High Demand" 
+							 width="65" 
+							 height="33" />
+							Miscellaneous Items in High Demand
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/npco/">
+						<img src='https://www.loc.gov/pictures/static/data/npco/thumb.png' 
+							 alt="National Photo Company Collection" 
+							 width="65" 
+							 height="33" />
+							National Photo Company Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/ph/">
+						<img src='https://www.loc.gov/pictures/static/data/ph/thumb.png' 
+							 alt="PH Filing Series Photographs" 
+							 width="65" 
+							 height="33" />
+							PH Filing Series Photographs
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/pga/">
+						<img src='https://www.loc.gov/pictures/static/data/pga/thumb.png' 
+							 alt="Popular Graphic Arts" 
+							 width="65" 
+							 height="33" />
+							Popular Graphic Arts
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/var/">
+						<img src='https://www.loc.gov/pictures/static/data/var/thumb.png' 
+							 alt="Posters: Performing Arts Posters" 
+							 width="65" 
+							 height="33" />
+							Posters: Performing Arts Posters
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/wwipos/">
+						<img src='https://www.loc.gov/pictures/static/data/wwipos/thumb.png' 
+							 alt="Posters: World War I Posters" 
+							 width="65" 
+							 height="33" />
+							Posters: World War I Posters
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/yan/">
+						<img src='https://www.loc.gov/pictures/static/data/yan/thumb.png' 
+							 alt="Posters: Yanker Poster Collection" 
+							 width="65" 
+							 height="33" />
+							Posters: Yanker Poster Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/kskm/">
+						<img src='https://www.loc.gov/pictures/static/data/kskm/thumb.png' 
+							 alt="Sikkim Photos (Kandell Collection)" 
+							 width="65" 
+							 height="33" />
+							Sikkim Photos (Kandell Collection)
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/tgm/">
+						<img src='https://www.loc.gov/pictures/static/data/tgm/thumb.png' 
+							 alt="Thesaurus For Graphic Materials" 
+							 width="65" 
+							 height="33" />
+							Thesaurus For Graphic Materials
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/van/">
+						<img src='https://www.loc.gov/pictures/static/data/van/thumb.png' 
+							 alt="Van Vechten Collection" 
+							 width="65" 
+							 height="33" />
+							Van Vechten Collection
+					</a>
+					
+				</li>
+				
+				
+				
+				
+				
+				
+				<li class='less'>
+				
+					
+					<a href="https://www.loc.gov/pictures/collection/wri/">
+						<img src='https://www.loc.gov/pictures/static/data/wri/thumb.png' 
+							 alt="Wright Brothers Negatives" 
+							 width="65" 
+							 height="33" />
+							Wright Brothers Negatives
+					</a>
+					
+				</li>
+				
+				
+			</ul>
+		</div>
+        <p style="clear: left; margin: 0; padding: 10px 10px 10px 15px">
+    		<img src='https://www.loc.gov/pictures/static/images/arrow_top.gif'  
+				 alt="top of the page" />
+			<a href='#skip'>
+				<strong>Top of Page</strong>
+			</a>
+		</p>
+	 </div>
+     
+</div>
+
+<div style='clear:both;'>&#160;</div>
+
+    </div>
+            
+
+<!-- begin: global footer --><div id="f-wrapper" class="fix-float"><div id="footer" class="fix-float"><div class="cols heading"><h2>Connect with the Library</h2><p><a class="ar-more foot" href="//www.loc.gov/homepage/connect.html">All ways to connect</a></p></div><div class="cols"><h3>Find Us On</h3><a href="//www.pinterest.com/LibraryCongress/"><img src="https://cdn.loc.gov/images/img-foot/pinterest.gif" alt="Pinterest" width="16" height="16" /></a> &nbsp; <a href="//www.facebook.com/libraryofcongress"><img src="https://cdn.loc.gov/images/img-foot/facebook.gif" alt="Facebook" width="16" height="16" /></a> &nbsp; <a href="//twitter.com/#!/librarycongress"><img src="https://cdn.loc.gov/images/img-foot/twitter.gif" alt="Twitter" width="16" height="16" /></a> &nbsp; <a href="//www.youtube.com/libraryofcongress"><img src="https://cdn.loc.gov/images/img-foot/youtube.gif" alt="YouTube" width="16" height="16" /></a> &nbsp; <a href="//www.flickr.com/photos/library_of_congress/"><img src="https://cdn.loc.gov/images/img-foot/flickr.gif" alt="Flickr" width="16" height="16" /></a></div><div class="cols"><h3>Subscribe &amp; Comment</h3><ul class="plain"><li><a href="//www.loc.gov/rss/">RSS &amp; E-Mail</a></li><li><a href="//blogs.loc.gov/">Blogs</a></li></ul></div><div class="cols"><h3>Download &amp; Play</h3><ul class="plain"><li><a href="//www.loc.gov/apps/">Apps</a></li><li><a href="//www.loc.gov/podcasts/">Podcasts</a></li><li><a href="//www.loc.gov/today/cyberlc/index.php">Webcasts</a></li><li><a href="//itunes.apple.com/us/institution/library-of-congress/id386017159" class="external foot mod">iTunesU<span> (external link)</span></a></li></ul></div><div class="cols"><h3>Questions</h3><ul class="plain"><li><a href="//ask.loc.gov/">Ask a Librarian</a></li><li><a href="//www.loc.gov/help/contact-general.html" accesskey="8">Contact Us</a></li></ul></div><div class="clear"><!-- --></div><p class="links"><a href="//www.loc.gov/about/">About</a> |
+      <a href="//www.loc.gov/pressroom/login">Press</a> |
+      <a href="//www.loc.gov/hr/employment/index.php">Jobs</a> |
+      <a href="//www.loc.gov/philanthropy/index.php">Donate</a><br /><a href="//www.loc.gov/about/oig/">Inspector General</a> |
+      <a href="//www.loc.gov/homepage/legal.html" accesskey="9">Legal</a> |
+      <a href="//www.loc.gov/access/" accesskey="0">Accessibility</a> |
+      <a href="//www.loc.gov/global/disclaim.html">External Link Disclaimer</a> |
+      <a href="//www.usa.gov/">USA.gov</a></p><span class="speech"><a href="//www.loc.gov/access/web.html">Speech Enabled</a></span></div><!-- end id:footer --></div><!-- end id:f-wrapper --><!-- end: global footer -->
+
+</div>
+</body>
+</html>
+ contentType 24 text/html; charset=UTF-8 url 33 https://www.loc.gov:443/pictures/ responseCode 3 200 

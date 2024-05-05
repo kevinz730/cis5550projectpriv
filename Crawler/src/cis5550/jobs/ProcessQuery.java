@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-
+import cis5550.external.PorterStemmer;
 import cis5550.flame.FlameContext;
 import cis5550.kvs.KVSClient;
 import cis5550.kvs.Row;
@@ -35,6 +35,15 @@ public class ProcessQuery {
 //		return jsonOutput;
 //	}
 	
+	private static String stem(String input) {
+		
+		PorterStemmer stemmer = new PorterStemmer();
+		stemmer.add(input.toCharArray(), input.length());
+	    stemmer.stem();
+	    return stemmer.toString();
+
+    }
+	
 	public String returnResults(String query) throws Exception{
 		
 		ConcurrentHashMap<String, Double> queryTF_map = new ConcurrentHashMap<>();
@@ -44,6 +53,9 @@ public class ProcessQuery {
 		
 		String[] queryParts = query.split(" ");
 		for(String s: queryParts) {
+			s = s.replaceAll("[^a-zA-Z ]", " ").toLowerCase().trim();
+			s = stem(s);
+			System.out.println("stemmed s " + s);
 			double freq = queryTF_map.getOrDefault(s, 0.0);
 			queryTF_map.put(s, freq+1);
 		}
@@ -80,7 +92,11 @@ public class ProcessQuery {
 			//TF-IDF Calculation
 			if(kvs.existsRow("pt-computed", queryParts[i])) 
 			{
-				Row r = kvs.getRow("pt-computed", queryParts[i]);
+				String s = queryParts[i];
+				s = s.replaceAll("[^a-zA-Z ]", " ").toLowerCase().trim();
+				s = stem(s);
+				System.out.println("stemmed s " + s);
+				Row r = kvs.getRow("pt-computed", s);
 				Set<String> cols = r.columns();
 				int numDocsWithTerm = cols.size();
 				int j = 0;
@@ -152,13 +168,23 @@ public class ProcessQuery {
     		System.out.println("cosSim " + String.valueOf(cosSim));
     		
     		String hashedVal = Hasher.hash(col);
-//		    Row pageRank = kvs.getRow("pt-pageranks", hashedVal);
-//		    String data = pageRank.get("rank");
-//		    System.out.println("data " + data);
-//		    double dataDouble = Double.parseDouble(data);
-//		    System.out.println("dataDouble " + String.valueOf(dataDouble));
-//	    	double newVal = dataDouble + cosSim;
-    		double newVal = cosSim;
+		    Row pageRank = kvs.getRow("pt-pageranks", hashedVal);
+		    double newVal = 0.0;
+		    if(kvs.existsRow("pt-pageranks", hashedVal)){
+		    	String data = pageRank.get("rank");
+		    	System.out.println("data " + data);
+			    double dataDouble = Double.parseDouble(data);
+			    System.out.println("dataDouble " + String.valueOf(dataDouble));
+		    	 newVal= dataDouble + cosSim;
+		    	 System.out.println("tfidfxx " + cosSim + " pagerank "+dataDouble);
+		    }
+		    else {
+		    	 newVal= cosSim;
+		    }
+		    
+
+    		//double newVal = cosSim;
+	    	
 	    	System.out.println("newVal " + String.valueOf(newVal));
 	    	computedVals.put(col, String.valueOf(newVal));
     	}
