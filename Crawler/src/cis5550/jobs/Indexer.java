@@ -9,6 +9,8 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import cis5550.external.PorterStemmer;
 import cis5550.flame.FlameContext;
@@ -50,7 +52,7 @@ public class Indexer {
                 word = stem(word);
                 
                 
-                if(word.length()>2 && word.length()<8)
+                if(word.length()>2)
                 {
                 	allWords.put(word, Boolean.TRUE);
                 }
@@ -71,11 +73,14 @@ public class Indexer {
 				String hashedU = Hasher.hash(u);
 				String p = row.get("page");
 				
-				System.out.println("url " + u + " hashed u " + hashedU);
+				//System.out.println("url " + u + " hashed u " + hashedU);
 				//System.out.println("p " + p);
+				p = u + "," + p;
 				
-	            return u+","+p; 
+	            return hashedU+","+p; 
 	        });
+			
+			System.out.println("table url generation done");
 			
 			int totalUrlCount = tableUrl.count();
 			
@@ -84,33 +89,99 @@ public class Indexer {
 				FlamePair pair = new FlamePair(stringPair[0], stringPair[1]);
 				return pair;
 			});
+			tableUrl.destroy();
+			
+			System.out.println("flamepair generation done");
+			
 			FlamePairRDD wordPair = flamePair.flatMapToPair(pair -> {
-				String url = pair._1();
-				String page = pair._2();
+				String urlHashed = pair._1();
+				String urlPage = pair._2();
 				
-				page = page.replaceAll("(?s)<script[^>]*>(.*?)</script>", " ");
-				page = page.replaceAll("(?s)<style[^>]*>(.*?)</style>", " ");
+				String[] urlPageParts = urlPage.split(",", 2);
+				String url = urlPageParts[0];
+				String page = urlPageParts[1];
 				
-				String html = page.replaceAll("(?i)<nav[^>]*>(.*?)</nav>", " ");
-			    html = html.replaceAll("(?i)<footer[^>]*>(.*?)</footer>", " ");
-			    html = html.replaceAll("(?i)<head[^>]*>(.*?)</head>", " ");
-//			    html = html.replaceAll("(?i)<form[^>]*>(.*?)</form>", " ");
-			    html = html.replaceAll("(?i)<input[^>]*>", " ");
-			    html = html.replaceAll("(?i)<textarea[^>]*>(.*?)</textarea>", " ");
-			    html = html.replaceAll("(?i)<button[^>]*>(.*?)</button>", " ");
-//			    html = html.replaceAll("(?i)<select[^>]*>(.*?)</select>", " ");
-			    html = html.replaceAll("<!--(.*?)-->", " ");
-				
-				String text = page.replaceAll("<[^>]+>", " ");
-				String formatted = text.replaceAll("\\t\\r\\n", " ");
-				String onlyEnglish = formatted.replaceAll("[^\\x00-\\x7F]", " ");
-				String alphabets = onlyEnglish.replaceAll("[^a-zA-Z ]", " ");
-	            String words = alphabets.replaceAll("\\p{Punct}", " ").toLowerCase().replaceAll("[0-9]", " ");
-	
+//				page = page.replaceAll("(?s)<script[^>]*>(.*?)</script>", " ");
+//				page = page.replaceAll("(?s)<style[^>]*>(.*?)</style>", " ");
+//				
+//				String html = page.replaceAll("(?i)<nav[^>]*>(.*?)</nav>", " ");
+//			    html = html.replaceAll("(?i)<footer[^>]*>(.*?)</footer>", " ");
+//			    html = html.replaceAll("(?i)<head[^>]*>(.*?)</head>", " ");
+////			    html = html.replaceAll("(?i)<form[^>]*>(.*?)</form>", " ");
+//			    html = html.replaceAll("(?i)<input[^>]*>", " ");
+//			    html = html.replaceAll("(?i)<textarea[^>]*>(.*?)</textarea>", " ");
+//			    html = html.replaceAll("(?i)<button[^>]*>(.*?)</button>", " ");
+////			    html = html.replaceAll("(?i)<select[^>]*>(.*?)</select>", " ");
+//			    html = html.replaceAll("<!--(.*?)-->", " ");
+//				
+//				String text = page.replaceAll("<[^>]+>", " ");
+//				String formatted = text.replaceAll("\\t\\r\\n", " ");
+//				String onlyEnglish = formatted.replaceAll("[^\\x00-\\x7F]", " ");
+//				String alphabets = onlyEnglish.replaceAll("[^a-zA-Z ]", " ");
+//	            String words = alphabets.replaceAll("\\p{Punct}", " ").toLowerCase().replaceAll("[0-9]", " ");
+//	
 	            
-	            String[] wordList = words.split("\\s+");
-	            
+	            List<String> content = new ArrayList<>();
+		        
+		        Pattern headingPattern = Pattern.compile("<h[1-6][^>]*>(.*?)</h[1-6]>", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+		        Matcher headingMatcher = headingPattern.matcher(page);
+		        //extractContent(headingMatcher, content, false, words);
+		        
+		        try {
+		        while (headingMatcher.find()) {
+		            String text = headingMatcher.group(1);
+		            text = text.replaceAll("<[^>]+>", " ");  // Remove all HTML tags
+		            text = text.replaceAll("[^a-zA-Z ]", " ").toLowerCase();  // Remove all non-alphabetic characters, convert to lower case
 
+		            String[] tokens = text.trim().split("\\s+");
+		            for (String token : tokens) {
+		            	token = stem(token);
+		                if (!token.isEmpty() && allWords.containsKey(token)) {
+		                	//System.out.println("word added to content " + token);
+		                	content.add(token);
+
+	                		// frequencyMap.put(token, frequencyMap.getOrDefault(token, 0.0) + 1);
+
+		                }
+		            }
+		        }
+		        }catch(Exception e)
+		        {
+		        	System.out.println("error in heading matcher");
+		        }
+		        
+		        Pattern paragraphPattern = Pattern.compile("<p[^>]*>(.*?)</p>", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+		        Matcher paragraphMatcher = paragraphPattern.matcher(page);
+		        //extractContent(paragraphMatcher, content, true, words);
+		        
+		        try {
+		        while (paragraphMatcher.find()) {
+		            String text = paragraphMatcher.group(1);
+		            text = text.replaceAll("<[^>]+>", " ");  // Remove all HTML tags
+		            text = text.replaceAll("[^a-zA-Z ]", " ").toLowerCase();  // Remove all non-alphabetic characters, convert to lower case
+
+		            String[] tokens = text.trim().split("\\s+");
+		            for (String token : tokens) {
+		            
+		            	token = stem(token);
+		                if (!token.isEmpty() && allWords.containsKey(token)) {
+		                	//System.out.println("word added to content " + token);
+		                	content.add(token);
+
+	                		//frequencyMap.put(token, frequencyMap.getOrDefault(token, 0.0) + 1);
+
+		                }
+		            }
+		        }
+		        }catch(Exception e){
+		        	System.out.println("error in paragraph matcher");
+		        }
+	            
+	            
+	            //String[] wordList = words.split("\\s+");
+		        String[] wordList = content.toArray(new String[0]);
+	            
+		        
 	            
 	            Map<String, Integer> frequencyMap = new ConcurrentHashMap<>();
 	            for (String word : wordList) {
@@ -122,18 +193,21 @@ public class Indexer {
 	            }
 	            
 	            List<FlamePair> iterList = new ArrayList<>();
-	            System.out.println("url " + url);
-	            System.out.println("total words " + (wordList.length - 1));
-	            
+	            //System.out.println("url " + url);
+	            //System.out.println("total words " + (wordList.length - 1));
+	            try {
 	            for (String word : frequencyMap.keySet()) {
-	            	System.out.println("word: " + word);
-	            	System.out.println("current value " + frequencyMap.get(word));
-	            	System.out.println("current in double " + frequencyMap.get(word) * 1.0);
+	            	//System.out.println("word: " + word);
+	            	//System.out.println("current value " + frequencyMap.get(word));
+	            	//System.out.println("current in double " + frequencyMap.get(word) * 1.0);
 	            	double value = (frequencyMap.get(word)*1.0)/(wordList.length - 1);
-	            	System.out.println("final val " + value);
+	            	//System.out.println("final val " + value);
 	            	String strVal = url + "," + String.valueOf(value);
 	                FlamePair newPair = new FlamePair(word, strVal); 
 	                iterList.add(newPair);
+	            }
+	            }catch(Exception e) {
+	            	System.out.println("error in tf calculation");
 	            }
 	            
 	            
@@ -142,6 +216,10 @@ public class Indexer {
 	            
 				return iter;
 			});
+			
+			System.out.println("wordpair generation done");
+		
+			flamePair.destroy();		
 			
 			
 			FlamePairRDD numDocs = wordPair.foldByKey("0", (accumulator, currVal) -> {
@@ -156,40 +234,44 @@ public class Indexer {
 	
 	        return String.valueOf(newAccRank);
 	    });
+			System.out.println("numDocs done");
 			
-			
-			numDocs.saveAsTable("pt-numdocs");
+			//numDocs.saveAsTable("pt-numdocs");
 			
 			
 			FlamePairRDD joinedTable = wordPair.join(numDocs);
 			
-			joinedTable.saveAsTable("pt-joined");
+			//joinedTable.saveAsTable("pt-joined");
+			wordPair.destroy();
+			numDocs.destroy();
+			
+			joinedTable.saveAsTable("pt-joinedTable");
 			
 			FlamePairRDD computeVal = joinedTable.flatMapToPair(pair ->{
 				
 				String key = pair._1();
 				String val = pair._2();
 				
-				System.out.println("key " + key + " val " + val);
+				//System.out.println("key " + key + " val " + val);
 				
 				List<FlamePair> iterList = new ArrayList<>();
 				
 				
 				String [] parts = val.split(",", 3);
 				
-				System.out.println("parts[2] " + parts[2]);
+				//System.out.println("parts[2] " + parts[2]);
 				
 				double den = Double.parseDouble(parts[2]);
-				System.out.println("total url count " + totalUrlCount + " den " + den);
+				//System.out.println("total url count " + totalUrlCount + " den " + den);
 				double logVal = Math.log(totalUrlCount / den);
 				
-				System.out.println("log val " + logVal);
+				//System.out.println("log val " + logVal);
 				
-				System.out.println("parts[1] " + parts[1]);
+				//System.out.println("parts[1] " + parts[1]);
 				
 				double tf = Double.parseDouble(parts[1]);
 				
-				System.out.println("tf " + tf);
+				//System.out.println("tf " + tf);
 				
 				String result = String.valueOf(tf * logVal);
 				
@@ -208,8 +290,11 @@ public class Indexer {
 	            return Collections.emptyList();
 				
 			});
+			
+			System.out.println("all done");
 			//System.out.println("agg " + aggregate);
-			wordPair.saveAsTable("pt-index");
+			joinedTable.destroy();
+			//wordPair.saveAsTable("pt-index");
 			//System.out.println("table saved");
 	} catch(Exception e) {
 		System.out.println("Exception occured " + e);
