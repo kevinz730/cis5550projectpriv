@@ -112,8 +112,9 @@ public class Crawler {
 	public static List<String> urlFilter(List<String> urls) {
     List<String> filtered = new ArrayList<String>();
       for (String url: urls) {
-        if (url.contains("creativecommons.org") || url.contains("robtex.com") || url.contains("%")
-          || url.contains("aljazeeramubasher") || url.contains("poemhunter")) {
+         if (url.contains("creativecommons.org") || url.contains("robtex.com") || url.contains("%")
+          || url.contains("aljazeeramubasher") || url.contains("poemhunter") || url.contains("pinterest.com") 
+		  || url.contains("archive.org")) {
           continue;
         }
         if (url.contains("wiki")) {

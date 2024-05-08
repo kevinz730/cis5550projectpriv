@@ -85,7 +85,6 @@ class Worker extends cis5550.generic.Worker {
         int consecTimeouts = 0;
         while (rows.hasNext()) {
         	Row r = rows.next();
-//        	System.out.println(r.get("value"));
             Future<Iterable<String>> future = executor.submit(() -> lambda.op(r.get("value")));
             try {
                 Iterable<String> res = future.get(5, TimeUnit.SECONDS);

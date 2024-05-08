@@ -54,13 +54,6 @@ public class ProcessQuery {
 		System.out.println("query: " + query);
 		
 		String[] queryParts = query.split(" ");
-//		for(String s: queryParts) {
-//			s = s.replaceAll("[^a-zA-Z ]", " ").toLowerCase().trim();
-//			s = stem(s);
-//			System.out.println("stemmed s " + s);
-//			double freq = queryTF_map.getOrDefault(s, 0.0);
-//			queryTF_map.put(s, freq+1);
-//		}
 		
 		for(int i = 0; i < queryParts.length; i++) {
             String s = queryParts[i];
