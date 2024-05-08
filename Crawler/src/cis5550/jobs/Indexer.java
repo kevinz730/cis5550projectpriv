@@ -280,8 +280,16 @@ public class Indexer {
 				iterList.add(newPair);
 	            
 				KVSClient k = context.getKVS();
+				
+				try {
 	
 				k.put("pt-computed", key, parts[0], result);
+				}
+				catch(Exception e)
+				{
+					System.out.println("table put failed");
+					return Collections.emptyList();
+				}
 				
 //				Row row = new Row(key);
 //				Set<String> rows = row.columns();
@@ -293,7 +301,7 @@ public class Indexer {
 			
 			System.out.println("all done");
 			//System.out.println("agg " + aggregate);
-			joinedTable.destroy();
+			//joinedTable.destroy();
 			//wordPair.saveAsTable("pt-index");
 			//System.out.println("table saved");
 	} catch(Exception e) {
