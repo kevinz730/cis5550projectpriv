@@ -120,7 +120,15 @@ nohup java -cp bin:lib/webserver.jar:lib/kvs.jar:lib/flame.jar cis5550.flame.Wor
 nohup java -cp bin:lib/webserver.jar:lib/kvs.jar:lib/flame.jar cis5550.flame.Worker 9004 localhost:9000
 ```
 
-Now head over to the index.html page in a browser (http://[INSTANCE PUBLIC IP].index.html) to view the completed search engine!
+In the index.js line `fetch('http://127.0.0.1:8003/search?query=${encodeURIComponent(searchTerm)}')` change 127.0.0.1 to the public IP address of the EC2 instance. 
+
+Install Python, if it's not installed (`sudo apt-get install python3`), and start a Python server: 
+
+```sh
+nohup python3 -m http.server 8006 &
+```
+
+Now head over to the index.html page in a browser (http://[INSTANCE PUBLIC IP]:8006/UI/index.html) to view the completed search engine!
  
 ## External Resources
 The only external package we used was a JAR to import JSON objects and JSON arrays, which can be downloaded from [Maven](https://mvnrepository.com/artifact/org.json/json/20140107). 
