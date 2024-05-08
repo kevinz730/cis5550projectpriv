@@ -1,0 +1,321 @@
+viimtsqkwgicgkfenqhoxiqmdqnmaoumaofsksco length 5 19902 page 19902 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <title>Pokémon Air Adventures</title>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- meta -->
+    <meta name="description" content="The fuselage of “Pikachu Jet CI” will feature a custom livery designed exclusively for China Airlines by The Pokémon Company. The base color will harmonize with China Airlines’ corporate colors and the plum blossom logo on the tailfin. The fuselage will be painted with a pastel gradient with orange, pink and violet to present a starry night sky with dawn approaching. Eleven Pokémon, including Flying Pikachu, Shaymin, Swablu, Togekiss, Munna, Jigglypuff, Snorlax, Slowpoke and Teddiursa, will embark on the joyful journey with all the passengers." />
+    <!-- <meta name="keywords" content=""> -->
+    <meta name="robots" content="NOODP">
+    <meta name="googlebot" content="NOODP">
+    <meta name="googlebot" content="NOODP, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=8,IE=9,IE=10,IE=11,IE=EDGE" /><!-- 強制IE非相容性 -->
+    <!-- FB meta -->
+    <meta property="og:title" content="Pokémon Air Adventures" />
+    <meta property="og:description"
+        content="The fuselage of “Pikachu Jet CI” will feature a custom livery designed exclusively for China Airlines by The Pokémon Company. The base color will harmonize with China Airlines’ corporate colors and the plum blossom logo on the tailfin. The fuselage will be painted with a pastel gradient with orange, pink and violet to present a starry night sky with dawn approaching. Eleven Pokémon, including Flying Pikachu, Shaymin, Swablu, Togekiss, Munna, Jigglypuff, Snorlax, Slowpoke and Teddiursa, will embark on the joyful journey with all the passengers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pikachujet.china-airlines.com/en/" />
+    <meta property="og:image" content="https://pikachujet.china-airlines.com/images/share.jpg">
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="524" />
+    <meta property="og:site_name" content="Pokémon Air Adventures">
+    <!--<meta property="fb:app_id" content="" />-->
+
+    <!-- shortcut icon -->
+<link rel="SHORTCUT ICON" href="/images/favicon.ico">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+    <!-- google icon -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css?v0201">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFTGGRKN79"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RFTGGRKN79');
+    </script>
+</head>
+
+<body  id="enpg">
+    <header></header>
+    <!-- loading -->
+    <div class="se-pre-con" id="overlay">
+        <div class="img"><img src="../images/index/icon_pokemonball.png" alt="loading">
+            <div id="progstat">Loading 100%</div>
+            <div id="progress" style="width: 100%;"></div>
+        </div>
+    </div>
+    <!-- loading end-->
+    <div class="wrapper en_page">
+        <section class="kv sec sec0">
+            <div class="fix_bg"></div>
+            <div class="gradient"></div>
+            <h1 class="ptn"><img src="../images/index/kv_pattern_en.png" alt="皮卡丘彩繪機"></h1>
+            <div class="flight "><img src="../images/index/kv_flight.png"
+                    srcset="../images/index/kv_flight_m.png 480w, ../images/index/kv_flight.png 9999w" alt="華航CI彩繪班機">
+            </div>
+            <div class="bgcloud"></div>
+            <div class="deco pika1"><img src="../images/index/pikachu01.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco pika2"><img src="../images/index/pikachu02.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco ballon1"><img src="../images/index/icon_ballon.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco ballon2"><img src="../images/index/icon_ballon.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco ballon3"><img src="../images/index/icon_ballon.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloudpika"><img src="../images/index/icon_cloudpika.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud1"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud2"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud3"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud4"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud5"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+            <div class="deco cloud6"><img src="../images/index/icon_cloud.png" alt="飛翔皮卡丘計畫"></div>
+        </section>
+        <section class="sec kv2">
+            <img class="img" src="../images/index/sec1_bg_en.jpg" alt="飛翔皮卡丘計畫">
+        </section>
+        <section class="sec sec1" id="sec1">
+            <div class="container">
+                <div class="title">
+                    <div class="ball"></div>
+                    <h2>Pokémon Air Adventures</h2>
+                </div>
+                <div class="text">China Airlines is officially joining the “Pokémon Air Adventures” of The Pokémon
+                    Company. The Pokémon-themed liveried aircraft will accompany travelers on their long-awaited return
+                    to the freedom of the skies after the COVID-19 pandemic.</div>
+            </div>
+        </section>
+        <section class="sec sec2" id="sec2">
+            <div class="cloud_top"></div>
+            <div class="container">
+                <div class="title dark" id="sec2_title">
+                    <div class="ball"></div>
+                    <h2>PIKACHU JET CI</h2>
+                </div>
+                <div class="row">
+                    <div class="col col-l">
+                        <div class="img"><img src="../images/index/sec2_side_l.jpg" alt="左側機身"></div>
+                    </div>
+                    <div class="col col-r">
+                        <div class="img"><img src="../images/index/sec2_side_r.jpg" alt="右側機身"></div>
+                    </div>
+                </div>
+                <div class="text">The fuselage of “Pikachu Jet CI” will feature a custom livery designed exclusively
+                    for China Airlines by The Pokémon Company. The base color will harmonize with China Airlines’
+                    corporate colors and the plum blossom logo on the tailfin. The fuselage will be painted with a
+                    pastel gradient with orange, pink and violet to present a starry night sky with dawn
+                    approaching. Eleven Pokémon, including Flying Pikachu, Shaymin, Swablu, Togekiss, Munna,
+                    Jigglypuff, Snorlax, Slowpoke and Teddiursa, will embark on the joyful journey with all the
+                    passengers.
+                </div>
+                <div class="deco pika"><img src="../images/index/pikachu03.png" alt="飛翔皮卡丘計畫"></div>
+                <div class="deco shaymin"><img src="../images/index/shaymin.png" alt="飛翔皮卡丘計畫"></div>
+            </div>
+
+            <div class="cloud_bottom"></div>
+        </section>
+        <section class="sec sec3" id="sec3">
+            <div class="container">
+                <div class="title dark">
+                    <div class="ball"></div>
+                    <h2>Making video of Pikachu Jet CI</h2>
+                </div>
+            </div>
+            <div class="seat">
+                <div class="shadow"></div>
+                <div class="film">
+                    <iframe width="510" height="290" src="https://www.youtube.com/embed/OfC2DV6CnXA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                     <!-- <img src="../images/index/coming_soon.jpg" alt="comingsoon"> -->
+                </div>
+               
+            </div>
+            <div class="container">
+                <p class="text">CI is an airline code assigned for CHINA AIRLINES by the International Air Transport
+                    Association.</p>
+            </div>
+        </section>
+        <section class="sec sec4" id="sec4">
+            <div class="container">
+                <div class="title dark">
+                    <div class="ball"></div>
+                    <h2>Discover even more Pokémon</h2>
+                </div>
+                <ul class="morelist">
+                    <li><a href="airport.html" onclick="gtag('event', 'button', {'name': '登機報到','page_language': 'EN','page': '首頁'});">
+                            <div class="shadow"></div>
+                            <div class="window">
+                                <div>
+                                    <div class="icon"><img src="../images/index/icon_cloudball.png" alt="飛翔皮卡丘計畫"></div>
+                                </div>
+                            </div>
+                            <div class="openwindow">
+                                <div class="float_pika"><img src="../images/index/pikachu04.png" alt=""></div>
+                                <div class="border"></div>
+                            </div>
+                            <div class="subtitle">Check-in</div>
+                        </a>
+                    </li>
+                    <li><a href="appliance.html" onclick="gtag('event', 'button', {'name': '機上用品','page_language': 'EN','page': '首頁'});">
+                            <div class="shadow"></div>
+                            <div class="window">
+                                <div>
+                                    <div class="icon pika"><img src="../images/index/icon_cloudpika.png" alt="飛翔皮卡丘計畫">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="openwindow">
+                                <div class="float_pika"><img src="../images/index/pikachu05.png" alt=""></div>
+                                <div class="border"></div>
+                            </div>
+                            <div class="subtitle">In-flight supplies</div>
+                        </a>
+                    </li>
+                    <li><a href="product.html" onclick="gtag('event', 'button', {'name': '周邊用品','page_language': 'EN','page': '首頁'});">
+                            <div class="shadow"></div>
+                            <div class="window">
+                                <div>
+                                    <div class="icon"><img src="../images/index/icon_cloudball.png" alt="飛翔皮卡丘計畫"></div>
+                                </div>
+                            </div>
+                            <div class="openwindow">
+                                <div class="float_pika"><img src="../images/index/pikachu06.png" alt=""></div>
+                                <div class="border"></div>
+                            </div>
+                            <div class="subtitle">Merchandise</div>
+                        </a>
+                    </li>
+                    <li><a href="trivia.html" onclick="gtag('event', 'button', {'name': '活動花絮','page_language': 'EN','page': '首頁'});">
+                            <div class="shadow"></div>
+                            <div class="window">
+                                <div>
+                                    <div class="icon pika"><img src="../images/index/icon_cloudpika.png" alt="飛翔皮卡丘計畫">
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <div class="openwindow">
+                                <div class="float_pika"><img src="../images/index/pikachu07.png" alt=""></div>
+                                <div class="border"></div>
+                            </div>
+                            <div class="subtitle">Events</div>
+                        </a>
+                    </li>
+                    <div class="pikacaptain">
+                        <img src="../images/index/pikachu08.png" alt="飛翔皮卡丘計畫">
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="sec sec5" id="sec5">
+            <div class="container">
+                <div class="row">
+                    <div class="flight_list">
+                        <div class="title">
+                            <div class="ball"></div>
+                            <h2>Flight Information</h2>
+                        </div>
+                        <div class="head">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="col1"></td>
+                                        <td class="col2">Departure</td>
+                                        <td class="col1"></td>
+                                        <td class="col2">Destination</td>
+                                    </tr>                                   
+                                </tbody>
+                            </table>
+                        </div>  
+                        <div class="body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="col1">CI194</td>
+                                        <td class="col2">Taoyuan International Airport</td>
+                                        <td class="col1" rowspan="2"><img src="../images/index/sec5_arrow.png"></td>
+                                        <td class="col2">Aso Kumamoto Airport</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">CI195</td>
+                                        <td class="col2">Aso Kumamoto Airport</td>
+                                        <td class="col2">Taoyuan International Airport</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><span class="note1">*The flight will primarily be flown with the Pikachu Jet CI from October 29th, 2023 to June 30th, 2024.<span></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>   
+                        <div class="body body2">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="col1">CI178</td>
+                                        <td class="col2">Taoyuan International Airport</td>
+                                        <td class="col1" rowspan="2"><img src="../images/index/sec5_arrow.png"></td>
+                                        <td class="col2">Takamatsu Airport</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">CI179</td>
+                                        <td class="col2">Takamatsu Airport</td>
+                                        <td class="col2">Taoyuan International Airport</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4"><span class="note1">*The flight will be occasionally flown with the Pikachu Jet CI from July 1st, 2023, to June 30th, 2024.<span></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                        
+                        <div class="note">
+                            <p class="half">*China Airlines will endeavor to deploy the Pikachu Jet CI on the designated route, but reserves the right to withdraw or modify the deployment of such aircraft without prior notice at any time, for any reason (including but not limited to unforeseen factors or operational, regulatory, safety or other requirements), in any manner, and without liability.<br>
+                                *If you decide to cancel or modify your booking or ticket with China Airlines due to the above mentioned deployment of alternative aircraft, you shall remain responsible for any associated fees or charges of such ticket refund or reissuance.</p>
+                            <a class="btn" href="javascript:void(0)"><div class="icon"></div></a>
+                        </div>
+                        <div class="pika"><img src="../images/index/pikachu09.png"></div>
+                    </div>
+                    <div class="map">
+                        <img src="../images/index/sec5_map7_en.jpg" alt="航線情報">
+                        <div class="note">  
+                            <div class="c1">●Kumamoto Route: The flight will primarily be flown with the Pikachu Jet CI from October 29th, 2023 to June 30th, 2024.</div>     
+                            <div class="c2">●Takamatsu Route: The flight will be occasionally flown with the Pikachu Jet CI from July 1st, 2023, to June 30th, 2024.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_area">
+                    <a href="https://calec.china-airlines.com/pikachujet/pikachu.aspx?Locale=en&Country=us" class="icon_btn"
+                        target="_blank" onclick="gtag('event', 'button', {'name': '航班查詢','page_language': 'EN','page': '首頁'});">
+                        <p>Flight</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer></footer>
+</body>
+<!-- js -->
+<script src="../js/jquery-3.6.0.min.js"></script>
+<!-- <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.js"></script> -->
+<script src="../js/style.js"></script>
+<script src="../js/index.js"></script>
+
+</html> contentType 9 text/html url 45 https://pikachujet.china-airlines.com:443/en/ responseCode 3 200 

@@ -1,0 +1,6736 @@
+nieadkhifarseoramgrcogsmzmpepanmkicoeeve page 163369 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="icon" href="//staticg.sportskeeda.com/skm/assets/pfn/favicon.png" type="image/png" />
+<link rel="icon" sizes="192x192" href="//staticg.sportskeeda.com/skm/assets/pfn/favicon.png" />
+<link rel="shortcut" href="//staticg.sportskeeda.com/skm/assets/pfn/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="//staticg.sportskeeda.com/skm/assets/pfn/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon-precomposed" href="//staticg.sportskeeda.com/skm/assets/pfn/favicon.png" sizes="196x196" />
+<meta name="description" content="A look at the Arizona Cardinals 2024-25 roster, including position, height, birthdate, and draft year." />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Complete Arizona Cardinals Roster (Updated 2024)</title>
+<style>
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+body,
+button,
+input,
+select {
+font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Liberation Sans, sans-serif;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+}
+iframe {
+position: relative;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+display: block;
+}
+ol,
+ul {
+list-style: none;
+}
+q,
+blockquote {
+quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+content: "";
+content: none;
+}
+a:hover,
+a:active {
+outline: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100% !important;
+}
+html,
+body {
+width: 100%;
+margin: 0;
+padding: 0;
+border: none;
+position: relative;
+}
+.hidden {
+display: none !important;
+}
+button {
+cursor: pointer;
+}
+.sk-ads-video-player-container {
+top: 100px;
+position: relative;
+}
+</style>
+<script>
+var scriptsLoadedMap = {};
+function asyncScriptLoader(input) {
+var src = input.src;
+var attachTo = input.attachTo;
+var loadWithAsync = input.loadWithAsync;
+var loadWithDefer = input.loadWithDefer;
+var attributes = input.attributes || {};
+var onUserInteraction = input.onUserInteraction || false;
+if("id" in attributes) {
+if(!!scriptsLoadedMap[attributes.id]) {
+return Promise.resolve();
+}
+scriptsLoadedMap[attributes.id] = true;
+}
+return new Promise(function(resolve, reject) {
+var script = document.createElement("script");
+script.src = src;
+script.onload = resolve;
+script.onerror = reject;
+if (loadWithAsync) {
+script.setAttribute("async", true);
+}
+if (loadWithDefer) {
+script.setAttribute("defer", true);
+}
+if (attributes && attributes.length > 0) {
+attributes.forEach(function(attribute) {
+script.setAttribute(attribute.key, attribute.value);
+});
+}
+function loadScript() {
+if (attachTo) {
+attachTo.appendChild(script);
+} else {
+document.head.appendChild(script);
+}
+}
+var scriptLoaded = false;
+function loadScriptOnInteraction() {
+if (scriptLoaded) return;
+scriptLoaded = true;
+/** Startegy to avoid main thread blocking with a timeout of 2s. To avoid high INP
+* ref: https://web.dev/articles/optimize-long-tasks#manually_defer_code_execution
+*/
+if (typeof requestIdleCallback === "function") {
+requestIdleCallback(loadScript, {
+timeout: 2000,
+});
+} else {
+loadScript();
+}
+document.removeEventListener("scroll", loadScriptOnInteraction);
+document.removeEventListener("mousemove", loadScriptOnInteraction);
+document.removeEventListener("touchmove", loadScriptOnInteraction);
+}
+if (onUserInteraction) {
+document.addEventListener("scroll", loadScriptOnInteraction, { once: true, passive: true });
+document.addEventListener("mousemove", loadScriptOnInteraction, { once: true, passive: true });
+document.addEventListener("touchmove", loadScriptOnInteraction, { once: true, passive: true });
+} else {
+/** Startegy to avoid main thread blocking with a timeout of 2s. To avoid high INP
+* ref: https://web.dev/articles/optimize-long-tasks#manually_defer_code_execution
+*/
+if (typeof requestIdleCallback === "function") {
+requestIdleCallback(loadScript, {
+timeout: 2000,
+});
+} else {
+loadScript();
+}
+}
+});
+}
+function loadCSSFiles(url, cssId) {
+if(!!scriptsLoadedMap[cssId]) {
+return;
+}
+scriptsLoadedMap[cssId] = true;
+var head  = document.getElementsByTagName('head')[0];
+var link  = document.createElement('link');
+link.id   = cssId;
+link.rel  = 'stylesheet';
+link.type = 'text/css';
+link.href = url;
+link.media = 'all';
+head.appendChild(link);
+}
+function createStyleTagWithContent(cssText, cssId) {
+if(!!scriptsLoadedMap[cssId]) {
+return;
+}
+scriptsLoadedMap[cssId] = true;
+var style = document.createElement('style');
+style.type = 'text/css';
+if (style.styleSheet){
+// This is required for IE8 and below.
+style.styleSheet.cssText = cssText;
+} else {
+style.appendChild(document.createTextNode(cssText));
+}
+document.head.appendChild(style);
+}
+function deepCopy(o) {
+var out, v, key;
+out = Array.isArray(o) ? [] : {};
+for (key in o) {
+v = o[key];
+out[key] = (typeof v === "object" && v !== null) ? deepCopy(v) : v;
+}
+return out;
+}
+</script>
+<script>
+var $ = document.querySelector.bind(document);
+var $all = document.querySelectorAll.bind(document);
+var $id = document.getElementById.bind(document);
+function getCookie(cname) {
+var name = cname + "=";
+var ca = document.cookie.split(';');
+for (var i = 0; i < ca.length; i++) {
+var c = ca[i].trim();
+if (c.indexOf(name) === 0) {
+return c.substring(name.length, c.length).trim();
+}
+}
+return "";
+}
+function pureJSAjaxGet(url, successCallback, errorCallback, credentials) {
+var xmlHttp = new XMLHttpRequest();
+xmlHttp.withCredentials = credentials;
+xmlHttp.onreadystatechange = function() {
+if (xmlHttp.readyState == XMLHttpRequest.DONE) {
+if (xmlHttp.status == 200) {
+successCallback(xmlHttp.responseText);
+} else {
+console.log('Error: ' + xmlHttp);
+errorCallback(xmlHttp.statusText, xmlHttp.status);
+}
+}
+};
+xmlHttp.open("GET", url);
+xmlHttp.send(null);
+}
+function pureJSAjaxGetWithPromise(url) {
+return new Promise(function(resolve, reject) {
+pureJSAjaxGet(url, function(res) {
+resolve(res);
+}, function(err) {
+reject(err);
+}, true);
+})
+}
+function pureJSAjaxPostWithData(url, data, successCallBack, error_callback, withCredentials) {
+var xmlhttp = new XMLHttpRequest();
+if (withCredentials === true) xmlhttp.withCredentials = true;
+xmlhttp.open("POST", url, true);
+xmlhttp.setRequestHeader("Content-type", "application/json");
+xmlhttp.onreadystatechange = function() {
+if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+if (xmlhttp.status == 200) {
+successCallBack(xmlhttp.responseText);
+} else {
+if (typeof(error_callback) !== "undefined") {
+error_callback(xmlhttp.statusText, xmlhttp.status);
+}
+}
+}
+};
+xmlhttp.send(data);
+}
+function addClass(ele, cls) {
+if (!ele || !ele.classList) return;
+return ele.classList.add(cls);
+}
+function removeClass(ele, cls) {
+if (!ele || !ele.classList) return;
+return ele.classList.remove(cls);
+}
+function hasClass(ele, cls) {
+if (!ele || !ele.classList) return false;
+return ele.classList.contains(cls);
+}
+var trackGAEvent = function() {
+}
+var getCurrentUserID = function() {
+}
+var getCookie = function() {
+}
+var setLocalStorageData = function(key, value) {
+localStorage.setItem(key, value);
+}
+var getLocalStorageData = function(key) {
+var item = localStorage.getItem(key);
+return item != null ? item : "";
+}
+var notifyWhenInViewport = (function() {
+var trackedElement = {};
+var registeredCallbacks = {};
+var firedTimers = {};
+var SECONDS_TO_REMAIN_IN_VP = 1;
+var observer = new IntersectionObserver(function(entries) {
+entries.forEach(function(entry) {
+if (!entry.target) return;
+var identifier = entry.target.dataset["impId"];
+if (!identifier) return;
+if (!entry.isIntersecting || entry.intersectionRatio < 0.5) {
+var timer = firedTimers[identifier];
+if (timer) {
+clearTimeout(timer);
+trackedElement[identifier] = false;
+}
+return;
+}
+if (trackedElement[identifier]) return;
+trackedElement[identifier] = true;
+var callback = registeredCallbacks[identifier];
+if (typeof callback == "function") {
+firedTimers[identifier] = setTimeout(function() {
+observer.unobserve(entry.target);
+callback(entry.target);
+}, SECONDS_TO_REMAIN_IN_VP * 1000);
+}
+});
+}, {
+threshold: 0.5
+});
+return function(element, identifier, callback) {
+if (!element) return;
+if (!identifier) return;
+if (!callback) return;
+if (trackedElement[identifier]) return;
+element.setAttribute("data-imp-id", identifier);
+registeredCallbacks[identifier] = callback;
+observer.observe(element);
+}
+})();
+var trackImpressionGAEventWhenInViewport = function(input) {
+var element = input.element;
+var identifier = input.identifier;
+var eventName = input.eventName;
+var eventParams = input.eventParams;
+var delegateGAEvent = input.delegateGAEvent;
+return notifyWhenInViewport(element, identifier, function() {
+if (typeof delegateGAEvent == "function") {
+delegateGAEvent(eventName, eventParams);
+}
+});
+}
+function getTimeDiffInDaysHoursMinutes(timeInMilliseconds) {
+var diffDays = Math.floor(timeInMilliseconds / 86400000); // difference in days
+var diffHrs = Math.floor((timeInMilliseconds % 86400000) / 3600000); // difference in hours
+var diffMins = Math.round(((timeInMilliseconds % 86400000) % 3600000) / 60000); // difference in minutes
+var result = [];
+if (diffDays) {
+if (diffDays == 1) {
+result.push(diffDays + " day");
+} else {
+result.push(diffDays + " days");
+}
+}
+if (diffHrs) {
+result.push(diffHrs + "hr");
+}
+if (diffMins) {
+result.push(diffMins + "min");
+}
+if (!result.length) {
+result.push(Math.round(timeInMilliseconds / 1000) + "sec");
+}
+return result;
+}
+function debounce(func, duration) {
+var timeout;
+return function(...args) {
+var effect = function effect() {
+timeout = null;
+return func.apply(this, args);
+};
+clearTimeout(timeout);
+timeout = setTimeout(effect, duration);
+};
+}
+function throttleFn(func, delay) {
+var prev = 0;
+return function() {
+var context = this,
+args = arguments;
+let now = new Date().getTime();
+if (now - prev > delay) {
+prev = now;
+return func.apply(context, args);
+}
+}
+}
+function getShortMonthNames() {
+return ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+}
+function getShortDayNames() {
+return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+}
+</script>
+<script>
+(function() {
+window.adthrive = window.adthrive || {};
+window.adthrive.cmd = window.adthrive.cmd || [];
+window.adthrive.plugin = 'adthrive-ads-manual';
+window.adthrive.host = 'ads.adthrive.com';
+asyncScriptLoader({
+src: 'https://ads.adthrive.com/sites/5e163f2211916d4860b8f332/ads.min.js?referrer=' + window
+.encodeURIComponent(window.location.href) + '&cb=' + (Math.floor(Math.random() * 100) + 1),
+onUserInteraction: true,
+loadWithDefer: true,
+});
+})();
+</script>
+<script>
+(function() {
+window.clarity = window.clarity || function() {
+window.clarity.q = window.clarity.q || [];
+window.clarity.q.push(arguments);
+}
+window.clarity.q = window.clarity.q || [];
+asyncScriptLoader({
+src: "https://www.clarity.ms/tag/jd0t8qbgqn",
+onUserInteraction: true,
+loadWithDefer: true,
+});
+})();
+</script>
+</head>
+<body class="pfn-nfl-shared">
+<main class="sk-proxied-page">
+<style>
+@font-face {
+font-style: normal;
+font-weight: normal;
+font-family: "Roboto"; src: url("//staticg.sportskeeda.com/assets/fonts/roboto-regular-400.woff2") format("woff2");
+font-display: swap;
+}
+@font-face {
+font-style: normal;
+font-weight: 500;
+font-family: "Roboto"; src: url("//staticg.sportskeeda.com/assets/fonts/roboto-medium-500.woff2") format("woff2");
+font-display: swap;
+}
+body,
+button,
+input,
+select {
+font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Liberation Sans, sans-serif;
+}
+.pfn-content-container .glossary-container {
+--background: #F6F8FD;
+--border-color: #0857C3;
+--border-radius: 4px;
+}
+.pfn-content-container {
+width: 100%;
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: flex-start;
+margin-top: 145px;
+}
+.pfn-content-container .content {
+display: flex;
+flex-direction: column;
+gap: 16px;
+z-index: 2;
+width: 720px;
+}
+.pfn-content-container .content.full-width {
+width: 1110px;
+}
+.pfn-content-container .calculator-container .calculator-content {
+border: 1px solid #0857C3;
+background: #f5f9ff;
+}
+.pfn-content-container .right-sidebar-container {
+width: 100%;
+}
+.pfn-content-container .right-sidebar-container .tool-widget-container {
+padding: 20px 12px;
+}
+@media (min-width: 769px) {
+.pfn-content-container .right-sidebar-container {
+width: 360px;
+border: 1px solid #E9E9E9;
+}
+.pfn-content-container .right-sidebar {
+width: 360px;
+min-height: 600px;
+}
+.pfn-content-container .ad-content {
+display: none;
+}
+.pfn-nfl-shared .more-teams-list .more-team-body {
+width: 650px;
+}
+}
+.sticky-ad-container {
+width: 100%;
+height: 95px;
+min-height: 55px;
+position: fixed;
+display: block;
+bottom: 0;
+z-index: 1;
+}
+.calculator-content,
+.pfn-text-content-container {
+border: 1px solid #E9E9E9;
+padding: 20px;
+}
+.pfn-text-content-container p {
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #666666;
+margin-top: 12px;
+}
+h2:not(:first-child) {
+margin-top: 20px;
+}
+.pfn-content-container .parlay-calculator,
+.pfn-content-container .odds-calculator,
+.pfn-text-content-container {
+width: 100%;
+}
+.pfn-content-container .calculator-container {
+border: 1px solid #E9E9E9;
+border-radius: unset;
+background-color: #fff;
+}
+.pfn-content-container .calculator-content .calculator-input-group .calculator-input--label .calculator-input--label-text {
+font-weight: 500;
+line-height: 16px;
+}
+.pfn-content-container .calculator-content .calculator-input-group .calculator-input--field input {
+border: 1px solid #D8E9FF;
+line-height: 16px;
+font-weight: 400;
+}
+.pfn-content-container .calculator-content .calculator-form--reset-button {
+background: #0857C3;
+font-weight: 500;
+}
+.pfn-content-container .calculator-content button.calculator-input--add-button {
+border: 1px solid #0857C3;
+color: #0857C3;
+border-radius: 28px;
+background: #E9F1FD;
+line-height: 16px;
+font-weight: 400;
+}
+.pfn-content-container .calculator-footer-content {
+background: #fff;
+}
+.pfn-content-container .calculator-footer-content .calculator-input--field {
+border: 1px solid #2D2D2D;
+border-radius: 4px;
+}
+.pfn-text-content-container {
+margin-bottom: 150px;
+}
+.pfn-text-content-container {
+font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Segoe UI, Liberation Sans, sans-serif;
+}
+.pfn-text-content-container h2 {
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 10px;
+}
+.pfn-text-content-container h3 {
+line-height: 29px;
+margin-top: 10px;
+}
+.pfn-text-content-container ul {
+padding-left: 20px;
+list-style: disc;
+}
+.pfn-text-content-container ul li,
+.pfn-text-content-container ol li {
+margin-left: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #666666;
+}
+.pfn-text-content-container ol li {
+margin-left: 35px;
+list-style-type: auto;
+}
+.pfn-text-content-container ul li ul {
+list-style: circle;
+}
+.pfn-text-content-container h2 {
+margin-bottom: 10px;
+}
+.pfn-nfl-shared .pfn-content-container {
+margin-bottom: 104px;
+}
+.pfn-nfl-shared main div h1 {
+color: #172B4D !important;
+border-left: 4px solid #172B4D !important;
+padding-left: 8px !important;
+}
+@media (max-width: 768px) {
+.pfn-content-container {
+padding: 12px;
+margin-top: 95px;
+margin-bottom: 100px;
+width: 100%;
+display: flex;
+}
+.pfn-nfl-shared .pfn-content-container {
+margin-bottom: 16px;
+padding: 0;
+}
+.content {
+max-width: 412px;
+}
+.pfn-content-container .parlay-calculator,
+.pfn-content-container .odds-calculator,
+.pfn-content-container .content,
+.pfn-text-content-container {
+width: 100%;
+}
+.pfn-text-content-container .p {
+font-size: 14px;
+margin-top: 8px;
+}
+.pfn-text-content-container h2 {
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+}
+.pfn-text-content-container,
+.pfn-content-container .calculator-container {
+border: unset;
+padding: unset;
+}
+.pfn-content-container .right-sidebar-container {
+display: none;
+}
+.pfn-content-container .ad-content {
+width: 100%;
+text-align: center;
+min-height: 250px;
+}
+.sticky-ad-container {
+width: 100%;
+height: 55px;
+position: fixed;
+display: block;
+bottom: 0;
+z-index: 1;
+}
+.more-teams-list .items-container {
+height: 80vh !important;
+padding-bottom: 80px;
+}
+.more-teams-list .items-container .more-team-head {
+position: fixed;
+width: 100%;
+border-radius: 25px 25px 0 0;
+background-color: white;
+}
+.more-teams-list .items-container .nfl-zone-title {
+margin-top: 60px;
+}
+.pfn-content-container .top-text-content-container {
+padding: 0 16px;
+height: 116px;
+overflow: hidden;
+position: relative;
+z-index: 2000;
+background: #fff;
+}
+.pfn-content-container .top-text-content-container .read-more-content-btn,
+.pfn-content-container .top-text-content-container .read-less-content-btn {
+color: #0B65F0;
+padding: 0;
+border: unset;
+background-color: #fff;
+position: absolute;
+bottom: 0;
+right: 20px;
+font-size: 16px;
+font-weight: 400;
+width: 88px;
+}
+.top-text-content-container .pfn-text-content-container {
+margin-bottom: 0;
+}
+.top-text-content-container .pfn-text-content-container p {
+font-size: 15px;
+}
+}
+</style>
+<style>
+.pfn-header {
+width: 100%;
+background: #000;
+position: fixed;
+top: 0;
+left: 0;
+padding: 12px 0;
+display: flex;
+justify-content: center;
+z-index: 100;
+}
+.pfn-header .h1-text-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.pfn-header .updated-timestamp-container {
+color: #fff;
+font-size: 14px;
+font-weight: 600;
+}
+.pfn-header .header-content {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+.pfn-header .header-content .pfn-header-logo {
+width: 116px;
+height: 57px;
+background: none;
+}
+.pfn-header .header-content .header-text {
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+color: #fff;
+}
+@media (max-width: 768px) {
+.pfn-header .header-content .pfn-header-logo {
+width: 65px;
+height: 32px;
+}
+.pfn-header .header-content .header-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+}
+.pfn-header .header-content {
+gap: 6px;
+}
+}
+</style>
+<div class="pfn-header">
+<div class="header-content">
+<a href="https://www.profootballnetwork.com" target="_blank">
+<img class="pfn-header-logo" src="//staticg.sportskeeda.com/skm/assets/third-party/pfn-logo-full.png?h=114" width="116" height="57" alt="pfn-logo" />
+</a>
+<div class="h1-text-container">
+<h1 class="header-text"></h1>
+</div>
+</div>
+</div>
+<style>
+.header-tools-navigation {
+width: 100%;
+display: flex;
+justify-content: center;
+background: #FFFFFF;
+z-index: 100;
+position: fixed;
+top: 81px;
+box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 5%);
+}
+.header-tools-navigation .header-tools-navigation-holder {
+display: flex;
+width: 1000px;
+overflow-x: scroll;
+text-wrap: nowrap;
+}
+.header-tools-navigation .header-tools-navigation-holder::-webkit-scrollbar {
+display: none;
+}
+.header-tools-navigation .header-nav-btn {
+font-size: 14px;
+line-height: 21px;
+font-weight: 500;
+color: #666666;
+padding: 10px 16px;
+border-bottom: 4px;
+text-decoration: none;
+display: flex;
+align-items: center;
+white-space: nowrap;
+}
+.header-nav-btn .trending-icon {
+opacity: 0.7;
+}
+.header-tools-navigation .header-nav-btn.selected {
+border-bottom: 4px solid #000000;
+}
+.header-tools-navigation::-webkit-scrollbar {
+display: none;
+}
+@media (max-width: 768px) {
+.header-tools-navigation {
+top: 56px;
+justify-content: unset;
+overflow-x: auto;
+}
+.header-tools-navigation .header-nav-btn {
+white-space: nowrap;
+}
+.header-tools-navigation .header-nav-btn.selected {
+border-bottom: 3px solid #000000;
+}
+}
+</style>
+<div class="header-tools-navigation">
+<div class="header-tools-navigation-holder">
+<a class="header-nav-btn" href="https://www.profootballnetwork.com/">PFN Home</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/mockdraft">Mock Draft Simulator
+<img class="trending-icon" src="//staticg.sportskeeda.com/skm/assets/third-party/trending-icon.gif" width="24" height="24" alt="treding-icon" />
+</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-draft">NFL Mock Drafts</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/2024-nfl-draft-big-board/">Big Board</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/fantasy-football-trade-analyzer">Trade Analyzer</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-player-news-injuries-transactions-fantasy">NFL News Tracker</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-playoff-predictor">Playoff Predictor</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/who-should-i-start-fantasy-optimizer">Start/Sit Optimizer</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-dfs-optimizer-lineup-generator">DFS Optimizer</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-word-fumble-player-name-game">Wordle</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-betting/betting-odds-calculator">Odds Calculator</a>
+<a class="header-nav-btn " href="https://www.profootballnetwork.com/nfl-betting/parlays-calculator">Parlay Calculator</a>
+</div>
+</div>
+<script>
+(function() {
+var primaryNavContainer = $(".header-tools-navigation-holder");
+var primaryNavItems = primaryNavContainer.querySelectorAll("a");
+for (var i = 0; i < primaryNavItems.length; i++) {
+primaryNavItems[i].addEventListener("click", function(event) {
+trackGAEvent("PFN_Navigation_Clicks", {
+destinationUrl: event.target.href,
+});
+});
+}
+function scrollPrimaryNavigation() {
+var xPosition = 0;
+var paddingGap = -30;
+var found = false;
+for (var i = 1; i < primaryNavItems.length; i++) {
+var previousItem = primaryNavItems[i - 1];
+var currentItem = primaryNavItems[i];
+xPosition += previousItem.scrollWidth + paddingGap;
+xPosition = Math.max(xPosition, 0);
+if (hasClass(currentItem, "selected")) {
+found = true;
+break;
+}
+}
+if (!found) {
+xPosition = 0;
+}
+primaryNavContainer.scrollBy({
+behavior: "smooth",
+top: 0,
+left: xPosition
+});
+}
+scrollPrimaryNavigation();
+})();
+</script>
+<div class="pfn-content-container">
+<div class="content ">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-94BYBHMYCW"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "UA-131524109-1", { "send_page_view": false });
+gtag("config", "G-94BYBHMYCW", { "send_page_view": false });
+function trackGAEvent(eventName, eventParams) {
+eventParams = eventParams || {};
+var source = window.location.pathname + window.location.search;
+var params = Object.assign({}, {
+source_url: source,
+source_title: document.title,
+"send_to": "G-94BYBHMYCW",
+}, eventParams);
+var ga3Params = Object.assign({}, params, {
+source_url: source,
+source_title: document.title,
+"send_to": "UA-131524109-1",
+});
+console.info("GTAG EVENT --> ", eventName, params);
+gtag("event", eventName, params);
+gtag("event", eventName, ga3Params);
+}
+</script>
+<style>
+:root {
+--panelXSpacingHeader: 20px;
+--panelYSpacingHeader: 10px;
+--panelXSpacingBody: 20px;
+--panelYSpacingBody: 16px;
+--panelXSpacingFooter: 20px;
+--panelYSpacingFooter: 16px;
+}
+.panel {
+--borderColor: #E9E9E9;
+--xSpacingHeader: var(--panelXSpacingHeader);
+--ySpacingHeader: var(--panelYSpacingHeader);
+--xSpacingBody: var(--panelXSpacingBody);
+--ySpacingBody: var(--panelYSpacingBody);
+--xSpacingFooter: var(--panelXSpacingFooter);
+--ySpacingFooter: var(--panelYSpacingFooter);
+width: 100%;
+background: #FFFFFF;
+border: 1px solid var(--borderColor);
+overflow: clip;
+}
+.panel.transparent {
+background: transparent;
+}
+.panel.rounded {
+border-radius: 12px;
+}
+.panel.with-shadow {
+box-shadow: 0px 4px 4px 0px #E9F2FA;
+}
+.panel.no-border {
+border: none;
+}
+.panel.transparent-d {
+background: transparent;
+}
+.panel.rounded-d {
+border-radius: 12px;
+}
+.panel.with-shadow-d {
+box-shadow: 0px 4px 4px 0px #E9F2FA;
+}
+.panel.no-border-d {
+border: none;
+}
+.panel-header {
+position: relative;
+width: 100%;
+padding: var(--ySpacingHeader) var(--xSpacingHeader);
+border-bottom: 1px solid var(--borderColor);
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+}
+.panel.fluid .panel-header {
+border-bottom: 0;
+padding-bottom: 0;
+}
+.panel-header.column {
+flex-direction: column;
+}
+.panel-header>.panel-heading {
+width: 100%;
+margin: 0;
+padding: 0;
+color: #474747;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.panel-header>.panel-heading>h2 {
+color: #474747;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+.panel-header a {
+display: flex;
+gap: 5px;
+align-items: center;
+align-self: center;
+cursor: pointer;
+text-decoration: none;
+white-space: nowrap;
+color: #0B65F0;
+font-size: 14px;
+line-height: 21px;
+}
+.panel-header a.view-more-cta::after {
+content: "";
+display: block;
+width: 6px;
+height: 11px;
+background-image: url("//staticg.sportskeeda.com/skm/assets/ic_breadcrumb_chevron-right--0B65F0.svg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.panel .panel-body {
+padding: var(--ySpacingBody) var(--xSpacingBody);
+}
+.panel .panel-body.no-padding {
+--xSpacingBody: 0;
+--ySpacingBody: 0;
+}
+.panel .panel-header.no-padding {
+--xSpacingHeader: 0;
+--ySpacingHeader: 0;
+}
+.panel .panel-body.no-h-padding {
+--xSpacingBody: 0;
+}
+.panel .panel-header.no-h-padding {
+--xSpacingHeader: 0;
+}
+.panel .panel-body.no-v-padding {
+--ySpacingBody: 0;
+}
+.panel .panel-header.no-v-padding {
+--ySpacingHeader: 0;
+}
+.panel .panel-body.no-padding-d {
+--xSpacingBody: 0;
+--ySpacingBody: 0;
+}
+.panel .panel-header.no-padding-d {
+--xSpacingHeader: 0;
+--ySpacingHeader: 0;
+}
+.panel .panel-body.no-h-padding-d {
+--xSpacingBody: 0;
+}
+.panel .panel-header.no-h-padding-d {
+--xSpacingHeader: 0;
+}
+.panel .panel-body.no-v-padding-d {
+--ySpacingBody: 0;
+}
+.panel .panel-header.no-v-padding-d {
+--ySpacingHeader: 0;
+}
+.panel .panel-footer {
+position: relative;
+width: 100%;
+padding: 0 var(--xSpacingFooter) var(--ySpacingFooter);
+}
+.panel .panel-body.no-padding+.panel-footer {
+--ySpacingFooter: 12px;
+padding-top: var(--ySpacingFooter);
+}
+.panel .panel-cta-button {
+cursor: pointer;
+width: 100%;
+color: #474747;
+text-decoration: none;
+text-align: center;
+display: block;
+background-color: #fff;
+border: 1px solid #e2e2e2;
+border-radius: 2px;
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+padding: 10px;
+}
+.panel .panel-cta-button:hover {
+border-color: #474747;
+}
+.panel .panel-cta-link {
+width: 100%;
+display: flex;
+gap: 5px;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+text-decoration: none;
+white-space: nowrap;
+color: #0B65F0;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.panel .panel-cta-link::after {
+content: "";
+display: block;
+width: 6px;
+height: 11px;
+background-image: url("//staticg.sportskeeda.com/skm/assets/ic_breadcrumb_chevron-right--0B65F0.svg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+.panel {
+--panelXSpacingHeader: 16px;
+--panelYSpacingHeader: 16px;
+--panelXSpacingBody: 16px;
+--panelYSpacingBody: 16px;
+--panelXSpacingFooter: 16px;
+--panelYSpacingFooter: 16px;
+--borderColor: transparent;
+border: none;
+}
+.panel.transparent-m {
+background: transparent;
+}
+.panel.rounded-m {
+border-radius: 12px;
+}
+.panel.with-shadow-m {
+box-shadow: 0px 4px 4px 0px #E9F2FA;
+}
+.panel.no-border-m {
+border: none;
+}
+.panel .panel-header+.panel-body {
+padding-top: 0;
+}
+.panel .panel-body.no-padding-m {
+--xSpacingBody: 0px;
+--ySpacingBody: 0px;
+}
+.panel .panel-header.no-padding-m {
+--xSpacingHeader: 0px;
+--ySpacingHeader: 0px;
+}
+.panel .panel-body.no-h-padding-m {
+--xSpacingBody: 0px;
+}
+.panel .panel-header.no-h-padding-m {
+--xSpacingHeader: 0px;
+}
+.panel .panel-body.no-v-padding-m {
+--ySpacingBody: 0px;
+}
+.panel .panel-header.no-v-padding-m {
+--ySpacingHeader: 0px;
+}
+.panel .panel-header.text-sm-m>.panel-heading {
+font-size: 14px;
+line-height: 21px;
+}
+}
+</style>
+<style>
+.pfn-nfl-shared .team-roster-section {
+--table-header-bg: transparent;
+--table-header-color: #2D2D2D;
+--subheader-bg: #f5f5f5;
+}
+</style>
+<main class="teams-roster-page">
+<section class="layout-wrapper">
+<div class="content-container team-container">
+<div class="left">
+<style>
+.team-roster-section .roster-position {
+background: var(--subheader-bg);
+padding: 10px 20px;
+color: #2D2D2D;
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+}
+.team-roster-section .roster-table {
+margin-left: 12px;
+}
+.team-roster-section .roster-position-table {
+overflow-x: auto;
+}
+.team-roster-section .roster-table th {
+padding: 16px 12px;
+white-space: nowrap;
+text-align: left;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+color: var(--table-header-color);
+background-color: var(--table-header-bg);
+}
+.team-roster-section .roster-table tr {
+border-bottom: 1px solid #F5F5F5;
+}
+.team-roster-section .roster-table td {
+vertical-align: middle;
+text-align: left;
+white-space: nowrap;
+padding: 16px 12px;
+color: #666;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+}
+.team-roster-section .roster-table .table-body tr:last-child {
+border: none;
+}
+.team-roster-section .roster-section {
+margin-top: 20px;
+}
+.team-roster-section .roster-section:first-child {
+margin-top: 0px;
+}
+.team-roster-section .roster-position-table::-webkit-scrollbar-track,
+.team-roster-section .roster-position-table::-webkit-scrollbar {
+display: block;
+width: 5px;
+height: 5px;
+}
+.team-roster-section .roster-position-table::-webkit-scrollbar-thumb {
+background: #c1c1c1;
+border-radius: 10px;
+}
+.team-roster-section .roster-position-table .player-name {
+text-decoration: none;
+color: #0B65F0;
+}
+.team-roster-section .roster-position-table .player-img {
+width: 40px;
+height: 40px;
+border-radius: 40px;
+border: 1px solid #E9E9E9;
+background: #FFF;
+object-fit: cover
+}
+.team-roster-section td.player-img-div {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.team-roster-glossary-section {
+margin-top: 16px;
+}
+.team-roster-glossary-section .glossary-container .glossary-content .glossary-items .stats-glossary {
+display: flex;
+align-items: center;
+width: calc(50% - 15px);
+}
+.team-roster-section .roster-header h2 {
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #2D2D2D;
+}
+.team-roster-section .roster-header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+@media (max-width: 768px) {
+.glosary-section .stats-glossary {
+width: 100%;
+}
+.team-roster-section .roster-position {
+font-size: 12px;
+padding: 8px 16px;
+}
+.team-roster-section .more-teams-section {
+width: max-content;
+padding: 0 16px 16px;
+}
+.team-roster-section .roster-table td {
+padding: 6px;
+}
+.panel .panel-header {
+padding: 0px 16px 12px;
+}
+.team-roster-section .roster-table {
+margin-left: 12px;
+}
+.team-roster-section .roster-table th {
+padding: 12px 6px;
+}
+.team-roster-section .roster-header h2 {
+font-size: 14px;
+}
+.team-roster-section .roster-header {
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+.team-roster-glossary-section {
+margin: 16px 16px 0px;
+width: calc(100% - 32px);
+}
+.team-roster-glossary-section .glossary-container .glossary-content .glossary-items .stats-glossary {
+width: 100%;
+}
+}
+</style>
+<section class="team-roster-section">
+<div class="panel">
+<style>
+.team-container .panel {
+overflow: visible;
+}
+.team-container .panel-header {
+justify-content: space-between;
+}
+@media (max-width:768px) {
+.team-container .panel .panel-header {
+padding: 8px 16px 12px;
+}
+}
+</style>
+<header class="panel-header">
+<h1 class="panel-heading">Arizona Cardinals Roster</h1>
+<style>
+.more-teams-section {
+position: relative;
+}
+.more-teams-section .more-teams {
+display: flex;
+padding: 7px 12px;
+align-items: center;
+gap: 11px;
+border-radius: 18px;
+border: 1px solid #E9E9E9;
+cursor: pointer;
+color: #2D2D2D;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+}
+.more-teams-section .more-team-ic {
+transform: rotate(180deg);
+height: 6px;
+width: 10px;
+}
+.more-teams-section .open .more-team-ic {
+transform: unset;
+}
+.more-teams-section .more-team-name {
+white-space: nowrap;
+}
+.more-teams-list {
+position: absolute;
+top: 47px;
+right: 0;
+padding: 16px;
+border-radius: 8px;
+background: #FFFFFF;
+box-shadow: -1px 6px 12px rgb(0 0 0 / 10%);
+z-index: 1000;
+}
+.more-teams-list .nfl-zone {
+color: #999;
+font-size: 10px;
+font-weight: 500;
+line-height: normal;
+padding-left: 10px;
+}
+.more-teams-list .team-name .team-name-link {
+white-space: unset;
+color: #2D2D2D;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+text-decoration: none;
+display: flex;
+align-items: center;
+gap: 6px;
+padding-left: 10px;
+}
+.more-teams-list .team-name .team-name-link:hover {
+color: #d32f2f;
+background-color: #f5f5f5;
+}
+.more-teams-list .team-name .team-name-link.matched-team {
+color: #D32F2F;
+font-weight: 600;
+}
+.more-teams-list .more-team-body {
+display: flex;
+flex-shrink: 0;
+flex-wrap: wrap;
+width: 850px;
+align-items: stretch;
+gap: 15px 20px;
+}
+.more-teams-list:after {
+content: '';
+height: 15px;
+width: 15px;
+background: #FFF;
+position: absolute;
+transform: rotate(45deg);
+right: 21px;
+top: -9px;
+border-top: 1px solid #e9e9e9;
+border-left: 1px solid #e9e9e9;
+}
+.more-teams-list .more-zone-team {
+width: calc(25% - 15px);
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.more-teams-list .more-team-zone-ic {
+height: 20px;
+width: 20px;
+border: 1px solid #F5F5F5;
+background: transparent;
+border-radius: 100%;
+}
+.more-teams-list .nfl-zone-title {
+display: flex;
+gap: 10px;
+align-items: center;
+margin-bottom: 16px;
+color: #2D2D2D;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+padding-left: 10px;
+}
+.more-teams-list .more-zone-ic {
+height: 16px;
+width: 12px;
+}
+.more-teams-section .nfl-zone-title a {
+color: inherit;
+font-size: 12px;
+line-height: normal;
+gap: 10px;
+display: flex;
+text-decoration: none;
+}
+.more-teams-section .nfl-zone-title a:hover {
+color: #d32f2f;
+}
+.content-container,
+.content-container .left,
+.panel {
+overflow: visible;
+}
+@media (max-width: 768px) {
+.more-teams-section .more-teams {
+padding: 7px 12px;
+align-items: center;
+gap: 11px;
+font-size: 12px;
+}
+.more-teams-section .more-team-head {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 16px 20px;
+box-shadow: 2px 0px 6px rgb(0 0 0 / 5%);
+color: #474747;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+}
+.more-teams-section .close-more-team {
+color: #474747;
+font-size: 20px;
+cursor: pointer;
+}
+.more-teams-list {
+overflow: hidden;
+width: 100%;
+position: fixed;
+transition: max-height 0s ease-out;
+background: rgba(0, 0, 0, 0.80);
+top: 0px;
+bottom: 0;
+z-index: 9999;
+left: 0;
+margin: 0;
+padding: 0px;
+display: flex;
+align-items: flex-end;
+max-height: 1600px;
+}
+.more-teams-list.team-content-open {
+overflow: visible;
+animation-name: team-slide-up;
+animation-duration: 500ms;
+animation-iteration-count: 1;
+animation-fill-mode: both;
+}
+.more-teams-list.team-content-open {
+height: auto;
+}
+.more-teams-list.team-content-close {
+animation-name: team-slide-down;
+animation-duration: 500ms;
+animation-iteration-count: 1;
+animation-fill-mode: both;
+}
+.more-teams-list:after {
+content: none;
+}
+@keyframes team-slide-up {
+0% {
+-webkit-transform: translateY(100%);
+transform: translateY(100%);
+}
+100% {
+transform: translateY(0%);
+-webkit-transform: translateY(0%);
+}
+}
+@keyframes team-slide-down {
+0% {
+transform: translateY(0%);
+-webkit-transform: translateY(0%);
+}
+100% {
+-webkit-transform: translateY(100%);
+transform: translateY(100%);
+visibility: hidden;
+}
+}
+.more-teams-list .items-container {
+width: 100%;
+height: auto;
+background: #fff;
+border-radius: 25px 25px 0 0;
+overflow-y: auto;
+max-height: 100%;
+}
+.more-teams-list .more-team-body {
+padding: 14px 16px;
+width: 100%;
+}
+.more-teams-list .more-zone-team {
+width: calc(50% - 15px);
+}
+.more-teams-list .team-name .team-name-link,
+.more-teams-list .nfl-zone {
+padding-left: 0;
+}
+.more-teams-list .more-team-name {
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.more-teams-list .nfl-zone-title {
+padding-left: 16px;
+margin: 12px 0 0;
+}
+}
+</style>
+<div id="more-teams-section" class="more-teams-section">
+<div class="more-teams" onclick="toggleMoreNflTeams()">
+<span class="more-team-name">More NFL Teams</span>
+<img class="more-team-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/cricket_images/up-arrow-icon.svg" />
+</div>
+<div id="more-teams-list" class="more-teams-list hidden">
+<div class="items-container">
+<div class="more-team-body">
+<div class="more-zone-team">
+<div class="nfl-zone">AFC EAST</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/buffalo-bills/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/buffalo-bills.png?h=16" />
+<span class="more-team-name">Buffalo Bills</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/miami-dolphins/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/miami-dolphins.png?h=16" />
+<span class="more-team-name">Miami Dolphins</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/new-england-patriots/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/new-england-patriots.png?h=16" />
+<span class="more-team-name">New England Patriots</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/new-york-jets/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/new-york-jets.png?h=16" />
+<span class="more-team-name">New York Jets</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">AFC WEST</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/denver-broncos/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/denver-broncos.png?h=16" />
+<span class="more-team-name">Denver Broncos</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/kansas-city-chiefs/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/kansas-city-chiefs.png?h=16" />
+<span class="more-team-name">Kansas City Chiefs</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/las-vegas-raiders/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/las-vegas-raiders.png?h=16" />
+<span class="more-team-name">Las Vegas Raiders</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/los-angeles-chargers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/los-angeles-chargers.png?h=16" />
+<span class="more-team-name">Los Angeles Chargers</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">AFC NORTH</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/baltimore-ravens/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/baltimore-ravens.png?h=16" />
+<span class="more-team-name">Baltimore Ravens</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/cincinnati-bengals/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/cincinnati-bengals.png?h=16" />
+<span class="more-team-name">Cincinnati Bengals</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/cleveland-browns/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/cleveland-browns.png?h=16" />
+<span class="more-team-name">Cleveland Browns</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/pittsburgh-steelers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/pittsburgh-steelers.png?h=16" />
+<span class="more-team-name">Pittsburgh Steelers</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">AFC SOUTH</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/houston-texans/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/houston-texans.png?h=16" />
+<span class="more-team-name">Houston Texans</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/indianapolis-colts/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/indianapolis-colts.png?h=16" />
+<span class="more-team-name">Indianapolis Colts</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/jacksonville-jaguars/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/jacksonville-jaguars.png?h=16" />
+<span class="more-team-name">Jacksonville Jaguars</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/tennessee-titans/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/tennessee-titans.png?h=16" />
+<span class="more-team-name">Tennessee Titans</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">NFC EAST</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/dallas-cowboys/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/dallas-cowboys.png?h=16" />
+<span class="more-team-name">Dallas Cowboys</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/new-york-giants/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/new-york-giants.png?h=16" />
+<span class="more-team-name">New York Giants</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/philadelphia-eagles/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/philadelphia-eagles.png?h=16" />
+<span class="more-team-name">Philadelphia Eagles</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/washington-commanders/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/washington-commanders.png?h=16" />
+<span class="more-team-name">Washington Commanders</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">NFC WEST</div>
+<div class="team-name">
+<a class="team-name-link  matched-team " href="/nfl/teams/arizona-cardinals/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/arizona-cardinals.png?h=16" />
+<span class="more-team-name">Arizona Cardinals</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/los-angeles-rams/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/los-angeles-rams.png?h=16" />
+<span class="more-team-name">Los Angeles Rams</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/san-francisco-49ers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/san-francisco-49ers.png?h=16" />
+<span class="more-team-name">San Francisco 49ers</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/seattle-seahawks/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/seattle-seahawks.png?h=16" />
+<span class="more-team-name">Seattle Seahawks</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">NFC NORTH</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/chicago-bears/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/chicago-bears.png?h=16" />
+<span class="more-team-name">Chicago Bears</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/detroit-lions/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/detroit-lions.png?h=16" />
+<span class="more-team-name">Detroit Lions</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/green-bay-packers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/green-bay-packers.png?h=16" />
+<span class="more-team-name">Green Bay Packers</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/minnesota-vikings/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/minnesota-vikings.png?h=16" />
+<span class="more-team-name">Minnesota Vikings</span>
+</a>
+</div>
+</div>
+<div class="more-zone-team">
+<div class="nfl-zone">NFC SOUTH</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/atlanta-falcons/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/atlanta-falcons.png?h=16" />
+<span class="more-team-name">Atlanta Falcons</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/carolina-panthers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/carolina-panthers.png?h=16" />
+<span class="more-team-name">Carolina Panthers</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/new-orleans-saints/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/new-orleans-saints.png?h=16" />
+<span class="more-team-name">New Orleans Saints</span>
+</a>
+</div>
+<div class="team-name">
+<a class="team-name-link " href="/nfl/teams/tampa-bay-buccaneers/roster">
+<img class="more-team-zone-ic" height="8" width="14" alt="icon" src="//staticg.sportskeeda.com/nfl-images/tampa-bay-buccaneers.png?h=16" />
+<span class="more-team-name">Tampa Bay Buccaneers</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var toggleMoreNflTeams = (function() {
+var isDesktop = "1";
+if (isDesktop) {
+var teamsEle = $("#more-teams-section");
+document.body.addEventListener("click", function(event) {
+if (!teamsEle.contains(event.target)) {
+var nflTeamsEle = $("#more-teams-list");
+if (nflTeamsEle) {
+addClass(nflTeamsEle, "hidden");
+removeClass($(".more-teams"), "open");
+}
+}
+});
+}
+function toggleMoreNflTeams() {
+var teamEle = $(".more-teams");
+var moreTeamDiv = $(".more-teams-list");
+if (hasClass(teamEle, "open")) {
+removeClass(teamEle, "open");
+if (isDesktop) {
+addClass(moreTeamDiv, "hidden");
+} else {
+removeClass(moreTeamDiv, "team-content-open");
+addClass(moreTeamDiv, "team-content-close");
+}
+} else {
+addClass(teamEle, "open");
+removeClass(moreTeamDiv, "hidden");
+if (!isDesktop) {
+addClass(moreTeamDiv, "team-content-open");
+removeClass(moreTeamDiv, "team-content-close");
+}
+}
+}
+return toggleMoreNflTeams;
+})();
+</script>
+</header>
+<div class="panel-body no-padding">
+<div class="team-roster-div">
+<div class="roster-section">
+<div class="roster-position">Quarterback</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>1</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/kyler-murray.png|:|:|https://staticg.sportskeeda.com/editor/2023/02/7b8f1-16766347327015-1920.jpg|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Kyler Murray
+</td>
+<td>QB</td>
+<td>
+26
+</td>
+<td>
+5' 9''
+</td>
+<td>
+207
+</td>
+<td>
+6
+</td>
+<td>
+University of Oklahoma
+</td>
+<td>
+Bedford
+</td>
+<td>
+2019
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+</tr>
+<tr>
+<td>9</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/desmond-ridder.png|:|:|https://staticg.sportskeeda.com/editor/2023/11/7ff6c-17001757527151-1920.jpg|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Desmond Ridder
+</td>
+<td>QB</td>
+<td>
+24
+</td>
+<td>
+6' 2''
+</td>
+<td>
+207
+</td>
+<td>
+3
+</td>
+<td>
+University of Cincinnati
+</td>
+<td>
+-
+</td>
+<td>
+2022
+</td>
+<td>
+3
+</td>
+<td>
+74
+</td>
+</tr>
+<tr>
+<td>15</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/clayton-tune.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Clayton Tune
+</td>
+<td>QB</td>
+<td>
+25
+</td>
+<td>
+6' 2''
+</td>
+<td>
+220
+</td>
+<td>
+2
+</td>
+<td>
+University of Houston
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+5
+</td>
+<td>
+139
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Running Back</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Trey Benson
+</td>
+<td>RB</td>
+<td>
+21
+</td>
+<td>
+6' 0''
+</td>
+<td>
+223
+</td>
+<td>
+-
+</td>
+<td>
+Florida State University
+</td>
+<td>
+Greenville
+</td>
+<td>
+2024
+</td>
+<td>
+3
+</td>
+<td>
+66
+</td>
+</tr>
+<tr>
+<td>22</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/michael-carter-2.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Michael Carter
+</td>
+<td>RB</td>
+<td>
+24
+</td>
+<td>
+5' 7''
+</td>
+<td>
+201
+</td>
+<td>
+4
+</td>
+<td>
+University of North Carolina
+</td>
+<td>
+-
+</td>
+<td>
+2021
+</td>
+<td>
+4
+</td>
+<td>
+107
+</td>
+</tr>
+<tr>
+<td>6</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/james-conner.png|:|:|https://staticg.sportskeeda.com/editor/2022/12/7e640-16723912288128-1920.jpg|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+James Conner
+</td>
+<td>RB</td>
+<td>
+28
+</td>
+<td>
+6' 0''
+</td>
+<td>
+233
+</td>
+<td>
+8
+</td>
+<td>
+University of Pittsburgh
+</td>
+<td>
+Erie
+</td>
+<td>
+2017
+</td>
+<td>
+3
+</td>
+<td>
+105
+</td>
+</tr>
+<tr>
+<td>20</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/deejay-dallas.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+DeeJay Dallas
+</td>
+<td>RB</td>
+<td>
+25
+</td>
+<td>
+5' 9''
+</td>
+<td>
+214
+</td>
+<td>
+5
+</td>
+<td>
+University of Miami
+</td>
+<td>
+-
+</td>
+<td>
+2020
+</td>
+<td>
+4
+</td>
+<td>
+144
+</td>
+</tr>
+<tr>
+<td>31</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/emari-demercado.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Emari Demercado
+</td>
+<td>RB</td>
+<td>
+25
+</td>
+<td>
+5' 8''
+</td>
+<td>
+215
+</td>
+<td>
+2
+</td>
+<td>
+Texas Christian University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>37</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/tony-jones-jr.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Tony Jones Jr.
+</td>
+<td>RB</td>
+<td>
+26
+</td>
+<td>
+5' 10''
+</td>
+<td>
+224
+</td>
+<td>
+4
+</td>
+<td>
+University of Notre Dame
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Wide Receiver</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>38</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/daniel-arias.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Daniel Arias
+</td>
+<td>WR</td>
+<td>
+25
+</td>
+<td>
+6' 2''
+</td>
+<td>
+216
+</td>
+<td>
+1
+</td>
+<td>
+University of Colorado
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>82</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/andre-baccellia.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Andre Baccellia
+</td>
+<td>WR</td>
+<td>
+27
+</td>
+<td>
+5' 9''
+</td>
+<td>
+175
+</td>
+<td>
+3
+</td>
+<td>
+University of Washington
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>19</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/dan-chisena.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Dan Chisena
+</td>
+<td>WR</td>
+<td>
+27
+</td>
+<td>
+6' 2''
+</td>
+<td>
+203
+</td>
+<td>
+4
+</td>
+<td>
+Penn State University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/greg-dortch.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Greg Dortch
+</td>
+<td>WR</td>
+<td>
+25
+</td>
+<td>
+5' 6''
+</td>
+<td>
+175
+</td>
+<td>
+4
+</td>
+<td>
+Wake Forest University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Marvin Harrison Jr.
+</td>
+<td>WR</td>
+<td>
+21
+</td>
+<td>
+6' 3''
+</td>
+<td>
+205
+</td>
+<td>
+-
+</td>
+<td>
+The Ohio State University
+</td>
+<td>
+Philadelphia
+</td>
+<td>
+2024
+</td>
+<td>
+1
+</td>
+<td>
+4
+</td>
+</tr>
+<tr>
+<td>10</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/chris-moore.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Chris Moore
+</td>
+<td>WR</td>
+<td>
+30
+</td>
+<td>
+6' 0''
+</td>
+<td>
+200
+</td>
+<td>
+9
+</td>
+<td>
+University of Cincinnati
+</td>
+<td>
+Tampa
+</td>
+<td>
+2016
+</td>
+<td>
+4
+</td>
+<td>
+107
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Tejhaun Palmer
+</td>
+<td>WR</td>
+<td>
+-
+</td>
+<td>
+6' 1''
+</td>
+<td>
+210
+</td>
+<td>
+-
+</td>
+<td>
+University of Alabama at Birmingham
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+6
+</td>
+<td>
+191
+</td>
+</tr>
+<tr>
+<td>0</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/zach-pascal.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Zach Pascal
+</td>
+<td>WR</td>
+<td>
+29
+</td>
+<td>
+6' 1''
+</td>
+<td>
+215
+</td>
+<td>
+7
+</td>
+<td>
+Old Dominion University
+</td>
+<td>
+Upper Marlboro
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>86</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jeff-smith.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jeff Smith
+</td>
+<td>WR</td>
+<td>
+27
+</td>
+<td>
+6' 0''
+</td>
+<td>
+195
+</td>
+<td>
+4
+</td>
+<td>
+Boston College
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Xavier Weaver
+</td>
+<td>WR</td>
+<td>
+-
+</td>
+<td>
+5' 11''
+</td>
+<td>
+169
+</td>
+<td>
+-
+</td>
+<td>
+University of Colorado
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>14</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/michael-wilson.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Michael Wilson
+</td>
+<td>WR</td>
+<td>
+24
+</td>
+<td>
+6' 1''
+</td>
+<td>
+213
+</td>
+<td>
+2
+</td>
+<td>
+Stanford University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+3
+</td>
+<td>
+94
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Tight Ends</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>84</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/elijah-higgins.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Elijah Higgins
+</td>
+<td>TE</td>
+<td>
+23
+</td>
+<td>
+6' 2''
+</td>
+<td>
+235
+</td>
+<td>
+2
+</td>
+<td>
+Stanford University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+6
+</td>
+<td>
+197
+</td>
+</tr>
+<tr>
+<td>85</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/trey-mcbride.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Trey McBride
+</td>
+<td>TE</td>
+<td>
+24
+</td>
+<td>
+6' 3''
+</td>
+<td>
+246
+</td>
+<td>
+3
+</td>
+<td>
+Colorado State University
+</td>
+<td>
+-
+</td>
+<td>
+2022
+</td>
+<td>
+2
+</td>
+<td>
+55
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Tip Reiman
+</td>
+<td>TE</td>
+<td>
+22
+</td>
+<td>
+6' 4''
+</td>
+<td>
+270
+</td>
+<td>
+-
+</td>
+<td>
+University of Illinois
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+3
+</td>
+<td>
+82
+</td>
+</tr>
+<tr>
+<td>80</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/bernhard-seikovits.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Bernhard Seikovits
+</td>
+<td>TE</td>
+<td>
+26
+</td>
+<td>
+6' 4''
+</td>
+<td>
+262
+</td>
+<td>
+1
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>81</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/travis-vokolek.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Travis Vokolek
+</td>
+<td>TE</td>
+<td>
+25
+</td>
+<td>
+6' 5''
+</td>
+<td>
+260
+</td>
+<td>
+1
+</td>
+<td>
+University of Nebraska
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>89</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/blake-whiteheart.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Blake Whiteheart
+</td>
+<td>TE</td>
+<td>
+24
+</td>
+<td>
+6' 3''
+</td>
+<td>
+247
+</td>
+<td>
+2
+</td>
+<td>
+Wake Forest University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Offensive Line</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Isaiah Adams
+</td>
+<td>G</td>
+<td>
+24
+</td>
+<td>
+6' 4''
+</td>
+<td>
+320
+</td>
+<td>
+-
+</td>
+<td>
+University of Illinois
+</td>
+<td>
+Ajax
+</td>
+<td>
+2024
+</td>
+<td>
+3
+</td>
+<td>
+71
+</td>
+</tr>
+<tr>
+<td>62</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/evan-brown.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Evan Brown
+</td>
+<td>G/C</td>
+<td>
+27
+</td>
+<td>
+6' 1''
+</td>
+<td>
+320
+</td>
+<td>
+6
+</td>
+<td>
+Southern Methodist University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>63</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/trystan-colon.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Trystan Colon
+</td>
+<td>G/C</td>
+<td>
+26
+</td>
+<td>
+6' 2''
+</td>
+<td>
+313
+</td>
+<td>
+5
+</td>
+<td>
+University of Missouri
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>71</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/dennis-daley.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Dennis Daley
+</td>
+<td>G</td>
+<td>
+27
+</td>
+<td>
+6' 5''
+</td>
+<td>
+325
+</td>
+<td>
+6
+</td>
+<td>
+South Carolina
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+6
+</td>
+<td>
+212
+</td>
+</tr>
+<tr>
+<td>72</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/hjalte-froholdt.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Hjalte Froholdt
+</td>
+<td>G</td>
+<td>
+27
+</td>
+<td>
+6' 4''
+</td>
+<td>
+310
+</td>
+<td>
+6
+</td>
+<td>
+University of Arkansas
+</td>
+<td>
+Svendborg
+</td>
+<td>
+2019
+</td>
+<td>
+4
+</td>
+<td>
+118
+</td>
+</tr>
+<tr>
+<td>59</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jon-gaines-ii.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jon Gaines II
+</td>
+<td>G</td>
+<td>
+23
+</td>
+<td>
+6' 3''
+</td>
+<td>
+303
+</td>
+<td>
+1
+</td>
+<td>
+University of California at Los Angeles
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+4
+</td>
+<td>
+122
+</td>
+</tr>
+<tr>
+<td>78</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/marquis-hayes.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Marquis Hayes
+</td>
+<td>G</td>
+<td>
+25
+</td>
+<td>
+6' 4''
+</td>
+<td>
+318
+</td>
+<td>
+2
+</td>
+<td>
+University of Oklahoma
+</td>
+<td>
+-
+</td>
+<td>
+2022
+</td>
+<td>
+7
+</td>
+<td>
+257
+</td>
+</tr>
+<tr>
+<td>76</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/will-hernandez.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Will Hernandez
+</td>
+<td>G</td>
+<td>
+28
+</td>
+<td>
+6' 1''
+</td>
+<td>
+332
+</td>
+<td>
+7
+</td>
+<td>
+University of Texas-El Paso
+</td>
+<td>
+Las Vegas
+</td>
+<td>
+2018
+</td>
+<td>
+2
+</td>
+<td>
+34
+</td>
+</tr>
+<tr>
+<td>61</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/carter-odonnell.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Carter O'Donnell
+</td>
+<td>G/T</td>
+<td>
+25
+</td>
+<td>
+6' 4''
+</td>
+<td>
+313
+</td>
+<td>
+3
+</td>
+<td>
+University of Alberta
+</td>
+<td>
+Calgary
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/austen-pleasants.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Austen Pleasants
+</td>
+<td>G/T</td>
+<td>
+26
+</td>
+<td>
+6' 6''
+</td>
+<td>
+330
+</td>
+<td>
+2
+</td>
+<td>
+Ohio University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>66</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jackson-barton.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jackson Barton
+</td>
+<td>T</td>
+<td>
+28
+</td>
+<td>
+6' 6''
+</td>
+<td>
+302
+</td>
+<td>
+6
+</td>
+<td>
+University of Utah
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+7
+</td>
+<td>
+240
+</td>
+</tr>
+<tr>
+<td>68</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/kelvin-beachum.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Kelvin Beachum
+</td>
+<td>T</td>
+<td>
+34
+</td>
+<td>
+6' 2''
+</td>
+<td>
+308
+</td>
+<td>
+13
+</td>
+<td>
+Southern Methodist University
+</td>
+<td>
+Mexia
+</td>
+<td>
+2012
+</td>
+<td>
+7
+</td>
+<td>
+248
+</td>
+</tr>
+<tr>
+<td>70</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/paris-johnson-jr.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Paris Johnson Jr.
+</td>
+<td>T</td>
+<td>
+22
+</td>
+<td>
+6' 5''
+</td>
+<td>
+313
+</td>
+<td>
+2
+</td>
+<td>
+The Ohio State University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+1
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Christian Jones
+</td>
+<td>T</td>
+<td>
+-
+</td>
+<td>
+6' 5''
+</td>
+<td>
+321
+</td>
+<td>
+-
+</td>
+<td>
+University of Texas
+</td>
+<td>
+Houston
+</td>
+<td>
+2024
+</td>
+<td>
+5
+</td>
+<td>
+162
+</td>
+</tr>
+<tr>
+<td>65</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/elijah-wilkinson.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Elijah Wilkinson
+</td>
+<td>T</td>
+<td>
+29
+</td>
+<td>
+6' 5''
+</td>
+<td>
+314
+</td>
+<td>
+8
+</td>
+<td>
+University of Massachusetts
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>73</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jonah-williams-2.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jonah Williams
+</td>
+<td>T</td>
+<td>
+26
+</td>
+<td>
+6' 4''
+</td>
+<td>
+312
+</td>
+<td>
+6
+</td>
+<td>
+University of Alabama
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+1
+</td>
+<td>
+11
+</td>
+</tr>
+<tr>
+<td>60</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/keith-ismael.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Keith Ismael
+</td>
+<td>C</td>
+<td>
+25
+</td>
+<td>
+6' 2''
+</td>
+<td>
+309
+</td>
+<td>
+4
+</td>
+<td>
+San Diego State University
+</td>
+<td>
+-
+</td>
+<td>
+2020
+</td>
+<td>
+5
+</td>
+<td>
+156
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Defensive Line</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>91</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/l-j-collier.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+L.J. Collier
+</td>
+<td>DE</td>
+<td>
+28
+</td>
+<td>
+6' 1''
+</td>
+<td>
+291
+</td>
+<td>
+6
+</td>
+<td>
+Texas Christian University
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+1
+</td>
+<td>
+29
+</td>
+</tr>
+<tr>
+<td>90</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/ben-stille.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Ben Stille
+</td>
+<td>DE</td>
+<td>
+26
+</td>
+<td>
+6' 3''
+</td>
+<td>
+296
+</td>
+<td>
+3
+</td>
+<td>
+University of Nebraska
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>79</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/phil-hoskins.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Phil Hoskins
+</td>
+<td>DT</td>
+<td>
+27
+</td>
+<td>
+6' 4''
+</td>
+<td>
+280
+</td>
+<td>
+4
+</td>
+<td>
+University of Kentucky
+</td>
+<td>
+Toledo
+</td>
+<td>
+2021
+</td>
+<td>
+7
+</td>
+<td>
+232
+</td>
+</tr>
+<tr>
+<td>93</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/justin-jones-2.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Justin Jones
+</td>
+<td>DT</td>
+<td>
+27
+</td>
+<td>
+6' 2''
+</td>
+<td>
+309
+</td>
+<td>
+7
+</td>
+<td>
+North Carolina State University
+</td>
+<td>
+-
+</td>
+<td>
+2018
+</td>
+<td>
+3
+</td>
+<td>
+84
+</td>
+</tr>
+<tr>
+<td>96</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/naquan-jones.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Naquan Jones
+</td>
+<td>DT</td>
+<td>
+26
+</td>
+<td>
+6' 2''
+</td>
+<td>
+313
+</td>
+<td>
+4
+</td>
+<td>
+Michigan State University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>98</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/roy-lopez.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Roy Lopez
+</td>
+<td>DT</td>
+<td>
+26
+</td>
+<td>
+6' 1''
+</td>
+<td>
+318
+</td>
+<td>
+4
+</td>
+<td>
+University of Arizona
+</td>
+<td>
+-
+</td>
+<td>
+2021
+</td>
+<td>
+6
+</td>
+<td>
+195
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Myles Murphy
+</td>
+<td>DT</td>
+<td>
+22
+</td>
+<td>
+6' 3''
+</td>
+<td>
+309
+</td>
+<td>
+-
+</td>
+<td>
+University of North Carolina
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>92</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/bilal-nichols.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Bilal Nichols
+</td>
+<td>DT</td>
+<td>
+27
+</td>
+<td>
+6' 2''
+</td>
+<td>
+313
+</td>
+<td>
+7
+</td>
+<td>
+University of Delaware
+</td>
+<td>
+-
+</td>
+<td>
+2018
+</td>
+<td>
+5
+</td>
+<td>
+145
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Darius Robinson
+</td>
+<td>DT</td>
+<td>
+22
+</td>
+<td>
+6' 4''
+</td>
+<td>
+296
+</td>
+<td>
+-
+</td>
+<td>
+University of Missouri
+</td>
+<td>
+Southfield
+</td>
+<td>
+2024
+</td>
+<td>
+1
+</td>
+<td>
+27
+</td>
+</tr>
+<tr>
+<td>55</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/dante-stills.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Dante Stills
+</td>
+<td>DT</td>
+<td>
+24
+</td>
+<td>
+6' 3''
+</td>
+<td>
+286
+</td>
+<td>
+2
+</td>
+<td>
+West Virginia University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+6
+</td>
+<td>
+213
+</td>
+</tr>
+<tr>
+<td>95</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/khyiris-tonga.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Khyiris Tonga
+</td>
+<td>DT</td>
+<td>
+27
+</td>
+<td>
+6' 3''
+</td>
+<td>
+338
+</td>
+<td>
+4
+</td>
+<td>
+Brigham Young University
+</td>
+<td>
+-
+</td>
+<td>
+2021
+</td>
+<td>
+7
+</td>
+<td>
+250
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Linebackers</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>51</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/krys-barnes.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Krys Barnes
+</td>
+<td>LB</td>
+<td>
+26
+</td>
+<td>
+6' 1''
+</td>
+<td>
+229
+</td>
+<td>
+5
+</td>
+<td>
+University of California at Los Angeles
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>46</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/aaron-brewer-2.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Aaron Brewer
+</td>
+<td>LB</td>
+<td>
+33
+</td>
+<td>
+6' 4''
+</td>
+<td>
+232
+</td>
+<td>
+13
+</td>
+<td>
+San Diego State University
+</td>
+<td>
+Fullerton
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>25</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/zaven-collins.png|:|:|https://staticg.sportskeeda.com/editor/2021/05/30802-16207278307423-800.jpg|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Zaven Collins
+</td>
+<td>LB</td>
+<td>
+24
+</td>
+<td>
+6' 3''
+</td>
+<td>
+260
+</td>
+<td>
+4
+</td>
+<td>
+University of Tulsa
+</td>
+<td>
+Tulsa
+</td>
+<td>
+2021
+</td>
+<td>
+1
+</td>
+<td>
+16
+</td>
+</tr>
+<tr>
+<td>52</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/victor-dimukeje.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Victor Dimukeje
+</td>
+<td>LB</td>
+<td>
+24
+</td>
+<td>
+6' 1''
+</td>
+<td>
+262
+</td>
+<td>
+4
+</td>
+<td>
+Duke University
+</td>
+<td>
+Lagos
+</td>
+<td>
+2021
+</td>
+<td>
+6
+</td>
+<td>
+210
+</td>
+</tr>
+<tr>
+<td>45</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/dennis-gardeck.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Dennis Gardeck
+</td>
+<td>LB</td>
+<td>
+29
+</td>
+<td>
+5' 11''
+</td>
+<td>
+232
+</td>
+<td>
+7
+</td>
+<td>
+University of Sioux Falls
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>43</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jesse-luketa.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jesse Luketa
+</td>
+<td>LB</td>
+<td>
+25
+</td>
+<td>
+6' 2''
+</td>
+<td>
+253
+</td>
+<td>
+3
+</td>
+<td>
+Penn State University
+</td>
+<td>
+Ottawa
+</td>
+<td>
+2022
+</td>
+<td>
+7
+</td>
+<td>
+256
+</td>
+</tr>
+<tr>
+<td>58</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/tyreek-maddox-williams.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Tyreek Maddox-Williams
+</td>
+<td>LB</td>
+<td>
+26
+</td>
+<td>
+5' 11''
+</td>
+<td>
+228
+</td>
+<td>
+2
+</td>
+<td>
+Rutgers, The State University of N.J.
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>53</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/trevor-nowaske.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Trevor Nowaske
+</td>
+<td>LB</td>
+<td>
+25
+</td>
+<td>
+6' 2''
+</td>
+<td>
+237
+</td>
+<td>
+2
+</td>
+<td>
+Saginaw Valley State
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>18</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/bj-ojulari.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+BJ Ojulari
+</td>
+<td>LB</td>
+<td>
+22
+</td>
+<td>
+6' 1''
+</td>
+<td>
+248
+</td>
+<td>
+2
+</td>
+<td>
+Louisiana State University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+2
+</td>
+<td>
+41
+</td>
+</tr>
+<tr>
+<td>44</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/owen-pappoe.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Owen Pappoe
+</td>
+<td>LB</td>
+<td>
+23
+</td>
+<td>
+5' 11''
+</td>
+<td>
+225
+</td>
+<td>
+2
+</td>
+<td>
+Auburn University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+5
+</td>
+<td>
+168
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Joe Shimko
+</td>
+<td>LB</td>
+<td>
+-
+</td>
+<td>
+5' 11''
+</td>
+<td>
+233
+</td>
+<td>
+-
+</td>
+<td>
+North Carolina State University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>50</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/tyreke-smith.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Tyreke Smith
+</td>
+<td>LB</td>
+<td>
+24
+</td>
+<td>
+6' 2''
+</td>
+<td>
+255
+</td>
+<td>
+3
+</td>
+<td>
+The Ohio State University
+</td>
+<td>
+-
+</td>
+<td>
+2022
+</td>
+<td>
+5
+</td>
+<td>
+158
+</td>
+</tr>
+<tr>
+<td>97</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/cameron-thomas.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Cameron Thomas
+</td>
+<td>LB</td>
+<td>
+24
+</td>
+<td>
+6' 3''
+</td>
+<td>
+267
+</td>
+<td>
+3
+</td>
+<td>
+San Diego State University
+</td>
+<td>
+-
+</td>
+<td>
+2022
+</td>
+<td>
+3
+</td>
+<td>
+87
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Xavier Thomas
+</td>
+<td>LB</td>
+<td>
+24
+</td>
+<td>
+6' 1''
+</td>
+<td>
+245
+</td>
+<td>
+-
+</td>
+<td>
+Clemson University
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+5
+</td>
+<td>
+138
+</td>
+</tr>
+<tr>
+<td>7</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/kyzir-white.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Kyzir White
+</td>
+<td>LB</td>
+<td>
+28
+</td>
+<td>
+6' 1''
+</td>
+<td>
+234
+</td>
+<td>
+7
+</td>
+<td>
+West Virginia University
+</td>
+<td>
+-
+</td>
+<td>
+2018
+</td>
+<td>
+4
+</td>
+<td>
+119
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/mack-wilson-sr.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Mack Wilson Sr.
+</td>
+<td>LB</td>
+<td>
+26
+</td>
+<td>
+6' 0''
+</td>
+<td>
+246
+</td>
+<td>
+6
+</td>
+<td>
+University of Alabama
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+5
+</td>
+<td>
+155
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Defensive Back</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>13</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/keitrel-clark.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Kei'Trel Clark
+</td>
+<td>CB</td>
+<td>
+23
+</td>
+<td>
+5' 9''
+</td>
+<td>
+181
+</td>
+<td>
+2
+</td>
+<td>
+University of Louisville
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+6
+</td>
+<td>
+180
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jaden Davis
+</td>
+<td>CB</td>
+<td>
+-
+</td>
+<td>
+5' 9''
+</td>
+<td>
+182
+</td>
+<td>
+-
+</td>
+<td>
+University of Miami
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+7
+</td>
+<td>
+226
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jeff-gladney.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jeff Gladney
+</td>
+<td>CB</td>
+<td>
+27
+</td>
+<td>
+5' 9''
+</td>
+<td>
+191
+</td>
+<td>
+2
+</td>
+<td>
+Texas Christian University
+</td>
+<td>
+-
+</td>
+<td>
+2020
+</td>
+<td>
+1
+</td>
+<td>
+31
+</td>
+</tr>
+<tr>
+<td>30</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/darren-hall.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Darren Hall
+</td>
+<td>CB</td>
+<td>
+24
+</td>
+<td>
+5' 11''
+</td>
+<td>
+190
+</td>
+<td>
+3
+</td>
+<td>
+San Diego State University
+</td>
+<td>
+Baldwin Park
+</td>
+<td>
+2021
+</td>
+<td>
+4
+</td>
+<td>
+108
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Elijah Jones
+</td>
+<td>CB</td>
+<td>
+-
+</td>
+<td>
+6' 1''
+</td>
+<td>
+184
+</td>
+<td>
+-
+</td>
+<td>
+Boston College
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+3
+</td>
+<td>
+90
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Max Melton
+</td>
+<td>CB</td>
+<td>
+22
+</td>
+<td>
+5' 11''
+</td>
+<td>
+190
+</td>
+<td>
+-
+</td>
+<td>
+Rutgers, The State University of N.J.
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+2
+</td>
+<td>
+43
+</td>
+</tr>
+<tr>
+<td>23</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/sean-murphy-bunting.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Sean Murphy-Bunting
+</td>
+<td>CB</td>
+<td>
+26
+</td>
+<td>
+5' 11''
+</td>
+<td>
+195
+</td>
+<td>
+6
+</td>
+<td>
+Central Michigan University
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+2
+</td>
+<td>
+39
+</td>
+</tr>
+<tr>
+<td>29</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/michael-ojemudia.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Michael Ojemudia
+</td>
+<td>CB</td>
+<td>
+26
+</td>
+<td>
+6' 0''
+</td>
+<td>
+200
+</td>
+<td>
+4
+</td>
+<td>
+University of Iowa
+</td>
+<td>
+-
+</td>
+<td>
+2020
+</td>
+<td>
+3
+</td>
+<td>
+77
+</td>
+</tr>
+<tr>
+<td>26</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/bobby-price.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Bobby Price
+</td>
+<td>CB</td>
+<td>
+26
+</td>
+<td>
+6' 3''
+</td>
+<td>
+205
+</td>
+<td>
+5
+</td>
+<td>
+Norfolk State University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>24</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/starling-thomas-v.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Starling Thomas V
+</td>
+<td>CB</td>
+<td>
+24
+</td>
+<td>
+5' 9''
+</td>
+<td>
+194
+</td>
+<td>
+2
+</td>
+<td>
+University of Alabama at Birmingham
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>21</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/garrett-williams.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Garrett Williams
+</td>
+<td>CB</td>
+<td>
+22
+</td>
+<td>
+5' 9''
+</td>
+<td>
+192
+</td>
+<td>
+2
+</td>
+<td>
+Syracuse University
+</td>
+<td>
+-
+</td>
+<td>
+2023
+</td>
+<td>
+3
+</td>
+<td>
+72
+</td>
+</tr>
+<tr>
+<td>27</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/divaad-wilson.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Divaad Wilson
+</td>
+<td>CB</td>
+<td>
+24
+</td>
+<td>
+5' 11''
+</td>
+<td>
+195
+</td>
+<td>
+1
+</td>
+<td>
+University of Central Florida
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>3</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/budda-baker.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Budda Baker
+</td>
+<td>S</td>
+<td>
+28
+</td>
+<td>
+5' 9''
+</td>
+<td>
+195
+</td>
+<td>
+8
+</td>
+<td>
+University of Washington
+</td>
+<td>
+Bellevue
+</td>
+<td>
+2017
+</td>
+<td>
+2
+</td>
+<td>
+36
+</td>
+</tr>
+<tr>
+<td>32</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/joey-blount.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Joey Blount
+</td>
+<td>S</td>
+<td>
+25
+</td>
+<td>
+6' 0''
+</td>
+<td>
+201
+</td>
+<td>
+3
+</td>
+<td>
+University of Virginia
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>36</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/andre-chachere.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Andre Chachere
+</td>
+<td>S</td>
+<td>
+28
+</td>
+<td>
+5' 11''
+</td>
+<td>
+197
+</td>
+<td>
+4
+</td>
+<td>
+San Jose State University
+</td>
+<td>
+Fresno
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>35</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/verone-mckinley-iii.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Verone McKinley III
+</td>
+<td>S</td>
+<td>
+24
+</td>
+<td>
+5' 9''
+</td>
+<td>
+190
+</td>
+<td>
+3
+</td>
+<td>
+University of Oregon
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td></td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Dadrion Taylor-Demerson
+</td>
+<td>S</td>
+<td>
+24
+</td>
+<td>
+5' 10''
+</td>
+<td>
+195
+</td>
+<td>
+-
+</td>
+<td>
+Texas Tech University
+</td>
+<td>
+-
+</td>
+<td>
+2024
+</td>
+<td>
+4
+</td>
+<td>
+104
+</td>
+</tr>
+<tr>
+<td>34</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/jalen-thompson-2.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Jalen Thompson
+</td>
+<td>S</td>
+<td>
+25
+</td>
+<td>
+5' 10''
+</td>
+<td>
+190
+</td>
+<td>
+6
+</td>
+<td>
+Washington State University
+</td>
+<td>
+-
+</td>
+<td>
+2019
+</td>
+<td>
+5
+</td>
+<td>
+-
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="roster-section">
+<div class="roster-position">Special</div>
+<div class="roster-position-table">
+<table class="roster-table">
+<thead>
+<tr>
+<th title="Player jersey number">No</th>
+<th title="Player name">Player</th>
+<th title="Player position">Pos</th>
+<th title="Age">Age</th>
+<th title="Height (in ft)">Ht</th>
+<th title="Weight (in lbs)">Wt (lbs)</th>
+<th title="Player experience (in yrs)">Exp (yrs)</th>
+<th title="College">College</th>
+<th title="Birth Place">Birth Place</th>
+<th title="Draft Year">Draft Year</th>
+<th title="Draft round number">Draft R#</th>
+<th title="Draft overall pick number">Draft P#</th>
+</tr>
+</thead>
+<tbody class="table-body">
+<tr>
+<td>5</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/matt-prater.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Matt Prater
+</td>
+<td>K</td>
+<td>
+39
+</td>
+<td>
+5' 9''
+</td>
+<td>
+201
+</td>
+<td>
+18
+</td>
+<td>
+University of Central Florida
+</td>
+<td>
+Mayfield Heights
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+<tr>
+<td>12</td>
+<td class="player-img-div">
+<img width="40" height="40" alt="player-image" src="data:image/svg+xml;charset=utf-8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' style='fill:rgb(128, 128, 128);'/></svg>" class="player-img img-with-fallbacks" data-img-fallbacks="//staticg.sportskeeda.com/skm/assets/player-images/nfl/blake-gillikin.png|:|:|//staticg.sportskeeda.com/cricket_images/default-player.svg" data-img-params="?w=80" />
+Blake Gillikin
+</td>
+<td>P</td>
+<td>
+26
+</td>
+<td>
+6' 1''
+</td>
+<td>
+196
+</td>
+<td>
+5
+</td>
+<td>
+Penn State University
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<style>
+.glossary-wrapper {
+position: relative;
+width: 100%;
+display: flex;
+}
+.glossary-container {
+--spacing: 16px;
+--background: #E9F7F2;
+--border-color: #E9E9E9;
+--border-radius: 8px;
+position: relative;
+width: 100%;
+display: flex;
+flex-direction: column;
+background: var(--background);
+border: 1px solid var(--border-color);
+border-radius: var(--border-radius);
+}
+.glossary-container .glossary-header {
+cursor: pointer;
+position: relative;
+width: 100%;
+padding: var(--spacing);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.glossary-container .glossary-header::after {
+content: "+";
+display: block;
+font-size: 30px;
+color: #000;
+position: absolute;
+right: var(--spacing);
+top: 50%;
+transform: translateY(-50%);
+}
+.glossary-container .glossary-header .glossary-header--text {
+width: 100%;
+color: #2D2D2D;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+}
+.glossary-container .glossary-content {
+width: 100%;
+padding: var(--spacing);
+border-top: 1px solid #E9E9E9;
+display: none;
+}
+.glossary-container .glossary-ref {
+display: none;
+}
+.glossary-container .glossary-ref:checked+.glossary-header::after {
+content: "-";
+}
+.glossary-container .glossary-ref:checked+.glossary-header+.glossary-content {
+display: block;
+}
+@media (max-width: 768px) {
+.glossary-container .glossary-header::after {
+font-size: 20px;
+}
+.glossary-container .glossary-header .glossary-header--text {
+font-size: 12px;
+line-height: 18px;
+}
+}
+.glossary-container .glossary-content .glossary-items {
+display: flex;
+gap: 8px 30px;
+flex-wrap: wrap;
+}
+.glossary-container .glossary-content .glossary-items .glossary-item-title {
+width: 25%;
+color: #2D2D2D;
+font-weight: 600;
+font-size: 12px;
+line-height: 13px;
+}
+.glossary-container .glossary-content .glossary-items .glossary-item-value {
+width: 75%;
+color: #666666;
+font-size: 12px;
+line-height: 13px;
+}
+</style>
+<div class="team-roster-glossary-section">
+<div class="glossary-wrapper">
+<div class="glossary-container">
+<input type="checkbox" name="glossary_for__team-roster" id="glossary_for__team-roster" class="glossary-ref" checked />
+<label for="glossary_for__team-roster" class="glossary-header">
+<div class="glossary-header--text">
+Glossary
+</div>
+</label>
+<div class="glossary-content">
+<div class="glossary-items">
+<div class="stats-glossary">
+<div class="glossary-item-title">NO</div>
+<div class="glossary-item-value">Player jersey number</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">POS</div>
+<div class="glossary-item-value">Player position</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">HT</div>
+<div class="glossary-item-value">Height (in ft)</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">WT</div>
+<div class="glossary-item-value">Weight (in lbs)</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">EXP</div>
+<div class="glossary-item-value">Player experience (in yrs)</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">DRAFT R#</div>
+<div class="glossary-item-value">Draft round number</div>
+</div>
+<div class="stats-glossary">
+<div class="glossary-item-title">DRAFT P#</div>
+<div class="glossary-item-value">Draft overall pick number</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<script type="text/javascript">
+function getMonthNames() {
+return [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"December",
+];
+}
+function getShortMonthNames() {
+return [
+"Jan",
+"Feb",
+"Mar",
+"Apr",
+"May",
+"Jun",
+"Jul",
+"Aug",
+"Sep",
+"Oct",
+"Nov",
+"Dec",
+];
+}
+function timeTo12HourFormat(time) {
+var timeSplit = time.split(":");
+var amOrPm = "AM";
+var hour = timeSplit[0];
+var minute = timeSplit[1];
+if (hour >= 12) {
+amOrPm = "PM";
+}
+if (hour > 12) {
+hour = hour - 12;
+}
+return hour + ":" + minute + " " + amOrPm;
+}
+function getShortDayNames() {
+return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+}
+function getFullDayNames() {
+return ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+}
+function getFormattedDate(isoDatetime) {
+var currentDate = new Date();
+var matchDate = new Date(isoDatetime);
+var tomorrowDate = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+var monthNames = getShortMonthNames();
+var dayNames = getShortDayNames();
+var currentDateString = currentDate.getDate() + '-' + currentDate.getMonth() + '-' + currentDate.getFullYear();
+var matchDateString = matchDate.getDate() + '-' + matchDate.getMonth() + '-' + matchDate.getFullYear();
+var tomorrowDateString = tomorrowDate.getDate() + '-' + tomorrowDate.getMonth() + '-' + tomorrowDate.getFullYear();
+var localTime = matchDate.toLocaleTimeString().replace(/\:\d\d\s/, " ");
+var timeZone = matchDate.toString().match(/(\(.*\))/).pop();
+return dayNames[matchDate.getDay()] + ", " + matchDate.getDate() + " " + monthNames[matchDate.getMonth()] + " " + matchDate.getFullYear() + ", " + localTime + " " +  timeZone;
+}
+function timeSince(isoDateString) {
+var date = new Date(isoDateString);
+var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var seconds = Math.floor((new Date() - date) / 1000);
+var interval = Math.floor(seconds / 86400);
+if(interval > 6) {
+return date.getDate() + " " + monthNames[date.getMonth()] + ", " + date.getFullYear();
+}
+if (interval > 1) {
+return interval + " days ago";
+}
+if(interval === 1) {
+return "1 day ago";
+}
+interval = Math.floor(seconds / 3600);
+if (interval === 1) {
+return interval + " hr ago";
+}
+if (interval > 1) {
+return interval + " hrs ago";
+}
+interval = Math.floor(seconds / 60);
+if (interval === 1) {
+return "1 min ago";
+}
+if (interval > 1) {
+return interval + " mins ago";
+}
+return Math.floor(seconds) + " seconds ago";
+}
+function updateTimeStringsToFormatTimeSince() {
+var isPendingContent = window.location.hash === '#pending';
+var timeElements = $all('.keeda-time-since');
+for (var i = 0; i < timeElements.length; i++) {
+var isoDateString = timeElements[i].getAttribute('data-iso-string');
+var timeSinceVal = timeSince(isoDateString);
+if(timeElements[i].classList.contains("author-post-time") && !timeSinceVal.includes("ago")) {
+timeElements[i].innerHTML = "";
+} else if (isPendingContent) {
+timeElements[i].innerHTML = (timeSinceVal + "<br>(" + isoDateString.split("T")[0] + ")");
+} else {
+timeElements[i].innerHTML = timeSinceVal;
+}
+}
+}
+function getDateObjectInIST() {
+var currentTime = new Date();
+var currentOffset = currentTime.getTimezoneOffset();
+var ISTOffset = 330;   // IST offset UTC +5:30
+var ISTTime = new Date(currentTime.getTime() + (ISTOffset + currentOffset) * 60000);
+return ISTTime;
+}
+function getDateInYYYYMMDD(date) {
+var d = !date ? getDateObjectInIST() : date;
+var month = '' + (d.getMonth() + 1),
+day = '' + d.getDate(),
+year = d.getFullYear();
+if (month.length < 2) month = '0' + month;
+if (day.length < 2) day = '0' + day;
+return year + "-" + month + "-" + day;
+}
+function getTimezoneOffsetString(theTime) {
+var timezoneMap = {
+"420": "PDT",
+"360": "MDT",
+"300": "CDT",
+"240": "EDT",
+"180": "GMT-3",
+"0": "UTC",
+"-60": "BST",
+"-120": "CEST",
+"-180": "MSK",
+"-240": "GMT+4",
+"-330": "IST",
+"-480": "CST",
+"-540": "JST",
+"-600": "AEST",
+"-720": "NZST"
+};
+return timezoneMap[theTime.getTimezoneOffset().toString()] || theTime.getTimezoneOffset().toString();
+}
+function getFriendlyModifiedTime(isoDateString) {
+isoDateString = new Date(isoDateString);
+var timeOffset = getTimezoneOffsetString(isoDateString);
+var friendly_time = isoDateString.toLocaleString('en-US', {
+day: 'numeric', 
+year: 'numeric', 
+month: 'long',
+hour: 'numeric', 
+minute: 'numeric', 
+});
+return friendly_time + ' ' + timeOffset;
+}
+function getAMPMFormattedTime(isoDateString) {
+var hours = isoDateString.getHours();
+var minutes = isoDateString.getMinutes();
+var ampm = hours >= 12 ? 'pm' : 'am';
+hours = hours % 12;
+hours = hours ? hours : 12;
+minutes = minutes < 10 ? '0'+minutes : minutes;
+var strTime = hours + ':' + minutes + ' ' + ampm;
+return strTime;
+}
+function getTimeDiffInDaysHoursMinutes(timeInMilliseconds) {
+var diffDays = Math.floor(timeInMilliseconds / 86400000); // difference in days
+var diffHrs = Math.floor((timeInMilliseconds % 86400000) / 3600000); // difference in hours
+var diffMins = Math.round(((timeInMilliseconds % 86400000) % 3600000) / 60000); // difference in minutes
+var result = [];
+if (diffDays) {
+result.push(diffDays + " day(s)");
+}
+if (diffHrs) {
+result.push(diffHrs + " hour(s)");
+}
+if (diffMins) {
+result.push(diffMins + " minute(s)");
+}
+if (!result.length) {
+result.push(Math.round(timeInMilliseconds / 1000) + " second(s)");
+}
+return result;
+}
+function getTimeAndDate(isoDateString) {
+var isoDateString = new Date(isoDateString);
+var monthNames = getShortMonthNames();
+var weekNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+var hours = isoDateString.getHours();
+if (hours <= 9) {
+hours = "0" + hours;
+}
+var minutes = isoDateString.getMinutes();
+if (minutes <= 9) {
+minutes = "0" + minutes;
+}
+return hours + ":" + minutes + ", " + isoDateString.getDate() + " " + monthNames[isoDateString.getMonth()] + " " + isoDateString.getFullYear();
+}
+function getTimeAndDateFormatted(isoDateString) {
+var isoDateString = new Date(isoDateString);
+var monthNames = getShortMonthNames();
+var weekNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+var hours = isoDateString.getHours();
+if (hours <= 9) {
+hours = "0" + hours;
+}
+var minutes = isoDateString.getMinutes();
+if (minutes <= 9) {
+minutes = "0" + minutes;
+}
+return isoDateString.getDate() + " " + monthNames[isoDateString.getMonth()] + ", " + isoDateString.getFullYear() + " " + hours + ":" + minutes ;
+}
+function getFriendlyModifiedTimeWithoutTime(isoDateString) {
+isoDateString = new Date(isoDateString);
+var friendly_time = isoDateString.toLocaleString('en-US', {
+day: 'numeric', 
+year: 'numeric', 
+month: 'short', 
+});
+return friendly_time;
+}
+function convertToETTimezone(date) {
+return date.toLocaleString("en-US", {
+timeZone: "America/New_York"
+});
+}
+</script>
+<script>
+/*
+* Date Format 1.2.3
+* (c) 2007-2009 Steven Levithan <stevenlevithan.com>
+* MIT license
+*
+* Includes enhancements by Scott Trenda <scott.trenda.net>
+* and Kris Kowal <cixar.com/~kris.kowal/>
+*
+* Accepts a date, a mask, or a date and a mask.
+* Returns a formatted version of the given date.
+* The date defaults to the current date/time.
+* The mask defaults to dateFormat.masks.default.
+*/
+(function() {
+var dateFormat = function () {
+var	token = /d{1,4}|D{3,4}|m{1,4}|M{3,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"[^"]*"|'[^']*'/g,
+timezone = /\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\d{4})?)\b/g,
+timezoneClip = /[^-+\dA-Z]/g,
+pad = function (val, len) {
+val = String(val);
+len = len || 2;
+while (val.length < len) val = "0" + val;
+return val;
+};
+// Regexes and supporting functions are cached through closure
+return function (date, mask, utc) {
+var dF = dateFormat;
+// You can't provide utc if you skip other args (use the "UTC:" mask prefix)
+if (arguments.length == 1 && Object.prototype.toString.call(date) == "[object String]" && !/\d/.test(date)) {
+mask = date;
+date = undefined;
+}
+// Passing date through Date applies Date.parse, if necessary
+date = date ? new Date(date) : new Date;
+if (isNaN(date)) throw SyntaxError("invalid date");
+mask = String(dF.masks[mask] || mask || dF.masks["default"]);
+// Allow setting the utc argument via the mask
+if (mask.slice(0, 4) == "UTC:") {
+mask = mask.slice(4);
+utc = true;
+}
+var	_ = utc ? "getUTC" : "get",
+d = date[_ + "Date"](),
+D = date[_ + "Day"](),
+m = date[_ + "Month"](),
+y = date[_ + "FullYear"](),
+H = date[_ + "Hours"](),
+M = date[_ + "Minutes"](),
+s = date[_ + "Seconds"](),
+L = date[_ + "Milliseconds"](),
+o = utc ? 0 : date.getTimezoneOffset(),
+flags = {
+d:    d,
+dd:   pad(d),
+ddd:  dF.i18n.dayNames[D],
+DDD:  (dF.i18n.dayNames[D]).toUpperCase(),
+dddd: dF.i18n.dayNames[D + 7],
+DDDD: (dF.i18n.dayNames[D + 7]).toUpperCase(),
+m:    m + 1,
+mm:   pad(m + 1),
+mmm:  dF.i18n.monthNames[m],
+MMM:  (dF.i18n.monthNames[m]).toUpperCase(),
+mmmm: dF.i18n.monthNames[m + 12],
+MMMM: (dF.i18n.monthNames[m + 12]).toUpperCase(),
+yy:   String(y).slice(2),
+yyyy: y,
+h:    H % 12 || 12,
+hh:   pad(H % 12 || 12),
+H:    H,
+HH:   pad(H),
+M:    M,
+MM:   pad(M),
+s:    s,
+ss:   pad(s),
+l:    pad(L, 3),
+L:    pad(L > 99 ? Math.round(L / 10) : L),
+t:    H < 12 ? "a"  : "p",
+tt:   H < 12 ? "am" : "pm",
+T:    H < 12 ? "A"  : "P",
+TT:   H < 12 ? "AM" : "PM",
+Z:    utc ? "UTC" : (String(date).match(timezone) || [""]).pop().replace(timezoneClip, ""),
+o:    (o > 0 ? "-" : "+") + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),
+S:    ["th", "st", "nd", "rd"][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10]
+};
+return mask.replace(token, function ($0) {
+return $0 in flags ? flags[$0] : $0.slice(1, $0.length - 1);
+});
+};
+}();
+// Some common format strings
+dateFormat.masks = {
+"default":      "ddd mmm dd yyyy HH:MM:ss",
+shortDate:      "m/d/yy",
+mediumDate:     "mmm d, yyyy",
+longDate:       "mmmm d, yyyy",
+fullDate:       "dddd, mmmm d, yyyy",
+shortTime:      "h:MM TT",
+mediumTime:     "h:MM:ss TT",
+longTime:       "h:MM:ss TT Z",
+isoDate:        "yyyy-mm-dd",
+isoTime:        "HH:MM:ss",
+isoDateTime:    "yyyy-mm-dd'T'HH:MM:ss",
+isoUtcDateTime: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
+};
+// Internationalization strings
+dateFormat.i18n = {
+dayNames: [
+"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat",
+"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+],
+monthNames: [
+"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+]
+};
+// For convenience...
+Date.prototype.format = function (mask, utc) {
+return dateFormat(this, mask, utc);
+};
+})();
+</script>
+<script>
+var $ = document.querySelector.bind(document);
+var $all = document.querySelectorAll.bind(document);
+var $id = document.getElementById.bind(document);
+(function() {
+var carouselContainer = "";
+var carouselItemSelector = "";
+if ($id("keeda_cricket_widget")) {
+carouselContainer = $id("keeda_cricket_widget");
+carouselItemSelector = ".keeda_cricket_single_match";
+} else if ($id("keeda_football_widget")) {
+carouselContainer = $id("keeda_football_widget");
+carouselItemSelector = ".keeda_football_single_match";
+} else if ($id("keeda_kabaddi_widget")) {
+carouselContainer = $id("keeda_kabaddi_widget");
+carouselItemSelector = ".keeda_cricket_single_match";
+}
+if (!carouselItemSelector) {
+return;
+}
+var allScoreCarouselItems = $all(carouselItemSelector);
+function init() {
+allScoreCarouselItems.forEach(function(item) {
+item.addEventListener("click", function(e) {
+var closestAnchor = e.target.closest("a");
+if (closestAnchor) {
+var destinationUrl = closestAnchor.getAttribute("href");
+trackGAEvent("SCORE_CAROUSEL_ITEM_CLICK", {
+destination_url: destinationUrl
+});
+}
+})
+});
+trackImpressionGAEventWhenInViewport({
+element: carouselContainer,
+identifier: "widget_sport_carousel",
+eventName: "SCORE_CAROUSEL_IMPRESSION"
+});
+}
+window.addEventListener("DOMContentLoaded", function() {
+init();
+});
+})();
+(function() {
+var allViewMoreCtas = $all(".view-more-cta");
+allViewMoreCtas.forEach(function(cta) {
+cta.addEventListener("click", function(e) {
+var clickedItem = e.target.closest("a.view-more-cta");
+var section = clickedItem.dataset["section"];
+var destinationUrl = clickedItem.getAttribute("href");
+trackGAEvent("VIEW_MORE_CTA_CLICK", {
+section: section,
+destination_url: destinationUrl
+});
+})
+});
+})();
+(function() {
+function getFormattedDate(dateInstance, format) {
+if (format && typeof Date.prototype.format == "function") {
+return dateInstance.format(format);
+}
+return dateInstance.toLocaleDateString();
+}
+function init() {
+var utcToLocalTimeCandidates = $all(".convert-utc-to-local");
+utcToLocalTimeCandidates.forEach(function(dateItem) {
+try {
+var utcDateTime = dateItem.dataset["utcDateTime"];
+var format = dateItem.dataset["format"];
+var withUserFriendlyDay = dateItem.dataset["userFriendlyDay"] == "true";
+var shouldOutputAsAttribute = dateItem.dataset["asAttribute"] == "true";
+var outputAttributeName = dateItem.dataset["outputAttribute"];
+if (utcDateTime) {
+var localDate = new Date(utcDateTime);
+var dateText = "";
+if (withUserFriendlyDay) {
+var toDateFormat = function(date) {
+return [date.getFullYear(), date.getMonth(), date.getDate()].join("-");
+}
+var localDateFormatted = toDateFormat(localDate);
+var today = new Date();
+if (toDateFormat(today) == localDateFormatted) {
+dateText = "Today";
+} else {
+var tomorrow = new Date(today);
+tomorrow.setDate(today.getDate() + 1);
+if (toDateFormat(tomorrow) == localDateFormatted) {
+dateText = "Tomorrow";
+} else {
+dateText = getFormattedDate(localDate, format);
+}
+}
+} else {
+dateText = getFormattedDate(localDate, format);
+}
+if (shouldOutputAsAttribute && outputAttributeName) {
+dateItem.setAttribute(outputAttributeName, dateText);
+} else {
+dateItem.innerText = dateText;
+}
+}
+} catch (err) {
+console.error(err);
+}
+});
+}
+init();
+window.addEventListener("custom:sk:utils:refreshUtcToLocalTime", init);
+})();
+function NTernary(args) {
+for (var i = 0; i < args.length; i++) {
+if (args[i]) {
+return args[i];
+}
+}
+return false;
+}
+(function() {
+var imageURLCache = {};
+function loadImageIfExists(url, imgParams) {
+var assetURL = [url, imgParams].join("");
+return new Promise(function(resolve, reject) {
+var img = new Image();
+img.src = assetURL;
+img.onload = function() {
+resolve(img);
+};
+img.onerror = function() {
+resolve(false);
+}
+});
+}
+async function initImg(imgElement) {
+var fallbacks = imgElement.dataset["imgFallbacks"];
+if (!fallbacks) return;
+var imgParams = imgElement.dataset["imgParams"];
+var urlsToTry = fallbacks.split("|:|:|");
+for await (var url of urlsToTry) {
+var urlWithParams = [url, imgParams].join("");
+var cachedURL = imageURLCache[urlWithParams];
+if (cachedURL) {
+imgElement.setAttribute("src", cachedURL);
+break;
+}
+var imageTag = await loadImageIfExists(url, imgParams);
+if (imageTag) {
+var attributes = imgElement.getAttributeNames();
+for (var i = 0; i < attributes.length; i++) {
+if (attributes[i] == "src") {
+continue;
+}
+imageTag.setAttribute(attributes[i], imgElement.getAttribute(attributes[i]));
+}
+imageTag.removeAttribute("data-img-fallbacks");
+imgElement.replaceWith(imageTag);
+imageURLCache[urlWithParams] = imageTag.getAttribute("src");
+break;
+}
+}
+}
+function init() {
+var observer = new IntersectionObserver(function(entries) {
+entries.forEach(function(entry) {
+if (!entry.isIntersecting) return;
+if (!entry.target) return;
+removeClass(entry.target, "img-with-fallbacks");
+observer.unobserve(entry.target);
+initImg(entry.target);
+});
+}, {
+threshold: 1,
+rootMargin: "25% 0px 25% 0px",
+});
+$all(".img-with-fallbacks").forEach(function(imgElement) {
+observer.observe(imgElement);
+});
+$all(".img-with-fallbacks-eager").forEach(function(imgElement) {
+removeClass(imgElement, "img-with-fallbacks-eager");
+initImg(imgElement);
+});
+}
+window.addEventListener("DOMContentLoaded", init);
+window.addEventListener("custom:sk:utils:lazyLoadAssetImages", init);
+})();
+(function() {
+var playerBasePath = "//staticg.sportskeeda.com/skm/assets/player-images";
+var teamBasePath = "//staticg.sportskeeda.com/skm/assets/team-logos";
+function generatePathResolver(taxType, assetBasePath) {
+return function(taxSlug, categorySlug, fallbackURLs, params) {
+var urlsToTry = fallbackURLs.filter(Boolean);
+var shouldUseAssetImage = false;
+if (taxSlug) {
+if (taxType == "player") {
+if (["nfl", "college-football", "basketball"].includes(categorySlug)) {
+shouldUseAssetImage = true;
+}
+} else if (taxType == "team") {
+shouldUseAssetImage = true;
+}
+if (shouldUseAssetImage) {
+urlsToTry.unshift([assetBasePath, categorySlug, [taxSlug, "png"].join(".")].join("/"));
+}
+}
+urlsToTry = urlsToTry.map(function(url) {
+if (params) {
+url = url + params;
+}
+return url;
+});
+return urlsToTry.join("|:|:|");
+}
+}
+window.generatePlayerAssetImage = generatePathResolver("player", playerBasePath);
+window.generateTeamAssetImage = generatePathResolver("team", teamBasePath);
+})();
+</script>
+<style>
+.pfn-nfl-shared .team-roster-section {
+--table-header-bg: #0857C3;
+--table-header-color: #fff;
+--subheader-bg: transparent;
+}
+.pfn-nfl-shared .team-roster-section .roster-table {
+margin: 0px;
+}
+.pfn-nfl-shared .roster-position-table {
+overflow: auto;
+}
+.pfn-nfl-shared .more-teams-section .more-teams {
+border-radius: 0;
+}
+.pfn-nfl-shared .team-schedule-section .season-section {
+border-radius: 0;
+}
+.pfn-nfl-shared .roster-position-table::-webkit-scrollbar-thumb {
+background: #DFE1E6;
+border-radius: 10px;
+}
+.pfn-nfl-shared .roster-position-table::-webkit-scrollbar-thumb:hover {
+background: #ccc;
+}
+/* Desktop only */
+@media screen and (min-width: 800px) {
+.pfn-nfl-shared .team-roster-section .roster-table th {
+padding: 8px;
+}
+.pfn-nfl-shared .roster-position-table::-webkit-scrollbar {
+height: 10px;
+}
+.pfn-nfl-shared .roster-position-table::-webkit-scrollbar-thumb {
+background: #DFE1E6;
+border-radius: 10px;
+}
+.pfn-nfl-shared .roster-position-table::-webkit-scrollbar-thumb:hover {
+background: #ccc;
+}
+}
+@media screen and (max-width: 768px) {
+.pfn-nfl-shared .pfn-content-container {
+margin-bottom: 100px;
+}
+.pfn-text-content-container {
+padding: 12px;
+}
+}
+</style>
+</div>
+<div class="right-sidebar-container">
+<div class="tool-widget-container">
+<style>
+.tool-widget-container .container-header-text p,
+.tool-widget-container .widget-header p,
+.tool-widget-container .container-footer-text p {
+font-family: sans-serif;
+}
+.tool-widget-container .widget-header {
+padding: 10px;
+}
+.tool-widget-container .start-sit-tool-widget-wrapper {
+border: 1px solid #2D2D2D;
+}
+.tool-widget-container .player-input,
+.tool-widget-container .selected-player-container {
+border-radius: 0px;
+}
+.tool-widget-container .start-optimization-btn {
+border-radius: 74px;
+background: #D32F2F;
+}
+</style>
+<div class="pfn-nfl-tool-widget">
+<style>
+.start-sit-tool-widget-wrapper {
+display: flex;
+flex-direction: column;
+width: 100%;
+border-radius: 6px;
+border: 1px solid #C0D0ED;
+box-shadow: 0px 4px 4px 0px #E9F2FA;
+position: relative;
+}
+.start-sit-tool-widget-wrapper .loading-overlay {
+position: absolute;
+}
+.widget-header {
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 38px;
+background: #080A3C;
+padding: 8px;
+}
+.widget-header p {
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+color: #fff;
+}
+.players-input-container {
+display: flex;
+gap: 16px;
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
+}
+.player-input {
+padding: 8px 16px;
+color: #999;
+font-size: 14px;
+font-weight: 400;
+border-radius: 29px;
+border: 1px solid #e2e2e2;
+background-color: #fff;
+}
+.players-input-container div.type-ahead-container {
+border: 1px solid #e9e9e9;
+border-radius: 6px;
+min-height: 50px;
+max-height: 200px;
+overflow: hidden;
+overflow-y: scroll;
+position: absolute;
+background: #fff;
+box-shadow: -1px 6px 12px rgba(0, 0, 0, 0.1);
+z-index: 2;
+}
+.loading-overlay {
+position: fixed;
+top: 0;
+left: 0;
+background: #000;
+opacity: 0.5;
+z-index: 20;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.loading-overlay-text {
+color: #fff;
+font-weight: 700;
+font-size: 44px;
+line-height: 66px;
+}
+.hidden {
+display: none;
+}
+.type-ahead-holder {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.player-not-found-text {
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+color: #474747;
+padding: 15px;
+}
+.player-details-holder {
+width: 100%;
+display: flex;
+gap: 12px;
+padding: 11px 22px;
+cursor: pointer;
+}
+.player-details-holder:hover {
+background-color: #F6F7FF;
+}
+.player-details-holder .player-name,
+.player-details-holder .player-team,
+.player-details-holder .player-position {
+font-weight: 600;
+font-size: 13px;
+line-height: 19px;
+}
+.player-details-holder .player-name {
+color: #474747;
+width: 70%;
+}
+.player-details-holder .player-team,
+.player-details-holder .player-position {
+color: #999999;
+width: 15%;
+text-align: right;
+}
+.selected-player-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px 16px;
+position: absolute;
+background: #fff;
+border-radius: 29px;
+border: 1px solid #37C77A;
+}
+.selected-player-holder {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.selected-player-name {
+color: #2d2d2d;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.selected-player-details-holder {
+display: flex;
+gap: 4px;
+}
+.selected-player-team,
+.selected-player-position,
+.separator {
+color: #999999;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+}
+.btn-clear {
+padding: 0;
+border: none;
+background: #fff;
+color: #999999;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.btn-clear::after {
+content: "\2715";
+}
+.selected-player-container {
+width: calc(50% - 40px);
+}
+.start-optimization-btn {
+border: none;
+padding: 10px 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #37C77A;
+border-radius: 6px;
+width: 100%;
+color: #fff;
+cursor: pointer;
+}
+.btn-container {
+display: flex;
+justify-content: center;
+}
+.start-optimization-btn.disabled {
+opacity: 0.5;
+cursor: not-allowed;
+}
+.start-optimization-btn.disabled:hover {
+cursor: not-allowed;
+}
+.container-header-text p {
+font-family: Poppins;
+font-size: 13px !important;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+color: #2D2D2D;
+}
+.container-footer-text p {
+padding: 0;
+font-family: Poppins;
+font-size: 12px !important;
+font-style: italic;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: right;
+}
+.widget-container {
+padding: 0;
+}
+.players-input-container {
+padding: 0px 12px;
+}
+.player-input {
+width: calc(100% - 10px);
+}
+.container-header-text {
+padding: 10px 16px;
+}
+.selected-player-container {
+width: calc(100% - 30px);
+}
+.players-input-container div.type-ahead-container {
+width: calc(100% - 30px);
+}
+.container-footer-text {
+padding: 10px 2px 20px 2px;
+}
+.container-footer-text p {
+padding: 0 12px !important;
+}
+.btn-container {
+padding: 16px 16px 0px 16px;
+}
+.nfl-tool-widget .panel {
+border: unset;
+}
+</style>
+<div class="widget-container start-sit-widget-container disabled">
+<div class="start-sit-tool-widget-wrapper">
+<div class="widget-header">
+<p>Who Should You Start In Divisional Round?</p>
+</div>
+<div class="container-header-text">
+<p>Select Players for Comparison (At least 2)</p>
+</div>
+<div class="players-input-container">
+<input class="start-sit-input player-input player1" type="text" placeholder="Player Name" />
+<input class="start-sit-input player-input player2" type="text" placeholder="Player Name" />
+<input class="start-sit-input player-input player3" type="text" placeholder="Player Name (optional)" />
+<input class="start-sit-input player-input player4" type="text" placeholder="Player Name (optional)" data-last-input="true" />
+</div>
+<div class="btn-container">
+<button class="start-optimization-btn disabled" disabled>View Results</button>
+</div>
+<div class="container-footer-text">
+<p> PPR &#x2022; 4 Points Per Pass TD </p>
+</div>
+</div>
+</div>
+<script>
+var optimizer = (function() {
+const dataSourcePath = "assets/sheets/tools/start_sit_optimizer/data_for_tool.json";
+const fileName = "//staticg.sportskeeda.com/"+dataSourcePath;
+const assetsBaseUrl = fileName.replace("staticc.sp", "statics.sp").replace("staticg.sp", "statics.sp");
+var trackGAEventForPage = function(eventName, eventParams) {
+eventParams = eventParams || {};
+trackGAEvent(eventName, Object.assign(eventParams, {
+"tool": "start_sit_tool_widget"
+}));
+};
+var playersList = [];
+var state = {
+scoringSystem: "PPR",
+playersToStart: "1",
+passScoring: "4 pt.",
+selectedPlayers: [],
+};
+function segregatePlayerData(playersData, callback) {
+var headers = playersData[0];
+for (var i = 1; i < playersData.length; i++) {
+var player = {};
+for (var j = 0; j < headers.length; j++) {
+player[headers[j]] = playersData[i][j];
+}
+playersList.push(player);
+}
+callback();
+}
+function getPlayersLists() {
+var overlay = document.createElement("div");
+addClass(overlay, "loading-overlay");
+var loadingText = document.createElement("span");
+addClass(loadingText, "loading-overlay-text");
+loadingText.innerHTML = "Loading...";
+overlay.appendChild(loadingText);
+var toolWidgetWrapper = $('.start-sit-tool-widget-wrapper');
+toolWidgetWrapper.appendChild(overlay);
+var promiseList = [];
+var promise = new Promise(function(resolve, reject) {
+pureJSAjaxGet(assetsBaseUrl, function(response) {
+successCallback(response, resolve);
+}, reject, false);
+});
+promiseList.push(promise);
+Promise.all(promiseList).then(function() {
+var overlay = $('.start-sit-tool-widget-wrapper .loading-overlay');
+if (overlay) {
+addClass(overlay, "hidden");
+}
+}).catch(() => {
+fetch(fileName)
+.then(res => res.json())
+.then(resJson => {
+var overlay = $('.start-sit-tool-widget-wrapper .loading-overlay');
+if (overlay) {
+addClass(overlay, "hidden");
+}
+segregatePlayerData(resJson, enableToolWidget);
+})
+.catch(errorCallback);
+});
+}
+function enableToolWidget() {
+if (playersList.length) {
+const widgetContainer = $(".start-sit-widget-container");
+if (hasClass(widgetContainer, "disabled")) {
+removeClass(widgetContainer, "disabled");
+}
+}
+}
+function successCallback(response, callback) {
+var data = JSON.parse(response);
+segregatePlayerData(data, enableToolWidget);
+callback();
+}
+function errorCallback() {
+console.error("Failed to load player details, please reload");
+}
+function getMatchingPlayersList(inputName) {
+var inputName = inputName.toLowerCase();
+var players = [];
+for (var i = 0; i < playersList.length; i++) {
+var playerName = playersList[i].Player.toLowerCase();
+if (playerName.includes(inputName)) {
+if (!playersList[i].selected || playersList[i].selected == "false") {
+players.push(playersList[i]);
+}
+}
+}
+var pointsSelection = state.passScoring + " " + state.scoringSystem;
+players.sort(function(a, b) {
+return parseFloat(b[pointsSelection]) - parseFloat(a[pointsSelection]);
+});
+return players;
+}
+function showPlayerList(event) {
+var parentTarget = event.target;
+var inputName = event.target.value;
+var players = "";
+if (inputName) {
+players = getMatchingPlayersList(inputName);
+}
+if (players.length) {
+var playersListHolder = "";
+var playersListContainer = $(".type-ahead-container");
+if (playersListContainer) {
+playersListHolder = $(".type-ahead-holder");
+if (playersListHolder) {
+playersListHolder.innerHTML = "";
+}
+} else {
+playersListContainer = document.createElement("div");
+addClass(playersListContainer, "type-ahead-container");
+playersListHolder = document.createElement("div");
+addClass(playersListHolder, "type-ahead-holder");
+}
+for (var i = 0; i < players.length; i++) {
+var playerHolder = document.createElement("div");
+addClass(playerHolder, "player-details-holder");
+playerHolder.addEventListener("click", function(e) { selectPlayer(e, parentTarget) });
+playerHolder.dataset.name = players[i].Player;
+var playerName = document.createElement("span");
+addClass(playerName, "player-name");
+playerName.innerHTML = players[i].Player;
+playerHolder.appendChild(playerName);
+var playerTeam = document.createElement("span");
+addClass(playerTeam, "player-team");
+playerTeam.innerHTML = players[i].Team;
+playerHolder.appendChild(playerTeam);
+var playerPosition = document.createElement("span");
+addClass(playerPosition, "player-position");
+playerPosition.innerHTML = players[i].Position;
+playerHolder.appendChild(playerPosition);
+playersListHolder.appendChild(playerHolder);
+}
+playersListContainer.appendChild(playersListHolder);
+event.target.parentElement.appendChild(playersListContainer);
+var targetDimensions = event.target.getBoundingClientRect();
+var parentDimensions = event.target.parentElement.getBoundingClientRect();
+if (parentTarget.getAttribute("data-last-input")) {
+playersListContainer.style.top = "-40px";
+} else {
+playersListContainer.style.top = (targetDimensions.top - parentDimensions.top +
+targetDimensions
+.height) +
+2 + "px";
+}
+playersListContainer.style.left = (targetDimensions.left - parentDimensions.left) + "px";
+} else {
+var playersListContainer = $(".type-ahead-container");
+if (playersListContainer) {
+if (inputName == "") {
+playersListContainer.remove();
+return;
+}
+playersListHolder = playersListContainer.querySelector(".type-ahead-holder");
+if (playersListHolder) {
+var noPlayerFoundInfo = document.createElement("span");
+addClass(noPlayerFoundInfo, "player-not-found-text");
+noPlayerFoundInfo.innerHTML = "No Player Found";
+playersListHolder.innerHTML = "";
+playersListHolder.appendChild(noPlayerFoundInfo);
+}
+}
+}
+}
+function selectPlayer(event, inputParent) {
+inputParent.value = "";
+var target = "";
+if (event.target.classList.contains("player-details-holder")) {
+target = event.target;
+} else if (event.target.parentElement.classList.contains("player-details-holder")) {
+target = event.target.parentElement;
+}
+var playerRank = parseFloat(target.dataset.rank);
+var playerName = target.dataset.name;
+var playerDetails = "";
+for (var i = 0; i < playersList.length; i++) {
+if (playersList[i].Player == playerName) {
+playerDetails = playersList[i];
+playersList[i].selected = "true";
+break;
+}
+}
+state.selectedPlayers.push(playerDetails);
+var playersListContainer = $(".type-ahead-container");
+if (playersListContainer) {
+playersListContainer.remove();
+}
+var selectedPlayerContainer = document.createElement("div");
+addClass(selectedPlayerContainer, "selected-player-container");
+selectedPlayerContainer.dataset.name = playerDetails.Player;
+var selectedPlayerHolder = document.createElement("div");
+addClass(selectedPlayerHolder, "selected-player-holder");
+selectedPlayerContainer.appendChild(selectedPlayerHolder);
+var selectedPlayerName = document.createElement("span");
+selectedPlayerName.innerHTML = playerDetails.Player;
+addClass(selectedPlayerName, "selected-player-name");
+selectedPlayerHolder.appendChild(selectedPlayerName);
+var selectedPlayerDetailsHolder = document.createElement("div");
+addClass(selectedPlayerDetailsHolder, "selected-player-details-holder");
+selectedPlayerHolder.appendChild(selectedPlayerDetailsHolder);
+var selectedPlayerTeam = document.createElement("span");
+selectedPlayerTeam.innerHTML = playerDetails.Team;
+addClass(selectedPlayerTeam, "selected-player-team");
+selectedPlayerDetailsHolder.appendChild(selectedPlayerTeam);
+var separator = document.createElement("span");
+separator.innerHTML = "&bull;";
+addClass(separator, "separator");
+selectedPlayerDetailsHolder.appendChild(separator);
+var selectedPlayerPosition = document.createElement("span");
+selectedPlayerPosition.innerHTML = playerDetails.Position;
+addClass(selectedPlayerPosition, "selected-player-position");
+selectedPlayerDetailsHolder.appendChild(selectedPlayerPosition);
+var clearButton = document.createElement("button");
+addClass(clearButton, "btn-clear");
+clearButton.addEventListener("click", removeSelectedPlayer);
+selectedPlayerContainer.appendChild(clearButton);
+var targetDimensions = inputParent.getBoundingClientRect();
+var parentDimensions = inputParent.parentElement.getBoundingClientRect();
+inputParent.parentElement.appendChild(selectedPlayerContainer);
+selectedPlayerContainer.style.top = (targetDimensions.top - parentDimensions.top) + "px";
+selectedPlayerContainer.style.left = (targetDimensions.left - parentDimensions.left) + "px";
+if (state.selectedPlayers.length >= 2) {
+var startOptimizerBtn = $(".start-optimization-btn");
+if (hasClass(startOptimizerBtn, "disabled")) {
+removeClass(startOptimizerBtn, "disabled");
+}
+if (startOptimizerBtn.hasAttribute("disabled")) {
+startOptimizerBtn.removeAttribute("disabled");
+}
+}
+}
+function removeSelectedPlayer(event) {
+var target = "";
+if (event.target.classList.contains("selected-player-container")) {
+target = event.target;
+} else if (event.target.parentElement.classList.contains("selected-player-container")) {
+target = event.target.parentElement;
+}
+var playerName = target.dataset.name;
+for (var i = 0; i < playersList.length; i++) {
+if (playersList[i].Player == playerName) {
+playersList[i].selected = "false";
+break;
+}
+}
+for (var i = 0; i < state.selectedPlayers.length; i++) {
+if (state.selectedPlayers[i].Player === playerName) {
+state.selectedPlayers.splice(i, 1);
+break;
+}
+}
+if (state.selectedPlayers.length < 2) {
+var startOptimizerBtn = $(".start-optimization-btn");
+if (!hasClass(startOptimizerBtn, "disabled")) {
+addClass(startOptimizerBtn, "disabled");
+}
+if (!startOptimizerBtn.hasAttribute("disabled")) {
+startOptimizerBtn.setAttribute("disabled", "disabled");
+}
+}
+target.remove();
+}
+function redirectToTool() {
+selectedPlayersId = [];
+trackGAEventForPage("view_results");
+state.selectedPlayers.map(function(player) {
+selectedPlayersId.push(player.Player);
+});
+selectedPlayersId = selectedPlayersId.join(',');
+const encodedPlayerList = encodeURIComponent(selectedPlayersId);
+let toolURLwithParams = "/who-should-i-start-fantasy-optimizer/?playerList=" + encodedPlayerList;
+if("") {
+toolURLwithParams = "https://www.profootballnetwork.com" + toolURLwithParams;
+window.open(toolURLwithParams);
+} else {
+window.location.href = toolURLwithParams;
+}
+}
+function init() {
+$all(".start-sit-input.player-input").forEach(function(field) { field.addEventListener("input", showPlayerList); });
+$(".start-optimization-btn").addEventListener("click", redirectToTool);
+}
+window.addEventListener("DOMContentLoaded", function() {
+const container = $(".start-sit-widget-container");
+trackImpressionGAEventWhenInViewport({
+element: container,
+identifier: "widget_start_sit_tool",
+eventName: "START_SIT_TOOL_WIDGET_IMPRESSION",
+delegateGAEvent: trackGAEventForPage
+});
+});
+init();
+getPlayersLists();
+})();
+</script>
+</div>
+</div>
+<div class="right-sidebar"></div>
+</div>
+<div class="sticky-ad-container">
+</div>
+</div>
+<script>
+var _rollbarConfig = {
+accessToken: "3dc8cbbe48364298bf4296c34daed8d5",
+captureUncaught: true,
+captureUnhandledRejections: true,
+ignoredMessages: [
+"ResizeObserver loop limit exceeded", 
+"Script error", 
+"object Event",
+"The request is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.",
+"The operation was aborted.",
+],
+payload: {
+environment: "production",
+person: {
+id: getCurrentUserID(),
+username: getCookie("fw_user_slug")
+}
+},
+};
+// Rollbar Snippet
+!function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.26.2/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||function(r){return!("object"!=typeof r||void 0!==r.page&&!r.page)}(a))&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+Rollbar.configure({
+hostSafeList: ['sportskeeda.com', 'profootballnetwork.com']
+});
+// End Rollbar Snippet
+</script>
+<script type="text/javascript">
+(function() {
+/** CONFIGURATION START **/
+var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+_sf_async_config.uid = 66391;
+_sf_async_config.domain = 'profootballnetwork.com';
+_sf_async_config.useCanonical = true;
+_sf_async_config.useCanonicalDomain = true;
+_sf_async_config.authors = '';
+_sf_async_config.sections = '';
+/** CONFIGURATION END **/
+function loadChartbeat() {
+var e = document.createElement('script');
+var n = document.getElementsByTagName('script')[0];
+e.type = 'text/javascript';
+e.async = true;
+e.src = '//static.chartbeat.com/js/chartbeat.js';
+n.parentNode.insertBefore(e, n);
+}
+loadChartbeat();
+})();
+</script>
+<script>
+(function() {
+var utcToLocalTimeCandidates = $all(".convert-utc-to-local");
+function getFormattedDate(dateInstance, format) {
+if (format && typeof Date.prototype.format == "function") {
+return dateInstance.format(format);
+}
+return dateInstance.toLocaleDateString();
+}
+function expandPageTopTextContent() {
+var topTextContainer = $(".pfn-content-container .top-text-content-container");
+if (topTextContainer) {
+topTextContainer.style.height = "unset";
+var readMoreBtn = topTextContainer.querySelector(".read-more-content-btn");
+if (readMoreBtn) {
+addClass(readMoreBtn, "hidden");
+}
+var readLessBtn = topTextContainer.querySelector(".read-less-content-btn");
+if (readLessBtn) {
+removeClass(readLessBtn, "hidden");
+}
+}
+}
+function shrinkPageTopTextContent() {
+var topTextContainer = $(".pfn-content-container .top-text-content-container");
+if (topTextContainer) {
+topTextContainer.style.height = "116px";
+var readMoreBtn = topTextContainer.querySelector(".read-more-content-btn");
+if (readMoreBtn) {
+removeClass(readMoreBtn, "hidden");
+}
+var readLessBtn = topTextContainer.querySelector(".read-less-content-btn");
+if (readLessBtn) {
+addClass(readLessBtn, "hidden");
+}
+}
+}
+function init() {
+utcToLocalTimeCandidates.forEach(function(dateItem) {
+try {
+var utcDateTime = dateItem.dataset["utcDateTime"];
+var format = dateItem.dataset["format"];
+if (utcDateTime) {
+var localDate = new Date(utcDateTime);
+dateItem.innerText = getFormattedDate(localDate, format);
+}
+} catch (err) {
+console.error(err);
+}
+});
+var topTextContainer = $(".pfn-content-container .top-text-content-container");
+if (topTextContainer) {
+var readMoreBtn = topTextContainer.querySelector(".read-more-content-btn");
+if (readMoreBtn) {
+readMoreBtn.addEventListener("click", expandPageTopTextContent);
+}
+var readLessBtn = topTextContainer.querySelector(".read-less-content-btn");
+if (readLessBtn) {
+readLessBtn.addEventListener("click", shrinkPageTopTextContent);
+}
+}
+}
+init();
+})();
+</script>
+</main>
+</body>
+</html>
+ contentType 24 text/html; charset=utf-8 url 73 https://www.profootballnetwork.com:443/nfl/teams/arizona-cardinals/roster responseCode 3 200 

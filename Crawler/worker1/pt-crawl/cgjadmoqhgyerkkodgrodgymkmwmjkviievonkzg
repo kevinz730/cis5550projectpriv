@@ -1,0 +1,1778 @@
+cgjadmoqhgyerkkodgrodgymkmwmjkviievonkzg page 133689 
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8" /><script type="30e8381dab2d117f8a81500e-text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1386058812",accountID:"1752345",trustKey:"26315",licenseKey:"d618589be4",applicationID:"1302912472"};;/*! For license information please see nr-loader-rum-1.258.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>P,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>N});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var E=r(385),x=r(6818);const D={buildEnv:x.Re,distMethod:x.gF,version:x.q4,originTime:E.sK},R={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,harvestCount:0,timeKeeper:void 0},S={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function N(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]={...(0,i.D)(t,R),...D};const r=(0,n.ek)(e);r&&(r.runtime=S[e])}function P(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.258.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,iS:()=>a,il:()=>n,sK:()=>l,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(Date.now()-performance.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=[...s[e]];t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},7872:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{D:()=>n,Z:()=>i})},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894),m=r(7056);function b(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}const y={};var A=r(2825);const w=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let _=!1;function E(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,E=arguments.length>3?arguments[3]:void 0,{init:x,info:D,loader_config:R,runtime:S={loaderType:p},exposed:k=!0}=t;const N=(0,f.gG)();D||(x=N.init,D=N.info,R=N.loader_config),(0,i.Dg)(e.agentIdentifier,x||{}),(0,i.GE)(e.agentIdentifier,R||{}),D.jsAttributes??={},u.v6&&(D.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,D);const P=(0,i.P_)(e.agentIdentifier),j=[D.beacon,D.errorBeacon];_||(P.proxy.assets&&(w(P.proxy.assets),j.push(P.proxy.assets)),P.proxy.beacon&&j.push(P.proxy.beacon),b(),(0,f.EZ)("activatedFeatures",A.T),e.runSoftNavOverSpa&&=!0===P.soft_navigations.enabled&&P.feature_flags.includes("soft_nav")),S.denyList=[...P.ajax.deny_list||[],...P.ajax.block_internal?j:[]],(0,i.sU)(e.agentIdentifier,S),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var b=a.ee.get(e),A=b.get("tracer");y[e]=m.IK.OFF,b.on(g.Ef.REPLAY_RUNNING,(t=>{y[e]=t}));var w="api-",_=w+"ixn-";function E(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),R(w,n,!0,o||null===r?"session":void 0)(t,r)}function x(){}h.forEach((e=>{p[e]=R(w,e,!0,"api")})),p.addPageAction=R(w,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,R(w,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return E(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return E("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return E("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(l.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,b);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,d.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{b.emit("".concat(e,"-opt-in"))}))}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,b)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,b),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,b)},p.interaction=function(e){return(new x).get("object"==typeof e?e:{})};const D=x.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,b),f||(0,o.p)(_+"tracer",[(0,v.z)(),e,r],i,n.D.spa,b),function(){if(A.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw A.emit("fn-err",[arguments,this,e],r),e}finally{A.emit("fn-end",[(0,v.z)()],r)}}}};function R(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,b),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,b),r?void 0:this}}function S(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((()=>{(0,d.Z)("Downloading runtime APIs failed..."),b.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{D[e]=R(_,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?R(_,"routeName",void 0,n.D.softNav):R(w,"routeName",!0,n.D.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,b),(0,o.p)("err",[t,(0,v.z)(),!1,r,!!y[e]],void 0,n.D.jserrors,b)},u.il?(0,c.b2)((()=>S()),!0):S(),p}(e.agentIdentifier,E,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=k),_=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.258.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.258.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-dbRQ0U/DzQ6bR/LVo1bSCjmtT4Mn+TUoByqFctqWrjwdLoHvi/Uhr3w190Zk5FuNMJFjPV0z6jQVNhQGb0DrLQ=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.258.0.PROD"]=self["webpackChunk:NRBA-1.258.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402);class n{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var o=i(3325),a=i(234);const s=Object.values(o.D);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(2758);var d=i(8e3),l=i(5938),f=i(3960),g=i(385);function p(e){return g.il&&!0===(0,a.Mt)(e,"privacy.cookies_enabled")}function h(e){return!!a.Yu.MO&&p(e)&&!0===(0,a.Mt)(e,"session_trace.enabled")}var v=i(7872);class m extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,d.RP)(e,r):this.ee.on("".concat(this.featureName,"-opt-in"),(0,v.Z)((()=>{(0,d.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(p(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,7920));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===o.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};g.il?(0,f.b2)((()=>n()),!0):n()}#t(e,t){return e!==o.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!h(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var b=i(7633);class y extends m{static featureName=b.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,b.t,r),this.importAggregator()}}var A=i(1117),w=i(1284);class _ extends A.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,w.D)(e,(function(e,r){t[e]=E(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,w.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=E(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=E(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function E(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var D=i(8632),R=i(4351);var S=i(5546),k=i(7956),N=i(3239),P=i(9251),j=i(7894);class T extends m{static featureName=P.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,r),g.il&&((0,k.N)((()=>(0,S.p)("docHidden",[(0,j.z)()],void 0,P.t,this.ee)),!0),(0,N.bP)("pagehide",(()=>(0,S.p)("winPagehide",[(0,j.z)()],void 0,P.t,this.ee))),this.importAggregator())}}var I=i(3081);class O extends m{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),g._A?(this.sharedAggregator=new _({agentIdentifier:this.agentIdentifier}),this.features={},(0,D.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(y),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.D.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.p[e.featureName]-o.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.D.softNav)return;const n=function(e){switch(e){case o.D.ajax:return[o.D.jserrors];case o.D.sessionTrace:return[o.D.ajax,o.D.pageViewEvent];case o.D.sessionReplay:return[o.D.sessionTrace];case o.D.pageViewTiming:return[o.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,R.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,D.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[y,T,O],loaderType:"lite"})})()})();</script>
+<style id="gutenberg-palette">:root .has-orange-color{color:#EE7523}:root .has-orange-background-color{background-color:#EE7523}:root .has-black-color{color:#333333}:root .has-black-background-color{background-color:#333333}:root .has-white-color{color:#ffffff}:root .has-white-background-color{background-color:#ffffff}:root .has-gray-color{color:#D9D9D9}:root .has-gray-background-color{background-color:#D9D9D9}:root .has-gray-dark-color{color:#868686}:root .has-gray-dark-background-color{background-color:#868686}:root .has-gray-light-color{color:#FBFBFB}:root .has-gray-light-background-color{background-color:#FBFBFB}:root .has-tan-color{color:#FFF6E9}:root .has-tan-background-color{background-color:#FFF6E9}:root .has-red-color{color:#D20000}:root .has-red-background-color{background-color:#D20000}:root .has-green-color{color:#079649}:root .has-green-background-color{background-color:#079649}</style>
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.lazyload:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }</style>
+<meta name="keywords" content="Higher, Education, News, Jobs, Events, Career" />
+<link rel="canonical" href="https://www.insidehighered.com/news/faculty-issues/teaching" />
+<link rel="image_src" href="https://www.insidehighered.com/sites/default/files/2023-05/ihe-logo-no-wordmark.png" />
+<meta property="og:site_name" content="Inside Higher Ed | Higher Education News, Events and Jobs" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.insidehighered.com/news/faculty-issues/teaching" />
+<meta property="og:title" content="Inside Higher Ed | Higher Education News, Events and Jobs" />
+<meta property="og:description" content="Free Higher Education News, Jobs, Career Advice and Events for college and university faculty, adjuncts, graduate students, and administrators." />
+<meta property="og:image" content="https://www.insidehighered.com/sites/default/files/2023-05/ihe-logo-no-wordmark.png" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  // Add a place to store the slot name variable.
+  googletag.slots = googletag.slots || {};
+
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+      '//securepubads.g.doubleclick.net/tag/js/gpt.js';
+
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    gads.src = src;
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    
+  })();
+</script>
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+  googletag.cmd.push(function() {
+
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [])
+              .addSize([768, 0], [[300, 250], [300, 600]])
+            .build();
+  
+  googletag.slots["section_topic_sidebar_bottom"] = googletag.defineSlot("/309842/site172.tmus/section_topic_billboard/section_topic_sidebar_bottom", [[0, 0], [300, 250], [300, 600]], "js-dfp-tag-section_topic_sidebar_bottom")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+      .setTargeting('refresh', ['false'])
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+  });
+
+</script>
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+  googletag.cmd.push(function() {
+
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [])
+              .addSize([768, 0], [300, 600])
+            .build();
+  
+  googletag.slots["section_topic_sidebar_top"] = googletag.defineSlot("/309842/site172.tmus/section_topic_billboard/section_topic_sidebar_top", [[0, 0], [300, 600]], "js-dfp-tag-section_topic_sidebar_top")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+  });
+
+</script>
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+  googletag.cmd.push(function() {
+
+        // Start by defining breakpoints for this ad.
+      var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [300, 50])
+              .addSize([768, 0], [728, 90])
+              .addSize([970, 0], [970, 250])
+            .build();
+  
+  googletag.slots["section_topic_billboard"] = googletag.defineSlot("/309842/site172.tmus/section_topic_billboard", [[300, 50], [728, 90], [970, 250]], "js-dfp-tag-section_topic_billboard")
+
+    .addService(googletag.pubads())
+
+  
+  
+  
+        // Apply size mapping when there are breakpoints.
+    .defineSizeMapping(mapping)
+    ;
+
+  });
+
+</script>
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+googletag.cmd.push(function() {
+      googletag.pubads().enableAsyncRendering();
+        googletag.pubads().enableSingleRequest();
+            googletag.pubads().setTargeting('URL', ['https://www.insidehighered.com/news/faculty-issues/teaching']);
+      googletag.pubads().setTargeting('kw', ['','']);
+    googletag.pubads().enableLazyLoad({
+    fetchMarginPercent: 100,
+    renderMarginPercent: 50
+  });
+
+  googletag.pubads().addEventListener('slotRequested', function(event) {
+    var dfpElement = document.getElementById(event.slot.getSlotElementId());
+
+    if(dfpElement != null) {
+      dfpElement.classList.add('slot-requested');
+    }
+  });
+
+  googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+    var dfpElement = document.getElementById(event.slot.getSlotElementId());
+    if(dfpElement != null && !event.isEmpty) {
+      dfpElement.classList.add('slot-rendered');
+    }
+  });
+
+  googletag.pubads().addEventListener('slotOnload', function(event) {
+    var dfpElement = document.getElementById(event.slot.getSlotElementId());
+    if(dfpElement != null) {
+      dfpElement.classList.add('slot-loaded');
+    }
+  });
+
+  googletag.enableServices();
+});
+</script>
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="Teaching" href="https://www.insidehighered.com/taxonomy/term/96/feed" />
+<link rel="alternate" type="application/rss+xml" title href="https://www.insidehighered.com/feed/96" />
+<script src="/sites/default/files/google_tag/production/google_tag.script.js?scxrkr" defer type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<title>Teaching | Inside Higher Ed</title>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_6SYF6_3zyRPshAE1HVCEtTyg1qiVL7_d8mReK6bZSzQ.css?delta=0&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_KitbbGSqj4KWR2U40K3_g3V4-I2nh3lZGBhZtfdWnBk.css?delta=1&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" id="theme-styles" />
+
+
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/soehne-halbfett.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/tiempos-text-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-light-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-regular-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-medium-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-bold-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-black.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/untitled-sans-black-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/themes/custom/ihe/assets/dist/fonts/WOFF2/tiempos-text-semibold.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/logo.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/search.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/angle%20down%20white.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/arrow-right-white.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/facebook.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/twitter.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/x84.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/Linkedin.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/email.svg" as="image" type="image/svg+xml">
+<link rel="preload" fetchpriority="high" href="/themes/custom/ihe/assets/images/svg/print.svg" as="image" type="image/svg+xml">
+
+
+<style>[x-cloak] { display: none !important; }</style>
+</head>
+<body class="term-section path-taxonomy">
+<div class="responsive-menu-page-wrapper">
+<a href="#main-content" class="visually-hidden focusable">
+Skip to main content
+</a>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV58SWF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div data-sitewide-alert></div>
+<div id="page-wrapper" class="container max-w-screen-2xl teaching">
+<header id="header-main" role="banner">
+<nav class="header-main-nav">
+<div id="block-ihe-site-branding" class="block">
+<div class="flex items-center">
+<a href="/" title="Home" rel="home" class="mr-2 site-logo">
+<img class="logo" src="/themes/custom/ihe/logo.svg" alt="Home" height="44" width="90" />
+</a>
+</div>
+</div>
+<div id="block-responsivemenumobileicon" class="block responsive-menu-toggle-wrapper responsive-menu-toggle flex items-center">
+<div class="mobile-links" id="pelcro-register">
+<ul class="flex gap-3 items-center">
+<li><a class="search" href="/search">Search</a></li>
+<li>
+<button class="pelcro-register-button">Register</button>
+</li>
+<li><button class="pelcro-login-button">Log In</button></li>
+<ul>
+</div>
+<a id="toggle-icon" class="toggle responsive-menu-toggle-icon" title="Menu" href="#off-canvas">
+</a>
+</div>
+<nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block md:3/4 lg:w-2/3 justify-end hidden md:flex">
+<ul class="flex gap-1 md:gap-2 xl:gap-[27px] items-center">
+<li>
+<a href="/search" class="search" data-drupal-link-system-path="search">Search</a>
+</li>
+<li>
+<span class="pelcro-register-button cursor-pointer">Register</span>
+</li>
+<li>
+<span class="pelcro-login-button cursor-pointer">Log In</span>
+</li>
+<li>
+<a href="/membership" class="button button--primary button--sm insider-membership-button button button--primary button--sm">Become a Member</a>
+</li>
+<li>
+<a href="https://careers.insidehighered.com" class="button button--primary button--sm">Find A Job</a>
+</li>
+<li class="toggleable flex items-center" x-data="{ showDesktopMenu: false }">
+<div class="mega-menu" x-bind:class="!showDesktopMenu ? 'hidden': 'open' ">
+<div class="menu-grid-wrapper">
+<div class="menu-grid column-1">
+<ul class="menu">
+<li class="menu-item">
+<span class="menu-label">Menu</span>
+</li>
+<li class="menu-item">
+<a href="https://careers.insidehighered.com/" class="arrow-up-45">Find a Job</a>
+</li>
+<li class="menu-item">
+<a href="/membership" class="insider-membership-button">Become a Member</a>
+</li>
+<li class="menu-item">
+<a href="/newsletters" data-drupal-link-system-path="webform/newsletter">Sign up for Newsletters</a>
+</li>
+</ul>
+</div>
+<div class="menu-grid column-2">
+<ul class="menu">
+<li class="menu-item">
+<span class="menu-label">News</span>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/faculty-issues"> Faculty Issues</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/faculty-issues/curriculum" data-drupal-link-system-path="taxonomy/term/95">Curriculum</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/teaching" data-drupal-link-system-path="taxonomy/term/96" class="is-active">Teaching</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/learning-assessment" data-drupal-link-system-path="taxonomy/term/97">Learning &amp; Assessment</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/diversity-equity" data-drupal-link-system-path="taxonomy/term/98">Diversity &amp; Equity</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/career-development" data-drupal-link-system-path="taxonomy/term/99">Career Development</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/tenure" data-drupal-link-system-path="taxonomy/term/100">Tenure</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/retirement" data-drupal-link-system-path="taxonomy/term/101">Retirement</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/labor-unionization" data-drupal-link-system-path="taxonomy/term/102">Labor &amp; Unionization</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/shared-governance" data-drupal-link-system-path="taxonomy/term/103">Shared Governance</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/academic-freedom" data-drupal-link-system-path="taxonomy/term/104">Academic Freedom</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/research" data-drupal-link-system-path="taxonomy/term/105">Research</a>
+</li>
+<li class="menu-item">
+<a href="/news/faculty-issues/books-publishing" data-drupal-link-system-path="taxonomy/term/106">Books &amp; Publishing</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/students"> Students</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/students/academics" data-drupal-link-system-path="taxonomy/term/85">Academics</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/retention" data-drupal-link-system-path="taxonomy/term/86">Retention</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/financial-aid" data-drupal-link-system-path="taxonomy/term/87">Financial Aid</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/careers" data-drupal-link-system-path="taxonomy/term/88">Careers</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/residential-life" data-drupal-link-system-path="taxonomy/term/89">Residential Life</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/athletics" data-drupal-link-system-path="taxonomy/term/90">Athletics</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/free-speech" data-drupal-link-system-path="taxonomy/term/91">Free Speech</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/physical-mental-health" data-drupal-link-system-path="taxonomy/term/92">Physical &amp; Mental Health</a>
+</li>
+<li class="menu-item">
+<a href="/news/students/safety" data-drupal-link-system-path="taxonomy/term/94">Safety</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/diversity"> Diversity</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/diversity/race-ethnicity" data-drupal-link-system-path="taxonomy/term/79">Race &amp; Ethnicity</a>
+</li>
+<li class="menu-item">
+<a href="/news/diversity/sex-gender" data-drupal-link-system-path="taxonomy/term/80">Sex &amp; Gender</a>
+</li>
+<li class="menu-item">
+<a href="/news/diversity/socioeconomics" data-drupal-link-system-path="taxonomy/term/81">Socioeconomics</a>
+</li>
+<li class="menu-item">
+<a href="/news/diversity/religion" data-drupal-link-system-path="taxonomy/term/82">Religion</a>
+</li>
+<li class="menu-item">
+<a href="/news/diversity/disability" data-drupal-link-system-path="taxonomy/term/83">Disability</a>
+</li>
+<li class="menu-item">
+<a href="/news/diversity/age" data-drupal-link-system-path="taxonomy/term/84">Age</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/admissions"> Admissions</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/admissions/traditional-age" data-drupal-link-system-path="taxonomy/term/75">Traditional-Age</a>
+</li>
+<li class="menu-item">
+<a href="/news/admissions/adult-post-traditional" data-drupal-link-system-path="taxonomy/term/76">Adult &amp; Post-Traditional</a>
+</li>
+<li class="menu-item">
+<a href="/news/admissions/transfer" data-drupal-link-system-path="taxonomy/term/77">Transfer</a>
+</li>
+<li class="menu-item">
+<a href="/news/admissions/graduate" data-drupal-link-system-path="taxonomy/term/78">Graduate</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/tech-innovation"> Tech &amp; Innovation</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/tech-innovation/teaching-learning" data-drupal-link-system-path="taxonomy/term/65">Teaching &amp; Learning</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/artificial-intelligence" data-drupal-link-system-path="taxonomy/term/596">Artificial Intelligence</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/digital-publishing" data-drupal-link-system-path="taxonomy/term/66">Digital Publishing</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/data-analytics" data-drupal-link-system-path="taxonomy/term/67">Data Analytics</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/libraries" data-drupal-link-system-path="taxonomy/term/68">Libraries</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/administrative-tech" data-drupal-link-system-path="taxonomy/term/69">Administrative Tech</a>
+</li>
+<li class="menu-item">
+<a href="/news/tech-innovation/alternative-credentials" data-drupal-link-system-path="taxonomy/term/70">Alternative Credentials</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/business"> Business</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/business/financial-health" data-drupal-link-system-path="taxonomy/term/58">Financial Health</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/cost-cutting" data-drupal-link-system-path="taxonomy/term/59">Cost-Cutting</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/revenue-strategies" data-drupal-link-system-path="taxonomy/term/60">Revenue Strategies</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/academic-programs" data-drupal-link-system-path="taxonomy/term/61">Academic Programs</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/physical-campuses" data-drupal-link-system-path="taxonomy/term/62">Physical Campuses</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/mergers-collaboration" data-drupal-link-system-path="taxonomy/term/63">Mergers &amp; Collaboration</a>
+</li>
+<li class="menu-item">
+<a href="/news/business/fundraising" data-drupal-link-system-path="taxonomy/term/64">Fundraising</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/institutions"> Institutions</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/institutions/research-universities" data-drupal-link-system-path="taxonomy/term/43">Research Universities</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/regional-public-universities" data-drupal-link-system-path="taxonomy/term/44">Regional Public Universities</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/community-colleges" data-drupal-link-system-path="taxonomy/term/45">Community Colleges</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/private-nonprofit-colleges" data-drupal-link-system-path="taxonomy/term/46">Private Nonprofit Colleges</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/minority-serving-institutions" data-drupal-link-system-path="taxonomy/term/611">Minority-Serving Institutions</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/religious-colleges" data-drupal-link-system-path="taxonomy/term/47">Religious Colleges</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/womens-colleges" data-drupal-link-system-path="taxonomy/term/48">Women&#039;s Colleges</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/specialized-colleges" data-drupal-link-system-path="taxonomy/term/49">Specialized Colleges</a>
+</li>
+<li class="menu-item">
+<a href="/news/institutions/profit-colleges" data-drupal-link-system-path="taxonomy/term/50">For-Profit Colleges</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/governance"> Governance</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/governance/executive-leadership" data-drupal-link-system-path="taxonomy/term/71">Executive Leadership</a>
+</li>
+<li class="menu-item">
+<a href="/news/governance/trustees-regents" data-drupal-link-system-path="taxonomy/term/72">Trustees &amp; Regents</a>
+</li>
+<li class="menu-item">
+<a href="/news/governance/state-oversight" data-drupal-link-system-path="taxonomy/term/73">State Oversight</a>
+</li>
+<li class="menu-item">
+<a href="/news/governance/accreditation" data-drupal-link-system-path="taxonomy/term/74">Accreditation</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/government"> Government</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/government/politics-elections" data-drupal-link-system-path="taxonomy/term/671">Politics &amp; Elections</a>
+</li>
+<li class="menu-item">
+<a href="/news/government/supreme-court" data-drupal-link-system-path="taxonomy/term/626">Supreme Court</a>
+</li>
+<li class="menu-item">
+<a href="/news/government/student-aid-policy" data-drupal-link-system-path="taxonomy/term/54">Student Aid Policy</a>
+</li>
+<li class="menu-item">
+<a href="/news/government/science-research-policy" data-drupal-link-system-path="taxonomy/term/55">Science &amp; Research Policy</a>
+</li>
+<li class="menu-item">
+<a href="/news/government/state-policy" data-drupal-link-system-path="taxonomy/term/56">State Policy</a>
+</li>
+<li class="menu-item">
+<a href="/news/government/colleges-localities" data-drupal-link-system-path="taxonomy/term/57">Colleges &amp; Localities</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/workplace"> Workplace</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/workplace/employee-satisfaction" data-drupal-link-system-path="taxonomy/term/40">Employee Satisfaction</a>
+</li>
+<li class="menu-item">
+<a href="/news/workplace/remote-flexible-work" data-drupal-link-system-path="taxonomy/term/41">Remote &amp; Flexible Work</a>
+</li>
+<li class="menu-item">
+<a href="/news/workplace/staff-issues" data-drupal-link-system-path="taxonomy/term/42">Staff Issues</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/global"> Global</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/news/global/study-abroad" data-drupal-link-system-path="taxonomy/term/51">Study Abroad</a>
+</li>
+<li class="menu-item">
+<a href="/news/global/international-students-us" data-drupal-link-system-path="taxonomy/term/52">International Students in U.S.</a>
+</li>
+<li class="menu-item">
+<a href="/news/global/us-colleges-world" data-drupal-link-system-path="taxonomy/term/53">U.S. Colleges in the World</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="menu-grid column-3">
+<ul class="menu">
+<li class="menu-item">
+<span class="menu-label">Opinion</span>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/opinion/views"> Views</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/opinion/views/intellectual-affairs" data-drupal-link-system-path="taxonomy/term/255">Intellectual Affairs</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/opinion/career-advice"> Career Advice</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/opinion/career-advice/seeking-faculty-job" data-drupal-link-system-path="taxonomy/term/33">Seeking a Faculty Job</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/career-advice/advancing-faculty" data-drupal-link-system-path="taxonomy/term/34">Advancing in the Faculty</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/career-advice/teaching" data-drupal-link-system-path="taxonomy/term/35">Teaching</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/career-advice/seeking-administrative-job" data-drupal-link-system-path="taxonomy/term/36">Seeking an Administrative Job</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/career-advice/advancing-administrator" data-drupal-link-system-path="taxonomy/term/37">Advancing as an Administrator</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/career-advice/diversity" data-drupal-link-system-path="taxonomy/term/38">Diversity</a>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/opinion/blogs"> Blogs</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/opinion/blogs/beyond-transfer" title="Building common ground and shared will for accelerated change" data-drupal-link-system-path="taxonomy/term/20">Beyond Transfer</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/call-action" title="A space to discuss the ways in which we market and communicate about higher education and the collegiate experience. Edited by the teams at TVP Communications and RHB." data-drupal-link-system-path="taxonomy/term/21">Call to Action</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/confessions-community-college-dean" title="In which a veteran of cultural studies seminars in the 1990s moves into academic administration and finds himself a married suburban father of two. Foucault, plus lawn care." data-drupal-link-system-path="taxonomy/term/22">Confessions of a Community College Dean</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/higher-ed-gamma" title="MOOCs and beyond." data-drupal-link-system-path="taxonomy/term/23">Higher Ed Gamma</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/higher-ed-policy" title="Observations and discussion on the most current and compelling issues in higher education policy." data-drupal-link-system-path="taxonomy/term/24">Higher Ed Policy</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/just-explain-it-me" title="Breaking down notoriously confusing, perplexing and annoying systems and practices in higher education." data-drupal-link-system-path="taxonomy/term/25">Just Explain It to Me!</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/just-visiting" title="John Warner is the author of Why They Can&#039;t Write: Killing the Five-Paragraph Essay and Other Necessities&amp;nbsp;and The Writer&#039;s Practice: Building Confidence in Your Nonfiction Writing." data-drupal-link-system-path="taxonomy/term/26">Just Visiting</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/law-policy-and-it" title="Tracy Mitrano explores the intersection where higher education, the internet and the world meet (and sometimes collide)." data-drupal-link-system-path="taxonomy/term/27">Law, Policy—and IT?</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/leadership-stratedgy" data-drupal-link-system-path="taxonomy/term/331">Leadership &amp; StratEDgy</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/leadership-higher-education" title="A former college president and state attorney general considers leadership issues in higher education." data-drupal-link-system-path="taxonomy/term/28">Leadership in Higher Education</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/learning-innovation" title="A space for conversation and debate about learning and technology." data-drupal-link-system-path="taxonomy/term/29">Learning Innovation</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/online-trending-now" title="Unique insights from Ray Schroeder, senior fellow for UPCEA: the Association for Leaders in Online and Professional Education" data-drupal-link-system-path="taxonomy/term/30">Online: Trending Now</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/resident-scholar" title="Deep thinking, expert analyses, and useful guidance from Shaun Harper, who brings people together to honestly acknowledge and strategically address contemporary problems in U.S. higher education." data-drupal-link-system-path="taxonomy/term/696">Resident Scholar</a>
+</li>
+<li class="menu-item">
+<a href="/opinion/blogs/university-venus" title="GenX Women in Higher Ed, Writing from Across the Globe" data-drupal-link-system-path="taxonomy/term/32">University of Venus</a>
+</li>
+</ul>
+</li>
+<li class="menu-item">
+<a href="/opinion/letters" data-drupal-link-system-path="taxonomy/term/18">Letters</a>
+</li>
+</ul>
+<ul class="menu">
+<li class="menu-item">
+<span class="menu-label">Hubs</span>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/news/student-success"> Student Success</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/collections/student-voice/2023" data-drupal-link-system-path="collections/student-voice/2023">Student Voice</a>
+</li>
+<li class="menu-item">
+<a href="/news/student-success/academic-life" data-drupal-link-system-path="taxonomy/term/267">Academic Life</a>
+</li>
+<li class="menu-item">
+<a href="/news/student-success/health-wellness" data-drupal-link-system-path="taxonomy/term/268">Health &amp; Wellness</a>
+</li>
+<li class="menu-item">
+<a href="/news/student-success/college-experience" data-drupal-link-system-path="taxonomy/term/269">The College Experience</a>
+</li>
+<li class="menu-item">
+<a href="/news/student-success/life-after-college" data-drupal-link-system-path="taxonomy/term/270">Life After College</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="menu">
+<li class="menu-item">
+<span class="menu-label">Special</span>
+</li>
+<li class="menu-item menu-item--expanded">
+<a href="/podcasts"> Podcasts</a>
+<div class="submenu-button" role="button"></div>
+<ul class="submenu">
+<li class="menu-item">
+<a href="/podcasts/the-key" data-drupal-link-system-path="taxonomy/term/238">The Key</a>
+</li>
+<li class="menu-item">
+<a href="/podcasts/academic-minute" data-drupal-link-system-path="taxonomy/term/235">Academic Minute</a>
+</li>
+<li class="menu-item">
+<a href="/shows/campus" data-drupal-link-system-path="taxonomy/term/621">Campus</a>
+</li>
+<li class="menu-item">
+<a href="/podcasts/The-Pulse" data-drupal-link-system-path="taxonomy/term/239">The Pulse</a>
+</li>
+<li class="menu-item">
+<a href="/podcasts/University-Innovation-Alliance" data-drupal-link-system-path="taxonomy/term/240">Weekly Wisdom</a>
+</li>
+</ul>
+</li>
+<li class="menu-item">
+<a href="/reports" data-drupal-link-system-path="reports">Reports &amp; Data</a>
+</li>
+<li class="menu-item">
+<a href="/events" data-drupal-link-system-path="events">Events</a>
+</li>
+<li class="menu-item">
+<a href="/news/quick-takes" data-drupal-link-system-path="taxonomy/term/39">Quick Takes</a>
+</li>
+</ul>
+</div>
+<div class="menu-grid column-4">
+<ul class="menu">
+<li class="menu-item">
+<span class=" menu-label">Solutions</span>
+</li>
+<li class="menu-item">
+<a href="https://solutions.insidehighered.com/marketing-solutions">Advertising &amp; Marketing</a>
+</li>
+<li class="menu-item">
+<a href="https://solutions.insidehighered.com/consultancy">Consulting Services</a>
+</li>
+<li class="menu-item">
+<a href="https://solutions.insidehighered.com/data-insights">Data &amp; Insights</a>
+</li>
+<li class="menu-item">
+<a href="https://recruiters.insidehighered.com/">Hiring &amp; Jobs</a>
+</li>
+<li class="menu-item">
+<a href="https://solutions.insidehighered.com/upcoming-events">Event Partnerships</a>
+</li>
+<li class="menu-item">
+<a href="https://solutions.insidehighered.com/campus">Campus+ Membership</a>
+</li>
+<li class="menu-item">
+<span class="menu-label">More</span>
+</li>
+<li class="menu-item">
+<a href="https://recruiters.insidehighered.com" target="_blank" class="arrow-up-45">Post a Job</a>
+</li>
+<li class="menu-item">
+<a href="https://www.timeshighereducation.com/campus" class="arrow-up-45" target="_blank">Campus</a>
+</li>
+<li class="menu-item">
+<a href="/marketing-solutions">Advertise</a>
+</li>
+<li class="menu-item">
+<a href="/about" data-drupal-link-system-path="node/94319">About</a>
+</li>
+<li class="menu-item">
+<a href="/form/contact" data-drupal-link-system-path="webform/contact">Contact Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<label class="desktop-menu-button" x-on:click="showDesktopMenu = !showDesktopMenu"></label>
+</li>
+</ul>
+</nav>
+</nav>
+</header>
+<div id="alert-container"></div>
+<div id="sections-nav" class="page-nav mb-0">
+<div class="section-nav-wrapper">
+<span id="parent-term"><a href="/news/faculty-issues">Faculty Issues</a></a></span>
+<div class="section-nav-items flex gap-4 z-50">
+<ul class="sections-desktop">
+</ul>
+<div x-data="{ open: false }" class="more-section relative hidden">
+<button x-on:click="open = true" x-bind:class="!open ? 'close': 'open' ">More</button>
+<div x-show.transition="open" x-on:click.away="open = false">
+<ul class="list-none sections-dropdown">
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-intro">
+<div class="title-container">
+<div class="adslot-top-container">
+<div id="block-dfp-ad-f0190645-c89b-4b3b-8426-38d60158f46d" class="block">
+<div id="js-dfp-tag-section_topic_billboard">
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-section_topic_billboard');
+            });
+    
+    </script>
+</div>
+</div>
+</div>
+<h1 class="intro-title heading-line2 mb-0"><span>Teaching</span></h1>
+</div>
+</div>
+<div data-drupal-messages-fallback class="hidden"></div>
+<div id="pre_content">
+</div>
+<div id="main_wrapper" class="lg:flex ">
+<main role="main" class="md:flex-1">
+<a id="main-content" tabindex="-1"></a> <div>
+<div id="block-ihe-content" class="block">
+<div class="views-element-container"><div class="pagination-full js-view-dom-id-d61ceec385a2c10831e67afe45b011516343a0948d00e59498ef650b9ce207c9">
+<div class="views-section-wrapper">
+<div class="filter-wrapper">
+<details class="section-term-form-wrapper">
+<summary>Filter &amp; Sort</summary>
+<form class="views-exposed-form bef-exposed-form" data-bef-auto-submit-full-form data-bef-auto-submit data-bef-auto-submit-delay="1000" data-drupal-selector="views-exposed-form-taxonomy-term-page-1" action="/news/faculty-issues/teaching" method="get" id="views-exposed-form-taxonomy-term-page-1" accept-charset="UTF-8">
+<fieldset data-drupal-selector="edit-type" id="edit-type--wrapper" class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper">
+<legend>
+<span class="fieldset-legend">Filter</span>
+</legend>
+<div class="fieldset-wrapper">
+<div id="edit-type" class="form-checkboxes"><div class="form-checkboxes bef-checkboxes">
+<div class="js-form-item form-item js-form-type-checkbox form-item-type-article js-form-item-type-article">
+<input data-drupal-selector="edit-type-article" type="checkbox" id="edit-type-article" name="type[article]" value="article" class="form-checkbox form-radio-input" />
+<label for="edit-type-article" class="form-label option">Article</label>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-type-podcasts js-form-item-type-podcasts">
+<input data-drupal-selector="edit-type-podcasts" type="checkbox" id="edit-type-podcasts" name="type[podcasts]" value="podcasts" class="form-checkbox form-radio-input" />
+<label for="edit-type-podcasts" class="form-label option">Podcast</label>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-type-report js-form-item-type-report">
+<input data-drupal-selector="edit-type-report" type="checkbox" id="edit-type-report" name="type[report]" value="report" class="form-checkbox form-radio-input" />
+<label for="edit-type-report" class="form-label option">Report</label>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+<fieldset data-drupal-selector="edit-sort-by" id="edit-sort-by--wrapper" class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper">
+<legend>
+<span class="fieldset-legend">SORT BY DATE</span>
+</legend>
+<div class="fieldset-wrapper">
+<div id="edit-sort-by"><div class="form-radios">
+<div class="js-form-item form-item js-form-type-radio form-item-sort-by js-form-item-sort-by">
+<input data-drupal-selector="edit-sort-by-created-1" type="radio" id="edit-sort-by-created-1" name="sort_by" value="created_1" checked="checked" class="form-radio form-radio-input" />
+<label for="edit-sort-by-created-1" class="form-label option">Authored on</label>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+<fieldset data-drupal-selector="edit-sort-order" id="edit-sort-order--wrapper" class="fieldgroup form-composite js-form-item form-item js-form-wrapper form-wrapper">
+<legend>
+<span class="fieldset-legend">Order</span>
+</legend>
+<div class="fieldset-wrapper">
+<div id="edit-sort-order"><div class="form-radios">
+<div class="js-form-item form-item js-form-type-radio form-item-sort-order js-form-item-sort-order">
+<input data-drupal-selector="edit-sort-order-asc" type="radio" id="edit-sort-order-asc" name="sort_order" value="ASC" class="form-radio form-radio-input" />
+<label for="edit-sort-order-asc" class="form-label option"> Ascending</label>
+</div>
+<div class="js-form-item form-item js-form-type-radio form-item-sort-order js-form-item-sort-order">
+<input data-drupal-selector="edit-sort-order-desc" type="radio" id="edit-sort-order-desc" name="sort_order" value="DESC" checked="checked" class="form-radio form-radio-input" />
+<label for="edit-sort-order-desc" class="form-label option">Descending</label>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-bef-auto-submit-click class="js-hide button--primary button js-form-submit form-submit" data-drupal-selector="edit-submit-taxonomy-term" type="submit" id="edit-submit-taxonomy-term" value="Apply" />
+</div>
+</form>
+</details>
+</div>
+<div class="view-result">
+<div class="views-row"><div class="view-section article ">
+<a href="/news/student-success/academic-life/2024/04/23/first-gen-students-benefit-positive-instructor">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/GettyImages-1979771761.jpg?itok=LTZEYVo-" width="305" height="203" alt="Senior professor talking in front of large group of his students during a lecture in an amphitheater." />
+</div>
+</a>
+<div>
+<div class="article-section-tag">
+<a href="/news/student-success">Student Success </a>
+<a href="/news/student-success/academic-life">Academic Life </a>
+</div>
+<h4>
+<a href="/news/student-success/academic-life/2024/04/23/first-gen-students-benefit-positive-instructor" rel="bookmark">
+<span>Communication on Growth Mindset Can Benefit Student Achievement</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>New research from Washington State University finds first-generation students perform better after receiving encouraging messages from their instructor on strategies for improvement.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article no-image">
+<div>
+<div class="article-opinion-tag">Opinion</div>
+<div class="article-section-tag">
+<a href="/opinion/blogs">Blogs </a>
+<a href="/opinion/blogs/higher-ed-gamma">Higher Ed Gamma </a>
+</div>
+<h4>
+<a href="/opinion/blogs/higher-ed-gamma/2024/04/22/arts-purpose-age-algorithmic-aesthetics-philosophy" rel="bookmark">
+<span>Art in Flux</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>Debating art’s meaning and purpose in our age of algorithmic aesthetics and corporate production and curation.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article no-image">
+<div>
+<div class="article-opinion-tag">Opinion</div>
+<div class="article-section-tag">
+<a href="/opinion/blogs">Blogs </a>
+<a href="/opinion/blogs/just-visiting">Just Visiting </a>
+</div>
+<h4>
+<a href="/opinion/blogs/just-visiting/2024/04/19/chatgpt-does-not-rule-over-how-we-teach-and-students-learn" rel="bookmark">
+<span>Making Progress Against ChatGPT</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>It can be hard to see progress, but I have tangible (anecdotal) evidence.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article ">
+<a href="/news/faculty-issues/labor-unionization/2024/04/18/day-action-higher-ed-some-rally-others-strike">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/Day_of_action_Rutgers_Alan_Maass.jpg?itok=BYw67cvW" width="305" height="203" alt="A photograph of Rutgers University demonstrators, including one holding a megaphone and another holding a sign saying “Our Working Conditions Are Students’ Learning Conditions” around a fist grasping a pencil." />
+</div>
+</a>
+<div>
+<div class="article-section-tag">
+<a href="/news/faculty-issues">Faculty Issues </a>
+<a href="/news/faculty-issues/labor-unionization">Labor &amp; Unionization </a>
+</div>
+<h4>
+<a href="/news/faculty-issues/labor-unionization/2024/04/18/day-action-higher-ed-some-rally-others-strike" rel="bookmark">
+<span>On National ‘Day of Action for Higher Ed,’ Some Rally, Others Strike</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>Demonstrations, teach-ins and a graduate-worker walkout highlighted a union-supported, multi-campus event Wednesday designed to push back against attacks on academic freedom, job security and academe more broadly.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article ">
+<a href="/news/student-success/academic-life/2024/04/16/game-gives-students-taste-digital-marketing">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/results_2.png?itok=6yae8K8Y" width="305" height="203" alt="A laptop sits open on a desk with a rendering of the Novela game on the screen." />
+</div>
+</a>
+<div>
+<div class="article-section-tag">
+<a href="/news/student-success">Student Success </a>
+<a href="/news/student-success/academic-life">Academic Life </a>
+</div>
+<h4>
+<a href="/news/student-success/academic-life/2024/04/16/game-gives-students-taste-digital-marketing" rel="bookmark">
+<span>Professor Creates Digital Marketing Simulation to Teach Practical Skills</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>Students at Hult International Business School in Massachusetts play a simulated game that teaches the principles of digital marketing and allows them to refine their skills.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article ">
+<a href="/news/student-success/academic-life/2024/04/11/uci-creates-digital-literacy-certificate-faculty">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/Slide3%20%281%29.PNG?itok=ywdNUIl5" width="305" height="203" alt="A screenshot of UCI MAPSS data training for personnel." />
+</div>
+</a>
+<div>
+<div class="article-section-tag">
+<a href="/news/student-success">Student Success </a>
+<a href="/news/student-success/academic-life">Academic Life </a>
+</div>
+<h4>
+<a href="/news/student-success/academic-life/2024/04/11/uci-creates-digital-literacy-certificate-faculty" rel="bookmark">
+<span>Creating a Data Culture Through Professional Development Training</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>The University of California, Irvine, created a certificate program to teach digital literacy skills to campus community members with the hope of improving student outcomes.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article ">
+<a href="/opinion/views/2024/04/10/why-im-convert-diversity-statements-opinion">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/GettyImages-1079848874_crop.jpg?itok=I84Ty3Id" width="305" height="203" alt="A graphic depiction of a job application with blank text against a teal background." />
+</div>
+</a>
+<div>
+<div class="article-opinion-tag">Opinion</div>
+<div class="article-section-tag">
+<a href="/opinion/views">Views </a>
+</div>
+<h4>
+<a href="/opinion/views/2024/04/10/why-im-convert-diversity-statements-opinion" rel="bookmark">
+<span>Why I’m a Convert to Diversity Statements</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>Diversity statements proved surprisingly helpful to our red-state university search committee, Suzanne Penuel writes.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="views-row"><div class="view-section article ">
+<a href="/news/student-success/academic-life/2024/04/09/art-and-music-students-partner-create-childrens-books">
+<div class="field field--name-field-media-image field--type-image field--label-hidden field__item"> <img loading="lazy" src="/sites/default/files/styles/image_205_x_203/public/2024-04/Childrens_Books_crop.png?itok=68hh8MiX" width="305" height="203" alt="Three children’s picture books with colorful images " />
+</div>
+</a>
+<div>
+<div class="article-section-tag">
+<a href="/news/student-success">Student Success </a>
+<a href="/news/student-success/academic-life">Academic Life </a>
+</div>
+<h4>
+<a href="/news/student-success/academic-life/2024/04/09/art-and-music-students-partner-create-childrens-books" rel="bookmark">
+<span>Academic Success Tip: Interdisciplinary Art Collaboration Creates Diverse Course Materials</span>
+</a>
+</h4>
+<div class="content-field_lead">
+<p>Music education students at Central College partnered with their visual arts peers to create story and song books for elementary-aged students.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+<h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+<ul class>
+</ul>
+<ul class="pager__items js-pager__items">
+<li class="pager__item is-active">
+<a href="?page=0" title="Current page" aria-current="page">
+<span class="visually-hidden">
+Current page
+</span>1</a>
+</li>
+<li class="pager__item">
+<a href="?page=1" title="Go to page 2">
+<span class="visually-hidden">
+Page
+</span>2</a>
+</li>
+<li class="pager__item">
+<a href="?page=2" title="Go to page 3">
+<span class="visually-hidden">
+Page
+</span>3</a>
+</li>
+<li class="pager__item">
+<a href="?page=3" title="Go to page 4">
+<span class="visually-hidden">
+Page
+</span>4</a>
+</li>
+<li class="pager__item">
+<a href="?page=4" title="Go to page 5">
+<span class="visually-hidden">
+Page
+</span>5</a>
+</li>
+<li class="pager__item pager__item--ellipsis" role="presentation">&hellip;
+<a href="?page=225" title="Go to last page">225</a>
+</li>
+</ul>
+<ul class="pagination">
+<li class="pager__item pager__item--next">
+<a href="?page=1" title="Go to next page" rel="next">
+<span class="visually-hidden">Next page</span>
+<span aria-hidden="true">Next</span>
+</a>
+</li>
+</ul>
+</nav>
+<nav class="pager pager-mobile" role="navigation" aria-labelledby="pagination-heading">
+<h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+<ul class>
+<li class="pager__item pager__item--previous ">
+<a class="disabled" href="javascript:void(0);" title="Go to previous page" rel="prev" onClick="if (!window.__cfRLUnblockHandlers) return false; return false;" data-cf-modified-30e8381dab2d117f8a81500e->
+<span class="visually-hidden">Previous page</span>
+<span aria-hidden="true">Previous</span>
+</a>
+</li>
+</ul>
+<ul class="pager__items js-pager__items">
+<li class="pager__item pager__item current" role="presentation">
+<span>1</span>
+</li>
+<li><span>/</span></li>
+<li class="pager__item pager__item--ellipsis" role="presentation">
+<span>225</span>
+</li>
+</ul>
+<ul class="pagination">
+<li class="pager__item pager__item--next">
+<a class href="?page=1" title="Go to next page" rel="next">
+<span class="visually-hidden">Next page</span>
+<span aria-hidden="true">Next</span>
+</a>
+</li>
+</ul>
+</nav>
+</div></div>
+</div>
+</div>
+</main>
+<aside class="md:w-5/12 aside-secondary" role="complementary">
+<div id="block-dfp-ad-e0e53a1f-0e71-4962-85f5-38ececabc084" class="block">
+<div id="js-dfp-tag-section_topic_sidebar_top">
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-section_topic_sidebar_top');
+            });
+    
+    </script>
+</div>
+</div>
+<div id="block-subscribe-to-a-newsletter-for-sections" class="block">
+<h4 class="heading-line">Sign up for Newsletters</h4><p>Subscribe for free to <em>Inside Higher Ed’s</em> newsletters, featuring the latest news, opinion and great new careers in higher education — delivered to your inbox.</p><p><a class="button button--primary" href="/form/newsletter">View Newsletters</a></p>
+</div>
+<div id="block-dfp-ad-5d253e22-cf98-4ba7-8efe-69179267162a" class="block">
+<div id="js-dfp-tag-section_topic_sidebar_bottom">
+<script type="30e8381dab2d117f8a81500e-text/javascript">
+            googletag.cmd.push(function() {
+                googletag.display('js-dfp-tag-section_topic_sidebar_bottom');
+            });
+    
+    </script>
+</div>
+</div>
+</aside>
+</div>
+<div class="pager-container"></div>
+<footer id="footer" role="contentinfo" class="bg-black text-white">
+<div class="footer-inner-wrapper">
+<div id="footer-top">
+<div class="menu-links-company sm:w-full md:w-2/5">
+<h4 class="heading-line">Company</h4>
+<div>
+<ul class="menu">
+<li class="menu-item">
+<a href="/form/contact" data-drupal-link-system-path="webform/contact">Contact Us</a>
+</li>
+<li class="menu-item">
+<a href="/about" data-drupal-link-system-path="node/94319">About Us</a>
+</li>
+<li class="menu-item">
+<a href="/work-us" data-drupal-link-system-path="node/94321">Work with Us</a>
+</li>
+<li class="menu-item">
+<a href="/our-history" data-drupal-link-system-path="node/94322">History</a>
+</li>
+<li class="menu-item">
+<a href="/team" data-drupal-link-system-path="node/94324">Meet the Team</a>
+</li>
+</ul>
+<ul class="menu">
+<li class="menu-item">
+<a href="/marketing-solutions">Advertise</a>
+</li>
+<li class="menu-item">
+<a href="https://careers.insidehighered.com/" target="_blank">Find a Job</a>
+</li>
+<li class="menu-item">
+<a href="https://recruiters.insidehighered.com/" target="_blank">Post a Job</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="menu-links-legal sm:w-full md:w-[30%]">
+<h4 class="heading-line">Legal</h4>
+<ul class="menu">
+<li class="menu-item">
+<a href="/rights-and-permissions" data-drupal-link-system-path="node/96674">Rights &amp; Permissions</a>
+</li>
+<li class="menu-item">
+<a href="/privacy" data-drupal-link-system-path="node/96675">Privacy</a>
+</li>
+</ul>
+</div>
+<div class="newsletter w-full md:w-[30%]">
+<h4 class="heading-line">Newsletter</h4>
+<div id="footer-subscribe">
+<button class="newsletter-button close">Subscribe to a Newsletter</button>
+<form class="webform-submission-form webform-submission-add-form webform-submission-newsletter-form webform-submission-newsletter-add-form webform-submission-newsletter-taxonomy_term-96-form webform-submission-newsletter-taxonomy_term-96-add-form webform-submission-newsletter-taxonomy-term-96-add-form js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-newsletter-taxonomy-term-96-add-form" action="/news/faculty-issues/teaching" method="post" id="webform-submission-newsletter-taxonomy-term-96-add-form" accept-charset="UTF-8">
+<div id="edit-processed-text" class="js-form-item form-item js-form-type-processed-text form-item- js-form-item- form-no-label">
+<h2>Sign up for Newsletters</h2>
+</div>
+<fieldset data-drupal-selector="edit-group" data-options-all="all" id="edit-group--wrapper" class="checkboxes--wrapper fieldgroup form-composite webform-composite-hidden-title required js-webform-type-checkboxes webform-type-checkboxes js-form-item form-item js-form-wrapper form-wrapper">
+<legend>
+<span class="visually-hidden fieldset-legend js-form-required form-required">Group</span>
+</legend>
+<div class="fieldset-wrapper">
+<div id="edit-group" class="js-webform-checkboxes webform-options-display-side-by-side form-checkboxes"><div class="js-form-item form-item js-form-type-checkbox form-item-group-6059d596b6 js-form-item-group-6059d596b6">
+<input data-drupal-selector="edit-group-6059d596b6" aria-describedby="edit-group-6059d596b6--description" type="checkbox" id="edit-group-6059d596b6" name="group[6059d596b6]" value="6059d596b6" class="form-checkbox form-radio-input" />
+<label for="edit-group-6059d596b6" class="form-label option">Daily News Update</label>
+<div class="description">
+<div id="edit-group-6059d596b6--description" class="webform-element-description">Higher Education News, Opinion and Careers | Weekdays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-7451d44576 js-form-item-group-7451d44576">
+<input data-drupal-selector="edit-group-7451d44576" aria-describedby="edit-group-7451d44576--description" type="checkbox" id="edit-group-7451d44576" name="group[7451d44576]" value="7451d44576" class="form-checkbox form-radio-input" />
+<label for="edit-group-7451d44576" class="form-label option">Weekly News Update</label>
+<div class="description">
+<div id="edit-group-7451d44576--description" class="webform-element-description">Quick Summary of the Week's Higher Ed News | Fridays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-0460c9abc8 js-form-item-group-0460c9abc8">
+<input data-drupal-selector="edit-group-0460c9abc8" aria-describedby="edit-group-0460c9abc8--description" type="checkbox" id="edit-group-0460c9abc8" name="group[0460c9abc8]" value="0460c9abc8" class="form-checkbox form-radio-input" />
+<label for="edit-group-0460c9abc8" class="form-label option">Admissions Weekly Update</label>
+<div class="description">
+<div id="edit-group-0460c9abc8--description" class="webform-element-description">Admissions and Enrollment News, Opinion and Careers | Mondays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-ea0f10cede js-form-item-group-ea0f10cede">
+<input data-drupal-selector="edit-group-ea0f10cede" aria-describedby="edit-group-ea0f10cede--description" type="checkbox" id="edit-group-ea0f10cede" name="group[ea0f10cede]" value="ea0f10cede" class="form-checkbox form-radio-input" />
+<label for="edit-group-ea0f10cede" class="form-label option">Diversity Weekly Update</label>
+<div class="description">
+<div id="edit-group-ea0f10cede--description" class="webform-element-description">Diversity News, Opinion and Career Advice | Tuesdays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-716bc5b6b6 js-form-item-group-716bc5b6b6">
+<input data-drupal-selector="edit-group-716bc5b6b6" aria-describedby="edit-group-716bc5b6b6--description" type="checkbox" id="edit-group-716bc5b6b6" name="group[716bc5b6b6]" value="716bc5b6b6" class="form-checkbox form-radio-input" />
+<label for="edit-group-716bc5b6b6" class="form-label option">Student Success</label>
+<div class="description">
+<div id="edit-group-716bc5b6b6--description" class="webform-element-description">Student Success News, Ideas, Advice and Inspiration | Weekdays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-dcbb3d1a6c js-form-item-group-dcbb3d1a6c">
+<input data-drupal-selector="edit-group-dcbb3d1a6c" aria-describedby="edit-group-dcbb3d1a6c--description" type="checkbox" id="edit-group-dcbb3d1a6c" name="group[dcbb3d1a6c]" value="dcbb3d1a6c" class="form-checkbox form-radio-input" />
+<label for="edit-group-dcbb3d1a6c" class="form-label option">Career Advice</label>
+<div class="description">
+<div id="edit-group-dcbb3d1a6c--description" class="webform-element-description">Expert advice on how to succeed professionally | Thursdays</div>
+</div>
+</div>
+<div class="js-form-item form-item js-form-type-checkbox form-item-group-all js-form-item-group-all">
+<input data-drupal-selector="edit-group-all" type="checkbox" id="edit-group-all" name="group[all]" value="all" class="form-checkbox form-radio-input" />
+<label for="edit-group-all" class="form-label option">All Newsletters</label>
+</div>
+</div>
+</div>
+</fieldset>
+<div class="js-form-item form-item js-form-type-textfield form-item-job-title js-form-item-job-title">
+<label for="edit-job-title" class="form-label js-form-required form-required">Subscribe</label>
+<input data-drupal-selector="edit-job-title" type="text" id="edit-job-title" name="job_title" value size="60" maxlength="255" placeholder="Job Title" class="form-text required form-control" required="required" aria-required="true" />
+</div>
+<div class="js-form-item form-item js-form-type-email form-item-email-address js-form-item-email-address form-no-label">
+<input autocomplete="off" data-drupal-selector="edit-email-address" type="email" id="edit-email-address" name="email_address" value size="60" maxlength="254" placeholder="Email Address" class="form-email required form-control" required="required" aria-required="true" />
+</div>
+<input data-drupal-selector="edit-hidden" type="hidden" name="hidden" value />
+<input autocomplete="off" data-drupal-selector="form-nhstwnq9xnhmqq9pndchstyhelqmty8zlr9lhg-emfu" type="hidden" name="form_build_id" value="form-NhSTwnQ9XnHMQQ9pNDChSTYhelQmty8zLr9LhG-emfU" />
+<input data-drupal-selector="edit-webform-submission-newsletter-taxonomy-term-96-add-form" type="hidden" name="form_id" value="webform_submission_newsletter_taxonomy_term_96_add_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input class="webform-button--submit button--primary button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" />
+</div>
+<div class="urlihe-textfield js-form-wrapper form-wrapper" style="display: none !important;"><div class="js-form-item form-item js-form-type-textfield form-item-urlihe js-form-item-urlihe">
+<label for="edit-urlihe" class="form-label">Leave this field blank</label>
+<input autocomplete="off" data-drupal-selector="edit-urlihe" type="text" id="edit-urlihe" name="urlihe" value size="20" maxlength="128" class="form-text form-control" />
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<div id="footer-bottom" class="flex flex-col-reverse md:justify-between md:flex-row gap-y-[20px]">
+<p class="mb-0">Copyright &copy; 2024 Inside Higher Ed All rights reserved. | <a href="https://nclud.com/">Website designed by nclud</a></p>
+<ul class="ihe-social-links flex justify-between">
+<li>
+<a href="https://www.facebook.com/pages/Inside-Higher-Ed/22711416526" target="_blank" title="Inside Higher Ed Facebook" rel="nofollow">
+<svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.8644 3H4.56988C3.94211 3.00408 3.43436 3.4483 3.42969 3.9975V20.0025C3.43436 20.5517 3.94211 20.9959 4.56988 21H14.4201V14.04H11.7454V11.3175H14.4201V9.315C14.4201 6.99 16.0404 5.7225 18.4237 5.7225C19.2209 5.7225 20.0182 5.7225 20.8155 5.8275V8.25H19.1781C17.8836 8.25 17.635 8.79 17.635 9.5775V11.31H20.7212L20.3183 14.0325H17.635V21H22.8644C23.4922 20.9959 23.9999 20.5517 24.0046 20.0025V3.9975C23.9999 3.4483 23.4922 3.00408 22.8644 3Z" fill="white" />
+</svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/insidehighered/" target="_blank" title="Inside Higher Ed on X / Twitter" rel="nofollow">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 1500 1500">
+<image width="1500" height="1500" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABq0lEQVRIib2WsUuWURTGf1+JUiDYIJEuQaE1BDkU1FASLUFDoU221R8gBC5OuQgfOLo2iJsR9A8EQegQ5CJEc4EONfiBaBr+5MT9QOJ9v/fy2ucznfc9957n3vOcc7gNlYQ5YBIYAs5QD4fAJvAOmP0bQQ2SNf8/Pqtng2CuC8HbaMbpt4CLNVNShV9B8Bvo7RLBfoi5X+JsJd9mRqCtTgSWOF8Bt4Fp4Abwp2DNLnAd+FISwxC5VSLQqjqgflefqXcL1lxRn3cQudWJINBUJ5J9QV085nuoPqiookqCwJi6pG5HU6o76mv1csW+bIIf6rlkL6t96pNEVEmQMxKGgYUk+BRwCbgGnM/YS84N2hhXZ5Ldr37NuUEuwa56J2kQWrxVh3MIcqfmaErPKjACTAA3U4+cOEX31UfHvh+rL5Ldn/qldopeqlf/+XcYY1j9FINSvaUe1CGYTSfcK/B9VHvU+aRLWTe3eoBGUeZSKX4D+gr894APwBqwUrIm0DiVcb3dpeCBnSB400WCpRAoKmK9QyXVxYba2362xE2awFNg8ISn/gm8B2aAgyNLSIjPmmmSvwAAAABJRU5ErkJggg==" />
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/insidehighered/" target="_blank" title="Inside Higher Ed Instagram" rel="nofollow">
+<svg width="28" height="24" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.49745 6.33198C7.75305 6.33198 6.32949 7.75557 6.32949 9.5C6.32949 11.2444 7.75305 12.668 9.49745 12.668C11.2418 12.668 12.6654 11.2444 12.6654 9.5C12.6654 7.75557 11.2418 6.33198 9.49745 6.33198ZM18.9989 9.5C18.9989 8.18811 19.0108 6.88811 18.9371 5.5786C18.8635 4.05757 18.5165 2.70766 17.4043 1.59541C16.2897 0.480781 14.9421 0.136173 13.4211 0.0624986C12.1093 -0.0111762 10.8093 0.000706907 9.49982 0.000706907C8.18796 0.000706907 6.88798 -0.0111762 5.5785 0.0624986C4.0575 0.136173 2.70761 0.483158 1.59538 1.59541C0.480772 2.71004 0.136171 4.05757 0.0624975 5.5786C-0.0111759 6.89049 0.000706894 8.19049 0.000706894 9.5C0.000706894 10.8095 -0.0111759 12.1119 0.0624975 13.4214C0.136171 14.9424 0.483149 16.2923 1.59538 17.4046C2.70999 18.5192 4.0575 18.8638 5.5785 18.9375C6.89036 19.0112 8.19034 18.9993 9.49982 18.9993C10.8117 18.9993 12.1117 19.0112 13.4211 18.9375C14.9421 18.8638 16.292 18.5168 17.4043 17.4046C18.5189 16.29 18.8635 14.9424 18.9371 13.4214C19.0132 12.1119 18.9989 10.8119 18.9989 9.5ZM9.49745 14.3744C6.80005 14.3744 4.62312 12.1974 4.62312 9.5C4.62312 6.80255 6.80005 4.62558 9.49745 4.62558C12.1948 4.62558 14.3718 6.80255 14.3718 9.5C14.3718 12.1974 12.1948 14.3744 9.49745 14.3744ZM14.5714 5.56434C13.9416 5.56434 13.433 5.05575 13.433 4.42595C13.433 3.79615 13.9416 3.28755 14.5714 3.28755C15.2012 3.28755 15.7098 3.79615 15.7098 4.42595C15.71 4.5755 15.6806 4.72361 15.6235 4.86181C15.5664 5.00001 15.4825 5.12558 15.3768 5.23133C15.271 5.33708 15.1455 5.42093 15.0073 5.47807C14.8691 5.53521 14.721 5.56453 14.5714 5.56434Z" fill="white" />
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/company/inside-higher-ed/" target="_blank" title="Inside Higher Ed Linkedin" rel="nofollow">
+<svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.47 3.00002H4.96423C4.13459 2.99566 3.45298 3.57199 3.42969 4.29752V19.65C3.44842 20.3773 4.13275 20.9559 4.96423 20.9475H22.47C23.3014 20.9559 23.9858 20.3773 24.0045 19.65V4.29752C23.9812 3.57199 23.2996 2.99566 22.47 3.00002ZM9.52637 18.3075H6.50873V9.74998H9.52637V18.3075ZM8.05002 8.55671C7.08645 8.55696 6.29872 7.88445 6.27545 7.04171C6.25849 6.62559 6.44 6.22203 6.77654 5.9276C7.11309 5.63317 7.57438 5.47437 8.05002 5.48921C8.98001 5.54586 9.70133 6.22239 9.70133 7.03796C9.70133 7.85353 8.98001 8.53006 8.05002 8.58671V8.55671ZM20.9869 18.2543H18.0036V14.0693C18.0036 13.0718 18.0036 11.7743 16.409 11.7743C14.8145 11.7743 14.5744 12.8693 14.5744 13.9718V18.2093H11.5225V9.74934H14.3687V10.8743H14.4287C15.0234 9.9708 16.1443 9.43274 17.3349 9.47934C20.4126 9.47934 20.9869 11.2793 20.9869 13.5668V18.2543Z" fill="white" />
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+</div>
+<div class="off-canvas-wrapper"><div id="off-canvas">
+<ul>
+<li class="menu-item--_4a55a74-0221-4bb4-88bb-e37a3a45b029 menu-name--mobile-navigation">
+<span class="menu-label">Menu</span>
+</li>
+<li class="menu-item--a6c92dad-4637-4ee3-bf4c-13dd0ac089bb menu-name--mobile-navigation">
+<a href="https://careers.insidehighered.com" class="arrow-up-45">Find a Job</a>
+</li>
+<li class="menu-item--e53fb1fb-e678-4107-b383-ab68454768db menu-name--mobile-navigation">
+<a href="/membership" class="insider-membership-button">Become a Member</a>
+</li>
+<li class="menu-item--ab6d01a6-b739-4071-9b86-d78c2d2ce62e menu-name--mobile-navigation">
+<a href="/newsletters" data-drupal-link-system-path="webform/newsletter">Sign up for Newsletters</a>
+</li>
+<li class="menu-item--_5de892f-b95b-40d7-8f44-2692924a448b menu-name--news">
+<span class="menu-label">News</span>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest2 menu-name--news">
+<a href="/news/faculty-issues" data-drupal-link-system-path="taxonomy/term/2">Faculty Issues</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest95 menu-name--news">
+<a href="/news/faculty-issues/curriculum" data-drupal-link-system-path="taxonomy/term/95">Curriculum</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest96 menu-name--news">
+<a href="/news/faculty-issues/teaching" data-drupal-link-system-path="taxonomy/term/96" class="is-active">Teaching</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest97 menu-name--news">
+<a href="/news/faculty-issues/learning-assessment" data-drupal-link-system-path="taxonomy/term/97">Learning &amp; Assessment</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest98 menu-name--news">
+<a href="/news/faculty-issues/diversity-equity" data-drupal-link-system-path="taxonomy/term/98">Diversity &amp; Equity</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest99 menu-name--news">
+<a href="/news/faculty-issues/career-development" data-drupal-link-system-path="taxonomy/term/99">Career Development</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest100 menu-name--news">
+<a href="/news/faculty-issues/tenure" data-drupal-link-system-path="taxonomy/term/100">Tenure</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest101 menu-name--news">
+<a href="/news/faculty-issues/retirement" data-drupal-link-system-path="taxonomy/term/101">Retirement</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest102 menu-name--news">
+<a href="/news/faculty-issues/labor-unionization" data-drupal-link-system-path="taxonomy/term/102">Labor &amp; Unionization</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest103 menu-name--news">
+<a href="/news/faculty-issues/shared-governance" data-drupal-link-system-path="taxonomy/term/103">Shared Governance</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest104 menu-name--news">
+<a href="/news/faculty-issues/academic-freedom" data-drupal-link-system-path="taxonomy/term/104">Academic Freedom</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest105 menu-name--news">
+<a href="/news/faculty-issues/research" data-drupal-link-system-path="taxonomy/term/105">Research</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest106 menu-name--news">
+<a href="/news/faculty-issues/books-publishing" data-drupal-link-system-path="taxonomy/term/106">Books &amp; Publishing</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest3 menu-name--news">
+<a href="/news/students" data-drupal-link-system-path="taxonomy/term/3">Students</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest85 menu-name--news">
+<a href="/news/students/academics" data-drupal-link-system-path="taxonomy/term/85">Academics</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest86 menu-name--news">
+<a href="/news/students/retention" data-drupal-link-system-path="taxonomy/term/86">Retention</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest87 menu-name--news">
+<a href="/news/students/financial-aid" data-drupal-link-system-path="taxonomy/term/87">Financial Aid</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest88 menu-name--news">
+<a href="/news/students/careers" data-drupal-link-system-path="taxonomy/term/88">Careers</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest89 menu-name--news">
+<a href="/news/students/residential-life" data-drupal-link-system-path="taxonomy/term/89">Residential Life</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest90 menu-name--news">
+<a href="/news/students/athletics" data-drupal-link-system-path="taxonomy/term/90">Athletics</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest91 menu-name--news">
+<a href="/news/students/free-speech" data-drupal-link-system-path="taxonomy/term/91">Free Speech</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest92 menu-name--news">
+<a href="/news/students/physical-mental-health" data-drupal-link-system-path="taxonomy/term/92">Physical &amp; Mental Health</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest94 menu-name--news">
+<a href="/news/students/safety" data-drupal-link-system-path="taxonomy/term/94">Safety</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest4 menu-name--news">
+<a href="/news/diversity" data-drupal-link-system-path="taxonomy/term/4">Diversity</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest79 menu-name--news">
+<a href="/news/diversity/race-ethnicity" data-drupal-link-system-path="taxonomy/term/79">Race &amp; Ethnicity</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest80 menu-name--news">
+<a href="/news/diversity/sex-gender" data-drupal-link-system-path="taxonomy/term/80">Sex &amp; Gender</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest81 menu-name--news">
+<a href="/news/diversity/socioeconomics" data-drupal-link-system-path="taxonomy/term/81">Socioeconomics</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest82 menu-name--news">
+<a href="/news/diversity/religion" data-drupal-link-system-path="taxonomy/term/82">Religion</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest83 menu-name--news">
+<a href="/news/diversity/disability" data-drupal-link-system-path="taxonomy/term/83">Disability</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest84 menu-name--news">
+<a href="/news/diversity/age" data-drupal-link-system-path="taxonomy/term/84">Age</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest5 menu-name--news">
+<a href="/news/admissions" data-drupal-link-system-path="taxonomy/term/5">Admissions</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest75 menu-name--news">
+<a href="/news/admissions/traditional-age" data-drupal-link-system-path="taxonomy/term/75">Traditional-Age</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest76 menu-name--news">
+<a href="/news/admissions/adult-post-traditional" data-drupal-link-system-path="taxonomy/term/76">Adult &amp; Post-Traditional</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest77 menu-name--news">
+<a href="/news/admissions/transfer" data-drupal-link-system-path="taxonomy/term/77">Transfer</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest78 menu-name--news">
+<a href="/news/admissions/graduate" data-drupal-link-system-path="taxonomy/term/78">Graduate</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest7 menu-name--news">
+<a href="/news/tech-innovation" data-drupal-link-system-path="taxonomy/term/7">Tech &amp; Innovation</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest65 menu-name--news">
+<a href="/news/tech-innovation/teaching-learning" data-drupal-link-system-path="taxonomy/term/65">Teaching &amp; Learning</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest596 menu-name--news">
+<a href="/news/tech-innovation/artificial-intelligence" data-drupal-link-system-path="taxonomy/term/596">Artificial Intelligence</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest66 menu-name--news">
+<a href="/news/tech-innovation/digital-publishing" data-drupal-link-system-path="taxonomy/term/66">Digital Publishing</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest67 menu-name--news">
+<a href="/news/tech-innovation/data-analytics" data-drupal-link-system-path="taxonomy/term/67">Data Analytics</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest68 menu-name--news">
+<a href="/news/tech-innovation/libraries" data-drupal-link-system-path="taxonomy/term/68">Libraries</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest69 menu-name--news">
+<a href="/news/tech-innovation/administrative-tech" data-drupal-link-system-path="taxonomy/term/69">Administrative Tech</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest70 menu-name--news">
+<a href="/news/tech-innovation/alternative-credentials" data-drupal-link-system-path="taxonomy/term/70">Alternative Credentials</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest8 menu-name--news">
+<a href="/news/business" data-drupal-link-system-path="taxonomy/term/8">Business</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest58 menu-name--news">
+<a href="/news/business/financial-health" data-drupal-link-system-path="taxonomy/term/58">Financial Health</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest59 menu-name--news">
+<a href="/news/business/cost-cutting" data-drupal-link-system-path="taxonomy/term/59">Cost-Cutting</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest60 menu-name--news">
+<a href="/news/business/revenue-strategies" data-drupal-link-system-path="taxonomy/term/60">Revenue Strategies</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest61 menu-name--news">
+<a href="/news/business/academic-programs" data-drupal-link-system-path="taxonomy/term/61">Academic Programs</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest62 menu-name--news">
+<a href="/news/business/physical-campuses" data-drupal-link-system-path="taxonomy/term/62">Physical Campuses</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest63 menu-name--news">
+<a href="/news/business/mergers-collaboration" data-drupal-link-system-path="taxonomy/term/63">Mergers &amp; Collaboration</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest64 menu-name--news">
+<a href="/news/business/fundraising" data-drupal-link-system-path="taxonomy/term/64">Fundraising</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest11 menu-name--news">
+<a href="/news/institutions" data-drupal-link-system-path="taxonomy/term/11">Institutions</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest43 menu-name--news">
+<a href="/news/institutions/research-universities" data-drupal-link-system-path="taxonomy/term/43">Research Universities</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest44 menu-name--news">
+<a href="/news/institutions/regional-public-universities" data-drupal-link-system-path="taxonomy/term/44">Regional Public Universities</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest45 menu-name--news">
+<a href="/news/institutions/community-colleges" data-drupal-link-system-path="taxonomy/term/45">Community Colleges</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest46 menu-name--news">
+<a href="/news/institutions/private-nonprofit-colleges" data-drupal-link-system-path="taxonomy/term/46">Private Nonprofit Colleges</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest611 menu-name--news">
+<a href="/news/institutions/minority-serving-institutions" data-drupal-link-system-path="taxonomy/term/611">Minority-Serving Institutions</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest47 menu-name--news">
+<a href="/news/institutions/religious-colleges" data-drupal-link-system-path="taxonomy/term/47">Religious Colleges</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest48 menu-name--news">
+<a href="/news/institutions/womens-colleges" data-drupal-link-system-path="taxonomy/term/48">Women&#039;s Colleges</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest49 menu-name--news">
+<a href="/news/institutions/specialized-colleges" data-drupal-link-system-path="taxonomy/term/49">Specialized Colleges</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest50 menu-name--news">
+<a href="/news/institutions/profit-colleges" data-drupal-link-system-path="taxonomy/term/50">For-Profit Colleges</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest6 menu-name--news">
+<a href="/news/governance" data-drupal-link-system-path="taxonomy/term/6">Governance</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest71 menu-name--news">
+<a href="/news/governance/executive-leadership" data-drupal-link-system-path="taxonomy/term/71">Executive Leadership</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest72 menu-name--news">
+<a href="/news/governance/trustees-regents" data-drupal-link-system-path="taxonomy/term/72">Trustees &amp; Regents</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest73 menu-name--news">
+<a href="/news/governance/state-oversight" data-drupal-link-system-path="taxonomy/term/73">State Oversight</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest74 menu-name--news">
+<a href="/news/governance/accreditation" data-drupal-link-system-path="taxonomy/term/74">Accreditation</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest9 menu-name--news">
+<a href="/news/government" data-drupal-link-system-path="taxonomy/term/9">Government</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest671 menu-name--news">
+<a href="/news/government/politics-elections" data-drupal-link-system-path="taxonomy/term/671">Politics &amp; Elections</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest626 menu-name--news">
+<a href="/news/government/supreme-court" data-drupal-link-system-path="taxonomy/term/626">Supreme Court</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest54 menu-name--news">
+<a href="/news/government/student-aid-policy" data-drupal-link-system-path="taxonomy/term/54">Student Aid Policy</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest55 menu-name--news">
+<a href="/news/government/science-research-policy" data-drupal-link-system-path="taxonomy/term/55">Science &amp; Research Policy</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest56 menu-name--news">
+<a href="/news/government/state-policy" data-drupal-link-system-path="taxonomy/term/56">State Policy</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest57 menu-name--news">
+<a href="/news/government/colleges-localities" data-drupal-link-system-path="taxonomy/term/57">Colleges &amp; Localities</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest12 menu-name--news">
+<a href="/news/workplace" data-drupal-link-system-path="taxonomy/term/12">Workplace</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest40 menu-name--news">
+<a href="/news/workplace/employee-satisfaction" data-drupal-link-system-path="taxonomy/term/40">Employee Satisfaction</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest41 menu-name--news">
+<a href="/news/workplace/remote-flexible-work" data-drupal-link-system-path="taxonomy/term/41">Remote &amp; Flexible Work</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest42 menu-name--news">
+<a href="/news/workplace/staff-issues" data-drupal-link-system-path="taxonomy/term/42">Staff Issues</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest10 menu-name--news">
+<a href="/news/global" data-drupal-link-system-path="taxonomy/term/10">Global</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linktest51 menu-name--news">
+<a href="/news/global/study-abroad" data-drupal-link-system-path="taxonomy/term/51">Study Abroad</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest52 menu-name--news">
+<a href="/news/global/international-students-us" data-drupal-link-system-path="taxonomy/term/52">International Students in U.S.</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linktest53 menu-name--news">
+<a href="/news/global/us-colleges-world" data-drupal-link-system-path="taxonomy/term/53">U.S. Colleges in the World</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--d80f431d-76d4-4c22-9bbd-2fbb1dd60211 menu-name--opinion">
+<span class="menu-label">Opinion</span>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs15 menu-name--opinion">
+<a href="/opinion/views" title="General Guidelines for Submissions to Inside Higher Ed »" data-drupal-link-system-path="taxonomy/term/15">Views</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linkblogs255 menu-name--opinion">
+<a href="/opinion/views/intellectual-affairs" data-drupal-link-system-path="taxonomy/term/255">Intellectual Affairs</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs16 menu-name--opinion">
+<a href="/opinion/career-advice" data-drupal-link-system-path="taxonomy/term/16">Career Advice</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linkblogs33 menu-name--opinion">
+<a href="/opinion/career-advice/seeking-faculty-job" data-drupal-link-system-path="taxonomy/term/33">Seeking a Faculty Job</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs34 menu-name--opinion">
+<a href="/opinion/career-advice/advancing-faculty" data-drupal-link-system-path="taxonomy/term/34">Advancing in the Faculty</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs35 menu-name--opinion">
+<a href="/opinion/career-advice/teaching" data-drupal-link-system-path="taxonomy/term/35">Teaching</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs36 menu-name--opinion">
+<a href="/opinion/career-advice/seeking-administrative-job" data-drupal-link-system-path="taxonomy/term/36">Seeking an Administrative Job</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs37 menu-name--opinion">
+<a href="/opinion/career-advice/advancing-administrator" data-drupal-link-system-path="taxonomy/term/37">Advancing as an Administrator</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs38 menu-name--opinion">
+<a href="/opinion/career-advice/diversity" data-drupal-link-system-path="taxonomy/term/38">Diversity</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs17 menu-name--opinion">
+<a href="/opinion/blogs" data-drupal-link-system-path="taxonomy/term/17">Blogs</a>
+<ul>
+<li class="menu-item--taxonomy-menumenu-linkblogs20 menu-name--opinion">
+<a href="/opinion/blogs/beyond-transfer" title="Building common ground and shared will for accelerated change" data-drupal-link-system-path="taxonomy/term/20">Beyond Transfer</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs21 menu-name--opinion">
+<a href="/opinion/blogs/call-action" title="A space to discuss the ways in which we market and communicate about higher education and the collegiate experience. Edited by the teams at TVP Communications and RHB." data-drupal-link-system-path="taxonomy/term/21">Call to Action</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs22 menu-name--opinion">
+<a href="/opinion/blogs/confessions-community-college-dean" title="In which a veteran of cultural studies seminars in the 1990s moves into academic administration and finds himself a married suburban father of two. Foucault, plus lawn care." data-drupal-link-system-path="taxonomy/term/22">Confessions of a Community College Dean</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs23 menu-name--opinion">
+<a href="/opinion/blogs/higher-ed-gamma" title="MOOCs and beyond." data-drupal-link-system-path="taxonomy/term/23">Higher Ed Gamma</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs24 menu-name--opinion">
+<a href="/opinion/blogs/higher-ed-policy" title="Observations and discussion on the most current and compelling issues in higher education policy." data-drupal-link-system-path="taxonomy/term/24">Higher Ed Policy</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs25 menu-name--opinion">
+<a href="/opinion/blogs/just-explain-it-me" title="Breaking down notoriously confusing, perplexing and annoying systems and practices in higher education." data-drupal-link-system-path="taxonomy/term/25">Just Explain It to Me!</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs26 menu-name--opinion">
+<a href="/opinion/blogs/just-visiting" title="John Warner is the author of Why They Can&#039;t Write: Killing the Five-Paragraph Essay and Other Necessities&amp;nbsp;and The Writer&#039;s Practice: Building Confidence in Your Nonfiction Writing." data-drupal-link-system-path="taxonomy/term/26">Just Visiting</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs27 menu-name--opinion">
+<a href="/opinion/blogs/law-policy-and-it" title="Tracy Mitrano explores the intersection where higher education, the internet and the world meet (and sometimes collide)." data-drupal-link-system-path="taxonomy/term/27">Law, Policy—and IT?</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs331 menu-name--opinion">
+<a href="/opinion/blogs/leadership-stratedgy" data-drupal-link-system-path="taxonomy/term/331">Leadership &amp; StratEDgy</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs28 menu-name--opinion">
+<a href="/opinion/blogs/leadership-higher-education" title="A former college president and state attorney general considers leadership issues in higher education." data-drupal-link-system-path="taxonomy/term/28">Leadership in Higher Education</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs29 menu-name--opinion">
+<a href="/opinion/blogs/learning-innovation" title="A space for conversation and debate about learning and technology." data-drupal-link-system-path="taxonomy/term/29">Learning Innovation</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs30 menu-name--opinion">
+<a href="/opinion/blogs/online-trending-now" title="Unique insights from Ray Schroeder, senior fellow for UPCEA: the Association for Leaders in Online and Professional Education" data-drupal-link-system-path="taxonomy/term/30">Online: Trending Now</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs696 menu-name--opinion">
+<a href="/opinion/blogs/resident-scholar" title="Deep thinking, expert analyses, and useful guidance from Shaun Harper, who brings people together to honestly acknowledge and strategically address contemporary problems in U.S. higher education." data-drupal-link-system-path="taxonomy/term/696">Resident Scholar</a>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs32 menu-name--opinion">
+<a href="/opinion/blogs/university-venus" title="GenX Women in Higher Ed, Writing from Across the Globe" data-drupal-link-system-path="taxonomy/term/32">University of Venus</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--taxonomy-menumenu-linkblogs18 menu-name--opinion">
+<a href="/opinion/letters" data-drupal-link-system-path="taxonomy/term/18">Letters</a>
+</li>
+<li class="menu-item--ed3974e2-4a2a-4213-a5d0-880597faf945 menu-name--hubs">
+<span class="menu-label">Hubs</span>
+</li>
+<li class="menu-item--_b9a0745-e3bc-4ec1-a92f-caf892cfd04f menu-name--hubs">
+<a href="/news/student-success" data-drupal-link-system-path="taxonomy/term/266">Student Success</a>
+<ul>
+<li class="menu-item--b0c84356-f0ed-4f53-9af0-7c917083294b menu-name--hubs">
+<a href="/collections/student-voice/2023" data-drupal-link-system-path="collections/student-voice/2023">Student Voice</a>
+</li>
+<li class="menu-item--_b85dabe-c608-41ad-aa0b-888341462e60 menu-name--hubs">
+<a href="/news/student-success/academic-life" data-drupal-link-system-path="taxonomy/term/267">Academic Life</a>
+</li>
+<li class="menu-item--daee9fa1-89ad-4c19-b2d3-cf8a49573501 menu-name--hubs">
+<a href="/news/student-success/health-wellness" data-drupal-link-system-path="taxonomy/term/268">Health &amp; Wellness</a>
+</li>
+<li class="menu-item--_7391db9-0340-4e13-8e40-cc0aceadf110 menu-name--hubs">
+<a href="/news/student-success/college-experience" data-drupal-link-system-path="taxonomy/term/269">The College Experience</a>
+</li>
+<li class="menu-item--d7a3fb90-bdb2-4c2e-a094-105259bda025 menu-name--hubs">
+<a href="/news/student-success/life-after-college" data-drupal-link-system-path="taxonomy/term/270">Life After College</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--f818046e-c8a4-494a-9d8a-b3d23bff52df menu-name--types">
+<span class="menu-label">Special</span>
+</li>
+<li class="menu-item--_562f0a4-6028-4efc-8db1-075d2f75b1bd menu-name--types">
+<a href="/podcasts" data-drupal-link-system-path="taxonomy/term/243">Podcasts</a>
+<ul>
+<li class="menu-item--c592dea6-6354-4429-9eaf-e3031e0b239b menu-name--types">
+<a href="/podcasts/the-key" data-drupal-link-system-path="taxonomy/term/238">The Key</a>
+</li>
+<li class="menu-item--_197c089-94a1-4f54-98f1-470a14970f3c menu-name--types">
+<a href="/podcasts/academic-minute" data-drupal-link-system-path="taxonomy/term/235">Academic Minute</a>
+</li>
+<li class="menu-item--_a554e73-3ebf-4f5e-b987-d2169cb624b2 menu-name--types">
+<a href="/shows/campus" data-drupal-link-system-path="taxonomy/term/621">Campus</a>
+</li>
+<li class="menu-item--_b5e05e2-a241-4617-b3f4-1ef4b7456ba4 menu-name--types">
+<a href="/podcasts/The-Pulse" data-drupal-link-system-path="taxonomy/term/239">The Pulse</a>
+</li>
+<li class="menu-item--_1d1baae-5b9b-4dce-9be9-4eb0bde78b6a menu-name--types">
+<a href="/podcasts/University-Innovation-Alliance" data-drupal-link-system-path="taxonomy/term/240">Weekly Wisdom</a>
+</li>
+</ul>
+</li>
+<li class="menu-item--aafc02b6-5608-4bba-8b1f-3742b72a2bc8 menu-name--types">
+<a href="/reports" data-drupal-link-system-path="reports">Reports &amp; Data</a>
+</li>
+<li class="menu-item--_9a927d1-4dad-4143-b3e9-6e42ff1e743d menu-name--types">
+<a href="/events" data-drupal-link-system-path="events">Events</a>
+</li>
+<li class="menu-item--_2841784-c3a7-46c4-958b-e56d5fff2bd0 menu-name--types">
+<a href="/news/quick-takes" data-drupal-link-system-path="taxonomy/term/39">Quick Takes</a>
+</li>
+<li class="menu-item--_5b298fe-8101-4ee1-b6ae-d4a197a6e6f6 menu-name--more">
+<span class=" menu-label">Solutions</span>
+</li>
+<li class="menu-item--_b03501d-b234-4080-99ac-00c0d69f0dd5 menu-name--more">
+<a href="https://solutions.insidehighered.com/marketing-solutions">Advertising &amp; Marketing</a>
+</li>
+<li class="menu-item--_3c32c0f-929c-4b84-8694-bc3a9d6bc9dd menu-name--more">
+<a href="https://solutions.insidehighered.com/consultancy">Consulting Services</a>
+</li>
+<li class="menu-item--_e26f529-b36e-4570-8ea3-e947a50a6461 menu-name--more">
+<a href="https://solutions.insidehighered.com/data-insights">Data &amp; Insights</a>
+</li>
+<li class="menu-item--_c142b05-31c4-4522-ae13-50afaae917e6 menu-name--more">
+<a href="https://recruiters.insidehighered.com/">Hiring &amp; Jobs</a>
+</li>
+<li class="menu-item--b601d16c-1c84-467a-bb2e-fc5762f2b6fa menu-name--more">
+<a href="https://solutions.insidehighered.com/upcoming-events">Event Partnerships</a>
+</li>
+<li class="menu-item--_332c060-4685-4c4d-8da8-36a2747f8d5e menu-name--more">
+<a href="https://solutions.insidehighered.com/campus">Campus+ Membership</a>
+</li>
+<li class="menu-item--_9891e50-9b11-48b0-b7d0-d5ec12f2831e menu-name--more">
+<span class="menu-label">More</span>
+</li>
+<li class="menu-item--f02ea4e5-6374-493f-9cf4-c23595e324df menu-name--more">
+<a href="https://recruiters.insidehighered.com" target="_blank" class="arrow-up-45">Post a Job</a>
+</li>
+<li class="menu-item--afddc090-a6ad-4a3e-bcfe-43d996f1407b menu-name--more">
+<a href="https://www.timeshighereducation.com/campus" class="arrow-up-45" target="_blank">Campus</a>
+</li>
+<li class="menu-item--_4fe22a4-3c0e-4107-93fb-44e6bdcd5cac menu-name--more">
+<a href="/marketing-solutions">Advertise</a>
+</li>
+<li class="menu-item--_b28f13a-15b5-46d9-8bea-9c63d42c16cb menu-name--more">
+<a href="/about" data-drupal-link-system-path="node/94319">About</a>
+</li>
+<li class="menu-item--c8d28277-2502-4f0e-990d-9db9e02687ae menu-name--more">
+<a href="/form/contact" data-drupal-link-system-path="webform/contact">Contact Us</a>
+</li>
+</ul>
+</div></div>
+<div id="registration-banner" class="fixed bottom-0 left-0 bg-black w-full z-50 sm:z-[201] text-white shadow-[0_0_20px_0_rgba(0,0,0,0.3)]">
+<div class="relative container max-w-screen-lg mx-auto flex sm:flex-wrap items-center justify-center p-4 md-max:gap-3 gap-6 sm:gap-2">
+<div class="counter md-max:min-w-[33%]">
+<p class="my-0 flex items-center">
+<span class="count text-2xl text-orange pr-2"><span class="meter-articles-remaining">4</span>/5</span> <span class="text-sm leading-none">Articles remaining<br>this month.</span>
+</p>
+</div>
+<div class="flex items-center gap-x-6 md-max:gap-3 flex-wrap sm:justify-center sm:gap-y-1">
+<div>
+<h5 class="my-0">Sign up for a free account or log in.</h5>
+</div>
+<div>
+<ul class="flex gap-1 items-center list-none">
+<li><button class="button py-[4px] px-4 text-white text-xs pelcro-register-button" href="#">Create Free Account</button></li>
+<li><button class="button py-[4px] px-4 text-white text-xs pelcro-login-button" href="#">Login</button></li>
+</ul>
+</div>
+</div>
+</div>
+<button data-action="dismiss" class="absolute top-[10px] right-[10px] border text-xs icon rounded-full bg-black leading-none text-center w-[24px] h-[24px]">close</button>
+</div>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"taxonomy\/term\/96","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"responsive_menu":{"position":"left","theme":"theme-dark","pagedim":"none","modifyViewport":true,"use_bootstrap":false,"breakpoint":"all and (min-width: 768px)","drag":false},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.80000000000000004,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/news\/faculty-issues\/teaching":true},"ihe_chartbeat":{"host":"insidehighered.com"},"ihe":{"childTerms":[{"html":"\u003Cli class=\u0022current\u0022\u003E\u003Cstrong\u003E\u003Ca href=\u0022\/news\/faculty-issues\/teaching\u0022\u003ETeaching\u003C\/a\u003E\u003C\/strong\u003E\u003C\/li\u003E","width":76},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/curriculum\u0022\u003ECurriculum\u003C\/a\u003E\u003C\/li\u003E","width":95},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/learning-assessment\u0022\u003ELearning \u0026 Assessment\u003C\/a\u003E\u003C\/li\u003E","width":199.5},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/diversity-equity\u0022\u003EDiversity \u0026 Equity\u003C\/a\u003E\u003C\/li\u003E","width":171},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/career-development\u0022\u003ECareer Development\u003C\/a\u003E\u003C\/li\u003E","width":171},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/tenure\u0022\u003ETenure\u003C\/a\u003E\u003C\/li\u003E","width":57},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/retirement\u0022\u003ERetirement\u003C\/a\u003E\u003C\/li\u003E","width":95},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/labor-unionization\u0022\u003ELabor \u0026 Unionization\u003C\/a\u003E\u003C\/li\u003E","width":190},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/shared-governance\u0022\u003EShared Governance\u003C\/a\u003E\u003C\/li\u003E","width":161.5},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/academic-freedom\u0022\u003EAcademic Freedom\u003C\/a\u003E\u003C\/li\u003E","width":152},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/research\u0022\u003EResearch\u003C\/a\u003E\u003C\/li\u003E","width":76},{"html":"\u003Cli\u003E\u003Ca href=\u0022\/news\/faculty-issues\/books-publishing\u0022\u003EBooks \u0026 Publishing\u003C\/a\u003E\u003C\/li\u003E","width":171}]},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":false},"user":{"uid":0,"permissionsHash":"a55428af830f5a289cfb148791ddc89da13889ca9fcca2ec5613819423ea315c"}}</script>
+<script src="/sites/default/files/js/js_HO2uf3r5BD5R1tvmNUHmxDpoqb0x5-vQTI031zmX3dU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="//unpkg.com/alpinejs@3.10.4/dist/cdn.min.js" type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="/sites/default/files/js/js_I7wpKFByYWFedIBfF9vp_mLNeA7TSlYwkOzsn7AlZdM.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="//static.chartbeat.com/js/chartbeat.js" async type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="/sites/default/files/js/js_Jeo7V5Euz9WWXpuXIV0v3lm7LPiwvWWxmS80YbC_xaE.js?scope=footer&amp;delta=4&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="https://js.pelcro.com/sdk/main.min.js" defer async type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script src="/sites/default/files/js/js_ZOgAn9PTXW98KgupS8OiDPhs49uPmffzwnKhbIk_iNQ.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ihe&amp;include=eJyFkGtuxCAMhC_EhiMhIBPiLmCEnX309CWrbaVqFeXPgO3PY8sd0rgK3eAK6mb7_3gKHf7amKqafoJGrgulU0z0makmk_330-5i5CmKYoMXGFphU-bg8-UX3FM-N6q4fIm5Iyzci32_0y4fSWSMWTrNUE9ZJvE3nELKKeVjrEDEp-N6XBGvgR_43DFyaSykx83clMaRzI1wF_vSqfC8jX0CVNEdHsMCs1soj1BsQkX3-ajsN2UnWyikR4iM4VGdz9lVrq_Tu7j6rgFe7d_P7IvfacYg0dVSHZY725BjZ1tQwrBbqf0AcRXoLg" type="30e8381dab2d117f8a81500e-text/javascript"></script>
+<script type="30e8381dab2d117f8a81500e-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d618589be4","applicationID":"1302912472","transactionName":"NVBWY0FQDUdXWkFcWgwadVRHWAxaGX1HQEUDWWhBWlQUR2prWkBBC1tTa2VYBkNmWFJQdg1bQEVcXQ9RRBQLXVQMUVhS","queueTime":12,"applicationTime":1995,"atts":"GRdBFQlKHhgUWBcPTh9I","errorBeacon":"bam.nr-data.net","agent":""}</script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="30e8381dab2d117f8a81500e-|49" defer></script></body>
+</html>
+ contentType 24 text/html; charset=UTF-8 url 63 https://www.insidehighered.com:443/news/faculty-issues/teaching responseCode 3 200 

@@ -1,0 +1,390 @@
+iobolkgkogkmhenibelqecsmgogqzqlmdqoincpq page 17366 <!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CCI is focused on coordinated interdisciplinary approaches for the discovery and development of core platform technologies for personalized cell and gene based therapies in cancer, autoimmune disease, infectious disease, and organ and bone marrow transplantation.">
+  <meta name="keywords" content="CCI, Carl June, TCELL">
+  <base href="/cci/junelab/">
+ <!--[if IE]>
+ <script type="text/javascript">
+ (function() {
+ var baseTag = document.getElementsByTagName('base')[0];
+ baseTag.href = baseTag.href;
+ })();
+ </script>
+<![endif]-->
+  <title>June Lab | Center for Cellular Immunotherapies | Perelman School of Medicine at the University of Pennsylvania</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.4.0/css/nanogallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.4.0/css/themes/light/nanogallery_light.min.css">
+<link rel="stylesheet" href="/cms_files/sites/cci/css/gridism.css">
+<link rel="stylesheet" href="/cms_files/sites/cci/css/reset.css">
+<link rel="stylesheet" href="/cms_files/sites/cci/css/override.css">
+  <!-- Javascripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="//www.med.upenn.edu/js/ieCompat/ieCompat.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.1.0/picturefill.js" async></script>
+<script src="//www.med.upenn.edu/js/jquery.gsaEmbed.js"></script>
+<script src="//www.med.upenn.edu/js/FlexSlider/jquery.flexslider-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.4.0/jquery.nanogallery.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+<script nomodule="" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer=""></script>
+<script src="/cms_files/sites/cci/js/grid-a-licious.js"></script>
+<script src="/cms_files/sites/cci/js/grid-a-licious.min.js"></script>
+<script src="/cms_files/sites/cci/js/bucket.js"></script>
+  <!-- IE Conditionals -->
+  <!-- IE Conditionals -->
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="http://www.med.upenn.edu/apps/my/css/font-awesome-ie7.css">
+        <![endif]-->
+
+        <!--[if lt IE 9]>
+		  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+  <!-- Google Analytics -->
+  <script type="text/javascript">// <![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75210108-1', 'auto');
+  ga('send', 'pageview');
+// ]]></script>
+  <!--Editable Homepage Background Image-->
+  
+</head>
+<body>
+
+
+<div class="wrap wider">
+
+
+	<!-- HEADER -->
+    <header>
+    <div class="grid flex">
+        <div class="unit one-quarter logo">
+            <a class="flex" href="http://www.med.upenn.edu/" target="_blank">
+                <img src="https://www.med.upenn.edu/images/PM_PMS_201_288-white.svg" alt="Perelman School of Medicine at the University of Pennsylvania" width="250" />
+            </a>
+        </div>
+        <div class="unit three-quarters site-logo-and-title">
+            <a href="/cci/" class="flex">
+                <img src="/cms_files/sites/cci/images/cci-logo.png" alt="Center for Cellular Immunotherapies logo">`
+            <span class="site-title">Center <span class="light-font-weight">for</span> Cellular Immunotherapies</span></a>
+        </div>
+    </div>
+</header>
+
+
+
+	<!-- HORIZONTAL NAVIGATION -->
+    <nav class="main-navigation" aria-label="Main Navigation">
+  <div class="grid">
+	
+	<ul class="users nav-list">
+    <li class="padding"><i class="fa fa-user"></i> <em>For:</em></li>
+    <li class="nav-item first nav-level1"><a href="/cci/patients.html" title="Patients" >Patients</a></li>
+<li class="nav-item last nav-level1 parent"
+    aria-haspopup="true"
+    aria-expanded="false"
+    x-data="{ isOpen: false }"
+    :aria-expanded="isOpen ? 'true' : 'false'" 
+    >
+    <button
+        aria-expanded="false"
+        class="nav-button" 
+        :aria-expanded="isOpen ? 'true' : 'false'"
+        @click="isOpen = !isOpen"
+        @keydown.escape="isOpen = false"
+    >
+        Researchers &nbsp;<i class="fa fa-play-circle fa-rotate-90" aria-hidden="true"></i>
+    </button>
+    <ul
+    class="nav-submenu"
+    :class="isOpen ? 'nav-submenu-open' : ''"
+    @click.away="isOpen = false"
+>
+<li class="nav-item first nav-level2"><a href="/cci/researchers.html" title="Current" >Current</a></li>
+<li class="nav-item last nav-level2"><a href="/cci/alumni.html" title="Alumni" >Alumni</a></li>
+
+</ul>
+</li>
+
+
+</ul>
+
+	
+	<ul class="main nav-list">
+    <li class="nav-item first nav-level1 has-children"
+    aria-haspopup="true"
+    aria-expanded="false"
+    x-data="{ isOpen: false }"
+    :aria-expanded="isOpen ? 'true' : 'false'" 
+    >
+    <button
+        aria-expanded="false"
+        class="nav-button" 
+        :aria-expanded="isOpen ? 'true' : 'false'"
+        @click="isOpen = !isOpen"
+        @keydown.escape="isOpen = false"
+    >
+        About &nbsp;<i class="fa fa-play-circle fa-rotate-90" aria-hidden="true"></i>
+    </button>
+    <ul
+    class="nav-submenu"
+    :class="isOpen ? 'nav-submenu-open' : ''"
+    @click.away="isOpen = false"
+>
+<li class="nav-item first nav-level2"><a href="/cci/clinical-trials-unit.html" title="Clinical Trials Unit" >Clinical Trials Unit</a></li>
+<li class="nav-item nav-level2"><a href="/cci/operations.html" title="Operations" >Operations</a></li>
+<li class="nav-item nav-level2"><a href="/cci/translationalresearchops.html" title="Translational Research Operations" >Translational Research Operations</a></li>
+<li class="nav-item nav-level2"><a href="/cci/clinical-operations.html" title="Clinical Operations" >Clinical Operations</a></li>
+<li class="nav-item nav-level2"><a href="/cci/business-operations.html" title="Business Operations" >Business Operations</a></li>
+<li class="nav-item nav-level2"><a href="/cci/clinical-safety-and-monitoring.html" title="Clinical Safety and Monitoring" >Clinical Safety and Monitoring</a></li>
+<li class="nav-item last nav-level2 nav-weblink"><a href="http://www.med.upenn.edu/CCIresearchinprogress/" title="CCI Research in Progress" >CCI Research in Progress</a></li>
+
+</ul>
+</li>
+
+<li class="nav-item nav-level1 has-children nav-weblink"
+    aria-haspopup="true"
+    aria-expanded="false"
+    x-data="{ isOpen: false }"
+    :aria-expanded="isOpen ? 'true' : 'false'" 
+    >
+    <button
+        aria-expanded="false"
+        class="nav-button" 
+        :aria-expanded="isOpen ? 'true' : 'false'"
+        @click="isOpen = !isOpen"
+        @keydown.escape="isOpen = false"
+    >
+        Shared Facilities &nbsp;<i class="fa fa-play-circle fa-rotate-90" aria-hidden="true"></i>
+    </button>
+    <ul
+    class="nav-submenu"
+    :class="isOpen ? 'nav-submenu-open' : ''"
+    @click.away="isOpen = false"
+>
+<li class="nav-item first nav-level2 nav-weblink"><a href="https://www.med.upenn.edu/cvpf/" title="CVPF" target='_blank'>CVPF</a></li>
+<li class="nav-item nav-level2 nav-weblink"><a href="http://www.med.upenn.edu/pici" title="Parker Institute for Cancer Immunotherapy" target='_blank'>Parker Institute for Cancer Immunotherapy</a></li>
+<li class="nav-item nav-level2 nav-weblink"><a href="https://www.med.upenn.edu/TCSL/" title="TCSL" target='_blank'>TCSL</a></li>
+<li class="nav-item last nav-level2 nav-weblink"><a href="https://pathbio.med.upenn.edu/pbr/portal/immune" title="HIC" target='_blank'>HIC</a></li>
+
+</ul>
+</li>
+
+<li class="nav-item nav-level1 has-children"><a href="/cci/award/" title="Richard G. Carroll Award" >Richard G. Carroll Award</a><ul
+    class="nav-submenu"
+    :class="isOpen ? 'nav-submenu-open' : ''"
+    @click.away="isOpen = false"
+>
+<li class="nav-item first nav-level2 has-children"><a href="/cci/rgc-winner-2015/" title="RGC Winner 2015" >RGC Winner 2015</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2016.html" title="RGC Winner 2016" >RGC Winner 2016</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2017.html" title="RGC Winner 2017" >RGC Winner 2017</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2018.html" title="RGC Winner 2018" >RGC Winner 2018</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2019.html" title="RGC Winner 2019" >RGC Winner 2019</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2024.html" title="RGC Winner 2020" >RGC Winner 2020</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2020.html" title="RGC Winner 2021" >RGC Winner 2021</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2021.html" title="RGC Winner 2022" >RGC Winner 2022</a></li>
+<li class="nav-item nav-level2"><a href="/cci/rgc-winner-2022.html" title="RGC Winner 2023" >RGC Winner 2023</a></li>
+<li class="nav-item last nav-level2 has-children"><a href="/cci/rgc-winner-2023/" title="RGC Winner 2024" >RGC Winner 2024</a></li>
+
+</ul></li>
+<li class="nav-item last nav-level1"><a href="/cci/donate.html" title="Donate" >Donate</a></li>
+
+</ul>
+
+  </div>
+</nav>
+
+	<!-- BREADCRUMB -->
+    <div class="grid breadcrumb">
+  <div class="unit">
+	<ul>
+	  <li><a href="/cci/">CCI <i class="fa fa-home"></i></a></li>
+	  <li><a href="/cci/junelab/">June Lab</a></li>
+	  
+	</ul>
+  </div>
+</div>
+
+    
+    <!-- CONTENT -->
+	<main>
+        <div class="grid">
+            <div class="whole">
+				<section id="lab-header">
+				 <h2><a href="/cci/junelab/"><strong>June Lab</strong></a></h2>
+				 <div class="lab-nav" role="navigation" aria-label="June Lab Navigation">
+<ul>
+  <li><a href="research.html"><i class="fa fa-flask"></i>
+Research
+
+
+
+
+</a></li><li><a href="publications.html"><i class="fa fa-file-text-o"></i>
+
+Publications
+
+
+
+</a></li>
+</ul>
+</div>
+				 <!-- <ul>
+					  <li><a><i class="fa fa-flask"></i>Research</a></li>
+					  <li><a><i class="fa fa-file-text-o"></i>Publications</a></li>
+					  <li><a><i class="fa fa-comments"></i>Media</a></li>
+					  <li><a><i class="fa fa-gift"></i>Donate</a></li>
+					  <li><a><i class="fa fa-briefcase"></i>Opportunities</a></li>
+				  </ul>-->
+				</section>  
+                <div class="unit lab">
+					<h2><strong>Carl H. June, MD </strong></h2>
+                    <h4><img alt="Carl H. June, MD" height="275" src="assets/user-content/uploads/carljune205x275.png" style="float:left" width="205" />Director of the Center for Cellular Immunotherapies</h4>
+
+<p>Carl June is the Richard W. Vague Professor in <a href="https://www.pennmedicine.org/cancer/navigating-cancer-care/treatment-types/immunotherapy">Immunotherapy</a> in the Department of Pathology and Laboratory Medicine. He is currently Director of the Center for Cellular Immunotherapies at the Perelman School of Medicine, and Director of <a href="https://www.parkerici.org/organization/penn-medicine/">the Parker Institute for Cancer Immunotherapy at the University of Pennsylvania</a>. He is a graduate of the Naval Academy in Annapolis, and Baylor College of Medicine in Houston, 1979. He had graduate training in Immunology and malaria with Dr. Paul-Henri Lambert at the World Health Organization, Geneva, Switzerland from 1978-79, and post-doctoral training in transplantation biology with E. Donnell Thomas and John Hansen at the Fred Hutchinson Cancer Research Center in Seattle from 1983 - 1986. He is board certified in Internal Medicine and Medical Oncology.&nbsp; He maintains a research laboratory that studies various mechanisms of lymphocyte activation that relate to immune tolerance and adoptive immunotherapy for cancer and chronic infection. In 2011, his research team published findings detailing a new therapy in which patients with refractory and relapsed chronic lymphocytic leukemia were treated with genetically engineered versions of their own T cells. The treatment has also now also been used with promising results to treat children with refractory acute lymphoblastic leukemia. He has published more than 350 manuscripts and is the recipient of numerous prizes and honors, including election to the Institute of Medicine in 2012 and the American Academy of Arts and Sciences in 2014, the William B Coley award, the Richard V Smalley Memorial Award from the Society for Immunotherapy of Cancer, the AACR-CRI Lloyd J. Old Award in Cancer Immunology, the Philadelphia Award in 2012, the Taubman Prize for Excellence in Translational Medical Science in 2014 (shared w S. Grupp, B. Levine, D. Porter), the Paul Ehrlich and Ludwig Darmstaedter Prize (shared w J. Allison), the Novartis Prize in Immunology (shared w Z. Eshaar and S. Rosenberg), the Karl Landsteiner Memorial award, the Debrecen Award and a lifetime achievement award from the Leukemia and Lymphoma Society.</p>
+
+<p>&nbsp;</p>
+
+                </div>
+
+				<div class="clear"></div>
+
+				<div class="featured">
+<h2>Research Interests</h2>
+<div class="unit ">
+	<p>Dr. June’s interests include lymphocyte biology, with a major translational focus on ex vivo T-cell engineering for cancer and HIV cell based therapies.&nbsp;</p>
+
+</div>
+<div class="clear"></div><h2>Contact</h2>
+<div class="unit ">
+	<p><strong>Director of the Center for Cellular Immunotherapies</strong><br />
+Professor, Department of Pathology and Laboratory Medicine&nbsp;<br />
+University of Pennsylvania<br />
+Perelman School of Medicine&nbsp;<br />
+Abramson Cancer Center</p>
+
+<p><strong>Smilow Center for Translational Research&nbsp;</strong><br />
+Building 421, Suite 8-123<br />
+3400 Civic Center Blvd.&nbsp;<br />
+Philadelphia, Pa 19104-5156<br />
+<a href="tel:+1-215-573-3269">(215) 573-3269</a>&nbsp;phone<br />
+(610) 646-8455 fax<br />
+<a href="mailto:mchelsey@upenn.edu">Contact</a>&nbsp;the&nbsp;Administrative Assistant</p>
+
+</div>
+<div class="clear"></div><h2>The June Laboratory </h2>
+<div class="unit last">
+	<h3><strong>Follow this link for full lab details</strong></h3>
+
+<h3><strong><a href="https://www.med.upenn.edu/junelab/">https://www.med.upenn.edu/junelab/</a></strong></h3>
+
+<p><img alt="" height="618" src="assets/user-content/images/JUNELAB 2017 feb.jpg" style="float:left" width="1238" /></p>
+
+<p>&nbsp;</p>
+
+</div>
+<div class="clear"></div>
+</div>
+
+            </div>
+			
+        </div>
+    </main>
+
+	<!-- TOP -->
+    <div class="grid top">
+	<div class="unit">
+		<p><a href="#">Back to top <i class="fa fa-play-circle fa-rotate-270"></i></a></p>
+	</div>
+</div>
+
+	<!-- FOOTER + COPYRIGHT -->
+	    <footer>
+        <div class="grid">
+            <div class="unit one-quarter">
+                <h2 class="footer-title"><strong>Search</strong> our center</h2>
+                <form action="/cci/results.html" method="get"> 
+                    <input type="text" name="query" class="search" placeholder="Search our center">
+                    <button class="search" type="submit" name="form_submit" aria-label="Submit search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="unit three-quarters">
+                <div class="unit half">
+                    <h2 class="footer-title"><strong>Contact</strong> Information</h2>
+                    <ul>
+					  <li>
+
+	
+  	<a href="tel:+1-215-573-3269" >
+  	
+  	
+	<i class="fa fa-phone"></i>Phone
+	</a>
+
+</li>
+<li>
+
+	
+  	
+  	<a href="/cci/contact.html">
+  	
+	<i class="fa fa-fax"></i>Fax
+	</a>
+
+</li>
+<li>
+
+	
+  	
+  	
+  	<a href="https://goo.gl/maps/HqRzekTgxWm" target="_blank">
+	<i class="fa fa-building"></i>Directions
+	</a>
+
+</li>
+
+                    </ul>
+                </div>
+                <div class="unit half">
+                    <h2 class="footer-title"><strong>Internal</strong> Resources</h2>
+                    <ul>
+					  <li>
+
+	
+  	
+  	
+  	<a href="https://helpdesk.pmacs.upenn.edu/" target="_blank">
+	<i class="fa fa-file-o"></i>IT & Facilities help desk
+	</a>
+
+</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="copyright grid">
+            <div class="unit">
+                <p>&copy; The Trustees of the University of Pennsylvania | Site best viewed in a 
+<a href="https://www.isc.upenn.edu/how-to/current-supported-computing-products">supported browser</a>. | 
+<a href="https://accessibility.web-resources.upenn.edu/get-help">Report Accessibility Issues and Get Help</a> | 
+<a href="https://www.upenn.edu/about/privacy_policy">Privacy Policy</a> | 
+Site Design: <a href ="https://www.med.upenn.edu/pmacswebteam/">PMACS Web Team.</a></p>
+            </div>
+        </div>
+    </footer>
+    
+</div>
+</body>
+</html> contentType 24 text/html; charset=UTF-8 url 42 https://www.med.upenn.edu:443/cci/junelab/ responseCode 3 200 

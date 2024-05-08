@@ -1,0 +1,255 @@
+sizigqdcpafmyozodopiloloqejovqxgiecolqqc page 25548 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+            "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html version="XHTML+RDFa 1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:cs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <head>
+    <title>Home - LC Linked Data Service: Authorities and Vocabularies | Library of Congress</title>
+    <meta name="description" content="The Linked Data Service provides access to commonly found standards and vocabularies promulgated by the Library of Congress. This includes data values and the controlled vocabularies that house them.   Datasets available include LCSH, BIBFRAME, LC Name Authorities, LC Classification, MARC codes, PREMIS vocabularies, ISO language codes, and more."/>
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+    <link rel="dc.relation.isPartOf" href="//www.loc.gov/" title="Library of Congress"/>
+    <meta name="dc.title" content="Home - LC Linked Data Service: Authorities and Vocabularies | Library of Congress, from LC Linked Data Service: Authorities and Vocabularies (Library of Congress)"/>
+    <meta name="dc.contributor" content="The Library of Congress"/>
+    <meta name="dc.subject" content="id.loc.gov"/>
+    <meta name="dc.identifier" content="http://id.loc.gov/index.xml"/>
+    <meta name="dc.type" content="webpage"/>
+    <meta name="dc.language" content="eng"/>
+    <link rel="shortcut icon" href="https://www.loc.gov/static/images/fav.ico"/>
+    <link rel="apple-touch-icon" href="https://www.loc.gov/static/images/apple-touch-icon.png"/>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="search" href="/opensearch/" type="application/opensearchdescription+xml" title="Library of Congress Authorities and Vocabularies Search"/>
+    <link rel="apple-touch-icon" href="https://www.loc.gov/static/images/apple-touch-icon.png?35836.31053"/>
+    <meta name="msapplication-config" content="none"/>
+    <meta name="keywords" content="Home - LC Linked Data Service: Authorities and Vocabularies | Library of Congress , Library of Congress Linked Data Service, id.loc.gov,  linked data, authorities, standards, vocabularies"/>
+    <!-- CSS -->
+    <link type="text/css" media="screen" rel="stylesheet" href="/static/css/2018/styles.css?20190808"/>
+    <link type="text/css" media="print" rel="stylesheet" href="/static/css/2018/loc_print_v2.css"/>
+    <!--[if lte IE 7]><link type="text/css" media="screen" rel="stylesheet" href="/static/css/2012/loc_lte_ie6.css" /><![endif]-->
+    <!-- End CSS -->
+    <script src="//assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js" defer="defer"></script>
+    <script type="text/javascript" src="https://cdn.loc.gov/js/lib/jquery-1.8.2.min.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/2011/jquery-ui-1.10.2.custom.min.js" defer="defer"><!-- empty node--></script>
+    <script type="text/javascript" src="/static/js/loc_expandcollapse.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/jquery.validate.min.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/jquery.form.js" defer="defer"></script>
+    <script type="text/javascript">
+                    
+                    var isBot = ["Applebot", "bingbot", "Googlebot", "http:\\/\\/naver\\.me\\/spd", "https:\\/\\/commoncrawl\\.org\\/", "MauiBot", "Exabot", "http:\\/\\/www\\.opensiteexplorer\\.org\\/dotbot", "TweetmemeBot", "YandexBot", "SemrushBot", "AhrefsBot", "SeznamBot", "RyteBot", "SemanticScholarBot", "Qwantify", "SemanticScholarBot", "scrapy\\.org", "GarlikCrawler", "FemtosearchBot", "ForcePointCrawler", "http:\\/\\/www\\.xforce-security\\.com\\/crawler\\/", "\\+centurybot9@gmail\\.com"];
+                    var botRe = new RegExp(isBot.join('|'), 'i');
+
+                    
+                </script>
+    <script type="text/javascript" src="/static/js/id.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/swfobject.js" defer="defer"></script>
+    <script type="text/javascript"></script>
+  </head>
+  <body><a id="skip" href="#skip_menu">skip navigation</a><div id="container"><header><header class="header" role="banner"><div class="header-container"><div class="header-row"><div class="header-logo"><a href="https://loc.gov"><img src="https://loc.gov/static/images/logo-loc-new-branding.svg" alt=""/><span>Library of Congress</span></a></div><div class="header-search"><label for="header-search-input" class="test screen-readers-only">Search</label><form role="search" method="get" id="header-search-form" action="https://loc.gov/search/">
+		  <div class="header-search-formats"><select name="in" id="header-search-select" aria-label="search" class="header-search-format-select">
+		      <option value="lds">Linked Data Services</option>
+		      <option value="">Everything at Loc.gov</option>
+		      <option value="original-format:sound recording">Audio Recordings</option>
+		      <option value="original-format:book">Books/Printed Material</option>
+		      <option value="original-format:film, video">Films, Videos</option>
+		      <option value="original-format:legislation">Legislation</option>
+		      <option value="original-format:manuscript/mixed material">Manuscripts/Mixed Material</option>
+		      <option value="original-format:map">Maps</option>
+		      <option value="original-format:notated music">Notated Music</option>
+		      <option value="original-format:newspaper">Newspapers</option>
+		      <option value="original-format:periodical">Periodicals</option>
+		      <option value="original-format:personal narrative">Personal Narratives</option>
+		      <option value="original-format:photo, print, drawing">Photos, Prints, Drawings</option>
+		      <option value="original-format:software, e-resource">Software, E-Resources</option>
+		      <option value="original-format:archived web site">Archived Web Sites</option>
+		      <option value="original-format:web page">Web Pages</option>
+		      <option value="original-format:3d object">3D Objects</option>
+		    </select></div>
+		  <div class="header-search-input-wrapper"><input type="search" title="Search the Library of Congress" placeholder="Search id.loc.gov" name="q" id="header-search-input" class="locsuggest header-search-input" maxlength="250" value="" onfocus="this.select();" accesskey="/" autocomplete="off" role="textbox" aria-multiline="false" aria-autocomplete="list" aria-haspopup="true" aria-owns="Autocomplete_e88f7"/><div id="AutocompleteContainter_e88f7" style="position: absolute; z-index: 9999; width: 100%;"><div class="autocomplete-w1"><span id="Autocomplete_e88f7_status" class="autocomplete-status" role="status" aria-live="polite" style="width: 259px;">Suggestions enabled.</span><div class="autocomplete" id="Autocomplete_e88f7" aria-hidden="true" aria-owner="search" style="display: none; width: 279px; max-height: 300px;"></div></div></div><div class="searchtarget"><input id="search_within_default" type="hidden" name="new" value="true"/></div></div>
+		  <button class="header-search-button button-accent" type="submit" value="submit"><span>Search</span><i class="icon icon-search"></i></button>
+		  <input type="hidden" name="st" value=""/>
+		</form><button class="header-search-toggle"><span>Search toggle</span><i class="icon icon-search"></i></button></div><div class="header-menu" aria-labelledby="header-menu-button"><button class="header-menu-button" id="header-menu-button" aria-controls="header-menu-container"><span>menu </span><i class="icon icon-bars"></i></button><nav class="header-menu-container" id="header-menu-container" aria-labelledby="header-menu-button"><ul class="">
+		    <li class=""><a href="https://loc.gov/discover/">Discover</a></li>
+		    <li class=""><a href="https://loc.gov/services-and-programs/">Services</a></li>
+		    <li class=""><a href="https://loc.gov/visit/">Visit</a></li>
+		    <li class=""><a href="https://loc.gov/education/">Education</a></li>
+		    <li class=""><a href="https://loc.gov/connect/">Connect</a></li>
+		    <li class=""><a href="https://loc.gov/about/">About</a></li>
+		  </ul><ul class="header-menu-tertiary">
+		    <li class=""><a href="http://ask.loc.gov/">Ask a Librarian</a></li>
+		    <li class=""><a href="https://loc.gov/help/">Help</a></li>
+		    <li class=""><a href="https://loc.gov/contact/">Contact</a></li>
+		  </ul><ul class="header-menu-external">
+		    <li class=""><a href="https://catalog.loc.gov/">Search Online Catalog</a></li>
+		    <li class=""><a href="http://copyright.gov/">Copyright.gov</a></li>
+		    <li class=""><a href="https://www.congress.gov/">Congress.gov</a></li>
+		  </ul></nav></div></div></div></header></header><div id="crumb_nav"><a href="//www.loc.gov">The Library of Congress</a><span> &gt; </span><a href="/">Linked Data Service</a></div><!-- end id:topnav --><div id="content"><div id="left_nav"><div class="box leftnavtitle"><a href="/"><img src="/static/images/2012/left-img-head-new.gif" alt="LC Linked Data Service" width="219" height="50"/></a></div><div class="box leftnavimg">Left nav image goes here</div><div class="box"><ul class="bold arrow_o">
+	      <li><a href="/">Linked Data Service</a></li>
+	      <li><a href="/about/">About</a></li>
+	      <li><a href="/search/">Search</a></li>
+	      <li><a href="/download/">Download</a></li>
+	      <li><a href="/techcenter/">Technical Center</a></li>
+	      <li><a href="/contact/">Contact Us</a></li>
+	      <li><a href="//www.loc.gov/homepage/legal.html#privacy_policy">Privacy Policy</a></li>
+	    </ul></div></div><div id="main_body"><div id="page_head"><span style="width: 100%;"><a name="skip_menu"></a></span><h1 class="oneline">ID.LOC.GOV - Linked Data Service</h1></div><div id="innerdiv" title="Home"><div id="homepage-datasets"><p>ID.LOC.GOV provides both interactive and machine access to commonly used ontologies, controlled vocabularies, and other lists for bibliographic description.  To search everything, use the search box below.  Or, select from the list below to learn more and search only in that vocabulary.</p><div class="msg-info"><div class="search"><form accept-charset="utf-8" method="get" name="search" id="search_form" action="/search/">
+		    <div class="search-wrap"><input type="search" name="q" maxlength="200" accesskey="/" placeholder="Search id.loc.gov" autofocus="autofocus" onfocus="this.setSelectionRange(this.value.length,this.value.length);"/><button class="button" id="search_button" type="submit">GO</button></div>
+		  </form></div></div><div class="parent"><div class="child"><h5>BIBFRAME</h5><ul class="std">
+		    <li><a href="/resources/works">BIBFRAME Works</a></li>
+		    <li><a href="/resources/instances">BIBFRAME Instances</a></li>
+		    <li><a href="/resources/hubs">BIBFRAME Hubs</a></li>
+		  </ul></div><div class="child"><h5>Subjects, Thesauri, Classification</h5><ul class="std">
+		    <li><a href="/authorities/subjects">LC Subject Headings (LCSH)</a></li>
+		    <li><a href="/authorities/classification">LC Classification (LCC)</a></li>
+		    <li><a href="/authorities/childrensSubjects">LC Children's Subject Headings</a></li>
+		    <li><a href="/authorities/performanceMediums">LC Medium of Performance Thesaurus for Music (LCMPT)</a></li>
+		    <li><a href="/authorities/demographicTerms">LC Demographic Group Terms (LCDGT)</a></li>
+		    <li><a href="/vocabulary/graphicMaterials">Thesaurus for Graphic Materials (TGM)</a></li>
+		    <li><a href="/vocabulary/ethnographicTerms">AFS Ethnographic Thesaurus</a></li>
+		    <li><a href="/vocabulary/subjectSchemes">Subject Schemes</a></li>
+		    <li><a href="/vocabulary/classSchemes">Classification Schemes</a></li>
+		  </ul></div><div class="child"><h5>Agents</h5><ul class="std">
+		    <li><a href="/authorities/names">LC Name Authority File (LCNAF)</a></li>
+		    <li><a href="/vocabulary/organizations">Cultural Heritage Organizations</a></li>
+		  </ul></div><div class="child"><h5>Genre</h5><ul class="std">
+		    <li><a href="/authorities/genreForms">LC Genre/Form Terms (LCGFT)</a></li>
+		    <li><a href="/vocabulary/marcgt">MARC Genre Terms</a></li>
+		    <li><a href="/vocabulary/genreFormSchemes">Genre/Form Schemes</a></li>
+		    <li><a href="/vocabulary/rbmscv">RBMS Controlled Vocabulary</a></li>
+		  </ul></div><div class="child"><h5>Languages</h5><ul class="std">
+		    <li><a href="/vocabulary/languages">MARC Languages</a></li>
+		    <li><a href="/vocabulary/iso639-1">ISO639-1 Languages</a></li>
+		    <li><a href="/vocabulary/iso639-2">ISO639-2 Languages</a></li>
+		    <li><a href="/vocabulary/iso639-5">ISO639-5 Languages</a></li>
+		  </ul></div><div class="child"><h5>Geographic</h5><ul class="std">
+		    <li><a href="/vocabulary/countries">MARC Countries</a></li>
+		    <li><a href="/vocabulary/geographicAreas">MARC Geographic Areas (GAC)</a></li>
+		  </ul></div><div class="child"><h5>Cataloging</h5><ul class="std">
+		    <li><a href="/vocabulary/maspect">Aspect Ratio</a></li>
+		    <li><a href="/vocabulary/marcauthen">Authentication Action</a></li>
+		    <li><a href="/vocabulary/bookformat">Book Format</a></li>
+		    <li><a href="/vocabulary/mbroadstd">Broadcast Standard</a></li>
+		    <li><a href="/vocabulary/carriers">Carriers</a></li>
+		    <li><a href="/vocabulary/mcolor">Color Content</a></li>
+		    <li><a href="/vocabulary/contentTypes">Content Types</a></li>
+		    <li><a href="/vocabulary/descriptionConventions">Description Conventions</a></li>
+		    <li><a href="/vocabulary/mcapturestorage">Sound Capture and Storage</a></li>
+		    <li><a href="/vocabulary/mencformat">Encoding Format</a></li>
+		    <li><a href="/vocabulary/menclvl">Encoding Level</a></li>
+		    <li><a href="/vocabulary/mfiletype">File Type</a></li>
+		    <li><a href="/vocabulary/mfont">Font Size</a></li>
+		    <li><a href="/vocabulary/mgeneration">Generation</a></li>
+		    <li><a href="/vocabulary/mgovtpubtype">Government Publication Type</a></li>
+		    <li><a href="/vocabulary/mgroove">Groove Width/Pitch/Cutting</a></li>
+		    <li><a href="/vocabulary/millus">Illustrative Content</a></li>
+		    <li><a href="/vocabulary/maudience">Intended Audience</a></li>
+		    <li><a href="/vocabulary/issuance">Issuance</a></li>
+		    <li><a href="/vocabulary/mlayout">Layout </a></li>
+		    <li><a href="/vocabulary/mediaTypes">Media Types</a></li>
+		    <li><a href="/vocabulary/mmusnotation">Music Notation</a></li>
+		    <li><a href="/vocabulary/mmusicformat">Notated Music Form</a></li>
+		    <li><a href="/vocabulary/mnotetype">Note Type</a></li>
+		    <li><a href="/vocabulary/mplayback">Playback</a></li>
+		    <li><a href="/vocabulary/mplayspeed">Playing Speed</a></li>
+		    <li><a href="/vocabulary/mpolarity">Polarity</a></li>
+		    <li><a href="/vocabulary/mpresformat">Presentation Format</a></li>
+		    <li><a href="/vocabulary/mproduction">Production Method</a></li>
+		    <li><a href="/vocabulary/mprojection">Projection</a></li>
+		    <li><a href="/vocabulary/frequencies">Publication Frequencies</a></li>
+		    <li><a href="/vocabulary/mrecmedium">Recording Medium</a></li>
+		    <li><a href="/vocabulary/mrectype">Recording Type</a></li>
+		    <li><a href="/vocabulary/mreductionratio">Reduction Ratio</a></li>
+		    <li><a href="/vocabulary/mregencoding">Regional Encoding</a></li>
+		    <li><a href="/vocabulary/rbmsrel">RBMS Relationship Designators</a></li>
+		    <li><a href="/vocabulary/relationship">Relationship</a></li>
+		    <li><a href="/vocabulary/relators">Relators</a></li>
+		    <li><a href="/vocabulary/mrelief">Relief</a></li>
+		    <li><a href="/vocabulary/resourceComponents">Resource Components</a></li>
+		    <li><a href="/vocabulary/mscale">Scale</a></li>
+		    <li><a href="/vocabulary/mscript">Script</a></li>
+		    <li><a href="/vocabulary/mserialpubtype">Serial Publication Type</a></li>
+		    <li><a href="/vocabulary/msoundcontent">Sound Content</a></li>
+		    <li><a href="/vocabulary/mspecplayback">Special Playback Characteristics </a></li>
+		    <li><a href="/vocabulary/mstatus">Status codes</a></li>
+		    <li><a href="/vocabulary/msupplcont">Supplementary Content</a></li>
+		    <li><a href="/vocabulary/mmaterial">Support Material</a></li>
+		    <li><a href="/vocabulary/mtactile">Tactile Notation</a></li>
+		    <li><a href="/vocabulary/mtapeconfig">Tape Configuration</a></li>
+		    <li><a href="/vocabulary/mtechnique">Technique</a></li>
+		    <li><a href="/vocabulary/mvidformat">Video Format</a></li>
+		  </ul></div><br/><br/><br/><br/><div class="child"><h5>Ontologies</h5><ul class="std">
+		    <li><a href="/ontologies/bibframe">BIBFRAME Ontology</a></li>
+		    <li><a href="/ontologies/bflc">BIBFRAME LC Extension Ontology</a></li>
+		    <li><a href="/ontologies/madsrdf/v1">MADS/RDF Ontology</a></li>
+		    <li><a href="/ontologies/premis">PREMIS Ontology</a></li>
+		  </ul></div><div class="child"><h5>Data Types</h5><ul class="std">
+		    <li><a href="/datatypes/EDTFScheme">Extended Date/Time Format Datatypes Scheme</a></li>
+		    <li><a href="/datatypes/codes">Code Datatypes</a></li>
+		    <li><a href="/datatypes/identifiers">Identifier Datatypes</a></li>
+		  </ul></div><div class="child"><h5>Preservation Vocabularies</h5><ul class="std">
+		    <li><a href="/vocabulary/preservation">Preservation Vocabs (all)</a></li>
+		    <li><a href="/vocabulary/preservation/actionsGranted">Actions Granted</a></li>
+		    <li><a href="/vocabulary/preservation/agentType">Agent Type</a></li>
+		    <li><a href="/vocabulary/preservation/eventOutcome">Event Outcome</a></li>
+		    <li><a href="/vocabulary/preservation/preservationLevelType">Preservation Level</a></li>
+		    <li><a href="/vocabulary/preservation/contentLocationType">Content Location Type</a></li>
+		    <li><a href="/vocabulary/preservation/copyrightStatus">Copyright Status</a></li>
+		    <li><a href="/vocabulary/preservation/cryptographicHashFunctions">Cryptographic Hash Functions</a></li>
+		    <li><a href="/vocabulary/preservation/environmentCharacteristic">Environment Characteristic</a></li>
+		    <li><a href="/vocabulary/preservation/environmentFunctionType">Environment Function Type</a></li>
+		    <li><a href="/vocabulary/preservation/environmentPurpose">Environment Purpose</a></li>
+		    <li><a href="/vocabulary/preservation/environmentRegistryRole">Environment Registry Role</a></li>
+		    <li><a href="/vocabulary/preservation/eventRelatedAgentRole">Event Related Agent Role</a></li>
+		    <li><a href="/vocabulary/preservation/eventRelatedObjectRole">Event Related Object Role</a></li>
+		    <li><a href="/vocabulary/preservation/eventType">Event Type</a></li>
+		    <li><a href="/vocabulary/preservation/formatRegistryRole">Format Registry Role</a></li>
+		    <li><a href="/vocabulary/preservation/hardwareType">Hardware Type</a></li>
+		    <li><a href="/vocabulary/preservation/inhibitorTarget">Inhibitor Target</a></li>
+		    <li><a href="/vocabulary/preservation/inhibitorType">Inhibitor Type</a></li>
+		    <li><a href="/vocabulary/preservation/linkingAgentRoleEvent">Linking Agent Role Event</a></li>
+		    <li><a href="/vocabulary/preservation/linkingEnvironmentRole">Linking Environment Role</a></li>
+		    <li><a href="/vocabulary/preservation/objectCategory">Object Category</a></li>
+		    <li><a href="/vocabulary/preservation/preservationLevelRole">Preservation Level Role</a></li>
+		    <li><a href="/vocabulary/preservation/relationshipSubType">Relationship SubType</a></li>
+		    <li><a href="/vocabulary/preservation/relationshipType">Relationship Type</a></li>
+		    <li><a href="/vocabulary/preservation/rightsBasis">Rights Basis</a></li>
+		    <li><a href="/vocabulary/preservation/rightsRelatedAgentRole">Rights Related Agent Role</a></li>
+		    <li><a href="/vocabulary/preservation/signatureEncoding">Signature Encoding</a></li>
+		    <li><a href="/vocabulary/preservation/signatureMethod">Signature Method</a></li>
+		    <li><a href="/vocabulary/preservation/softwareType">Software Type</a></li>
+		    <li><a href="/vocabulary/preservation/storageMedium">Storage Medium</a></li>
+		  </ul></div><div class="child"><h5>Other</h5><ul class="std">
+		    <li><a href="/vocabulary/accesscontentschemes">Accessibility Content Source Codes</a></li>
+		    <li><a href="/vocabulary/accessrestrictionterm">Access Restriction Term Source Codes</a></li>
+		    <li><a href="/vocabulary/fingerprintschemes">Fingerprint Scheme Source Codes</a></li>
+		    <li><a href="/vocabulary/languageschemes">Language Code and Term Source Codes</a></li>
+		    <li><a href="/vocabulary/mcfcsc">Musical Composition Form Code Source Codes</a></li>
+		    <li><a href="/vocabulary/musiccodeschemes">Musical Instrumentation and Voice Code Source Codes</a></li>
+		    <li><a href="/vocabulary/nameTitleSchemes">Name and Title Authority Source Codes</a></li>
+		    <li><a href="/vocabulary/nationalbibschemes">National Bibliography Number Source Codes</a></li>
+		    <li><a href="/vocabulary/resourceTypes">Resource Types Scheme</a></li>
+		    <li><a href="/vocabulary/identifiers">Standard Identifier Schemes</a></li>
+		  </ul></div></div></div></div></div></div><footer class="footer" role="contentinfo" style="clear: both;"><div class="footer-container"><div class="footer-social-links-wrapper"><span class="footer-social-title"><a href="https://loc.gov/connect/">Follow Us</a></span><ul class="footer-social-links">
+	      <li class="footer-social-link-email"><a href="//loc.gov/subscribe/" title="Email"><img src="/static/images/share/email.svg" width="32" height="32" alt="Email" loading="lazy"/></a></li>
+	      <li class="footer-social-link-facebook"><a href="https://www.facebook.com/libraryofcongress/" title="Library of Congress Facebook"><img src="/static/images/social-media/facebook.svg" width="32" height="32" alt="Library of Congress Facebook" loading="lazy"/></a></li>
+	      <li class="footer-social-link-twitter"><a href="https://www.twitter.com/librarycongress" title="Library of Congress Twitter"><img src="/static/images/social-media/twitter.svg" width="32" height="32" alt="Library of Congress Twitter" loading="lazy"/></a></li>
+	      <li class="footer-social-link-youtube"><a href="https://www.youtube.com/libraryofcongress/" title="Library on Congress Youtube"><img src="/static/images/social-media/youtube.svg" width="32" height="32" alt="Library of Congress Youtube" loading="lazy"/></a></li>
+	      <li class="footer-social-link-pinterest"><a href="https://www.pinterest.com/LibraryCongress/" title="Library on Congress Pinterest"><img src="/static/images/social-media/pinterest.svg" width="32" height="32" alt="Library of Congress Pinterest" loading="lazy"/></a></li>
+	      <li class="footer-social-link-flickr"><a href="https://www.flickr.com/photos/library_of_congress/" title="Library on Congress Flickr"><img src="/static/images/social-media/flickr.svg" width="32" height="32" alt="Library of Congress Flickr" loading="lazy"/></a></li>
+	      <li class="footer-social-link-instagram"><a href="https://instagram.com/librarycongress/" title="Library on Congress Instagram"><img src="/static/images/social-media/instagram.svg" width="32" height="32" alt="Library of Congress Instagram" loading="lazy"/></a></li>
+	      <li class="footer-social-link-itunes"><a href="https://itunes.apple.com/us/artist/library-of-congress/id1280713133?mt=2" title="Library of Congress iTunes"><img src="/static/images/social-media/itunesU.svg" width="32" height="32" alt="Library of Congress iTunesU" loading="lazy"/></a></li>
+	      <li class="footer-social-link-survey"><a href="https://www.research.net/r/libraryofcongress?site=homepage" title="Take our survey">Take our survey <i class="icon icon-external-link"><span>External</span></i></a></li>
+	    </ul></div><div class="footer-row"><div class="footer-links-wrapper"><ul class="footer-links">
+		<li><a href="https://loc.gov/accessibility/">Accessibility</a></li>
+		<li><a href="https://loc.gov/legal/">Legal</a></li>
+		<li><a href="https://loc.gov/about/office-of-the-inspector-general/">Inspector General</a></li>
+		<li><a href="https://loc.gov/legal/standard-disclaimer-for-external-links/">External Link Disclaimer</a></li>
+		<li><a href="//www.usa.gov/">USA.gov</a></li>
+		<li><a href="https://loc.gov/careers/">Careers</a></li>
+		<li><a href="https://loc.gov/contact/">Contact</a></li>
+		<li><a href="http://www.loc.gov/pressroom/">Media</a></li>
+		<li><a href="http://www.loc.gov/philanthropy/index.php">Donate</a></li>
+		<li><a href="http://library-of-congress-shop.myshopify.com/">Shop</a></li>
+	      </ul></div><div class="intersites-links-wrapper"><ul class="intersites-links">
+		<li class="intersites-link-congress"><a href="//www.congress.gov/"><span>Congress.gov</span></a></li>
+		<li class="intersites-link-copyright"><a href="http://copyright.gov"><span>United States Copyright Office</span></a></li>
+	      </ul></div></div></div></footer><div class="clear"><!-- blah --></div></div><script type="text/javascript">
+            if(window['_satellite']){_satellite.pageBottom();}
+        </script></body>
+</html> contentType 24 text/html; charset=UTF-8 url 23 https://id.loc.gov:443/ responseCode 3 200 

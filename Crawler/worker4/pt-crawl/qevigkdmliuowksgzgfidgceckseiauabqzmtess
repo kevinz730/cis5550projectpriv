@@ -1,0 +1,214 @@
+qevigkdmliuowksgzgfidgceckseiauabqzmtess page 14918 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LCCN Permalink - No Connections Available</title>
+	<base href="/">
+    <meta http-equiv="refresh" content="300; url=/">
+	<meta name="keywords" content="about library congress catalog content search guide scope records collections lccn permalink">
+	<meta name="description" content="The LC Catalog is a database of records describing the Library's vast collections of books, serials, manuscripts, maps, music, recordings, images, and electronic resources. Records can be searched by keyword or browsed by author/creator names, titles, subjects, or call numbers. Links to online content, cross-references, and information on the availability of individual items are also available in the catalog.">
+	<link rel="dc.relation.isPartOf" href="https://lccn.loc.gov/" title="LCCN Permalink">
+	<meta name="dc.subject" content="LCCN Permalink">
+	<meta name="dc.type" content="webpage">
+	<meta name="dc.language" content="en">
+	<meta name="dc.identifier" content="https://lccn.loc.gov/">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <link rel="search" href="opensearch.xml" type="application/opensearchdescription+xml" title="LCCN Permalink">
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="https://assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js"></script>
+    <script src="js/static.scripts.min.js"></script>
+  </head>
+  <body>
+    <!-- LCCN Permalink system status announcement -->
+	<div id="status-container" style="display:none">&#160;</div>
+	<header class="header-wrapper" role="banner">
+		<div class="header-container">
+			<div class="header-toggle-button-for-nav-global-wrapper">
+				<button id="header-nav-global-label" class="header-toggle-button-for-nav-global" type="button" aria-controls="header-nav-global" aria-expanded="false">
+                	<span class="screen-readers-only">menu</span>
+				</button>
+			</div>
+			<nav class="header-nav-global" id="header-nav-global" aria-labelledby="header-nav-global-label">
+				<h2 class="header-nav-global-title">menu</h2>
+				<ul class="header-nav-global-lists">
+					<li class="header-nav-global-list"><a href="https://catalog.loc.gov/">LC Catalog Home</a></li>
+					<li class="header-nav-global-list is-nested-lists-header is-active" tabindex="0">Search Options <i class="fa fa-angle-down"></i>
+						<ul class="header-nav-global-nested-lists is-active">
+							<li class="header-nav-global-nested-list"><a href="https://catalog.loc.gov/vwebv/searchBrowse">Browse</a></li>
+							<li class="header-nav-global-nested-list"><a href="https://catalog.loc.gov/vwebv/searchAdvanced">Advanced Search</a></li>
+							<li class="header-nav-global-nested-list"><a href="https://catalog.loc.gov/vwebv/searchKeyword">Keyword Search</a></li>
+							<li class="header-nav-global-nested-list"><a href="https://catalog.loc.gov/vwebv/searchHistory">Search History</a></li>
+						</ul>
+					</li>
+					<li class="header-nav-global-list">
+                    	<a href="https://catalog.loc.gov/vwebv/ui/en_US/htdocs/help/index.html" target="_blank">About the Catalog
+                    		<span class="screen-readers-only"> opens in a new window</span>
+                    	</a>
+                    </li>
+					<li class="header-nav-global-list">
+                    	<a href="https://ask.loc.gov/" target="_blank">Ask a Librarian
+                    		<span class="screen-readers-only"> opens in a new window</span>
+                    	</a>
+                    </li>
+					<li class="header-nav-global-list is-nested-lists-header" tabindex="0">Help &amp; FAQs <i class="fa fa-angle-down"></i>
+						<ul class="header-nav-global-nested-lists">
+							<li class="header-nav-global-nested-list">
+                            	<a href="https://catalog.loc.gov/vwebv/ui/en_US/htdocs/help/faqs.html" target="_blank">Frequently Asked Questions
+                                    <span class="screen-readers-only"> opens in a new window</span>
+                                </a>
+                            </li>
+							<li class="header-nav-global-nested-list">
+                            	<a href="https://catalog.loc.gov/vwebv/ui/en_US/htdocs/help/navigation.html" target="_blank">Navigation Help
+                                    <span class="screen-readers-only"> opens in a new window</span>
+                                </a>
+                            </li>
+							<li class="header-nav-global-nested-list">
+                            	<a href="https://catalog.loc.gov/vwebv/ui/en_US/htdocs/help/searchBrowse.html" target="_blank">Search/Browse Help
+									<span class="screen-readers-only"> opens in a new window</span>
+                                </a>
+                            </li>
+							<li class="header-nav-global-nested-list">
+                            	<a href="https://catalog.loc.gov/vwebv/ui/en_US/htdocs/help/printDialog.html" target="_blank">Print/Save/Email/Cite Help
+									<span class="screen-readers-only"> opens in a new window</span>
+                                </a>
+                            </li>
+						</ul>
+					</li>
+					<li class="header-nav-global-list"><a id="feedback-link" href="https://catalog.loc.gov/vwebv/sendFeedback?page=">Feedback</a></li>
+					<li class="header-nav-global-list">
+                    	<a href="https://authorities.loc.gov/" target="_blank">LC Authorities
+                            <span class="screen-readers-only"> opens in a new window</span>
+                        </a>
+                    </li>
+					<li class="header-nav-global-list is-nested-lists-header" tabindex="0">Additional Catalogs <i class="fa fa-angle-down"></i>
+                    	<ul class="header-nav-global-nested-lists">
+							<li class="header-nav-global-nested-list"><a href="https://findingaids.loc.gov/">Archival Finding Aids</a></li>                       
+							<li class="header-nav-global-nested-list"><a href="https://cocatalog.loc.gov/">Copyright Office Catalog</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://eresources.loc.gov/">E-Resources Online Catalog</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://hlasopac.loc.gov/">Handbook of Latin American Studies</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://id.loc.gov/">LC Linked Data Service</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://nlscatalog.loc.gov/">NLS Online Catalog</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://primo-pmtna01.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=01LOC">Primo Central</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://www.loc.gov/pictures/">Prints and Photographs Online Catalog</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://star1.loc.gov/cgi-bin/starfinder/0">Sound Online Inventory and Catalog (SONIC)</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://www.loc.gov/librarians/controlled-vocabularies/">Thesauri &amp; Controlled Vocabularies</a></li>
+                            <li class="header-nav-global-nested-list"><a href="https://www.loc.gov/z3950/#lc">Z39.50 Gateway to the LC Catalog</a></li>
+						</ul>
+					</li>
+					<li class="header-nav-global-list"><a href="https://www.loc.gov/">Library of Congress Home <i class="fa fa-angle-right"></i></a></li>
+				</ul>
+			</nav>
+			<div class="header-logo-wrapper">
+                <span class="screen-readers-only">LC Catalog</span>
+                <span class="icon-logo-lccatalog"><!-- --></span>
+				<img class="icon-logo-lccatalog-print" src="icon/SVG/logo-lccatalog.svg" alt="" />
+			</div>
+		</div>
+		<div class="header-search-wrapper">
+			<div class="header-search-container">
+				<form id="quick-search-form" class="header-search-form" method="get" action="https://catalog.loc.gov/vwebv/search">
+					<input id="quick-search-argument" class="header-search-form-input" aria-label="search" name="searchArg" placeholder="LC Catalog Quick Search" type="search">
+					<input value="GKEY^*" name="searchCode" type="hidden">
+					<input value="0" name="searchType" type="hidden">
+					<input value="25" name="recCount" type="hidden">
+					<input value="en_US" name="sk" type="hidden">
+					<button id="quick-search-button" value="Search" type="submit" class="header-search-form-button"><span>Search</span><i class="fa fa-search"></i></button>
+				</form>
+				<button id="dropdown-search-options-toggle" class="header-search-options" type="button"  data-jq-dropdown="#dropdown-search-options" aria-haspopup="true" aria-expanded="false">Search Options <i class="fa fa-angle-down"></i></button>
+				<div id="dropdown-search-options" class="jq-dropdown jq-dropdown-relative jq-dropdown-anchor-right">
+                    <ul class="jq-dropdown-menu" aria-labelledby="dropdown-search-options-toggle">
+                        <li>
+                        <a href="https://catalog.loc.gov/vwebv/searchBrowse" title="Find titles, authors/creators, subjects, call numbers, or standard numbers in alphabetical or sequential lists, with cross-references.">Browse</a>
+                        </li>
+                        <li>
+                        <a href="https://catalog.loc.gov/vwebv/searchAdvanced" title="Combine search words using guided menus.">Advanced Search</a>
+                        </li>
+                        <li>
+                        <a href="https://catalog.loc.gov/vwebv/searchKeyword" title="Find search words anywhere in the catalog record. Includes Expert Search.">Keyword Search</a>
+                        </li>
+                        <li>
+                        <a href="https://catalog.loc.gov/vwebv/searchHistory" title="Display a history of your recent searches in this session.">Search History</a>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+    <div class="header-overlay"><!-- --></div>
+    <div id="dialog-container" role="alertdialog" aria-labelledby="dialog-title" aria-describedby="dialog-message">
+		<button id="dialog-close-button" class="dialog-close-button" aria-label="Close" type="button">
+			<i class="fa fa-close"></i>
+		</button>
+		<div id="dialog-title" aria-live="assertive"><!-- --></div>
+		<div id="dialog-message" aria-live="polite"><!-- --></div>
+		<div id="dialog-buttons">
+			<button id="dialog-button-1" class="button button-primary" type="button">Yes</button>
+			<button id="dialog-button-2" class="button button-default" type="button">No</button> 
+		</div> 
+	</div>
+	<div id="dialog-mask"><!-- --></div>
+    <main role="main" class="content-wrapper">
+        <article>
+            <div class="content-container container-has-background-transparent clear">
+				<h1 class="page-heading page-heading-in-banner-with-unstyle">LCCN Permalink - No Connections Available</h1>
+    		</div>
+            <div class="content-container container-has-border container-has-margin">
+                <div class="error-container">
+                	<h3 class="error-heading">All available connections to the LCCN Permalink are currently in use.</h3>
+					<p class="error-information">Please try again in a few minutes.</p>
+					<p class="error-information">You will be redirected to the LCCN Permalink start page shortly, or continue by clicking the following link: <a href="/">LCCN Permalink</a></p>
+                </div>
+            </div>
+    	</article>
+    </main>
+	<footer class="footer-wrapper" role="contentinfo">
+        <div class="footer-container">
+            <div class="columns-wrapper">
+                <div class="footer-column-one">
+                    <ul class="footer-nav">
+                        <li>
+                            <a href="https://loc.gov" class="loc-logo-footer">
+                                <img src="https://www.loc.gov/static/images/LOClogo1_c.svg?$Revision:%2037669%20$" alt="Library of Congress">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="footer-account-wrapper">      
+                                <button id="dropdown-subscribe-options-toggle" class="footer-subscribe-options" aria-haspopup="true" aria-expanded="false" data-jq-dropdown="#dropdown-subscribe-options" type="button"><i class="fa fa-rss"></i><span> Subscribe (Patron Services)</span></button>
+                                <div id="dropdown-subscribe-options" class="jq-dropdown jq-dropdown-relative jq-dropdown-anchor-left">    
+                                    <ul class="jq-dropdown-menu" aria-labelledby="dropdown-subscribe-options-toggle">
+                                        <li><a href="https://www.loc.gov/rss/patrons/alerts.xml">RSS</a></li>
+                                        <li><a href="https://public.govdelivery.com/accounts/USLOC/subscriber/new?topic_id=USLOC_107">Email</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="https://ask.loc.gov/">Ask a Librarian</a></li>
+                        <li><a id="feedback-link-footer" href="https://catalog.loc.gov/vwebv/sendFeedback?page=">Feedback</a></li>
+                    </ul>
+                    <hr>
+                    <ul class="footer-nav">
+                        <li><a href="https://www.loc.gov/accessibility/web-site-accessibility/">Speech Enabled</a></li> 
+                        <li><a href="https://www.loc.gov/accessibility/">Accessibility</a></li>
+                        <li><a href="https://www.loc.gov/legal/">Legal</a></li> 
+                        <li><a href="https://www.loc.gov/about/office-of-the-inspector-general/">Inspector General</a></li>
+                        <li><a href="https://www.loc.gov/legal/standard-disclaimer-for-external-links/">External Link Disclaimer</a></li> 
+                        <li><a href="https://www.usa.gov/">USA.gov <i class="fa fa-external-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a role="button" href="#" id="back-to-top"><i class="fa fa-arrow-up"></i> <span>Top</span></a>
+        </div>
+    </footer><!-- end footer -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    <script>if(window['_satellite']){_satellite.pageBottom();}</script>
+  </body>
+</html> contentType 23 text/html;charset=UTF-8 url 33 https://lccn.loc.gov:443/07007833 responseCode 3 200 

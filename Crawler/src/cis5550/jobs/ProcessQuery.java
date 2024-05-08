@@ -38,7 +38,6 @@ public class ProcessQuery {
 //	}
 	
 	private static String stem(String input) {
-		
 		PorterStemmer stemmer = new PorterStemmer();
 		stemmer.add(input.toCharArray(), input.length());
 	    stemmer.stem();
@@ -215,9 +214,9 @@ public class ProcessQuery {
         jsonBuilder.append("\"data\":[");
         int size = sortedMap.size();
         int count = 0;
-
-        
+		
         for (Map.Entry<String, String> entry : sortedMap.entrySet()) {
+			
         	//get title
         	String title = "";
         	try {
@@ -249,7 +248,9 @@ public class ProcessQuery {
         	        .append("\"title\":\"").append(escapedTitle).append("\"")
         	        .append("}");
 
-        	    if (++count < size) jsonBuilder.append(", ");
+				if (++count < size) jsonBuilder.append(", ");
+        	    // if (++count < 15) jsonBuilder.append(", ");
+				// if(count == 15) break;
         	}
 
         	jsonBuilder.append("]}");

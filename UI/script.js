@@ -45,11 +45,13 @@ function displayResults(searchTerm) {
 
                 if (item.title && item.title.trim() !== "") {
                     resultElement.innerHTML = `
-                        <h4>URL: <a href="${item.url}">${item.title}</a></h4>
+                        <h4><a href="${item.url}">${item.title}</a></h4>
+                        <h6>URL: ${item.url}</h6>
                     `;
                 } else {
                     resultElement.innerHTML = `
-                        <h4>URL: <a href="${item.url}">${item.url}</a></h4>
+                        <h4><a href="${item.url}">${item.url}</a></h4>
+                        <h6>URL: ${item.url}</h6>
                     `;
                 }
                 resultsDiv.appendChild(resultElement);
